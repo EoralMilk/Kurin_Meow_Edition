@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<Kurin_FakeTail.label>魅狐假尾巴</Kurin_FakeTail.label>
+	<Kurin_FakeTail.description>用布料和一点金属做的假狐狸尾巴。尽管它看起来和感觉上都像真的尾巴，但拥有一个这样的尾巴会让穿着者失去平衡，稍微降低速度。</Kurin_FakeTail.description>
+
+	<Kurin_BionicEar.label>魅狐仿生耳朵</Kurin_BionicEar.label>
+	<Kurin_BionicEar.description>真假难辨的仿生义耳，内置神经传感器系统让它甚至比真正的耳朵更加有效。</Kurin_BionicEar.description>
+
+	<Kurin_BionicTail.label>魅狐仿生尾巴</Kurin_BionicTail.label>
+	<Kurin_BionicTail.description>真假难辨的仿生尾巴，内置神经辅助马达帮助保持平衡，能使穿戴者行动更为敏捷。</Kurin_BionicTail.description>
+
+</LanguageData>

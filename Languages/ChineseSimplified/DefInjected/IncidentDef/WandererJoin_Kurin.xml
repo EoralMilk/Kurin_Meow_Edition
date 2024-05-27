@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <WandererJoin_Kurin.label>魅狐流浪者加入</WandererJoin_Kurin.label>
+  <WandererJoin_Kurin.letterLabel>魅狐流浪者加入: {PAWN_nameDef}</WandererJoin_Kurin.letterLabel>
+  <WandererJoin_Kurin.letterText>一位名为{PAWN_nameDef}的{PAWN_title}到达了殖民地，挥动着三条美丽的尾巴。如果您不想{PAWN_nameDef}加入殖民地，您可以驱逐{PAWN_objective}，或将{PAWN_objective}卖给奴隶商人，或是干脆处死{PAWN_objective}。</WandererJoin_Kurin.letterText>
+  
+</LanguageData>

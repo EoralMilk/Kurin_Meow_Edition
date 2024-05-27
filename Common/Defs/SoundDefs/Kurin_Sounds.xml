@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<SoundDef>
+		<defName>Kurin_Flamer</defName>
+		<eventNames />
+		<context>MapOnly</context>
+		<maxSimultaneous>12</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>kurin_flamethrower</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+				<volumeRange>35~35</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

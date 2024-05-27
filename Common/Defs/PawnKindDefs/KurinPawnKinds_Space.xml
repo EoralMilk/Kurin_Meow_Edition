@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef ParentName="BaseKurinKind">
+		<defName>Kurin_Astronaut</defName>
+		<label>kurin astronaut</label>
+		<isFighter>true</isFighter>
+		<minGenerationAge>13</minGenerationAge>
+		<maxGenerationAge>33</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<defaultFactionType>KurinFaction_Player</defaultFactionType>
+		<apparelRequired>
+			<li>Kurin_SpaceSuit</li>
+			<li>Kurin_SpaceHelmet</li>
+		</apparelRequired>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Army</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<specificApparelRequirements Inherit="False">
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Kurin_Underwear</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Underwear</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</specificApparelRequirements>
+		<apparelTags>
+			<li>Kurin_Spacer</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>2500~3500</apparelMoney>
+		<weaponMoney>1200~2000</weaponMoney>
+		<weaponTags>
+			<li>Kurin_ChargePistol</li>
+		</weaponTags>
+		<combatPower>100</combatPower>
+		<backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+	</PawnKindDef>
+
+
+</Defs>

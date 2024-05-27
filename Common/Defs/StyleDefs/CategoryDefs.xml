@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<StyleItemCategoryDef>
+		<defName>Kurin</defName>
+		<label>Kurin</label>
+	</StyleItemCategoryDef>
+
+
+	<StyleCategoryDef>
+		<defName>KurinStyleCategory</defName>
+		<label>Kurin</label>
+		<iconPath>KurinMeowEdition/UI/KurinIcon</iconPath>
+		<soundOngoingRitual>RitualSustainer_Techist</soundOngoingRitual>
+		<ritualVisualEffectDef>Techist</ritualVisualEffectDef>
+		<thingDefStyles>
+			<li>
+				<thingDef>Gun_AssaultRifle</thingDef>
+				<styleDef>Style_Kurin2AR_B</styleDef>
+			</li>
+			<li>
+				<thingDef>Gun_ChainShotgun</thingDef>
+				<styleDef>Style_KurinAutoShotgun</styleDef>
+			</li>
+			<li>
+				<thingDef>Gun_HeavySMG</thingDef>
+				<styleDef>Style_KurinSMG</styleDef>
+			</li>
+			<li>
+				<thingDef>Gun_Autopistol</thingDef>
+				<styleDef>Style_Kurin5Pistol</styleDef>
+			</li>
+			<li>
+				<thingDef>Gun_SniperRifle</thingDef>
+				<styleDef>Style_SniperRifle</styleDef>
+			</li>
+			<li>
+				<thingDef>Gun_MachinePistol</thingDef>
+				<styleDef>Style_Kurico</styleDef>
+			</li>
+		</thingDefStyles>
+	</StyleCategoryDef>
+
+
+</Defs>

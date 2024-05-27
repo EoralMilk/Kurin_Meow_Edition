@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<Kurin_TailoringBenchElectric.label>魅狐电力裁缝台</Kurin_TailoringBenchElectric.label>
+	<Kurin_TailoringBenchElectric.description>带有缝纫机的工作台，用于快速裁剪衣服。在没电的情况下以50%的正常速度工作。</Kurin_TailoringBenchElectric.description>
+
+	<Kurin_Turret_ChargeLance.label>标枪炮塔</Kurin_Turret_ChargeLance.label>
+	<Kurin_Turret_ChargeLance.description>这个小型炮塔配备了电荷标枪。奥拉亚人利用拆解机械族获得的电荷标枪零件制造了这种炮塔,借助自己收复的科技反击机械族的入侵。</Kurin_Turret_ChargeLance.description>
+	<Kurin_Turret_ChargeLance.comps.CompRefuelable.fuelGizmoLabel>弹药量</Kurin_Turret_ChargeLance.comps.CompRefuelable.fuelGizmoLabel>
+	<Kurin_Turret_ChargeLance.comps.CompRefuelable.fuelLabel>装填弹药前剩余射击次数</Kurin_Turret_ChargeLance.comps.CompRefuelable.fuelLabel>
+	<Kurin_Turret_ChargeLance.comps.CompRefuelable.outOfFuelMessage>需要装填弹药</Kurin_Turret_ChargeLance.comps.CompRefuelable.outOfFuelMessage>
+  
+	<Kurin_Turret_ChargeLanceSentry.label>标枪哨戒炮塔</Kurin_Turret_ChargeLanceSentry.label>
+	<Kurin_Turret_ChargeLanceSentry.description>搭载了机械族的不稳定能量电池的升级版电荷标枪炮塔，可以自行供能供弹。同时还能将一部分富余电力输出给其它用电器。多被用于野战和缺少能源供应的哨所。</Kurin_Turret_ChargeLanceSentry.description>
+	
+</LanguageData>

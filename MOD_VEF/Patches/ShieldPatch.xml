@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnKindDef[defName = "Kurin_MarineBreacher"]</xpath>
+				<value>
+					<modExtensions Inherit="False">
+						<li Class="VFECore.PawnKindDefExtension">
+							<shieldMoney>
+								<min>2000</min>
+								<max>3000</max>
+							</shieldMoney>
+							<shieldTags>
+								<li>KurinShield</li>
+							</shieldTags>
+						</li>
+					</modExtensions>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName = "Kurin_MarineBreacher"]/weaponTags</xpath>
+				<value>
+					<weaponTags Inherit="False">
+						<li>Kurin_MarineOneHand</li>
+						<li>Kurin_ChargePistol</li>
+					</weaponTags>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+<!-- Add usable with shield -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName="Kurin_Melee_MarineSword"]</xpath>
+		<value>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName="Kurin_Melee_CeremonialSword"]</xpath>
+		<value>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>false</usableWithShields>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/ThingDef[defName="Kurin_Range_ChargePistol"]</xpath>
+		<value>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</value>
+	</Operation>
+
+	<!-- Add usable with shield -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_LightSMG"]</xpath>
+					<value>
+						<li Class="VFECore.ThingDefExtension">
+							<usableWithShields>true</usableWithShields>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- Add usable with shield -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded - Coilguns</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_GaussMagnum"]</xpath>
+					<value>
+						<li Class="VFECore.ThingDefExtension">
+							<usableWithShields>true</usableWithShields>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

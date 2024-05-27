@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ApparelLayerDef>
+	<defName>Kurin_Underwear</defName>
+	<label>underwear</label>
+	<drawOrder>-4</drawOrder>
+</ApparelLayerDef>
+
+<ApparelLayerDef>
+	<defName>Kurin_Stocking</defName>
+	<label>stocking</label>
+	<drawOrder>-3</drawOrder>
+</ApparelLayerDef>
+
+	<ApparelLayerDef>
+		<defName>Kurin_Shoes</defName>
+		<label>shoes</label>
+		<drawOrder>-2</drawOrder>
+	</ApparelLayerDef>
+
+	<ApparelLayerDef>
+		<defName>Kurin_OuterCloth</defName>
+		<label>outer cloth</label>
+		<drawOrder>280</drawOrder>
+	</ApparelLayerDef>
+
+</Defs>

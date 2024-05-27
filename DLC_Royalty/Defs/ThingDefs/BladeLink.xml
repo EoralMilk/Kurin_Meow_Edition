@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>Kurin_Melee_CeremonialSwordBladelink</defName>
+		<label>Persona Kurin Ceremonial Sword</label>
+		<description>A large sword for Kurin ceremonial guards. Though unwieldy and slow, it can cleave a person right in half. This weapon is specially made.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Ceremonial_SwordBladeLink</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.22</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<equippedAngleOffset>-55</equippedAngleOffset>
+		<uiIconPath>KurinMeowEdition/Item_Weapon/Ceremonial_SwordBladeLink_icon</uiIconPath>
+		<uiIconScale>1.1</uiIconScale>
+		<relicChance>3</relicChance>
+		<techLevel>Ultra</techLevel>
+		<weaponTags>
+			<li>Kurin_Bladelink</li>
+			<li>Bladelink</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+		</weaponClasses>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<costStuffCount>200</costStuffCount>
+		<statBases>
+			<WorkToMake>50000</WorkToMake>
+			<Mass>5.5</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>72</power>
+				<cooldownTime>4</cooldownTime>
+			</li>
+			<li>
+				<label>flat side</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>36</power>
+				<cooldownTime>2.3</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker Inherit="false">
+			<useIngredientsForColor>false</useIngredientsForColor>
+		</recipeMaker>
+		<comps>
+			<li Class="CompProperties_BladelinkWeapon">
+				<biocodeOnEquip>true</biocodeOnEquip>
+			</li>
+			<li Class="CompProperties_GeneratedName">
+				<nameMaker>NamerPerson_KurinWeapon</nameMaker>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

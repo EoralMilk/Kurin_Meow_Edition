@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<Kurin_SpaceSuit.label>魅狐深空作业服</Kurin_SpaceSuit.label>
+	<Kurin_SpaceSuit.description>在太空或者深海环境下使用的高科技防护服，依靠特殊充能机构来调节内部温度与压力，这些设计能让这种作业服在承受很大的冲击时使用一种充能的方式来瞬间硬化受击部位来保证不至于发生严重的破损，内部的维生系统也能收集汗液等完成内循环来维持使用者的生命，穿戴这种作业服的魅狐会把尾巴收在内部空间里——虽然这样并不舒服；这种款式因为使用了闪耀世界科技，可以通过安装在内的金属肌肉丝以及特殊伺服器来自动完成一些简单的劳作，同时它的电池在待机状态下可以运行长达10年...这听起来也许很酷，但实际上在某些废弃星舰里如果你看到了被这东西包裹的魅狐枯骨在劳作的时候，或许你就不会这么想了。</Kurin_SpaceSuit.description>
+
+	<Kurin_SpaceHelmet.label>魅狐深空作业头盔</Kurin_SpaceHelmet.label>
+	<Kurin_SpaceHelmet.description>在太空或者深海环境下使用的高科技防护头盔，依靠特殊充能机构来调节内部温度与压力；这种头盔拥有热辐射追踪和热成像功能，都被整合在了防护面罩的义眼上，不用的时候需要手动将其掀起。魅狐们戏称这种笨重的头盔为“金鱼缸”，在它透光度不算高的面罩上刻印着浩瀚的星海和航天先驱们充满希望的双眼。</Kurin_SpaceHelmet.description>
+
+	
+</LanguageData>

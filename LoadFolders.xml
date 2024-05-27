@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.5>
+		<li>/</li>
+		<li>Common</li>
+		<li IfModActive="Ludeon.RimWorld.Royalty">DLC_Royalty</li>
+		<li IfModActive="Ludeon.RimWorld.Anomaly">DLC_Anomaly</li>
+		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">MOD_VEF</li>
+		<li IfModActive="kentington.saveourship2">MOD_SOS2</li>
+	</v1.5>
+</loadFolders>

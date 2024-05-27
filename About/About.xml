@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Kurin Meow Edition</name>
+  <author>EoralMilk</author>
+  <packageId>EoralMilk.KurinMeowEdition</packageId>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <description>Using har and FaceAddonFramework's Kurin remaster, the original Kurin content is restored as much as possible.
+
+使用har和FaceAddonFramework的Kurin重置版，会尽量保证还原原版Kurin的内容。</description>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races 2.0</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+    </li>	
+    <li>
+      <packageId>EoralMilk.FaceAddonFramework</packageId>
+      <displayName>Face Addon Framework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3217914520</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>EoralMilk.FaceAddonFramework</li>
+    <!-- <li>ABC.abcBody</li> -->
+  </loadAfter>
+</ModMetaData>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Kurin_SpaceSuit"]/equippedStatOffsets</xpath>
+		<value>
+			<WorkSpeedGlobal>-0.075</WorkSpeedGlobal>
+			<DecompressionResistance>0.75</DecompressionResistance>
+			<VacuumSpeedMultiplier>4</VacuumSpeedMultiplier>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Kurin_SpaceSuit"]/comps</xpath>
+		<value>
+			<li>
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Kurin_SpaceHelmet"]/equippedStatOffsets</xpath>
+		<value>
+			<HypoxiaResistance>1</HypoxiaResistance>
+			<DecompressionResistance>0.25</DecompressionResistance>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Kurin_SpaceHelmet"]/comps</xpath>
+		<value>
+			<li>
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</value>
+	</Operation>
+</Patch>

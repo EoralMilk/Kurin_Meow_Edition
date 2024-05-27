@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+
+	<!-- <TattooDef>
+		<defName>STribalTat_Face_WhiteFangs</defName>
+		<label>White Fangs</label>
+		<texPath>KurinMeowEdition/Tattoo/</texPath>
+		<tattooType>Face</tattooType>
+		<category>Tribal</category>
+		<visibleNorth>true</visibleNorth>
+		<styleTags>
+			<li>TattooKurin</li>
+		</styleTags>
+	</TattooDef> -->
+
+	<TattooDef>
+		<defName>Tattoo_Loong</defName>
+		<label>Loong</label>
+		<texPath>KurinMeowEdition/Tattoo/loong</texPath>
+		<tattooType>Body</tattooType>
+		<category>Kurin</category>
+		<visibleNorth>true</visibleNorth>
+		<styleTags>
+			<li>TattooKurin</li>
+		</styleTags>
+	</TattooDef>
+
+</Defs>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="Kurin_ShoesBase">
+		<defName>Kurin_SimpleShoes</defName>
+		<label>kurin simple shoes</label>
+		<description>Simple structure, simple to make, but not bad to look at.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Shoes/SimpleShoe</texPath>
+		</graphicData>
+		<costStuffCount>25</costStuffCount>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2000</WorkToMake>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kurin_Colonist</li>
+				<li>Kurin_Citizen</li>
+				<li>Kurin_Trader</li>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+			</tags>
+			<wornGraphicPaths>
+				<li>KurinMeowEdition/Item_Apperal/Shoes/SimpleShoe</li>
+			</wornGraphicPaths>
+		</apparel>
+		<equippedStatOffsets>
+			<MoveSpeed>0.05</MoveSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<ThingDef ParentName="Kurin_ShoesBase">
+		<defName>Kurin_Sneaker</defName>
+		<label>kurin sneaker</label>
+		<description>Fashionable design, high-quality materials, comfortable athletic experience.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Shoes/Sneaker</texPath>
+		</graphicData>
+		<costStuffCount>35</costStuffCount>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>3000</WorkToMake>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kurin_Citizen</li>
+				<li>Kurin_Military</li>
+				<li>Royal</li>
+				<li>RoyalTier3</li>
+			</tags>
+			<wornGraphicPaths>
+				<li>KurinMeowEdition/Item_Apperal/Shoes/Sneaker</li>
+			</wornGraphicPaths>
+		</apparel>
+		<equippedStatOffsets>
+			<MoveSpeed>0.1</MoveSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+
+
+	<ThingDef ParentName="Kurin_ShoesBaseNoColor">
+		<defName>Kurin_LeatherShoe</defName>
+		<label>kurin leather shoes</label>
+		<description>Women's leather shoes, it is easy to get dirty things, pay attention to cleaning.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Shoes/LeatherShoe</texPath>
+		</graphicData>
+		<costList>
+			<Leather_Plain>30</Leather_Plain>
+		</costList>
+		<statBases>
+			<Mass>0.1</Mass>
+			<EquipDelay>0.5</EquipDelay>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kurin_Citizen</li>
+				<li>Kurin_Trader</li>
+				<li>Kurin_Noble</li>
+				<li>Royal</li>
+				<li>RoyalTier5</li>
+			</tags>
+			<wornGraphicPaths>
+				<li>KurinMeowEdition/Item_Apperal/Shoes/LeatherShoe</li>
+			</wornGraphicPaths>
+		</apparel>
+		<equippedStatOffsets>
+			<MoveSpeed>0.05</MoveSpeed>
+			<SocialImpact>0.1</SocialImpact>
+			<NegotiationAbility>0.1</NegotiationAbility>
+		</equippedStatOffsets>
+	</ThingDef>
+
+
+	<ThingDef ParentName="Kurin_ShoesBaseNoColor">
+		<defName>Kurin_AttackBoot</defName>
+		<label>kurin attack boot</label>
+		<description>A versatile boot adapted from outdoor equipment that is purchased or produced in large quantities by law enforcement or armed groups.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Shoes/AttackBoots</texPath>
+		</graphicData>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<DevilstrandCloth>15</DevilstrandCloth>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite></researchPrerequisite>
+			<researchPrerequisites Inherit="false">
+				<li>FlakArmor</li>
+				<li>KurinComplexApparel</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<Mass>0.22</Mass>
+			<EquipDelay>0.8</EquipDelay>
+			<MaxHitPoints>220</MaxHitPoints>
+			<WorkToMake>9000</WorkToMake>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.6</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+		</statBases>
+		<apparel>
+			<wearPerDay>0.2</wearPerDay>
+			<tags>
+				<li>Kurin_Marine</li>
+				<li>Kurin_Military</li>
+				<li>Royal</li>
+				<li>RoyalTier5</li>
+			</tags>
+			<wornGraphicPaths>
+				<li>KurinMeowEdition/Item_Apperal/Shoes/AttackBoots</li>
+			</wornGraphicPaths>
+			<defaultOutfitTags Inherit="false">
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<equippedStatOffsets>
+			<MoveSpeed>0.1</MoveSpeed>
+			<Flammability>-0.15</Flammability>
+		</equippedStatOffsets>
+	</ThingDef>
+
+</Defs>

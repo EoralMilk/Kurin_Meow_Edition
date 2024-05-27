@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<Kurin_Melee_CeremonialSword.label>魅狐仪式剑</Kurin_Melee_CeremonialSword.label>
+	<Kurin_Melee_CeremonialSword.description>魅狐仪式卫兵的佩剑。虽然笨重且缓慢，但足以将敌人一刀两断。</Kurin_Melee_CeremonialSword.description>
+	<Kurin_Melee_CeremonialSword.tools.edge.label>剑刃</Kurin_Melee_CeremonialSword.tools.edge.label>
+	<Kurin_Melee_CeremonialSword.tools.flat_side.label>剑背</Kurin_Melee_CeremonialSword.tools.flat_side.label>
+
+	<Kurin_Melee_CeremonialSwordBladelink.label>Δ'魅狐仪式剑</Kurin_Melee_CeremonialSwordBladelink.label>
+	<Kurin_Melee_CeremonialSwordBladelink.description>魅狐仪式卫兵的佩剑。虽然笨重且缓慢，但足以将敌人一刀两断。这把武器是特制的。</Kurin_Melee_CeremonialSwordBladelink.description>
+	<Kurin_Melee_CeremonialSwordBladelink.tools.edge.label>剑刃</Kurin_Melee_CeremonialSwordBladelink.tools.edge.label>
+	<Kurin_Melee_CeremonialSwordBladelink.tools.flat_side.label>剑背</Kurin_Melee_CeremonialSwordBladelink.tools.flat_side.label>
+
+	<Kurin_Melee_MarineSword.label>魅狐海军长刀</Kurin_Melee_MarineSword.label>
+	<Kurin_Melee_MarineSword.description>一种高强度的格斗刀，造型参考自人类的军用匕首，为了减少反光整体采用哑光工艺制作。</Kurin_Melee_MarineSword.description>
+	<Kurin_Melee_MarineSword.tools.edge.label>刃</Kurin_Melee_MarineSword.tools.edge.label>
+	<Kurin_Melee_MarineSword.tools.flat_side.label>尖</Kurin_Melee_MarineSword.tools.flat_side.label>
+
+	<Kurin_Weapon_Kunai.label>魅狐苦无</Kurin_Weapon_Kunai.label>
+	<Kurin_Weapon_Kunai.description>传统的苦无，既可以离远了投掷，也可以近身搏杀。因为能穿过腰带提供的护盾，所以是魅狐忍者的最爱。</Kurin_Weapon_Kunai.description>
+	<Kurin_Weapon_Kunai.tools.blade.label>刃</Kurin_Weapon_Kunai.tools.blade.label>
+	<Kurin_Weapon_Kunai.verbs.Verb_Shoot.label>魅狐苦无</Kurin_Weapon_Kunai.verbs.Verb_Shoot.label>
+	<Kurin_Bullet_Kunai.label>魅狐苦无</Kurin_Bullet_Kunai.label>
+
+	<Kurin_Weapon_CrossDart.label>魅狐手里剑</Kurin_Weapon_CrossDart.label>
+	<Kurin_Weapon_CrossDart.description>一些小手里剑，可以轻松投掷出去很远。因为能穿过腰带提供的护盾，所以是魅狐忍者的最爱。</Kurin_Weapon_CrossDart.description>
+	<Kurin_Weapon_CrossDart.verbs.Verb_Shoot.label>手里剑</Kurin_Weapon_CrossDart.verbs.Verb_Shoot.label>
+	<Kurin_Bullet_CrossDart.label>手里剑</Kurin_Bullet_CrossDart.label>
+
+	<Kurin_Riotshield.label>魅狐防暴盾牌</Kurin_Riotshield.label>
+	<Kurin_Riotshield.description>一种先进的高强度合金盾牌，能够在提供保护的同时锁定敌人的位置，其内置的爆闪灯也能在近战的时候派上用场。</Kurin_Riotshield.description>
+	<Kurin_Riotshield.tools.centre.label>盾身</Kurin_Riotshield.tools.centre.label>
+	<Kurin_Riotshield.tools.flashlight.label>闪光灯</Kurin_Riotshield.tools.flashlight.label>
+
+
+	<Kurin_Range_DMR.label>魅狐射手步枪</Kurin_Range_DMR.label>
+	<Kurin_Range_DMR.description>魅狐们专用于为精准地射击远距离目标而制造的步枪。不同于狙击步枪的是，DMR虽然精度和射程略显不足，但是它的射速却比狙击步枪要高得多。</Kurin_Range_DMR.description>
+	<Kurin_Range_DMR.verbs.Verb_Shoot.label>魅狐射手步枪</Kurin_Range_DMR.verbs.Verb_Shoot.label>
+	<Kurin_Range_DMR.tools.stock.label>枪托</Kurin_Range_DMR.tools.stock.label>
+	<Kurin_Range_DMR.tools.barrel.label>枪管</Kurin_Range_DMR.tools.barrel.label>
+	<Kurin_Bullet_DMR.label>射手步枪弹</Kurin_Bullet_DMR.label>
+
+	<Kurin_Range_ChainGun.label>魅狐链炮</Kurin_Range_ChainGun.label>
+	<Kurin_Range_ChainGun.description>采用了加特林机构的机枪，能够迅速在一个区域内倾泻大量火力，但因为考虑便携性和后坐力等等，这把枪只安装了三根枪管；同时它的子弹口径和装药远远不及真正的加特林枪。</Kurin_Range_ChainGun.description>
+	<Kurin_Range_ChainGun.verbs.Verb_Shoot.label>魅狐链炮</Kurin_Range_ChainGun.verbs.Verb_Shoot.label>
+	<Kurin_Range_ChainGun.tools.stock.label>枪托</Kurin_Range_ChainGun.tools.stock.label>
+	<Kurin_Range_ChainGun.tools.barrel.label>枪管</Kurin_Range_ChainGun.tools.barrel.label>
+	<Kurin_Bullet_ChainGun.label>魅狐链炮弹</Kurin_Bullet_ChainGun.label>
+
+	<Kurin_Range_TwinRocket.label>魅狐双联火箭</Kurin_Range_TwinRocket.label>
+	<Kurin_Range_TwinRocket.description>二连发的高爆火箭榴弹发射器，两发火箭击中目标爆炸后会留下一片危险的火海；有些魅狐对这种武器存在一些抵触情绪，但无论如何，由于它的实际表现确实是没有什么让它退役的理由。</Kurin_Range_TwinRocket.description>
+	<Kurin_Range_TwinRocket.verbs.Verb_Shoot.label>魅狐双联火箭</Kurin_Range_TwinRocket.verbs.Verb_Shoot.label>
+	<Kurin_Range_TwinRocket.tools.barrel.label>枪管</Kurin_Range_TwinRocket.tools.barrel.label>
+	<Kurin_Bullet_TwinRocket.label>魅狐火箭弹</Kurin_Bullet_TwinRocket.label>
+
+	<Kurin_Range_ChargePistol.label>魅狐电荷手枪</Kurin_Range_ChargePistol.label>
+	<Kurin_Range_ChargePistol.description>实际上这东西打出去的是一种带有能量的实弹，并不是真正意义上的能量武器。
+因为这种方式能够以并不算过高的科研和制造成本就能达到近似能量武器的效果，魅狐们选择了用它来补充军械库中高级便携武器的空缺；虽然它能自动射击，但因为在常温和宇宙环境下缺少主动散热组件，很少能看到有魅狐扣死扳机清空弹匣的。</Kurin_Range_ChargePistol.description>
+	<Kurin_Range_ChargePistol.verbs.Verb_Shoot.label>魅狐电荷手枪</Kurin_Range_ChargePistol.verbs.Verb_Shoot.label>
+	<Kurin_Range_ChargePistol.tools.grip.label>握把</Kurin_Range_ChargePistol.tools.grip.label>
+	<Kurin_Range_ChargePistol.tools.barrel.label>枪管</Kurin_Range_ChargePistol.tools.barrel.label>
+	<Kurin_Bullet_ChargePistol.label>电荷手枪弹</Kurin_Bullet_ChargePistol.label>
+
+	<Kurin_Range_ChargeRifle.label>魅狐电荷智能步枪</Kurin_Range_ChargeRifle.label>
+	<Kurin_Range_ChargeRifle.description>一种搭配了完整的操作系统的电荷步枪，内置的系统可以通过投影的方式显示各种战场信息并且辅助枪械的瞄准，在平时还能对枪械状况进行自检。
+在一些军事组织中是明令禁止任何魅狐擅自更改操作系统或者下载安装无认证的第三方软件的，但即便如此也能看到不少魅狐用这把枪看卖货直播或者刷短视频；如果不是这个操作系统需要外接设备才能完成复杂操作，肯定会有魅狐用它玩原神。</Kurin_Range_ChargeRifle.description>
+	<Kurin_Range_ChargeRifle.verbs.Verb_Shoot.label>魅狐电荷智能步枪</Kurin_Range_ChargeRifle.verbs.Verb_Shoot.label>
+	<Kurin_Range_ChargeRifle.tools.stock.label>枪托</Kurin_Range_ChargeRifle.tools.stock.label>
+	<Kurin_Range_ChargeRifle.tools.barrel.label>枪管</Kurin_Range_ChargeRifle.tools.barrel.label>
+	<Kurin_Bullet_ChargeRifle.label>电荷步枪弹</Kurin_Bullet_ChargeRifle.label>
+	<!-- <Kurin_Bullet_ChargeRifle.comps.CompEquippableAbilityReloadable.chargeNoun>燃烧弹</Kurin_Bullet_ChargeRifle.comps.CompEquippableAbilityReloadable.chargeNoun> -->
+	<Kurin_Bullet_ChargeRifle.comps.CompEquippableAbilityReloadable.chargeNoun>EMP榴弹</Kurin_Bullet_ChargeRifle.comps.CompEquippableAbilityReloadable.chargeNoun>
+
+
+	<Kurin_GatheringLance.label>加特林标枪</Kurin_GatheringLance.label>
+	<Kurin_GatheringLance.description>这种装备并非魅狐能够生产的出来的，也不像是从什么军火贩子那里买来的，从它异于超凡科技产物的风格可以推断或许是人类大规模远征星海那个时代的尖端产物。
+这种武器能连续发射极其危险的电荷标枪，很容易就能把一些轻装甲目标钉死在地上，它内部产生的热量可以驱动一种微型的锻造机构，源源不断地在枪膛里直接生成金属钉。</Kurin_GatheringLance.description>
+	<Kurin_GatheringLance.verbs.Verb_Shoot.label>加特林标枪</Kurin_GatheringLance.verbs.Verb_Shoot.label>
+	<Kurin_GatheringLance.tools.barrel.label>枪管</Kurin_GatheringLance.tools.barrel.label>
+	<Kurin_Bullet_GatheringLance.label>加特林标枪</Kurin_Bullet_GatheringLance.label>
+
+
+
+	<Kurin_Range_FlareGun.label>干扰信号枪</Kurin_Range_FlareGun.label>
+	<Kurin_Range_FlareGun.description>一种可发射小型干扰照明弹的信号枪。</Kurin_Range_FlareGun.description>
+	<Kurin_Range_FlareGun.verbs.Verb_Shoot.label>干扰信号枪</Kurin_Range_FlareGun.verbs.Verb_Shoot.label>
+	<Kurin_Bullet_DisruptorFlare.label>干扰信号弹</Kurin_Bullet_DisruptorFlare.label>
+	<Kurin_SmallDisruptorFlare.label>干扰信号弹</Kurin_SmallDisruptorFlare.label>
+
+	<Kurin_Range_NecroLauncher.label>死灵火箭发射器</Kurin_Range_NecroLauncher.label>
+	<Kurin_Range_NecroLauncher.description>改装的双联火箭发射器，火箭弹弹头被填充了大量死灵烟雾，但是也因此很难再造成足够的爆炸伤害。</Kurin_Range_NecroLauncher.description>
+	<Kurin_Range_NecroLauncher.verbs.Verb_Shoot.label>魅狐死灵火箭</Kurin_Range_NecroLauncher.verbs.Verb_Shoot.label>
+	<Kurin_Range_NecroLauncher.tools.barrel.label>枪管</Kurin_Range_NecroLauncher.tools.barrel.label>
+	<Kurin_Bullet_NecroRocket.label>死灵火箭弹</Kurin_Bullet_NecroRocket.label>
+
+
+	<Kurin_TurretGun_ChargeLance.label>定点电荷标枪</Kurin_TurretGun_ChargeLance.label>
+	<Kurin_TurretGun_ChargeLance.description>一门装载在炮塔上的固定式电荷标枪。</Kurin_TurretGun_ChargeLance.description>
+	<Kurin_TurretGun_ChargeLance.verbs.Verb_Shoot.label>定点电荷标枪</Kurin_TurretGun_ChargeLance.verbs.Verb_Shoot.label>
+</LanguageData>

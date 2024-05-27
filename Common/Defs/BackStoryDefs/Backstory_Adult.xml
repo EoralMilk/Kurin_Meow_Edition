@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_01</defName>
+		<title>Kurin Journalist</title>
+		<titleShort>Journalist</titleShort>
+		<description>[PAWN_nameDef] is a journalist who writes an article in a newspaper. [PAWN_pronoun] covered recent state of the nation, culture, and diplomacy. Surprisingly, the proportion of politics is not that big. Because everyone believes Republic of Kurin is fair, upright nation.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>6</Social>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_02</defName>
+		<title>Kurin Hired Maid</title>
+		<titleShort>Maid</titleShort>
+		<description>[PAWN_nameDef] is a maid hired in a mansion of a noble. [PAWN_pronoun] did cleaning and prepared meals as a housekeeper, but also worked as a butler from purchase goods for maintaining the mansion to managing the account. [PAWN_pronoun] gained master's trust along the way.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>4</Social>
+			<Cooking>4</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_03</defName>
+		<title>Kurin Restaurant Waiter</title>
+		<titleShort>Waiter</titleShort>
+		<description>[PAWN_nameDef] worked at a high-end restaurant, taking orders from customers, serving food, and organizing tables. Although fur was often found in the food, many guests liked [PAWN_nameDef] and [PAWN_pronoun] even learned the chef's brilliant cooking skills.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>2</Melee>
+			<Social>2</Social>
+			<Cooking>2</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_04</defName>
+		<title>Kurin Prey</title>
+		<titleShort>Prey</titleShort>
+		<description>Fox hunting is a luxury sport of human nobles that have been around for a long time. Although banned for cruelty, it has been gaining popularity again since the emergence of Kurin. As a prey, [PAWN_nameDef] wore a fur suit and ran away from the hunters.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>6</Melee>
+		</skillGains>
+		<forcedTraits>
+			<Tough>0</Tough>
+		</forcedTraits>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_05</defName>
+		<title>Kurin Assassin</title>
+		<titleShort>Assassin</titleShort>
+		<description>[PAWN_nameDef] is well-known terrorist among international societies. But in reality, [PAWN_pronoun] was a hero who assassinated an officer in a dictatorship who killed Kurins for fun. Nobody knew this and [PAWN_pronoun] always had to run away, but [PAWN_pronoun] thinks [PAWN_pronoun] did the right thing.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Melee>4</Melee>
+			<Social>-4</Social>
+			<Medicine>2</Medicine>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_06</defName>
+		<title>Kurin Rabies Survivor</title>
+		<titleShort>Survivor</titleShort>
+		<description>In a post-apocalyptic city where rabies-infected Kurins went insane and bit each other, [PAWN_nameDef] managed to hide in a convenience store. [PAWN_pronoun] could hear horrible screams and sound of the Kurins biting each other from the outside all day long. After few days, [PAWN_pronoun] was eventually rescued, but the horrifying memories remained.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>-4</Social>
+			<Medicine>6</Medicine>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_07</defName>
+		<title>Kurin Massager</title>
+		<titleShort>Massager</titleShort>
+		<description>[PAWN_nameDef] worked at a massage shop located in red-light district. [PAWN_pronoun] usual job was to give customers a massage with spices and oil to relieve fatigue, but there was also a special service available for those who want something more. [PAWN_pronoun] learned much about the Kurin body, and her experience helped her work her way out.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>2</Melee>
+			<Social>6</Social>
+			<Medicine>2</Medicine>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_08</defName>
+		<title>Kurin Natural Fox</title>
+		<titleShort>Natural Fox</titleShort>
+		<description>[PAWN_nameDef] got tired city life, so [PAWN_pronoun] went into the mountains. [PAWN_pronoun] built an old-fashioned house that barely had water and electricity, handling farming and chores by oneself. [PAWN_pronoun] always had dirt and water in their hands. </description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>-4</Social>
+			<Cooking>2</Cooking>
+			<Construction>4</Construction>
+			<Plants>4</Plants>
+			<Mining>2</Mining>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_09</defName>
+		<title>Kurin Citizen</title>
+		<titleShort>Citizen</titleShort>
+		<description>[PAWN_nameDef] was an ordinary citizen. Citizens who work hard every day doing their own work are the very foundation and basis of Kurin society.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>2</Cooking>
+			<Construction>2</Construction>
+			<Plants>2</Plants>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_10</defName>
+		<title>Kurin Bank Receptionist</title>
+		<titleShort>Receptionist</titleShort>
+		<description>[PAWN_nameDef] was a smart fox who worked in a bank, who was in charge of various tasks. From taking care of the other Kurin's deposits to consult on loans. [PAWN_pronoun] loved the job and had a satisfying work life thanks to good colleagues.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>-2</Melee>
+			<Social>6</Social>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_11</defName>
+		<title>Kurin Farmhand</title>
+		<titleShort>Farmhand</titleShort>
+		<description>[PAWN_nameDef] was a farmhand, wearing a straw hat and sitting on a wooden hut to protect a vineyard. When cute little young Kurins came to stole the grapes they looked after, they shouted out firecely to kick them out. When the grapes weren't ripe enough, they used to laugh as they watched the little ones cried from the fruit's sourness.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Animals>2</Animals>
+			<Plants>6</Plants>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_12</defName>
+		<title>Kurin Pilot</title>
+		<titleShort>Pilot</titleShort>
+		<description>[PAWN_nameDef] was a pilot who's able to fly light aircraft. [PAWN_pronoun] got in trouble when [PAWN_pronoun] did an unplanned air show, so [PAWN_pronoun] doesn't do that kind of work anymore.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Melee>2</Melee>
+			<Animals>-2</Animals>
+			<Medicine>4</Medicine>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_13</defName>
+		<title>Kurin Policefox</title>
+		<titleShort>Policefox</titleShort>
+		<description>[PAWN_nameDef] is an excellent police officer who graduated from police school with the highest grades. [PAWN_nameDef]'s personality was not really suitable for policing, but after so much effort, [PAWN_pronoun] achieved their dream, and shook off everyone else's sarcasm.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Melee>4</Melee>
+			<Social>2</Social>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Vigilante</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_14</defName>
+		<title>Kurin Armory Clerk</title>
+		<titleShort>Clerk</titleShort>
+		<description>[PAWN_nameDef] is a Redfox Armory's clerk, who's in charge of warehouse documents. But [PAWN_pronoun] is not really familiar with actual gunsmithing since all [PAWN_pronoun] did was paperwork.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Crafting>1</Crafting>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_15</defName>
+		<title>Kurin Missionary</title>
+		<titleShort>Missionary</titleShort>
+		<description>[PAWN_nameDef] followed religious beliefs and lived life helping poor Kurins. [PAWN_nameDef]'s life was mostly in poverty, but their heart was wealthier than anyone else.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>-4</Shooting>
+			<Melee>-4</Melee>
+			<Social>4</Social>
+			<Medicine>4</Medicine>
+			<Cooking>4</Cooking>
+			<Plants>4</Plants>
+		</skillGains>
+		<forcedTraits>
+			<Kind>0</Kind>
+		</forcedTraits>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_16</defName>
+		<title>Kurin Trade Salesperson</title>
+		<titleShort>Salesperson</titleShort>
+		<description>[PAWN_nameDef] is a salesperson of a trading company that sells various Kurin products to other nations. Kurins are known as an affable, but crafty trader among other nations, and [PAWN_pronoun] is just like that. But recently, relations with other countries worsened and sales have been difficult.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>8</Social>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_17</defName>
+		<title>Kurin Groundcrew</title>
+		<titleShort>Groundcrew</titleShort>
+		<description>[PAWN_nameDef] was a groundcrew of a Kurin airport. A few layers of earplugs were not enough to protect [PAWN_nameDef]'s sensitive ears against loud engine noise, but [PAWN_pronoun] got used to it. [PAWN_pronoun] even managed to tie up her tails, as tails fluttered all over the place thanks to the fierce wind.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>3</Social>
+		</skillGains>
+		<forcedTraits>
+			<Nerves>2</Nerves>
+		</forcedTraits>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_18</defName>
+		<title>Kurin Caravan Trader</title>
+		<titleShort>Trader</titleShort>
+		<description>[PAWN_nameDef] was originally an ordinary door-to-door salesman, but now [PAWN_pronoun] is stuck on a Rimworld. She led a trade caravan, doing business between different settlements. Usually [PAWN_pronoun] only visited fellow Kurin settlements, but often they visited other faction settlements to trade goods they need.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Social>6</Social>
+			<Cooking>2</Cooking>
+			<Plants>2</Plants>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Trader</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_19</defName>
+		<title>Kurin Part-timer</title>
+		<titleShort>Part-timer</titleShort>
+		<description>[PAWN_nameDef] is a Kurin who works part-time at a convenience store in a boring residential area. Since there are not many customers at night, [PAWN_pronoun] study whenever [PAWN_pronoun] have time. But [PAWN_pronoun] does not neglect the work. [PAWN_pronoun] dream of becoming costruction engineer one day, and preparing for that day-by-day.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>4</Social>
+			<Construction>6</Construction>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_20</defName>
+		<title>Kurin Tout</title>
+		<titleShort>Tout</titleShort>
+		<description>[PAWN_nameDef] touted to Kurins and humans who came to the beach. The game [PAWN_pronoun] prepared was something like throwing a ball to hit the dolls or popping balloons with darts, but sometimes [PAWN_pronoun] selled cheap souvenirs with ridiculous prices. During the holiday season, [PAWN_pronoun] gained quite a lot of income.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>6</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Trader</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_21</defName>
+		<title>Kurin Marketplace Cook</title>
+		<titleShort>Cook</titleShort>
+		<description>[PAWN_nameDef] sold food at cheap price in the old Kurin marketplace. Fried tofu, various snacks, and even meals. Nowadays, Kurins usually go to big department stores, but thanks to [PAWN_nameDef]'s cooking skills, [PAWN_pronoun] got some reputation among customers.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>6</Social>
+			<Cooking>6</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Trader</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_22</defName>
+		<title>Kurin Former Chef</title>
+		<titleShort>Chef</titleShort>
+		<description>[PAWN_nameDef] was a chef working in a luxury hotel of a human nation. However, [PAWN_pronoun] was fired after receiving frequent complaints from customers that fur was found in their food. [PAWN_pronoun] returned to the Republic of Kurin afterwards, and worked at a small restaurant.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>2</Melee>
+			<Social>2</Social>
+			<Cooking>6</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_23</defName>
+		<title>Kurin Animal Handler</title>
+		<titleShort>Handler</titleShort>
+		<description>[PAWN_nameDef] is a popular handler of the zoo. [PAWN_pronoun] mainly care for young animal and trained them for stage performances. Sometimes [PAWN_pronoun] became a guide for visitors, and [PAWN_pronoun] was always popular.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>4</Social>
+			<Animals>6</Animals>
+			<Medicine>2</Medicine>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_24</defName>
+		<title>Kurin Hydroponics Farmer</title>
+		<titleShort>Farmer</titleShort>
+		<description>[PAWN_nameDef] worked in a hydroponic farm located at the outskirts of a city. [PAWN_pronoun] grew various crops in a perfectly sterilized environment and researched new seeds. Sometimes [PAWN_pronoun] also cooked with her own crops as a pastime.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>-2</Social>
+			<Animals>-2</Animals>
+			<Cooking>4</Cooking>
+			<Plants>6</Plants>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_25</defName>
+		<title>Kurin Potter</title>
+		<titleShort>Potter</titleShort>
+		<description>[PAWN_nameDef] was one of the few potters left in the Kurin Republic due to the development of 3D printing technology. [PAWN_pronoun] created works that pursue beauty and value rather than practicality, and these were sold as masterpiece items with high prices.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>2</Cooking>
+			<Artistic>4</Artistic>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_26</defName>
+		<title>Kurin Hatmaker</title>
+		<titleShort>Hatmaker</titleShort>
+		<description>[PAWN_nameDef] tailors various hats made with silk. [PAWN_pronoun] went to a distant human country to learn how to tailor hats with traditional methods, and the hats [PAWN_pronoun] tailored became very popular among Kurins. But [PAWN_pronoun] gained painful chronic illness due to mercury poisoning, which was one of the ingredient of the silk, and now lives with anxiety and hand tremors.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>-6</Social>
+			<Artistic>4</Artistic>
+			<Crafting>6</Crafting>
+		</skillGains>
+		<forcedTraits>
+			<Wimp>0</Wimp>
+		</forcedTraits>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_27</defName>
+		<title>Kurin Watchmaker</title>
+		<titleShort>Watchmaker</titleShort>
+		<description>[PAWN_nameDef] spent a lot of time learning how to make clocks in a human nation. [PAWN_pronoun] gained great popularity among wealthy Kurins since [PAWN_pronoun] carved each piece of watch with delicate handwork and made artistic masterpieces.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>8</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_28</defName>
+		<title>Kurin Fishmonger</title>
+		<titleShort>Fishmonger</titleShort>
+		<description>[PAWN_nameDef] knows how to make delicate dish dishes very well. [PAWN_pronoun] could trim fish neatly with a sharp knife, mix with various sweet and sour sauces, and cook it in a oven or frying pan. The cuisine of [PAWN_nameDef] was so popular that even humans would come from a far, but after the humans closed the border, only the Kurin could eat it.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>2</Melee>
+			<Social>2</Social>
+			<Cooking>2</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_29</defName>
+		<title>Kurin Dress Designer</title>
+		<titleShort>Designer</titleShort>
+		<description>[PAWN_nameDef] just got a job as a dress designer after graduated from school. [PAWN_pronoun] dreams of making a variety of pretty dresses, but still lacks skill. [PAWN_pronoun] is currently an intern in a studio, but [PAWN_pronoun] dreams of creating their own studio and making dresses under their own name.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Artistic>4</Artistic>
+			<Crafting>2</Crafting>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_30</defName>
+		<title>Kurin Tailor</title>
+		<titleShort>Tailor</titleShort>
+		<description>The oldest city of Kurin had several alleys filled with old, small shops. [PAWN_nameDef] had a small tailors. Not only did [PAWN_pronoun] sell fabric and clothes, [PAWN_pronoun] also repaired them with sewing machines and made simple clothes or decorations.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>4</Social>
+			<Crafting>6</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_31</defName>
+		<title>Kurin Factory Worker</title>
+		<titleShort>Worker</titleShort>
+		<description>[PAWN_nameDef] busied herself by assembling electronic parts and picking out defects in the production line of a factory. The income was not that good, but [PAWN_pronoun] worked hard, dreaming of a better life.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>6</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_32</defName>
+		<title>Kurin Lumberjack</title>
+		<titleShort>Lumberjack</titleShort>
+		<description>[PAWN_nameDef] worked as a lumberjack in a dense forest. The work was dangerous, and [PAWN_pronoun] hated physical labor like any other Kurin, but [PAWN_pronoun] thought it was cool to swing a giant axe.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>2</Melee>
+			<Plants>6</Plants>
+			<Mining>2</Mining>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_33</defName>
+		<title>Kurin Poor Roboticist</title>
+		<titleShort>Roboticist</titleShort>
+		<description>[PAWN_nameDef] studied various mechanoids. [PAWN_pronoun] discovered a few defects while researching discarded mechanoids and put a lot of efforts to resolve them, but there was not much of success. Afterwards, the Republic's funding was cut off, and [PAWN_pronoun] was struggling with a needy life in a small housing.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>6</Crafting>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_34</defName>
+		<title>Kurin Astronaut</title>
+		<titleShort>Astronaut</titleShort>
+		<description>[PAWN_nameDef] is an experienced astroscientist, and [PAWN_pronoun] trained hard to become one. There are no missions to outer space except sending unmanned probes, but if someone were going to the outer space by a manned spacecraft, she would have been the first.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Melee>2</Melee>
+			<Social>2</Social>
+			<Medicine>2</Medicine>
+			<Crafting>2</Crafting>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_35</defName>
+		<title>Kurin Mechanic Assistant</title>
+		<titleShort>Mechanic</titleShort>
+		<description>[PAWN_nameDef] came to a human nation to gain experience. [PAWN_pronoun] got a job as a mechanic for a civilian airline, but as [PAWN_pronoun] lacked experience and skill. [PAWN_pronoun] worked as an assistant doing only trivial things. [PAWN_pronoun] didn't talk a lot, so [PAWN_pronoun] worked as hard as [PAWN_pronoun] could.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>-4</Social>
+			<Construction>3</Construction>
+			<Crafting>6</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_36</defName>
+		<title>Kurin Electrician</title>
+		<titleShort>Electrician</titleShort>
+		<description>[PAWN_nameDef] could climb high transmission towers, and replaced electric wires and parts. [PAWN_pronoun] was able to keep balance with three tails, so [PAWN_pronoun] didn't need safety gear. As [PAWN_pronoun] could work really quickly with good dexterity, and their income was pretty good. [PAWN_pronoun] dreamed of living happily with a lover by finding a good home in the suburbs.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Construction>3</Construction>
+			<Crafting>3</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_37</defName>
+		<title>Kurin Plumber</title>
+		<titleShort>Plumber</titleShort>
+		<description>[PAWN_nameDef] used to connect pipes and assemble air ducts at the construction site, but was fired due to the Republic's economic crisis. [PAWN_pronoun] and collegues heard that the situation of the Republic was not good, but they do not know the details because they weren't in the military.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Construction>6</Construction>
+			<Crafting>4</Crafting>
+			<Intellectual>-2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_38</defName>
+		<title>Kurin Heavy Industry Technician</title>
+		<titleShort>Technician</titleShort>
+		<description>Silverfox Heavy Industries was a major company that supplied more than 80% of Aolara's total vessels, and [PAWN_nameDef] was a technician working in the Republic's largest shipyard that produces a variety of vessels including cruise ships, container ships, warships and aircraft carriers. [PAWN_pronoun] had busy days with daily paperwork and process management.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Construction>6</Construction>
+			<Crafting>4</Crafting>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_39</defName>
+		<title>Kurin Restaurant Waiter</title>
+		<titleShort>Waiter</titleShort>
+		<description>[PAWN_nameDef] worked as a waiter in a luxury restaurant. [PAWN_pronoun] took orders or took hats and coats from customers and put them on hangers. But [PAWN_pronoun] actually wanted to work in a kitchen because [PAWN_pronoun] had knowledge for cooking a little bit.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>4</Social>
+			<Cooking>4</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_40</defName>
+		<title>Kurin Nurse</title>
+		<titleShort>Nurse</titleShort>
+		<description>[PAWN_nameDef] is a veteran nurse. Even after a seriously wounded Kurin was brought to the emergency room, [PAWN_pronoun] did not panic and carefully begun hemostasis and first aid.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Medicine>2</Medicine>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_41</defName>
+		<title>Kurin Astronomer</title>
+		<titleShort>Astronomer</titleShort>
+		<description>[PAWN_nameDef] analyzed data sent by a deep space probe to create a detailed space map, and calculated the interplanetary flight path of the probe. The calm lab life of science made [PAWN_nameDef] weaker than others.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>-2</Melee>
+			<Construction>-2</Construction>
+			<Mining>-2</Mining>
+			<Crafting>2</Crafting>
+			<Intellectual>8</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_42</defName>
+		<title>Kurin Bioengineer</title>
+		<titleShort>Bioengineer</titleShort>
+		<description>[PAWN_nameDef] was a bioengineer studying genetic engineering. [PAWN_pronoun] researched the genes of Kurin and found new treatments for diseases. While studying genes, [PAWN_pronoun] discovered that Kurin had a chromosome structure that could not occur without artificial gene manipulation, but [PAWN_pronoun] decided to keep it as a secret.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Animals>2</Animals>
+			<Medicine>4</Medicine>
+			<Intellectual>6</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_43</defName>
+		<title>Kurin AI Engineer</title>
+		<titleShort>AI Engineer</titleShort>
+		<description>[PAWN_nameDef] knew the dangers of mechanoids and tried to develop new artificial intelligence humanoid robots. The failure continued, but [PAWN_pronoun] sat down and continued to study, remembering those who died because of the mechanoids.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Intellectual>8</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_44</defName>
+		<title>Kurin Geologist</title>
+		<titleShort>Geologist</titleShort>
+		<description>[PAWN_nameDef] is a geologist who surveys huge faults, volcanoes and lands. [PAWN_pronoun] dig the ground with a drill or pickaxe, or sometimes sniff around, for research purpose.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Mining>6</Mining>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_45</defName>
+		<title>Kurin Highschool Teacher</title>
+		<titleShort>Teacher</titleShort>
+		<description>[PAWN_nameDef] was a high school math teacher and a mentor. [PAWN_pronoun] had a busy life leading many Kurin students until they get graduated.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>3</Melee>
+			<Social>3</Social>
+			<Animals>3</Animals>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_46</defName>
+		<title>Kurin Surgeon</title>
+		<titleShort>Surgeon</titleShort>
+		<description>[PAWN_nameDef] was a surgeon working at a general hospital in a local city. There were not many patients to care for, but recently harassment by humans have been increased, so [PAWN_pronoun] became busy.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>2</Melee>
+			<Medicine>8</Medicine>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_47</defName>
+		<title>Kurin Public Healthcare Doctor</title>
+		<titleShort>Doctor</titleShort>
+		<description>[PAWN_nameDef] is a public healthcare doctor of the Kurin Medical and Health Department. [PAWN_pronoun] could have become a normal doctor with private hospital, but [PAWN_pronoun] wanted to improve the healthcare of Kurins, so [PAWN_pronoun] chose to become a public healthcare doctor.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Medicine>6</Medicine>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_48</defName>
+		<title>Kurin Pop Idol</title>
+		<titleShort>Pop Idol</titleShort>
+		<description>[PAWN_nameDef] was a rising Kurin pop idol. [PAWN_pronoun] she had great dancing skills, outstanding singing skills and an exotic, beautiful appearance that improved day by day. [PAWN_pronoun] appeared on many TV shows.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>8</Social>
+			<Cooking>2</Cooking>
+			<Construction>-2</Construction>
+			<Mining>-2</Mining>
+			<Artistic>4</Artistic>
+		</skillGains>
+		<forcedTraits>
+			<Beauty>2</Beauty>
+		</forcedTraits>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_49</defName>
+		<title>Kurin Rising Singer</title>
+		<titleShort>Singer</titleShort>
+		<description>[PAWN_nameDef] was a well-known singer-songwriter, and released several albums already. [PAWN_pronoun] has been invited to several stages and occasionally appeared on TV shows.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>4</Social>
+			<Artistic>6</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_50</defName>
+		<title>Kurin Drama Actor</title>
+		<titleShort>Actor</titleShort>
+		<description>[PAWN_nameDef] is an experienced actor, and have played numerous roles, regardless of the main characters or extras. [PAWN_pronoun] was able to appear in several films and plays, with a flexible voice and realistic acting skills.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Melee>2</Melee>
+			<Social>4</Social>
+			<Cooking>2</Cooking>
+			<Artistic>2</Artistic>
+		</skillGains>
+		<forcedTraits>
+			<Beauty>1</Beauty>
+		</forcedTraits>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_51</defName>
+		<title>Kurin Opera Actor</title>
+		<titleShort>Actor</titleShort>
+		<description>[PAWN_nameDef] was a member of a opera troupe who sang beautiful songs and plays in decorated beautiful costumes. The troupe was not that famous, but [PAWN_pronoun] loved the Republic's small towns filled with forests, fields, sounds of nature and most importantly, friendly Kurins.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Artistic>8</Artistic>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<forcedTraits>
+			<Beauty>1</Beauty>
+		</forcedTraits>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_52</defName>
+		<title>Kurin Enlisted</title>
+		<titleShort>Enlisted</titleShort>
+		<description>[PAWN_nameDef] is a enlisted fox, the backbone of the Republic of Kurin Army. All of them are volunteered personnel. If they needed more troops, they hired mercenaries. The strong economic power of the Republic made this possible.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Melee>2</Melee>
+			<Medicine>1</Medicine>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Soldier</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_53</defName>
+		<title>Kurin Marksman</title>
+		<titleShort>Marksman</titleShort>
+		<description>Most Kurins can shoot precisely thanks to their good eyes and dexterous hands, but [PAWN_nameDef] have exceptional shooting skills among them. So if [PAWN_pronoun] wield a sniper rifle, [PAWN_pronoun] could quickly take down the enemy.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>8</Shooting>
+		</skillGains>
+		<forcedTraits>
+			<ShootingAccuracy>1</ShootingAccuracy>
+		</forcedTraits>
+		<spawnCategories>
+			<li>Kurin_Sniper</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_54</defName>
+		<title>Kurin Ranger</title>
+		<titleShort>Ranger</titleShort>
+		<description>[PAWN_nameDef] was a ranger in charge of protecting the snow-capped forests and mountains in the north. [PAWN_pronoun] managed the forest with sensitive nose and ears, smelling the scent of forest, and hearing the sound of wildlife. In the event of forest fire, [PAWN_pronoun] went out to put out fire and rescued the stranded.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Melee>4</Melee>
+			<Animals>4</Animals>
+			<Plants>2</Plants>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<spawnCategories>
+			<li>Kurin_Soldier</li>
+			<li>Kurin_Sergeant</li>
+			<li>Kurin_Sniper</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_55</defName>
+		<title>Kurin Spy</title>
+		<titleShort>Spy</titleShort>
+		<description>After Kurins crashlanded on a rimworld, they felt the need for spying other factions. [PAWN_nameDef] received military training to scout enemies quickly and covertly, and [PAWN_pronoun] was able to figure out other faction's outposts, trends, and so on.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Medicine>2</Medicine>
+			<Plants>2</Plants>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Soldier</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_56</defName>
+		<title>Kurin Medic</title>
+		<titleShort>Medic</titleShort>
+		<description>[PAWN_nameDef] became a medic to save dying fellow soldiers in battlefield. [PAWN_pronoun] honed medical skills to save comrades, but [PAWN_pronoun] soon realised that sometimes [PAWN_pronoun] have to kill enemies to save them.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Social>2</Social>
+			<Medicine>6</Medicine>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Sergeant</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_57</defName>
+		<title>Kurin Sergeant</title>
+		<titleShort>Sergeant</titleShort>
+		<description>[PAWN_nameDef] is a fox with leadership. When Kurins crashlanded on rimworld, [PAWN_pronoun] volunteered for a guard duty with a rifle in hand. After the Kurin faction have been stabilized, [PAWN_pronoun] applied to the Sergeant, as [PAWN_pronoun] had pretty good experience back in the Republic Army.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Social>4</Social>
+			<Medicine>2</Medicine>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Sergeant</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_58</defName>
+		<title>Kurin Redfox</title>
+		<titleShort>Redfox</titleShort>
+		<description>Shortly before migration of the Republic, the conflict with humans intensified, and [PAWN_nameDef] proved that [PAWN_pronoun] had trained combat skills harder than anyone else on the battlefield. [PAWN_pronoun] participated in numerous battles, killing countless humans with precise shooting skills and quick judgment, and comrades called [PAWN_nameDef] a Redfox.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>10</Shooting>
+			<Melee>8</Melee>
+			<Medicine>4</Medicine>
+		</skillGains>
+		<workDisables>
+			<li>Social</li>
+			<li>Animals</li>
+			<li>Artistic</li>
+		</workDisables>
+		<spawnCategories>
+			<li>Kurin_Sergeant</li>
+			<li>Kurin_Sniper</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_59</defName>
+		<title>Kurin Officer</title>
+		<titleShort>Officer</titleShort>
+		<description>[PAWN_nameDef] is one of the few officer from the glitterworld military. Most of the work was a boring paperwork, but with a lot of spare time, [PAWN_pronoun] was able to read a lot of books and practice VR shooting. Above all, thanks to serving as a adjutant under a well known commander called 'Coyote', [PAWN_pronoun] heard numerous tales from the battles.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Melee>4</Melee>
+			<Social>6</Social>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_60</defName>
+		<title>Kurin Bomber Pilot</title>
+		<titleShort>Pilot</titleShort>
+		<description>[PAWN_nameDef] was a Kurin soldier for the Republic during the Siege of the Republic. [PAWN_pronoun] used dive bombing technique to precisely bomb tanks and warships, destroying countless targets.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Melee>2</Melee>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Soldier</li>
+			<li>Kurin_Sergeant</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryAdult_61</defName>
+		<title>Kurin Warmonger</title>
+		<titleShort>Warmonger</titleShort>
+		<description>[PAWN_nameDef] quickly proved themselves to be ruthless in combat and won many victories</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>13</Shooting>
+			<Melee>12</Melee>
+		</skillGains>
+		<forcedTraits>
+			<Bloodlust>0</Bloodlust>
+		</forcedTraits>
+		<spawnCategories>
+			<li>Kurin_Soldier</li>
+		</spawnCategories>
+	</BackstoryDef>
+</Defs>

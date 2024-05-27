@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!-- 内衣 -->
+	<Kurin_Underwear.label>魅狐内衣</Kurin_Underwear.label>
+	<Kurin_Underwear.description>素色内衣，与材料的颜色相同。</Kurin_Underwear.description>
+
+	<Kurin_Underwear_Black.label>魅狐内衣(黑色)</Kurin_Underwear_Black.label>
+	<Kurin_Underwear_Black.description>单色内衣，这件是黑色款式。</Kurin_Underwear_Black.description>
+
+	<Kurin_Underwear_Red.label>魅狐内衣(红色)</Kurin_Underwear_Red.label>
+	<Kurin_Underwear_Red.description>单色内衣，这件是红色款式。</Kurin_Underwear_Red.description>
+
+	<Kurin_Underwear_Slim.label>魅狐内衣(修身款)</Kurin_Underwear_Slim.label>
+	<Kurin_Underwear_Slim.description>轻薄的内衣。更加突显奎琳的魅力。</Kurin_Underwear_Slim.description>
+
+	<Kurin_Underwear_Stripe.label>魅狐内衣(条纹)</Kurin_Underwear_Stripe.label>
+	<Kurin_Underwear_Stripe.description>可爱的条纹内衣。这款被染成了白色。</Kurin_Underwear_Stripe.description>
+
+	<!-- 袜子 -->
+	<Kurin_StockingsBrown.label>魅狐过膝袜(棕色)</Kurin_StockingsBrown.label>
+	<Kurin_StockingsBrown.description>棕色的过膝袜，舒适且温暖。</Kurin_StockingsBrown.description>
+
+	<Kurin_StockingsWhite.label>魅狐过膝袜(白色)</Kurin_StockingsWhite.label>
+	<Kurin_StockingsWhite.description>白色的过膝袜，舒适且温暖。</Kurin_StockingsWhite.description>
+
+	<Kurin_StockingsStriped.label>魅狐条纹过膝袜</Kurin_StockingsStriped.label>
+	<Kurin_StockingsStriped.description>一款独特的条纹过膝袜。看起来很可爱。</Kurin_StockingsStriped.description>
+
+	<Kurin_StockingsGarterbelt.label>魅狐吊袜带袜(黑色)</Kurin_StockingsGarterbelt.label>
+	<Kurin_StockingsGarterbelt.description>一条迷人的吊袜带长筒袜。进一步增强了奎琳的魅力。</Kurin_StockingsGarterbelt.description>
+
+	<Kurin_StockingsGarterbeltWhite.label>魅狐吊袜带袜(白色)</Kurin_StockingsGarterbeltWhite.label>
+	<Kurin_StockingsGarterbeltWhite.description>一条迷人的吊袜带长筒袜。进一步增强了奎琳的魅力。</Kurin_StockingsGarterbeltWhite.description>
+
+	<Kurin_PantyhoseBlack.label>魅狐连裤袜(黑色)</Kurin_PantyhoseBlack.label>
+	<Kurin_PantyhoseBlack.description>包裹整条腿的连裤袜。舒适且温暖。</Kurin_PantyhoseBlack.description>
+
+	<Kurin_PantyhoseWhite.label>魅狐连裤袜(白色)</Kurin_PantyhoseWhite.label>
+	<Kurin_PantyhoseWhite.description>包裹整条腿的连裤袜。舒适且温暖。</Kurin_PantyhoseWhite.description>
+
+	<Kurin_StockingArmor.label>魅狐腿甲</Kurin_StockingArmor.label>
+	<Kurin_StockingArmor.description>看来和普通过膝袜无异的软甲，但它防劈砍也防弹。</Kurin_StockingArmor.description>
+
+	<Kurin_WorkStocking.label>魅狐技师毛线袜</Kurin_WorkStocking.label>
+	<Kurin_WorkStocking.description>能够提供一定的防护的毛线过膝袜，被染成了耐油污和尘土的颜色，并且装有额外的膝盖护垫。</Kurin_WorkStocking.description>
+
+	<!-- 鞋子 -->
+	<Kurin_SimpleShoes.label>魅狐简单鞋子</Kurin_SimpleShoes.label>
+	<Kurin_SimpleShoes.description>结构简单，制作也简单，但是看起来不赖。</Kurin_SimpleShoes.description>
+
+	<Kurin_Sneaker.label>魅狐运动鞋</Kurin_Sneaker.label>
+	<Kurin_Sneaker.description>时尚的设计，优质的材质，舒适的运动体验。</Kurin_Sneaker.description>
+
+	<Kurin_LeatherShoe.label>魅狐皮鞋</Kurin_LeatherShoe.label>
+	<Kurin_LeatherShoe.description>女式皮鞋，很容易沾上脏东西，要注意清洗。</Kurin_LeatherShoe.description>
+
+	<Kurin_AttackBoot.label>魅狐攻击靴</Kurin_AttackBoot.label>
+	<Kurin_AttackBoot.description>改进自户外用品的一种多功能靴子，执法部门或者武装组织会大量采购或者生产它。</Kurin_AttackBoot.description>
+
+	<Kurin_ChildShoe.label>魅狐童鞋</Kurin_ChildShoe.label>
+	<Kurin_ChildShoe.description>简单可爱的童鞋。</Kurin_ChildShoe.description>
+
+	<Kurin_ChildRainBoots.label>魅狐儿童雨靴</Kurin_ChildRainBoots.label>
+	<Kurin_ChildRainBoots.description>Mr raindrop falling away from me now~~</Kurin_ChildRainBoots.description>
+
+	<!-- 常规 -->
+	<Kurin_Shirt.label>魅狐衬衫</Kurin_Shirt.label>
+	<Kurin_Shirt.description>又大又宽松的衬衫，有领子和纽扣。酷热难当的日子穿起来可能会中暑。</Kurin_Shirt.description>
+
+	<Kurin_TShirt.label>魅狐T恤</Kurin_TShirt.label>
+	<Kurin_TShirt.description>适合在炎炎夏日穿的T恤。</Kurin_TShirt.description>
+
+	<Kurin_HotPants.label>魅狐热裤</Kurin_HotPants.label>
+	<Kurin_HotPants.description>轻巧的夏季短裤，在阳光明媚的日子里如果不想被晒黑，防晒霜是必须的。</Kurin_HotPants.description>
+
+	<Kurin_Pajamas.label>魅狐睡衣</Kurin_Pajamas.label>
+	<Kurin_Pajamas.description>非常舒适的睡衣，不论怎样被失眠折磨的魅狐，穿上也能安然入梦。</Kurin_Pajamas.description>
+
+	<Kurin_Knit.label>魅狐露背毛衣</Kurin_Knit.label>
+	<Kurin_Knit.description>背部裸露的大胆设计。对于怎么穿这件衣服魅狐们争议很大。</Kurin_Knit.description>
+
+	<Kurin_KnitBareShoulder.label>魅狐露肩毛衣</Kurin_KnitBareShoulder.label>
+	<Kurin_KnitBareShoulder.description>一款可爱的露肩毛衣。它非常舒适和柔软，舒适得甚至容易犯困。</Kurin_KnitBareShoulder.description>
+
+	<Kurin_KnitWinter.label>魅狐冬季毛衣</Kurin_KnitWinter.label>
+	<Kurin_KnitWinter.description>这款毛衣的独特之处在于它裹得很严实，因此非常暖和。</Kurin_KnitWinter.description>
+
+	<Kurin_CasualWear.label>魅狐休闲装</Kurin_CasualWear.label>
+	<Kurin_CasualWear.description>这是奎琳社会的流行休闲服。既舒适又时尚。</Kurin_CasualWear.description>
+
+	<Kurin_Hoodie.label>魅狐连帽衫</Kurin_Hoodie.label>
+	<Kurin_Hoodie.description>适合运动的大码连帽衫。</Kurin_Hoodie.description>
+
+	<Kurin_CuteDress.label>魅狐可爱连衣裙</Kurin_CuteDress.label>
+	<Kurin_CuteDress.description>很可爱的衣服。在一些开心的节日里，魅狐经常穿戴它。</Kurin_CuteDress.description>
+
+	<Kurin_OnePieceDress.label>魅狐连衣裙</Kurin_OnePieceDress.label>
+	<Kurin_OnePieceDress.description>一款轻盈的连衣裙。看起来很清纯!</Kurin_OnePieceDress.description>
+
+	<!-- 复杂衣物 -->
+	<Kurin_TechnicianDress.label>魅狐技师连衣裙</Kurin_TechnicianDress.label>
+	<Kurin_TechnicianDress.description>不知道什么时候购入的《辐射》cos服，因为质量好的过分，被魅狐们改成了技术人员穿的衣服，bug，bug永远修不好。</Kurin_TechnicianDress.description>
+
+	<Kurin_BusinessShirt.label>魅狐商务衬衫</Kurin_BusinessShirt.label>
+	<Kurin_BusinessShirt.description>这是奎琳社会一种正式的衬衫，通常用于商务或正式场合。</Kurin_BusinessShirt.description>
+
+	<Kurin_GothicDress.label>魅狐哥特式服装</Kurin_GothicDress.label>
+	<Kurin_GothicDress.description>哥特式的衣服。任何时候看起来都很有古典气息。</Kurin_GothicDress.description>
+
+	<Kurin_NunDress.label>魅狐修女服</Kurin_NunDress.label>
+	<Kurin_NunDress.description>一款与众不同的修女服。</Kurin_NunDress.description>
+
+	<Kurin_TraditionalDress.label>魅狐传统连衣裙</Kurin_TraditionalDress.label>
+	<Kurin_TraditionalDress.description>白色的长裙衬以粉色的短裙，令人看后印象深刻的魅狐服装。</Kurin_TraditionalDress.description>
+
+	<Kurin_TraditionalFancyDress.label>魅狐传统舞会裙</Kurin_TraditionalFancyDress.label>
+	<Kurin_TraditionalFancyDress.description>华丽的蓝白修身连衣裙，饰有披肩。令人看后印象深刻的魅狐服装。</Kurin_TraditionalFancyDress.description>
+
+	<Kurin_TraditionalLuxuryDress.label>魅狐传统奢华连衣裙</Kurin_TraditionalLuxuryDress.label>
+	<Kurin_TraditionalLuxuryDress.description>以棕色调为主的薄纱连衣裙，令人看后印象深刻的魅狐服装。</Kurin_TraditionalLuxuryDress.description>
+
+	<Kurin_SeductiveWhiteDress.label>魅狐白色旗袍</Kurin_SeductiveWhiteDress.label>
+	<Kurin_SeductiveWhiteDress.description>在前摆有开叉的白色旗袍，看起来格外迷人。</Kurin_SeductiveWhiteDress.description>
+
+	<Kurin_SeductiveBlackDress.label>魅狐黑色旗袍</Kurin_SeductiveBlackDress.label>
+	<Kurin_SeductiveBlackDress.description>在前摆有开叉的黑色旗袍，看起来格外迷人。</Kurin_SeductiveBlackDress.description>
+
+	<!-- 外套 -->
+	<Kurin_BusinessCoat.label>魅狐商务外套</Kurin_BusinessCoat.label>
+	<Kurin_BusinessCoat.description>高质量，简约优雅，适用于商务场合。</Kurin_BusinessCoat.description>
+
+	<Kurin_Cardigan.label>魅狐针织毛衫</Kurin_Cardigan.label>
+	<Kurin_Cardigan.description>蓬松温暖的针织毛衫，注意不要系得太紧。</Kurin_Cardigan.description>
+
+	<Kurin_WinterPadding.label>魅狐羽绒服</Kurin_WinterPadding.label>
+	<Kurin_WinterPadding.description>一件轻便的羽绒服，是魅狐们度过寒冬的必需品。</Kurin_WinterPadding.description>
+
+	<Kurin_Duster.label>魅狐防尘大衣</Kurin_Duster.label>
+	<Kurin_Duster.description>可以隔绝酷热和严寒的时尚外套。</Kurin_Duster.description>
+
+	<Kurin_TraditionalCoat.label>魅狐传统外套</Kurin_TraditionalCoat.label>
+	<Kurin_TraditionalCoat.description>海军蓝的底料上缀有白色纹样的魅狐传统外套。</Kurin_TraditionalCoat.description>
+
+	<!-- 杂项 -->
+	<Kurin_Scarf.label>魅狐围巾</Kurin_Scarf.label>
+	<Kurin_Scarf.description>一条柔软的围巾。它可以简单而效地保护你的体温。</Kurin_Scarf.description>
+
+	<Kurin_Knapsack.label>魅狐小背包</Kurin_Knapsack.label>
+	<Kurin_Knapsack.description>方便出行时随身携带各种用品的小背包，容量不大但耐用且防水。</Kurin_Knapsack.description>
+
+	<!-- 战斗 -->
+	<Kurin_WorkJumpsuit.label>魅狐工作连身衣</Kurin_WorkJumpsuit.label>
+	<Kurin_WorkJumpsuit.description>赤狐军械库的技术员制服。有用于存放各种工具和零件的口袋，选用的材料也不怕油污或火花。</Kurin_WorkJumpsuit.description>
+
+	<Kurin_NavySuit.label>魅狐海兵制服</Kurin_NavySuit.label>
+	<Kurin_NavySuit.description>在海洋星球的冰层下的魅狐潜艇水兵们穿着的制服，面料轻薄便于散热；这类魅狐们所在的世界无法大量种植蘑菇布，这就导致了一次纺织工艺和技术的大革新，一种能把金属加工成类纤维化并且混进织物的技术在这里被大量使用，弥补了蘑菇布不足带来的种种问题。</Kurin_NavySuit.description>
+
+	<Kurin_CombatSuit.label>魅狐作战服</Kurin_CombatSuit.label>
+	<Kurin_CombatSuit.description>使用玻璃钢内嵌护板作战服。 轻便而保暖，可确保足够的防御力。其人体工程学设计还极大地提高了穿戴者的远程作战能力。</Kurin_CombatSuit.description>
+
+	<Kurin_BulletproofVest.label>魅狐防弹背心</Kurin_BulletproofVest.label>
+	<Kurin_BulletproofVest.description>一件轻型的防弹背心，虽然覆盖的身体面积有限但是它在战斗时提供的防护力仍算可观。</Kurin_BulletproofVest.description>
+
+	<Kurin_MarineSuit.label>魅狐陆战队服</Kurin_MarineSuit.label>
+	<Kurin_MarineSuit.description>专为魅狐海军陆战队设计的高级作战服装，提供出色的防弹和防护性能，同时保持灵活性和舒适度。适用于各种战斗环境和任务。</Kurin_MarineSuit.description>
+
+	<Kurin_MarineGear.label>魅狐陆战队护甲</Kurin_MarineGear.label>
+	<Kurin_MarineGear.description>这套护甲专为魅狐海军陆战队定制，提供卓越的防护性能和战斗能力。采用强化外壳和集成式作战系统，确保士兵在战场上的安全和效能。</Kurin_MarineGear.description>
+
+	<Kurin_KnightArmor.label>魅狐骑士护甲</Kurin_KnightArmor.label>
+	<Kurin_KnightArmor.description>骑士甲虽然极难制造，但是却能提供卓越的防护和优雅的外观。为骑士带来独特的风格和保护。</Kurin_KnightArmor.description>
+
+	<Kurin_NightWalker.label>魅狐夜行装</Kurin_NightWalker.label>
+	<Kurin_NightWalker.description>不好的事情和暗杀通常发生在晚上。哑光的淡紫色材料能够帮助穿戴它的人融入夜色，内层的软甲能提供最低限度的防御，被背后蝴蝶结藏起来的小包能够收纳一些小道具。</Kurin_NightWalker.description>
+
+	<Kurin_BikiniArmor.label>魅狐比基尼盔甲</Kurin_BikiniArmor.label>
+	<Kurin_BikiniArmor.description>添加的材料很多，但看起来却非常暴露。但是与暴露的外形不同，它非常坚固，可以显着增加穿戴者的近战能力。</Kurin_BikiniArmor.description>
+
+	<!-- 头部 -->
+	<Kurin_SummerHat.label>魅狐遮阳帽</Kurin_SummerHat.label>
+	<Kurin_SummerHat.description>遮阳帽。不论怎样的酷暑，有这顶帽子就可以清凉度夏。</Kurin_SummerHat.description>
+
+	<Kurin_WinterHat.label>魅狐毛绒帽</Kurin_WinterHat.label>
+	<Kurin_WinterHat.description>毛绒帽。不论怎样的寒冬，有这顶帽子就可以温暖过冬。</Kurin_WinterHat.description>
+
+	<Kurin_CasualHairPin.label>魅狐发箍</Kurin_CasualHairPin.label>
+	<Kurin_CasualHairPin.description>普通的发箍，只是戴上就会感觉元气满满。</Kurin_CasualHairPin.description>
+
+	<Kurin_CuteHairPin.label>魅狐可爱发卡</Kurin_CuteHairPin.label>
+	<Kurin_CuteHairPin.description>有着狐狸装饰的可爱发夹。</Kurin_CuteHairPin.description>
+
+	<Kurin_TraditionalHairPin.label>魅狐传统发夹</Kurin_TraditionalHairPin.label>
+	<Kurin_TraditionalHairPin.description>装饰有花朵的可爱发夹。</Kurin_TraditionalHairPin.description>
+
+	<Kurin_GothicHairPin.label>魅狐哥特发箍</Kurin_GothicHairPin.label>
+	<Kurin_GothicHairPin.description>哥特式发箍。看起来不错，但是却很少有魅狐会戴。</Kurin_GothicHairPin.description>
+
+	<Kurin_Goggles.label>魅狐护目镜</Kurin_Goggles.label>
+	<Kurin_Goggles.description>战斗用护目镜。提供的防护聊胜于无，但有助于瞄准。</Kurin_Goggles.description>
+
+	<Kurin_CombatHelmet.label>魅狐作战头盔</Kurin_CombatHelmet.label>
+	<Kurin_CombatHelmet.description>装有玻璃钢防弹层的军用作战头盔。可以有效的抵挡子弹和其它伤害。</Kurin_CombatHelmet.description>
+
+	<Kurin_HeadBand.label>魅狐护额</Kurin_HeadBand.label>
+	<Kurin_HeadBand.description>用金属或者其他硬质材料制作的简易头部防具，有了它可以让你被爆头后的死亡率从100%下降到80%。</Kurin_HeadBand.description>
+
+	<Kurin_NightMask.label>魅狐面罩</Kurin_NightMask.label>
+	<Kurin_NightMask.description>夜行道中，敌人众多；最好的办法就是把脸挡上，倒不是说让敌人认不出来你，而是脸其实晚上也会反光的。当然这东西也可以帮你抵挡毒气。</Kurin_NightMask.description>
+
+	<Kurin_BikiniArmorHeadgear.label>魅狐比基尼盔甲头饰</Kurin_BikiniArmorHeadgear.label>
+	<Kurin_BikiniArmorHeadgear.description>比基尼盔甲配套的头冠。比看起来要结实得多，对穿戴者的近距离作战能力有显著提升。</Kurin_BikiniArmorHeadgear.description>
+
+	<Kurin_MarineHelmet.label>魅狐陆战队头盔</Kurin_MarineHelmet.label>
+	<Kurin_MarineHelmet.description>魅狐海军陆战队配备的战斗头盔，拥有良好的防护力以及辅助瞄准系统。</Kurin_MarineHelmet.description>
+
+	<!-- 儿童 -->
+	<Kurin_ChildHoodie.label>魅狐儿童连帽衫</Kurin_ChildHoodie.label>
+	<Kurin_ChildHoodie.description>儿童连帽衫，保温又隔热。</Kurin_ChildHoodie.description>
+	
+	<Kurin_ChildTShirt.label>魅狐儿童T恤衫</Kurin_ChildTShirt.label>
+	<Kurin_ChildTShirt.description>亲肤的纯棉T恤，各种卖这个的直播间的狂轰滥炸是魅狐们抗拒不了的，所以就买了一大堆。
+上面有时候会有很多令人费解的图案，魅狐也不太在乎那些图案的含义。</Kurin_ChildTShirt.description>
+
+	<Kurin_ChildScarf.label>魅狐儿童大围巾</Kurin_ChildScarf.label>
+	<Kurin_ChildScarf.description>一条尺寸对于魅狐儿童有点过于巨大的围巾，完全打开以后甚至可以当做被子。</Kurin_ChildScarf.description>
+
+	<Kurin_ChildBag.label>魅狐向日葵包</Kurin_ChildBag.label>
+	<Kurin_ChildBag.description>为小孩子们设计的包，上面有放水壶的挂点。</Kurin_ChildBag.description>
+	
+</LanguageData>

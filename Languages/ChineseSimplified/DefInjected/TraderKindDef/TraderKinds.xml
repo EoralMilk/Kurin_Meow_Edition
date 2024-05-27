@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <Caravan_Kurin_BulkGoods.label>批发贸易商</Caravan_Kurin_BulkGoods.label>
+  <Caravan_Kurin_DressMerchant.label>服装贸易商</Caravan_Kurin_DressMerchant.label>
+  <Caravan_Kurin_CombatSupplier.label>作战补给商</Caravan_Kurin_CombatSupplier.label>
+  <Caravan_Kurin_ExoticCollector.label>珍奇品贸易商</Caravan_Kurin_ExoticCollector.label>
+
+  <Visitor_Kurin_RareGoods.label>魅狐收集者</Visitor_Kurin_RareGoods.label>
+  <Visitor_Kurin_Vendor.label>魅狐小贩</Visitor_Kurin_Vendor.label>
+
+</LanguageData>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Gun_Revolver"]/weaponTags</xpath>
+				<value>
+					<li>Kurin_OneHandedRanged</li>
+					<li>Kurin_OneHandedRangedBasic</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Gun_Autopistol"]/weaponTags</xpath>
+				<value>
+					<li>Kurin_OneHandedRanged</li>
+					<li>Kurin_OneHandedRangedBasic</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Gun_MachinePistol"]/weaponTags</xpath>
+				<value>
+					<li>Kurin_OneHandedRanged</li>
+					<li>Kurin_OneHandedRangedBasic</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="BaseMakeableGrenade"]</xpath>
+				<value>
+					<weaponTags>
+						<li>Kurin_OneHandedGrenade</li>
+					</weaponTags>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="OrbitalWeaponBase"]</xpath>
+				<value>
+					<weaponTags>
+						<li>Kurin_OneHandedOrbitalWeapon</li>
+					</weaponTags>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+
+</Patch>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<Kurin_FakeTail.label>魅狐假尾巴</Kurin_FakeTail.label>
+	<Kurin_FakeTail.labelNoun>一条魅狐假尾巴</Kurin_FakeTail.labelNoun>
+	<Kurin_FakeTail.description>一条魅狐假尾巴, 用以恢复三尾健在的魅力。但是因为它不能动，影响了使用者的平衡性。</Kurin_FakeTail.description>
+
+	<Kurin_BionicTail.label>魅狐仿生尾巴</Kurin_BionicTail.label>
+	<Kurin_BionicTail.labelNoun>一条魅狐仿生尾巴</Kurin_BionicTail.labelNoun>
+	<Kurin_BionicTail.description>一条魅狐仿生尾巴，它比真正的尾巴更有效。</Kurin_BionicTail.description>
+
+	<Kurin_BionicEar.label>魅狐仿生耳</Kurin_BionicEar.label>
+	<Kurin_BionicEar.description>一只魅狐仿生耳</Kurin_BionicEar.description>
+	<Kurin_BionicEar.labelNoun>一只魅狐仿生耳，它比真正的耳朵更有效</Kurin_BionicEar.labelNoun>
+
+</LanguageData>

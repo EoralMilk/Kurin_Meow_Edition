@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HairDef Name="KurinHairBase" Abstract="true">
+		<hairGender>Any</hairGender>
+		<category>Kurin</category>
+		<styleTags>
+			<li>Kurin</li>
+		</styleTags>
+		<hairTags>
+			<li>Kurin</li>
+		</hairTags>
+	</HairDef>
+
+	<HairDef ParentName="KurinHairBase">
+		<defName>Kurin_Hair_01</defName>
+		<label>Double Plait</label>
+		<texPath>KurinMeowEdition/Hairs/1/Texture</texPath>
+	</HairDef>
+
+	<HairDef ParentName="KurinHairBase">
+		<defName>Kurin_Hair_02</defName>
+		<label>Shorthair Cat</label>
+		<texPath>KurinMeowEdition/Hairs/2/Texture</texPath>
+	</HairDef>
+
+	<HairDef ParentName="KurinHairBase">
+		<defName>Kurin_Hair_03</defName>
+		<label>Silent Study</label>
+		<texPath>KurinMeowEdition/Hairs/3/Texture</texPath>
+	</HairDef>
+
+	<HairDef ParentName="KurinHairBase">
+		<defName>Kurin_Hair_04</defName>
+		<label>Ponytail</label>
+		<texPath>KurinMeowEdition/Hairs/4/Texture</texPath>
+	</HairDef>
+
+	<HairDef ParentName="KurinHairBase">
+		<defName>Kurin_Hair_05</defName>
+		<label>Pepper Pot</label>
+		<texPath>KurinMeowEdition/Hairs/5/Texture</texPath>
+	</HairDef>
+
+	<HairDef ParentName="KurinHairBase">
+		<defName>Kurin_Hair_06</defName>
+		<label>Dust Braid</label>
+		<texPath>KurinMeowEdition/Hairs/6/Texture</texPath>
+	</HairDef>
+
+	<HairDef ParentName="KurinHairBase">
+		<defName>Kurin_Hair_07</defName>
+		<label>BunBun Bake</label>
+		<texPath>KurinMeowEdition/Hairs/7/Texture</texPath>
+	</HairDef>
+
+	<HairDef ParentName="KurinHairBase">
+		<defName>Kurin_Hair_08</defName>
+		<label>Twist Pair</label>
+		<texPath>KurinMeowEdition/Hairs/8/Texture</texPath>
+	</HairDef>
+
+	<HairDef ParentName="KurinHairBase">
+		<defName>Kurin_Hair_09</defName>
+		<label>Pompon Straw</label>
+		<texPath>KurinMeowEdition/Hairs/9/Texture</texPath>
+	</HairDef>
+
+	<HairDef ParentName="KurinHairBase">
+		<defName>Kurin_Hair_10</defName>
+		<label>Passionate Cat</label>
+		<texPath>KurinMeowEdition/Hairs/10/Texture</texPath>
+	</HairDef>
+
+	<HairDef ParentName="KurinHairBase">
+		<defName>Kurin_Hair_11</defName>
+		<label>Twin Tail</label>
+		<texPath>KurinMeowEdition/Hairs/11/Texture</texPath>
+	</HairDef>
+</Defs>

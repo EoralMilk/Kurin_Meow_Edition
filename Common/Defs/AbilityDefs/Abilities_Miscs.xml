@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>ReclaimingTheFallen</defName>
+		<label>Reclaiming the Fallen</label>
+		<description>Seize the last embers of life and draw the departed souls back from the brink of the abyss, restoring them to the world of the living.</description>
+		<iconPath>KurinMeowEdition/UI/Ability_ReclaimingTheFallen</iconPath>
+		<cooldownTicksRange>3120000</cooldownTicksRange>
+		<warmupMote>Mote_ResurrectAbility</warmupMote>
+		<warmupEffecter>HoraxianAbilityCasting</warmupEffecter>
+		<warmupStartSound>Resurrect_Cast</warmupStartSound>
+		<category>Sanguophage</category>
+		<displayOrder>621</displayOrder>
+		<hostile>false</hostile>
+		<sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>2</warmupTime>
+			<soundCast>Resurrect_Resolve</soundCast>
+			<targetParams>
+				<canTargetPawns>false</canTargetPawns>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetCorpses>true</canTargetCorpses>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_Resurrect" />
+		</comps>
+	</AbilityDef>
+	
+</Defs>

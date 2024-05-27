@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<BodyPartGroupDef>
+		<defName>Tails</defName>
+		<label>tails</label>
+		<listOrder>500</listOrder>
+	</BodyPartGroupDef>
+</Defs>

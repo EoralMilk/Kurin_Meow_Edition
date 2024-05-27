@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TraitDef>
+		<defName>SingleTailFox</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<statOffsets>
+					<GlobalLearningFactor>0.35</GlobalLearningFactor>
+					<ComfyTemperatureMin>5</ComfyTemperatureMin>
+					<FilthRate>-0.2</FilthRate>
+					<LifespanFactor>0.3</LifespanFactor>
+					<PawnBeauty>1</PawnBeauty>
+				</statOffsets>
+				<marketValueFactorOffset>1.5</marketValueFactorOffset>
+				<hungerRateFactor>0.92</hungerRateFactor>
+				<painFactor>1.03</painFactor>
+				<label>single tail</label>
+				<description>[PAWN_nameDef] was born with one tail unlike others. Life was not impaired at all, but slow growth made [PAWN_nameDef] look younger than her peers. When she was young, she was teased a lot, but as she grew older, she became more popular with cuter looks than other Kurins.</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+</Defs>

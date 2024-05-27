@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<MeowKurin_Body.label>奎琳</MeowKurin_Body.label>
+	<MeowKurin_Body.corePart.parts.4.customLabel>右尾</MeowKurin_Body.corePart.parts.4.customLabel>
+	<MeowKurin_Body.corePart.parts.5.customLabel>左尾</MeowKurin_Body.corePart.parts.5.customLabel>
+	<MeowKurin_Body.corePart.parts.6.customLabel>中尾</MeowKurin_Body.corePart.parts.6.customLabel>
+	
+	
+	<MeowKurin_Body.corePart.parts.9.customLabel>左肺</MeowKurin_Body.corePart.parts.9.customLabel>
+	<MeowKurin_Body.corePart.parts.10.customLabel>右肺</MeowKurin_Body.corePart.parts.10.customLabel>
+	<MeowKurin_Body.corePart.parts.11.customLabel>左肾</MeowKurin_Body.corePart.parts.11.customLabel>
+	<MeowKurin_Body.corePart.parts.12.customLabel>右肾</MeowKurin_Body.corePart.parts.12.customLabel>
+	<MeowKurin_Body.corePart.parts.14.parts.0.parts.1.customLabel>左眼</MeowKurin_Body.corePart.parts.14.parts.0.parts.1.customLabel>
+	<MeowKurin_Body.corePart.parts.14.parts.0.parts.2.customLabel>右眼</MeowKurin_Body.corePart.parts.14.parts.0.parts.2.customLabel>
+	<MeowKurin_Body.corePart.parts.14.parts.0.parts.3.customLabel>左耳</MeowKurin_Body.corePart.parts.14.parts.0.parts.3.customLabel>
+	<MeowKurin_Body.corePart.parts.14.parts.0.parts.4.customLabel>右耳</MeowKurin_Body.corePart.parts.14.parts.0.parts.4.customLabel>
+	<MeowKurin_Body.corePart.parts.15.customLabel>左肩</MeowKurin_Body.corePart.parts.15.customLabel>
+	<MeowKurin_Body.corePart.parts.15.parts.0.customLabel>左锁骨</MeowKurin_Body.corePart.parts.15.parts.0.customLabel>
+	<MeowKurin_Body.corePart.parts.15.parts.1.customLabel>左臂</MeowKurin_Body.corePart.parts.15.parts.1.customLabel>
+	<MeowKurin_Body.corePart.parts.15.parts.1.parts.0.customLabel>左肱骨</MeowKurin_Body.corePart.parts.15.parts.1.parts.0.customLabel>
+	<MeowKurin_Body.corePart.parts.15.parts.1.parts.1.customLabel>左桡骨</MeowKurin_Body.corePart.parts.15.parts.1.parts.1.customLabel>
+	<MeowKurin_Body.corePart.parts.15.parts.1.parts.2.customLabel>左手</MeowKurin_Body.corePart.parts.15.parts.1.parts.2.customLabel>
+	<MeowKurin_Body.corePart.parts.15.parts.1.parts.2.parts.0.customLabel>左小指</MeowKurin_Body.corePart.parts.15.parts.1.parts.2.parts.0.customLabel>
+	<MeowKurin_Body.corePart.parts.15.parts.1.parts.2.parts.1.customLabel>左无名指</MeowKurin_Body.corePart.parts.15.parts.1.parts.2.parts.1.customLabel>
+	<MeowKurin_Body.corePart.parts.15.parts.1.parts.2.parts.2.customLabel>左中指</MeowKurin_Body.corePart.parts.15.parts.1.parts.2.parts.2.customLabel>
+	<MeowKurin_Body.corePart.parts.15.parts.1.parts.2.parts.3.customLabel>左食指</MeowKurin_Body.corePart.parts.15.parts.1.parts.2.parts.3.customLabel>
+	<MeowKurin_Body.corePart.parts.15.parts.1.parts.2.parts.4.customLabel>左拇指</MeowKurin_Body.corePart.parts.15.parts.1.parts.2.parts.4.customLabel>
+	<MeowKurin_Body.corePart.parts.16.customLabel>右肩</MeowKurin_Body.corePart.parts.16.customLabel>
+	<MeowKurin_Body.corePart.parts.16.parts.0.customLabel>右锁骨</MeowKurin_Body.corePart.parts.16.parts.0.customLabel>
+	<MeowKurin_Body.corePart.parts.16.parts.1.customLabel>右臂</MeowKurin_Body.corePart.parts.16.parts.1.customLabel>
+	<MeowKurin_Body.corePart.parts.16.parts.1.parts.0.customLabel>右肱骨</MeowKurin_Body.corePart.parts.16.parts.1.parts.0.customLabel>
+	<MeowKurin_Body.corePart.parts.16.parts.1.parts.1.customLabel>右桡骨</MeowKurin_Body.corePart.parts.16.parts.1.parts.1.customLabel>
+	<MeowKurin_Body.corePart.parts.16.parts.1.parts.2.customLabel>右手</MeowKurin_Body.corePart.parts.16.parts.1.parts.2.customLabel>
+	<MeowKurin_Body.corePart.parts.16.parts.1.parts.2.parts.0.customLabel>右小指</MeowKurin_Body.corePart.parts.16.parts.1.parts.2.parts.0.customLabel>
+	<MeowKurin_Body.corePart.parts.16.parts.1.parts.2.parts.1.customLabel>右无名指</MeowKurin_Body.corePart.parts.16.parts.1.parts.2.parts.1.customLabel>
+	<MeowKurin_Body.corePart.parts.16.parts.1.parts.2.parts.2.customLabel>右中指</MeowKurin_Body.corePart.parts.16.parts.1.parts.2.parts.2.customLabel>
+	<MeowKurin_Body.corePart.parts.16.parts.1.parts.2.parts.3.customLabel>右食指</MeowKurin_Body.corePart.parts.16.parts.1.parts.2.parts.3.customLabel>
+	<MeowKurin_Body.corePart.parts.16.parts.1.parts.2.parts.4.customLabel>右拇指</MeowKurin_Body.corePart.parts.16.parts.1.parts.2.parts.4.customLabel>
+	<MeowKurin_Body.corePart.parts.18.customLabel>左腿</MeowKurin_Body.corePart.parts.18.customLabel>
+	<MeowKurin_Body.corePart.parts.18.parts.0.customLabel>左股骨</MeowKurin_Body.corePart.parts.18.parts.0.customLabel>
+	<MeowKurin_Body.corePart.parts.18.parts.1.customLabel>左胫骨</MeowKurin_Body.corePart.parts.18.parts.1.customLabel>
+	<MeowKurin_Body.corePart.parts.18.parts.2.customLabel>左脚</MeowKurin_Body.corePart.parts.18.parts.2.customLabel>
+	<MeowKurin_Body.corePart.parts.18.parts.2.parts.0.customLabel>左小趾</MeowKurin_Body.corePart.parts.18.parts.2.parts.0.customLabel>
+	<MeowKurin_Body.corePart.parts.18.parts.2.parts.1.customLabel>左次小趾</MeowKurin_Body.corePart.parts.18.parts.2.parts.1.customLabel>
+	<MeowKurin_Body.corePart.parts.18.parts.2.parts.2.customLabel>左中趾</MeowKurin_Body.corePart.parts.18.parts.2.parts.2.customLabel>
+	<MeowKurin_Body.corePart.parts.18.parts.2.parts.3.customLabel>左第二趾</MeowKurin_Body.corePart.parts.18.parts.2.parts.3.customLabel>
+	<MeowKurin_Body.corePart.parts.18.parts.2.parts.4.customLabel>左大脚趾</MeowKurin_Body.corePart.parts.18.parts.2.parts.4.customLabel>
+	<MeowKurin_Body.corePart.parts.19.customLabel>右腿</MeowKurin_Body.corePart.parts.19.customLabel>
+	<MeowKurin_Body.corePart.parts.19.parts.0.customLabel>右股骨</MeowKurin_Body.corePart.parts.19.parts.0.customLabel>
+	<MeowKurin_Body.corePart.parts.19.parts.1.customLabel>右胫骨</MeowKurin_Body.corePart.parts.19.parts.1.customLabel>
+	<MeowKurin_Body.corePart.parts.19.parts.2.customLabel>右脚</MeowKurin_Body.corePart.parts.19.parts.2.customLabel>
+	<MeowKurin_Body.corePart.parts.19.parts.2.parts.0.customLabel>右小趾</MeowKurin_Body.corePart.parts.19.parts.2.parts.0.customLabel>
+	<MeowKurin_Body.corePart.parts.19.parts.2.parts.1.customLabel>右次小趾</MeowKurin_Body.corePart.parts.19.parts.2.parts.1.customLabel>
+	<MeowKurin_Body.corePart.parts.19.parts.2.parts.2.customLabel>右中趾</MeowKurin_Body.corePart.parts.19.parts.2.parts.2.customLabel>
+	<MeowKurin_Body.corePart.parts.19.parts.2.parts.3.customLabel>右第二趾</MeowKurin_Body.corePart.parts.19.parts.2.parts.3.customLabel>
+	<MeowKurin_Body.corePart.parts.19.parts.2.parts.4.customLabel>右大脚趾</MeowKurin_Body.corePart.parts.19.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

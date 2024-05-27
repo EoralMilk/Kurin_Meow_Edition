@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef ParentName="BaseKurinKind">
+		<defName>Kurin_Colonist</defName>
+		<label>free kurin</label>
+		<isFighter>true</isFighter>
+		<minGenerationAge>13</minGenerationAge>
+		<maxGenerationAge>30</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<defaultFactionType>KurinFaction_Player</defaultFactionType>
+		<apparelRequired>
+			<li>Kurin_TShirt</li>
+		</apparelRequired>
+		<specificApparelRequirements Inherit="False">
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Stocking</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Socks</tag>
+						<chance>0.5</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</specificApparelRequirements>
+		<apparelTags>
+			<li>Kurin_Child</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>1000~1200</apparelMoney>
+		<weaponMoney>1200~2000</weaponMoney>
+		<weaponTags>
+			<li>Autopistol</li>
+		</weaponTags>
+		<backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+	</PawnKindDef>
+
+
+	<PawnKindDef ParentName="BaseKurinCitizen">
+		<defName>Kurin_Citizen</defName>
+		<label>Kurin citizen</label>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseKurinCitizen" Name="Kurin_Trader">
+		<defName>Kurin_Trader</defName>
+		<label>Kurin trader</label>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Kurin_Trader</li>
+		</apparelTags>
+		<specificApparelRequirements Inherit="False">
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Kurin_Underwear</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Underwear</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Stocking</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Socks</tag>
+						<chance>0.5</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Trader</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>UpperHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Trader</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Shoes</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Trader</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</specificApparelRequirements>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Trader</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Trader</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<requiredWorkTags>
+			<li>Social</li>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+		<skills>
+			<li>
+				<skill>Social</skill>
+				<range>5~15</range>
+			</li>
+		</skills>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseKurinCitizen">
+		<defName>Kurin_Vigilante</defName>
+		<label>Kurin vigilante</label>
+		<isFighter>true</isFighter>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<specificApparelRequirements Inherit="False">
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Kurin_Underwear</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Underwear</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Stocking</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Socks</tag>
+						<chance>0.5</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Vigilante</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Shoes</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Citizen</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</specificApparelRequirements>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Vigilante</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Vigilante</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelTags>
+			<li>Kurin_Vigilante</li>
+			<li>Kurin_Vigilante</li>
+		</apparelTags>
+		<combatPower>60</combatPower>
+		<itemQuality>Normal</itemQuality>
+		<apparelMoney>750~1250</apparelMoney>
+		<weaponTags>
+			<li>Autopistol</li>
+			<li>RangedLight</li>
+			<li>Kurin_OneHandedRangedBasic</li>
+			<li>KurinEx_MegaPistol</li>
+			<!-- <li>Kurin_FlareGun</li> -->
+		</weaponTags>
+		<weaponMoney>500~1000</weaponMoney>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseKurinMagnifico">
+		<defName>Kurin_President</defName>
+		<label>President of Republic</label>
+		<factionLeader>true</factionLeader>
+		<isFighter>true</isFighter>
+		<combatPower>100</combatPower>
+		<defaultFactionType>KurinFaction_Republic</defaultFactionType>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Single</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Vigilante</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<requiredWorkTags>
+			<li>Social</li>
+		</requiredWorkTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<weaponMoney>1200~2000</weaponMoney>
+		<weaponTags>
+			<li>Kurin_ChargePistol</li>
+		</weaponTags>
+		<skills>
+			<li>
+				<skill>Intellectual</skill>
+				<range>8~15</range>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<range>10~15</range>
+			</li>
+		</skills>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BaseKurinKnight">
+		<defName>Kurin_Warlord</defName>
+		<label>Battlefox</label>
+		<factionLeader>true</factionLeader>
+		<isFighter>true</isFighter>
+		<combatPower>200</combatPower>
+		<defaultFactionType>KurinFaction_BattleFox</defaultFactionType>
+		<requiredWorkTags>
+			<li>Social</li>
+		</requiredWorkTags>
+		<apparelRequired>
+			<li>Kurin_GothicDress</li>
+			<li>Kurin_GothicHairPin</li>
+			<li>Kurin_KnightArmor</li>
+			<li>Apparel_ShieldBelt</li>
+		</apparelRequired>
+		<weaponMoney>3000~3500</weaponMoney>
+		<weaponTags>
+			<li>Bladelink</li>
+		</weaponTags>
+		<skills>
+			<li>
+				<skill>Melee</skill>
+				<range>8~15</range>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<range>10~15</range>
+			</li>
+		</skills>
+	</PawnKindDef>
+
+
+	<PawnKindDef ParentName="BaseKurinKind">
+		<defName>Kurin_Slave</defName>
+		<label>kurin slave</label>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+		<defaultFactionType>KurinFaction_Republic</defaultFactionType>
+		<backstoryCategories>
+			<li>Kurin_Citizen</li>
+		</backstoryCategories>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<backstoryCryptosleepCommonality>0.2</backstoryCryptosleepCommonality>
+	</PawnKindDef>
+</Defs>

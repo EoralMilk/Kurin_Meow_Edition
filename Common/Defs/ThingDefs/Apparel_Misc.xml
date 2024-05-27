@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="KurinApparelMakableBase">
+		<defName>Kurin_Scarf</defName>
+		<label>kurin scarf</label>
+		<description>A soft scarf. It is a simple and effective way to protect your body temperature.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Misc/Scarf</texPath>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<bodyPartGroups>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Kurin_OuterCloth</li>
+			</layers>
+			<tags>
+				<li>Kurin_Citizen</li>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+			</tags>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Misc/Scarf</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<Mass>0.15</Mass>
+			<WorkToMake>2500</WorkToMake>
+			<MaxHitPoints>85</MaxHitPoints>
+			<EquipDelay>2.0</EquipDelay>
+			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>1</Insulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="KurinApparelNoColorBase">
+		<defName>Kurin_Knapsack</defName>
+		<label>kurin knapsack</label>
+		<description>A small backpack that is easy to carry with you all kinds of things when you travel. It has a small capacity but is durable and waterproof.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Misc/Knapsack</texPath>
+		</graphicData>
+		<costStuffCount>70</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Kurin_OuterCloth</li>
+			</layers>
+			<tags>
+				<li>Kurin_Colonist</li>
+				<li>Kurin_Citizen</li>
+				<li>Kurin_Trader</li>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+			</tags>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Misc/Knapsack</wornGraphicPath>
+			<!-- <wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+			</wornGraphicData> -->
+		</apparel>
+		<statBases>
+			<Mass>0.3</Mass>
+			<WorkToMake>6000</WorkToMake>
+			<MaxHitPoints>175</MaxHitPoints>
+			<EquipDelay>2.0</EquipDelay>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<Insulation_Cold>1</Insulation_Cold>
+			<StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<Flammability>-0.1</Flammability>
+			<CarryingCapacity>35</CarryingCapacity>
+		</equippedStatOffsets>
+	</ThingDef>
+
+</Defs>
