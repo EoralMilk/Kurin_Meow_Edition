@@ -12,5 +12,17 @@
   
 	<Kurin_Turret_ChargeLanceSentry.label>标枪哨戒炮塔</Kurin_Turret_ChargeLanceSentry.label>
 	<Kurin_Turret_ChargeLanceSentry.description>搭载了机械族的不稳定能量电池的升级版电荷标枪炮塔，可以自行供能供弹。同时还能将一部分富余电力输出给其它用电器。多被用于野战和缺少能源供应的哨所。</Kurin_Turret_ChargeLanceSentry.description>
-	
+
+	<KurinHECUDropPod.label>HECU空投仓</KurinHECUDropPod.label>
+	<KurinHECUDropPod.description>HECU空投仓</KurinHECUDropPod.description>
+
+	<KurinReinforcementsDropBeacon.label>魅狐支援信标</KurinReinforcementsDropBeacon.label>
+	<KurinReinforcementsDropBeacon.description>魅狐支援信标</KurinReinforcementsDropBeacon.description>
+
+	<Kurin_Turret_ChargeLanceCannon.label>标枪自动炮塔</Kurin_Turret_ChargeLanceCannon.label>
+	<Kurin_Turret_ChargeLanceCannon.description>这个炮塔配备了电荷标枪自动炮。奥拉亚人利用拆解机械族获得的电荷标枪零件制造了这种炮塔,借助自己收复的科技反击机械族的入侵。</Kurin_Turret_ChargeLanceCannon.description>
+	<Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelGizmoLabel>弹药量</Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelGizmoLabel>
+	<Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelLabel>装填弹药前剩余射击次数</Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelLabel>
+	<Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.outOfFuelMessage>需要装填弹药</Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.outOfFuelMessage>
+  
 </LanguageData>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <KurinFaction_Player.label>自由的魅狐</KurinFaction_Player.label>
+  <KurinFaction_Player.description>重獲自由的魅狐們。</KurinFaction_Player.description>
+  <KurinFaction_Player.pawnSingular>魅狐</KurinFaction_Player.pawnSingular>
+  <KurinFaction_Player.pawnsPlural>魅狐</KurinFaction_Player.pawnsPlural>
+
+  <KurinFaction_Republic.label>魅狐共和國</KurinFaction_Republic.label>
+  <KurinFaction_Republic.description>這是幾十年前崩潰的魅狐勢力。雖然發生了很多事情，但現在他們已經有足夠的力量來保護自己的人民了。</KurinFaction_Republic.description>
+  <KurinFaction_Republic.pawnSingular>魅狐</KurinFaction_Republic.pawnSingular>
+  <KurinFaction_Republic.pawnsPlural>魅狐</KurinFaction_Republic.pawnsPlural>
+  <KurinFaction_Republic.leaderTitle>總統</KurinFaction_Republic.leaderTitle>
+  
+  <KurinFaction_BattleFox.label>戰爭之狐</KurinFaction_BattleFox.label>
+  <KurinFaction_BattleFox.description>一群認為戰斗是保護自己人民唯一途徑的魅狐。</KurinFaction_BattleFox.description>
+  <KurinFaction_BattleFox.pawnSingular>魅狐</KurinFaction_BattleFox.pawnSingular>
+  <KurinFaction_BattleFox.pawnsPlural>魅狐</KurinFaction_BattleFox.pawnsPlural>
+  <KurinFaction_BattleFox.leaderTitle>戰爭之狐</KurinFaction_BattleFox.leaderTitle>
+
+</LanguageData>

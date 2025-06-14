@@ -14,7 +14,18 @@
 	<Kurin_Melee_MarineSword.label>魅狐海军长刀</Kurin_Melee_MarineSword.label>
 	<Kurin_Melee_MarineSword.description>一种高强度的格斗刀，造型参考自人类的军用匕首，为了减少反光整体采用哑光工艺制作。</Kurin_Melee_MarineSword.description>
 	<Kurin_Melee_MarineSword.tools.edge.label>刃</Kurin_Melee_MarineSword.tools.edge.label>
-	<Kurin_Melee_MarineSword.tools.flat_side.label>尖</Kurin_Melee_MarineSword.tools.flat_side.label>
+	<Kurin_Melee_MarineSword.tools.point.label>尖</Kurin_Melee_MarineSword.tools.point.label>
+
+	<Kurin_Melee_Sattle_Stuff.label>魅狐赶畜棒</Kurin_Melee_Sattle_Stuff.label>
+	<Kurin_Melee_Sattle_Stuff.description>这种长柄电棍能够释放导致剧痛和休克的电击，顶部的电击片被很幽默的做成了小动物耳朵一般的形状。</Kurin_Melee_Sattle_Stuff.description>
+	<Kurin_Melee_Sattle_Stuff.tools.handle.label>柄</Kurin_Melee_Sattle_Stuff.tools.handle.label>
+	<Kurin_Melee_Sattle_Stuff.tools.point.label>尖端</Kurin_Melee_Sattle_Stuff.tools.point.label>
+
+	<Kurin_Melee_Desolator_Halberd.label>「魅狐毁灭长戟」</Kurin_Melee_Desolator_Halberd.label>
+	<Kurin_Melee_Desolator_Halberd.description>一种整合了单分子斧，高频振动长刀，以及重力锤的动能长柄武器，无论是对付士兵，载具，或是建筑物都相当有效。因为这种武器基本被应用于无差别级的歼灭战，因此获得了毁灭者的绰号。</Kurin_Melee_Desolator_Halberd.description>
+	<Kurin_Melee_Desolator_Halberd.tools.edge.label>斧刃</Kurin_Melee_Desolator_Halberd.tools.edge.label>
+	<Kurin_Melee_Desolator_Halberd.tools.point.label>斧尖</Kurin_Melee_Desolator_Halberd.tools.point.label>
+	<Kurin_Melee_Desolator_Halberd.tools.smash.label>粉碎锤</Kurin_Melee_Desolator_Halberd.tools.smash.label>
 
 	<Kurin_Weapon_Kunai.label>魅狐苦无</Kurin_Weapon_Kunai.label>
 	<Kurin_Weapon_Kunai.description>传统的苦无，既可以离远了投掷，也可以近身搏杀。因为能穿过腰带提供的护盾，所以是魅狐忍者的最爱。</Kurin_Weapon_Kunai.description>
@@ -31,6 +42,10 @@
 	<Kurin_Riotshield.description>一种先进的高强度合金盾牌，能够在提供保护的同时锁定敌人的位置，其内置的爆闪灯也能在近战的时候派上用场。</Kurin_Riotshield.description>
 	<Kurin_Riotshield.tools.centre.label>盾身</Kurin_Riotshield.tools.centre.label>
 	<Kurin_Riotshield.tools.flashlight.label>闪光灯</Kurin_Riotshield.tools.flashlight.label>
+
+	<Kurin_Blockershield.label>魅狐小型盾牌</Kurin_Blockershield.label>
+	<Kurin_Blockershield.description>这种用防弹透明材质制作的小型盾牌在所有魅狐民间安保机构中都相当常见，由于其使用于盾面的透明复合材料并不是很耐磨，在使用一阵子之后会变得不再透明——虽说实际上这并不妨碍正常使用，但很多魅狐就是不喜欢这一点并且很快会将旧的盾牌丢弃掉。</Kurin_Blockershield.description>
+	<Kurin_Blockershield.tools.centre.label>盾身</Kurin_Blockershield.tools.centre.label>
 
 
 	<Kurin_Range_DMR.label>魅狐射手步枪</Kurin_Range_DMR.label>
@@ -97,4 +112,18 @@
 	<Kurin_TurretGun_ChargeLance.label>定点电荷标枪</Kurin_TurretGun_ChargeLance.label>
 	<Kurin_TurretGun_ChargeLance.description>一门装载在炮塔上的固定式电荷标枪。</Kurin_TurretGun_ChargeLance.description>
 	<Kurin_TurretGun_ChargeLance.verbs.Verb_Shoot.label>定点电荷标枪</Kurin_TurretGun_ChargeLance.verbs.Verb_Shoot.label>
+
+	<Kurin_TurretGun_ChargeCannon.label>定点电荷自动炮</Kurin_TurretGun_ChargeCannon.label>
+	<Kurin_TurretGun_ChargeCannon.description>一门装载在炮塔上的固定式电荷自动炮。</Kurin_TurretGun_ChargeCannon.description>
+	<Kurin_TurretGun_ChargeCannon.verbs.Verb_Shoot.label>定点电荷自动炮</Kurin_TurretGun_ChargeCannon.verbs.Verb_Shoot.label>
+	<Bullet_KurinChargeLance.label>电荷标枪</Bullet_KurinChargeLance.label>
+
+
+
+	<Kurin_Range_FlareGunReinforcements.label>支援信号枪</Kurin_Range_FlareGunReinforcements.label>
+	<Kurin_Range_FlareGunReinforcements.description>可以向目标位置发射一枚信号弹的一次性发射器，呼叫轨道上的增援部队立即执行空投。</Kurin_Range_FlareGunReinforcements.description>
+	<Kurin_Range_FlareGunReinforcements.verbs.Verb_Shoot.label>支援信号枪</Kurin_Range_FlareGunReinforcements.verbs.Verb_Shoot.label>
+	<Kurin_Bullet_ReinforcementsFlare.label>支援信号弹</Kurin_Bullet_ReinforcementsFlare.label>
+	<Kurin_ReinforcementsFlare.label>支援信号弹</Kurin_ReinforcementsFlare.label>
+
 </LanguageData>

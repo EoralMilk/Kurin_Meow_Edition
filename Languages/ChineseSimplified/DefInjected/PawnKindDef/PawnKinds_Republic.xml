@@ -7,7 +7,14 @@
 	<Kurin_Citizen.labelMalePlural>魅狐公民</Kurin_Citizen.labelMalePlural>
 	<Kurin_Citizen.labelFemale>魅狐公民</Kurin_Citizen.labelFemale>
 	<Kurin_Citizen.labelFemalePlural>魅狐公民</Kurin_Citizen.labelFemalePlural>
-	
+		
+	<Kurin_Maid.label>魅狐女仆</Kurin_Maid.label>
+	<Kurin_Maid.labelPlural>魅狐女仆</Kurin_Maid.labelPlural>
+	<Kurin_Maid.labelMale>魅狐女仆</Kurin_Maid.labelMale>
+	<Kurin_Maid.labelMalePlural>魅狐女仆</Kurin_Maid.labelMalePlural>
+	<Kurin_Maid.labelFemale>魅狐女仆</Kurin_Maid.labelFemale>
+	<Kurin_Maid.labelFemalePlural>魅狐女仆</Kurin_Maid.labelFemalePlural>
+
 	<Kurin_Vigilante.label>魅狐义警</Kurin_Vigilante.label>
 	<Kurin_Vigilante.labelPlural>魅狐义警</Kurin_Vigilante.labelPlural>
 	<Kurin_Vigilante.labelMale>魅狐义警</Kurin_Vigilante.labelMale>

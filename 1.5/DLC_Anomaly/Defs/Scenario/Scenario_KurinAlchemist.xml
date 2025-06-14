@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ScenarioDef>
+		<defName>Scenario_Alchemist</defName>
+		<label>Biointelligent Data Base</label>
+		<description>Compared to using AI-powered electronic devices to preserve certain knowledge, especially the kind that is not often seen, the crazy ones from a century ago preferred to use living beings to accomplish these tasks. Perhaps it was bad luck or she had already been targeted by those lunatics, but at the time, a certain unfortunate Kurin child was forcibly subjected to a certain enlightenment ritual and injected with some skill training liquid. Before being frozen in a cryogenic chamber, their mind was also wiped, causing them to completely forget the appearance of those lunatics.\n None of this really matters now. The important thing is that due to not paying the near-Earth orbital residence fees for several centuries, the self-proclaimed legitimate government has shut down many of the relevant orbital facilities. Those who refused to be accessed or accept remote operation were simply blown up with missiles. As a result, the unfortunate Kurin woke up, and thanks to the poor missile quality caused by corruption, the cryogenic chamber she were in did not get directly blown up. After recovering from cryogenic sleep, the unfortunate Kurin just grabbed whatever was at hand and boarded an unset drop pod, which was better than dying here, no matter how difficult it might be down below. \nWhen the drop pod was activated, she saw the squeaky door was labeled: "Just kidding!"</description>
+		<scenario>
+			<summary>Obviously，using organism to save knowledge is not fade away in this planet s near-eart orbit，otherwise there will never be this tell.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>KurinFaction_Player</factionDef>
+			</playerFaction>
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+					<def>ConfigurePawnsKindDefs</def>
+					<pawnChoiceCount>1</pawnChoiceCount>
+					<kindCounts>
+						<li>
+							<requiredAtStart>True</requiredAtStart>
+							<kindDef>Kurin_Alchemist</kindDef>
+						</li>
+					</kindCounts>
+				</li>
+				<!-- <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsKindDefs</def>
+					<pawnChoiceCount>1</pawnChoiceCount>
+					<xenotypeCounts>
+						<li>
+							<requiredAtStart>True</requiredAtStart>
+							<xenotype>Baseliner</xenotype>
+							<allowedDevelopmentalStages>Child</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+					<overrideKinds>
+						<li>
+							<xenotype>Baseliner</xenotype>
+							<pawnKind>Kurin_Alchemist</pawnKind>
+						</li>
+					</overrideKinds>
+				</li> -->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+				</li>
+				<li Class="ScenPart_PawnFilter_Age">
+					<def>PawnFilter_Age</def>
+					<allowedAgeRange>4~11</allowedAgeRange>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="KurinFaction_BattleFox"]/pawnGroupMakers</xpath>
+				<value>
+					<li>
+						<kindDef>Combat</kindDef>
+						<commonality>150</commonality>
+						<disallowedStrategies>
+							<li>Siege</li>
+							<li>StageThenAttack</li>
+						</disallowedStrategies>
+						<options>
+							<Kurin_BlackHand>10</Kurin_BlackHand>
+							<Kurin_Pathfinder>2</Kurin_Pathfinder>
+						</options>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

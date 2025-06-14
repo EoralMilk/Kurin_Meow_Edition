@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+	<Kurin_PowerArmorLiner.label>魅狐动力甲内衬</Kurin_PowerArmorLiner.label>
+	<Kurin_PowerArmorLiner.description>这种内衬上的通用神经接口能够让穿戴者更好的控制各种动力甲，它轻薄但是却并不透气，内部搭载有易于操作的恒温系统来确保使用者会一直处于一种舒适的温度状态。
+这种内衬看似裸露了一部分皮肤，实际上那些露出的部位覆盖了和其他部位一样结实的透明材质，只是因为采用了某些怪异的科技使得这个部位的透光率几乎达到百分百，在这样子的密闭状态下，它可以根据外部气压来主动调节服装内的气压，如果内衬出现了破损，虽然其夹层的材料会融化并且填补缺口，但在压力环境下使用者应当尽快使用修补贴来避免意外发生。
+虽然不符合大多数魅狐组织的安全规定，但确实存在用这个内衬搭配深空作业头盔就进行舱外活动的个例，而且某些武装组织甚至将这个内衬当做某种潜行装备的基底进行改造。</Kurin_PowerArmorLiner.description>
+
+
 	<Kurin_SpaceSuit.label>魅狐深空作业服</Kurin_SpaceSuit.label>
 	<Kurin_SpaceSuit.description>在太空或者深海环境下使用的高科技防护服，依靠特殊充能机构来调节内部温度与压力，这些设计能让这种作业服在承受很大的冲击时使用一种充能的方式来瞬间硬化受击部位来保证不至于发生严重的破损，内部的维生系统也能收集汗液等完成内循环来维持使用者的生命，穿戴这种作业服的魅狐会把尾巴收在内部空间里——虽然这样并不舒服；这种款式因为使用了闪耀世界科技，可以通过安装在内的金属肌肉丝以及特殊伺服器来自动完成一些简单的劳作，同时它的电池在待机状态下可以运行长达10年...这听起来也许很酷，但实际上在某些废弃星舰里如果你看到了被这东西包裹的魅狐枯骨在劳作的时候，或许你就不会这么想了。</Kurin_SpaceSuit.description>
 
@@ -8,4 +14,35 @@
 	<Kurin_SpaceHelmet.description>在太空或者深海环境下使用的高科技防护头盔，依靠特殊充能机构来调节内部温度与压力；这种头盔拥有热辐射追踪和热成像功能，都被整合在了防护面罩的义眼上，不用的时候需要手动将其掀起。魅狐们戏称这种笨重的头盔为“金鱼缸”，在它透光度不算高的面罩上刻印着浩瀚的星海和航天先驱们充满希望的双眼。</Kurin_SpaceHelmet.description>
 
 	
+	<Kurin_PowerArmorRecon.label>魅狐斥候装甲</Kurin_PowerArmorRecon.label>
+	<Kurin_PowerArmorRecon.description>一种轻量级的动力防护服，这种护具的防护规格不及传统的动力装甲；但因为其省略了装甲厚度和覆盖度以及增加了一些适配神经链接的动力辅助系统，这款动力服的机动性能远远超过任何动力装甲，其背后的喷射组件也能允许穿戴者使用长程跳跃来完成各种战术需求。
+这种动力服的造价实际上已经超过了一些量产货的动力装甲，在魅狐的武装组织里被配发给专门的斩首或者渗透小队使用。
+在室内严禁使用喷气组件，没人喜欢一个颈椎粉碎骨折的狐狸。</Kurin_PowerArmorRecon.description>
+	<Kurin_PowerArmorRecon.comps.CompEquippableAbilityReloadable.chargeNoun>跳跃次数</Kurin_PowerArmorRecon.comps.CompEquippableAbilityReloadable.chargeNoun>
+
+	<Kurin_PowerArmorReconPrestige.label>魅狐圣装斥候装甲</Kurin_PowerArmorReconPrestige.label>
+	<Kurin_PowerArmorReconPrestige.description>一种轻量级的动力防护服，这种护具的防护规格不及传统的动力装甲；但因为其省略了装甲厚度和覆盖度以及增加了一些适配神经链接的动力辅助系统，这款动力服的机动性能远远超过任何动力装甲，其背后的喷射组件也能允许穿戴者使用长程跳跃来完成各种战术需求。
+和普通的斥候装甲不一样，这种款式增加了一些凸显身份的装饰，这些装饰不仅仅是增加美观度，它所使用的面料是一种进口自闪耀世界的灵能材料，能够增强使用者的心灵敏感度；它的性能也因为高度定制化得到了大程度的提升，这款动力服只被一些高层人士的亲卫或者某些使用魅狐作为渗透单位的国家所列装，数量非常稀少。
+在室内严禁使用喷气组件，没人想要让一个精锐单位因为这种蠢事儿发生非战斗减员。</Kurin_PowerArmorReconPrestige.description>
+	<Kurin_PowerArmorReconPrestige.comps.CompEquippableAbilityReloadable.chargeNoun>跳跃次数</Kurin_PowerArmorReconPrestige.comps.CompEquippableAbilityReloadable.chargeNoun>
+
+
+	<Kurin_ReconHelmet.label>魅狐斥候头盔</Kurin_ReconHelmet.label>
+	<Kurin_ReconHelmet.description>与其说是某种动力甲配套的头盔，不如说它是一种使用了大量高科技组件的防弹头盔，这种被魅狐加以了大量不知道从哪里弄来的科技改造后的装备内置了全局扫描系统，并且可以同步智能步枪的枪口瞄准摄像头，在用户的目镜上直接显示出来枪口对着的东西。
+这样子的头盔其实依赖于大量的模块化组件，虽然繁琐了些但是要比帝国侦察兵或者闪耀世界的执法部门使用的那一种要有更高的自定义可能性。</Kurin_ReconHelmet.description>
+
+	<Kurin_ReconHelmetPrestige.label>魅狐圣装斥候头盔</Kurin_ReconHelmetPrestige.label>
+	<Kurin_ReconHelmetPrestige.description>与其说是某种动力甲配套的头盔，不如说它是一种使用了大量高科技组件的防弹头盔，这种被魅狐加以了大量不知道从哪里弄来的科技改造后的装备内置了战场全景显示功能，除了标准的智能步枪同步以外，它还能够检测气压，温度，敌方威胁程度和已知装备的信息等等。
+这款头盔使用了大量的模块化组件，包括防护耳朵的护甲和侦听设备等等，一般配给给精锐部队执行特殊任务时候使用，很少有魅狐能够自己保有一套这种装备；虽然魅狐们已经很努力的增加了一些灵质内衬了，但它对心灵敏感度的影响性并不高，魅狐们也貌似没有进一步改装它的打算。</Kurin_ReconHelmetPrestige.description>
+
+
+	<Kurin_PowerArmorHECS.label>魅狐敌境战斗服</Kurin_PowerArmorHECS.label>
+	<Kurin_PowerArmorHECS.description>由山田科技星际会社研发，昆仑公社的瑶台航天技术局生产的专供魅狐使用的标准战斗用超重型动力甲，厚实的航天级别的塑钢装甲将穿戴者彻底从外界环境中隔离开来，无论是实弹还是能量武器都不能直接对其造成毁灭性的伤害；与魅狐装备的动力甲内衬一起使用时能够将神经模因传导的带宽达到最大化，并且解锁最大出力的限制，在这些的作用下能让这套超重型动力甲做出难以想象的敏捷动作。
+某些由魅狐和其他种族组成的星际自由民或者行商浪人大量保有这种战斗护甲，毫无疑问的这种先进的盔甲在各种战场上都被当做一种杀手锏使用。
+无论是山田还是瑶台都否认了这种动力甲是作为给人类使用的更加强大的版本的试验品的说法，但有总有小道消息声称有人发现了秘密的试验场之类的。</Kurin_PowerArmorHECS.description>
+
+	<Kurin_HECSHelmet.label>魅狐敌境战斗头盔</Kurin_HECSHelmet.label>
+	<Kurin_HECSHelmet.description>。</Kurin_HECSHelmet.description>
+
+
 </LanguageData>

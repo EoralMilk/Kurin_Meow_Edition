@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>ReclaimingTheFallen</defName>
+		<label>Reclaiming the Fallen</label>
+		<description>Seize the last embers of life and draw the departed souls back from the brink of the abyss, restoring them to the world of the living.</description>
+		<iconPath>KurinMeowEdition/UI/Ability_ReclaimingTheFallen</iconPath>
+		<cooldownTicksRange>3120000</cooldownTicksRange>
+		<warmupMote>Mote_ResurrectAbility</warmupMote>
+		<warmupEffecter>HoraxianAbilityCasting</warmupEffecter>
+		<warmupStartSound>Resurrect_Cast</warmupStartSound>
+		<category>Sanguophage</category>
+		<displayOrder>621</displayOrder>
+		<hostile>false</hostile>
+		<sendMessageOnCooldownComplete>true</sendMessageOnCooldownComplete>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbilityTouch</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<range>-1</range>
+			<warmupTime>2</warmupTime>
+			<soundCast>Resurrect_Resolve</soundCast>
+			<targetParams>
+				<canTargetPawns>false</canTargetPawns>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetCorpses>true</canTargetCorpses>
+				<canTargetMechs>false</canTargetMechs>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_Resurrect" />
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef ParentName="AbilityTouchBase">
+		<defName>PetrifyToDust</defName>
+		<label>Petrify to Dust</label>
+		<description>Turning rocks into dust.</description>
+		<iconPath>KurinMeowEdition/UI/Ability_PetrifyToDust</iconPath>
+		<cooldownTicksRange>0</cooldownTicksRange> <!-- 20 hours -->
+		<showPsycastEffects>false</showPsycastEffects>
+		<sendMessageOnCooldownComplete>false</sendMessageOnCooldownComplete>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+		<moteOffsetAmountTowardsTarget>0.5</moteOffsetAmountTowardsTarget>
+		<warmupMote>Mote_HoraxSmallSpellWarmup</warmupMote>
+		<warmupEffecter>HoraxianAbilityCasting</warmupEffecter>
+		<warmupSound>AnomalyAbilityWarmup</warmupSound>
+		<useAverageTargetPositionForWarmupEffecter>true</useAverageTargetPositionForWarmupEffecter>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<drawAimPie>false</drawAimPie>
+			<warmupTime>0.5</warmupTime>
+			<range>-1</range>
+			<targetParams>
+				<canTargetSelf>false</canTargetSelf>
+				<canTargetBuildings>true</canTargetBuildings>
+				<canTargetPawns>false</canTargetPawns>
+				<canTargetItems>true</canTargetItems>
+				<thingCategory>Item</thingCategory>
+				<mapObjectTargetsMustBeAutoAttackable>false</mapObjectTargetsMustBeAutoAttackable>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_Transmute">
+				<failedMessage>Must target rock, rock chunks, rock buildings, or rock items.</failedMessage>
+				<elementRatios>
+					<li>
+						<sourceStuff>CollapsedRocks</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					
+					<li>
+						<sourceStuff>Sandstone</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					<li>
+						<sourceStuff>SmoothedSandstone</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					<li>
+						<sourceStuff>ChunkSandstone</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					<li>
+						<sourceStuff>BlocksSandstone</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+
+					<li>
+						<sourceStuff>Granite</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					<li>
+						<sourceStuff>SmoothedGranite</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					<li>
+						<sourceStuff>ChunkGranite</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					<li>
+						<sourceStuff>BlocksGranite</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+
+					<li>
+						<sourceStuff>Limestone</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					<li>
+						<sourceStuff>SmoothedLimestone</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					<li>
+						<sourceStuff>ChunkLimestone</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					<li>
+						<sourceStuff>BlocksLimestone</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+
+
+					<li>
+						<sourceStuff>Slate</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					<li>
+						<sourceStuff>SmoothedSlate</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					<li>
+						<sourceStuff>ChunkSlate</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					<li>
+						<sourceStuff>BlocksSlate</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+
+
+					<li>
+						<sourceStuff>Marble</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					<li>
+						<sourceStuff>SmoothedMarble</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					<li>
+						<sourceStuff>ChunkMarble</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+					<li>
+						<sourceStuff>BlocksMarble</sourceStuff>
+						<ratio>1</ratio>
+					</li>
+				</elementRatios>
+				<outcomeStuff>
+					<li>Kurin_Dust</li>
+				</outcomeStuff>
+				<outcomeItems>
+					<li>Filth_Dirt</li>
+				</outcomeItems>
+			</li>
+		</comps>
+	</AbilityDef>
+
+
+	<AbilityDef>
+		<defName>AwakenLifeless</defName>
+		<label>Awaken Lifeless</label>
+		<description>Awakens corpses to shamblers and fight for you.</description>
+		<cooldownTicksRange>30000</cooldownTicksRange>
+		<aiCanUse>false</aiCanUse>
+		<warmupEffecter>HoraxianAbilityCasting</warmupEffecter>
+		<warmupSound>AnomalyAbilityWarmup</warmupSound>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<requireLineOfSight>true</requireLineOfSight>
+			<range>7.9</range>
+			<warmupTime>0.5</warmupTime>
+			<ai_IsWeapon>false</ai_IsWeapon>
+			<targetParams>
+				<canTargetCorpses>true</canTargetCorpses>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_AbilityLaunchProjectile">
+				<projectileDef>Kurin_NecroPulse</projectileDef>
+			</li>
+		</comps>
+	</AbilityDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Kurin_NecroPulse</defName>
+		<label>Necro Pulse</label>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Bullet_NecroPulse</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<!-- <drawSize>0.8</drawSize> -->
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>DeadlifeDust</damageDef>
+			<armorPenetrationBase>1</armorPenetrationBase>
+			<stoppingPower>1</stoppingPower>
+			<speed>35</speed>
+			<explosionRadius>0.5</explosionRadius>
+			<explosionChanceToStartFire>0</explosionChanceToStartFire>
+			<postExplosionGasType>DeadlifeDust</postExplosionGasType>
+		</projectile>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<PawnKindDef ParentName="KurinPowerArmored_ReconPrestige">
+		<defName>Kurin_ShadowLegion</defName>
+		<label>Kurin shadow legion</label>
+		<combatPower>300</combatPower>
+		<itemQuality>Excellent</itemQuality>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Sergeant</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags Inherit="False">
+			<li>Kurin_Range_Spacer</li>
+		</weaponTags>
+		<weaponMoney>4000</weaponMoney>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<apparelMoney>7500</apparelMoney>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>13~18</range>
+			</li>
+		</skills>
+		<forcedTraits>
+			<Nerves>2</Nerves>
+			<SpeedOffset>2</SpeedOffset>
+		</forcedTraits>
+	</PawnKindDef>
+
+</Defs>

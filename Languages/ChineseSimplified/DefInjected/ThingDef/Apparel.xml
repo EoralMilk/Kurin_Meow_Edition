@@ -97,9 +97,15 @@
 	<Kurin_OnePieceDress.label>魅狐连衣裙</Kurin_OnePieceDress.label>
 	<Kurin_OnePieceDress.description>一款轻盈的连衣裙。看起来很清纯!</Kurin_OnePieceDress.description>
 
+	<Kurin_MaidDress.label>狐狐妹抖服</Kurin_MaidDress.label>
+	<Kurin_MaidDress.description>当地星区的土豪们那些快赶上一座城市大小的豪宅里所雇佣的魅狐侍女们身着的连体裙。因为造型被亚文化爱好者们追捧，近些年来在一些家政服务公司的雇员以及某些情景主题餐馆的服务员们身上也能看到同款的服装。而土豪们对此表示没有意见。</Kurin_MaidDress.description>
+
 	<!-- 复杂衣物 -->
 	<Kurin_TechnicianDress.label>魅狐技师连衣裙</Kurin_TechnicianDress.label>
 	<Kurin_TechnicianDress.description>不知道什么时候购入的《辐射》cos服，因为质量好的过分，被魅狐们改成了技术人员穿的衣服，bug，bug永远修不好。</Kurin_TechnicianDress.description>
+
+	<Kurin_DevelopmentDivision.label>魅狐开发部员制服</Kurin_DevelopmentDivision.label>
+	<Kurin_DevelopmentDivision.description>魅狐科技局的标准制服，所有部门的部员被强制要求工作时间身着它。胸口ID卡上的证件照怎么拍都显得不好看，这困扰了不少本来就有点强迫症的魅狐。</Kurin_DevelopmentDivision.description>
 
 	<Kurin_BusinessShirt.label>魅狐商务衬衫</Kurin_BusinessShirt.label>
 	<Kurin_BusinessShirt.description>这是奎琳社会一种正式的衬衫，通常用于商务或正式场合。</Kurin_BusinessShirt.description>
@@ -126,6 +132,9 @@
 	<Kurin_SeductiveBlackDress.description>在前摆有开叉的黑色旗袍，看起来格外迷人。</Kurin_SeductiveBlackDress.description>
 
 	<!-- 外套 -->
+	<Kurin_DevelopmentDivisionCoat.label>魅狐开发部外套</Kurin_DevelopmentDivisionCoat.label>
+	<Kurin_DevelopmentDivisionCoat.description>魅狐科技局的制服外套，除了保温防风的功能以外，它的表面涂层具有一定的杀菌净化功能。同时因为使用了金属混纺纤维夹层，它也具有了不错的防护性能。</Kurin_DevelopmentDivisionCoat.description>
+
 	<Kurin_BusinessCoat.label>魅狐商务外套</Kurin_BusinessCoat.label>
 	<Kurin_BusinessCoat.description>高质量，简约优雅，适用于商务场合。</Kurin_BusinessCoat.description>
 
@@ -217,7 +226,7 @@
 	<Kurin_ChildHoodie.label>魅狐儿童连帽衫</Kurin_ChildHoodie.label>
 	<Kurin_ChildHoodie.description>儿童连帽衫，保温又隔热。</Kurin_ChildHoodie.description>
 	
-	<Kurin_ChildTShirt.label>魅狐儿童T恤衫</Kurin_ChildTShirt.label>
+	<Kurin_ChildTShirt.label>魅狐印花T恤衫</Kurin_ChildTShirt.label>
 	<Kurin_ChildTShirt.description>亲肤的纯棉T恤，各种卖这个的直播间的狂轰滥炸是魅狐们抗拒不了的，所以就买了一大堆。
 上面有时候会有很多令人费解的图案，魅狐也不太在乎那些图案的含义。</Kurin_ChildTShirt.description>
 

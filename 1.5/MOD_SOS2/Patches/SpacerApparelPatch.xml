@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Kurin_PowerArmorLiner"]/equippedStatOffsets</xpath>
+		<value>
+			<DecompressionResistance>0.2</DecompressionResistance>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@Name="KurinPowerArmorBase"]/equippedStatOffsets</xpath>
+		<value>
+			<DecompressionResistance>0.75</DecompressionResistance>
+		</value>
+	</Operation>
+	<!-- recon armor has a thruster -->
+	<Operation Class="PatchOperationAdd"> 
+		<xpath>/Defs/ThingDef[@Name="Kurin_PowerArmorReconBase"]/equippedStatOffsets</xpath>
+		<value>
+			<VacuumSpeedMultiplier>4</VacuumSpeedMultiplier>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@Name="Kurin_PowerArmorHECSBase"]/equippedStatOffsets</xpath>
+		<value>
+			<VacuumSpeedMultiplier>4</VacuumSpeedMultiplier>
+		</value>
+	</Operation>
+
+	<!-- power armor head has no HypoxiaResistance -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[@Name="KurinPowerArmorHelmetBase"]/equippedStatOffsets</xpath>
+		<value>
+			<DecompressionResistance>0.25</DecompressionResistance>
+			<HypoxiaResistance>1</HypoxiaResistance>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Kurin_SpaceSuit"]/equippedStatOffsets</xpath>
+		<value>
+			<DecompressionResistance>0.75</DecompressionResistance>
+			<VacuumSpeedMultiplier>4</VacuumSpeedMultiplier>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Kurin_SpaceSuit"]/comps</xpath>
+		<value>
+			<li>
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Kurin_SpaceHelmet"]/equippedStatOffsets</xpath>
+		<value>
+			<HypoxiaResistance>1</HypoxiaResistance>
+			<DecompressionResistance>0.25</DecompressionResistance>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Kurin_SpaceHelmet"]/comps</xpath>
+		<value>
+			<li>
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</value>
+	</Operation>
+</Patch>

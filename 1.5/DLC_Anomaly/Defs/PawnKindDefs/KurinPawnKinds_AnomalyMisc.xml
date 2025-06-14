@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef ParentName="BaseKurinKind">
+		<defName>Kurin_Alchemist</defName>
+		<label>kurin alchemist</label>
+		<combatPower>35</combatPower>
+		<isFighter>false</isFighter>
+		<minGenerationAge>1</minGenerationAge>
+		<maxGenerationAge>12</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<defaultFactionType>KurinFaction_Player</defaultFactionType>
+		<invNutrition>3.6</invNutrition>
+		<fixedChildBackstories>
+			<li>Kurin_BackstoryChild_15</li>
+		</fixedChildBackstories>
+		<apparelRequired>
+			<li>Kurin_ChildHoodie</li>
+			<!-- <li>Kurin_SummerHat</li> -->
+			<li>Kurin_ChildScarf</li>
+			<li>Kurin_ChildRainBoots</li>
+		</apparelRequired>
+		<apparelTags>
+			<li>_None</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>1000~1200</apparelMoney>
+		<skills>
+			<li>
+				<skill>Intellectual</skill>
+				<range>8~15</range>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<range>1~4</range>
+			</li>
+		</skills>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<abilities>
+			<li>TransmuteSteel</li>
+			<li>PetrifyToDust</li>
+			<!-- <li>ShapeFlesh</li> -->
+			<li>ReclaimingTheFallen</li>
+		</abilities>
+		<initialResistanceRange>0</initialResistanceRange>
+		<disallowedTraitsWithDegree>
+			<PsychicSensitivity>-1</PsychicSensitivity>
+			<PsychicSensitivity>-2</PsychicSensitivity>
+		</disallowedTraitsWithDegree>
+	</PawnKindDef>
+
+
+	<PawnKindDef ParentName="KurinShooter">
+		<defName>Kurin_BlackHand</defName>
+		<label>Kurin Black Hand</label>
+		<combatPower>170</combatPower>
+		<apparelMoney>2550~3250</apparelMoney>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Sergeant</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelRequired>
+			<li>Kurin_CombatSuit</li>
+			<li>Kurin_BulletproofVest</li>
+			<li>Kurin_CombatHelmet</li>
+			<li>Apparel_ShieldBelt</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>Kurin_BlackHand</li>
+		</weaponTags>
+		<weaponMoney>2050~3500</weaponMoney>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>8~16</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>6~12</range>
+			</li>
+		</skills>
+		<disallowedTraitsWithDegree>
+			<ShootingAccuracy>1</ShootingAccuracy>
+		</disallowedTraitsWithDegree>
+	</PawnKindDef>
+
+</Defs>

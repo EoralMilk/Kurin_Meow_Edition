@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Scenario_MagicOneFox.label>魔法一號之狐</Scenario_MagicOneFox.label>
+	<Scenario_MagicOneFox.description>終於有機會逃出這該死的海盜空間站了。迫不及待的你跟隨帶領你逃出來的魅狐同伴駕駛一架代號“魔法一號”的攻擊轟炸機努力避開追擊火力一頭扎進了超空間門中。不幸的是空間跳躍並不順利，不穩定的能量摧毀了魔法一號的導航和控制系統。當你們回到正常的宇宙空間中時，你們的飛船就如同太空垃圾一般墜落向了展現在你們眼前的星球。別無選擇的你們只能啟用逃生艙，祈禱自己能夠順利迫降到一顆可以生存的星球上。</Scenario_MagicOneFox.description>
+	<Scenario_MagicOneFox.scenario.name>魔法一號之狐</Scenario_MagicOneFox.scenario.name>
+	<Scenario_MagicOneFox.scenario.summary>2名魅狐迫降在邊緣星球的故事。</Scenario_MagicOneFox.scenario.summary>
+	<Scenario_MagicOneFox.scenario.description>終於有機會逃出這該死的海盜空間站了。迫不及待的你跟隨帶領你逃出來的魅狐同伴駕駛一架代號“魔法一號”的攻擊轟炸機努力避開追擊火力一頭扎進了超空間門中。不幸的是空間跳躍並不順利，不穩定的能量摧毀了魔法一號的導航和控制系統。當你們回到正常的宇宙空間中時，你們的飛船就如同太空垃圾一般墜落向了展現在你們眼前的星球。別無選擇的你們只能啟用逃生艙，祈禱自己能夠順利迫降到一顆可以生存的星球上。</Scenario_MagicOneFox.scenario.description>
+
+	
+	<Scenario_Alchemist.label>狐狸活體知識庫</Scenario_Alchemist.label>
+	<Scenario_Alchemist.description>相比較於使用依賴電子產品的人工智能來保存一些知識，尤其是不怎麼見得了人的那種，百年前的瘋子們更喜歡使用活體來完成這些；或許是不走運或者是早就被那些瘋子盯上了，當時某個倒黴的魅狐兒童被強行進行了某種啟靈儀式並注射了一些技能訓練液，在被凍進休眠倉之前還被洗了腦導致根本記不住那些瘋子的相貌...這些都無所謂了，重要的事情是因為幾百年沒有繳納近地軌道暫居費，當地自稱合法政府的玩意兒關停了不少有關的軌道設施，那些怎麼都拒絕訪問不接受遠程操作的干脆就用導彈炸掉——於是那個倒黴孩子就這麼醒了，多虧了因為貪污導致的導彈質量不佳，裝著她的休眠艙沒有直接炸掉，挨過休眠症以後倒黴孩子想都沒想就隨手抓了點東西搭乘上了沒有設定目標地的空投倉，下面不論多辛苦也比在這裡丟了命強啊。\n在空投艙啟動的時候，她看到那個到處咯吱咯吱響的艙門上寫著：“逗你玩兒！”</Scenario_Alchemist.description>
+	<Scenario_Alchemist.scenario.name>狐狸活體知識庫</Scenario_Alchemist.scenario.name>
+	<Scenario_Alchemist.scenario.summary>很顯然用活體保存知識的方式在這個世界的近地軌道並沒有消失，不然就沒有這段故事了。</Scenario_Alchemist.scenario.summary>
+	<Scenario_Alchemist.scenario.description>相比較於使用依賴電子產品的人工智能來保存一些知識，尤其是不怎麼見得了人的那種，百年前的瘋子們更喜歡使用活體來完成這些；或許是不走運或者是早就被那些瘋子盯上了，當時某個倒黴的魅狐兒童被強行進行了某種啟靈儀式並注射了一些技能訓練液，在被凍進休眠倉之前還被洗了腦導致根本記不住那些瘋子的相貌...這些都無所謂了，重要的事情是因為幾百年沒有繳納近地軌道暫居費，當地自稱合法政府的玩意兒關停了不少有關的軌道設施，那些怎麼都拒絕訪問不接受遠程操作的干脆就用導彈炸掉——於是那個倒黴孩子就這麼醒了，多虧了因為貪污導致的導彈質量不佳，裝著她的休眠艙沒有直接炸掉，挨過休眠症以後倒黴孩子想都沒想就隨手抓了點東西搭乘上了沒有設定目標地的空投倉，下面不論多辛苦也比在這裡丟了命強啊。\n在空投艙啟動的時候，她看到那個到處咯吱咯吱響的艙門上寫著：“逗你玩兒！”</Scenario_Alchemist.scenario.description>
+
+</LanguageData>

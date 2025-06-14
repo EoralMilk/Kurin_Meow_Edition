@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>Kurin_Range_NecroLauncher</defName>
+		<label>kurin necro rocket launcher</label>
+		<description>A modified twin rocket launcher, with the rocket warheads filled with large amounts of deadlife dust. This reduces the explosive damage, but allows the release of copious amounts of deadlife smoke.</description>
+		<tickerType>Normal</tickerType>
+		<smeltable>false</smeltable>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Item_NecroRocket_Armed</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<statBases>
+			<Mass>6</Mass>
+			<WorkToMake>10000</WorkToMake>
+			<RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Kurin_Range_TwinRocket>1</Kurin_Range_TwinRocket>
+			<Bioferrite>75</Bioferrite>
+			<Shard>2</Shard>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>DeadlifeDust</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>BioferriteShaper</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<displayPriority>102</displayPriority>
+		</recipeMaker>
+		<weaponTags>
+			<li>Kurin_NecroRocket</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<tradeTags Inherit="false">
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<relicChance>1</relicChance>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Kurin_Bullet_NecroRocket</defaultProjectile>
+				<forcedMissRadius>3.4</forcedMissRadius>
+				<warmupTime>4.8</warmupTime>
+				<ai_AvoidFriendlyFireRadius>6</ai_AvoidFriendlyFireRadius>
+				<range>30.9</range>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>2</burstShotCount>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<onlyManualCast>false</onlyManualCast>
+				<stopBurstWithoutLos>false</stopBurstWithoutLos>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<muzzleFlashScale>14</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.7</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>4.6</explosiveRadius>
+				<explosiveDamageType>Kurin_NecroRocketDamage</explosiveDamageType>
+				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+			</li>
+			<li Class="CompProperties_Biocodable" />
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>Kurin_Bullet_NecroRocket</defName>
+		<label>necro rocket</label>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Bullet_NecroRocket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>Kurin_NecroRocketDamage</damageDef>
+			<ai_IsIncendiary>false</ai_IsIncendiary>
+			<explosionRadius>2.4</explosionRadius>
+			<explosionChanceToStartFire>0</explosionChanceToStartFire>
+			<postExplosionGasType>DeadlifeDust</postExplosionGasType>
+			<speed>40</speed>
+		</projectile>
+	</ThingDef>
+
+	<DamageDef ParentName="Bomb">
+		<defName>Kurin_NecroRocketDamage</defName>
+		<defaultDamage>15</defaultDamage>
+		<corpseDamageFactor>3</corpseDamageFactor>
+		<plantDamageFactor>4</plantDamageFactor>
+		<explosionCellFleck>BlastExtinguisher</explosionCellFleck>
+		<explosionColorEdge>(0.706, 0.839, 0.09, 0.05)</explosionColorEdge>
+		<explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>
+		<defaultStoppingPower>1.5</defaultStoppingPower>
+		<defaultArmorPenetration>0.4</defaultArmorPenetration>
+	</DamageDef>
+
+</Defs>

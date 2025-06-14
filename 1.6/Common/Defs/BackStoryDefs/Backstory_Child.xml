@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<BackstoryDef Name="Kurin_BaseBackstory" Abstract="True">
+		<disallowedTraits>
+			<Beauty>-1</Beauty>
+			<Beauty>-2</Beauty>
+		</disallowedTraits>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Female</bodyTypeMale>
+		<spawnCategories>
+			<li>KurinBackstory</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_Unknown</defName>
+		<title>Mystery Kurin</title>
+		<titleShort>Mystery</titleShort>
+		<description>[PAWN_nameDef]'s childhood is a mystery.</description>
+		<slot>Childhood</slot>
+		<spawnCategories Inherit="false">
+			<li>Kurin_Unknown</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_01</defName>
+		<title>Kurin Orphan</title>
+		<titleShort>Orphan</titleShort>
+		<description>[PAWN_nameDef]'s parents were killed by humans when [PAWN_pronoun] was young. [PAWN_pronoun] got PTSD after that, and has gone through psychiatric treatment for many years. [PAWN_pronoun] is mostly fine nowadays, but sometimes [PAWN_pronoun] suffers from nightmares about that day.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Medicine>2</Medicine>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_02</defName>
+		<title>Kurin Young Maid</title>
+		<titleShort>Maid</titleShort>
+		<description>[PAWN_nameDef]'s parents lost their entire wealth in an unfortunate accident and got a lot of debt. But fortunately, a noble took pity on them and hired [PAWN_nameDef] as a housemaid. In the noble's mansion, [PAWN_pronoun] mostly did household chores and sometimes took care of the noble's daughter, and eventually became friends with her. </description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>4</Social>
+			<Cooking>2</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_03</defName>
+		<title>Kurin Vigilante</title>
+		<titleShort>Vigilante</titleShort>
+		<description>The Vigilante Fox Squad was one of the most popular TV animations among young Kurins. [PAWN_nameDef] gathered some friends and created their own vigilante squad. They patrolled fields and alleys, and considered themselves as peacekeeping guardians of the local city. But since public security was good, there was not much to do.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Melee>2</Melee>
+			<Social>2</Social>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Vigilante</li>
+			<li>Kurin_Trader</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_04</defName>
+		<title>Kurin Lonely Child</title>
+		<titleShort>Lonely</titleShort>
+		<description>[PAWN_nameDef] was a rare blue-eyed child. Since this was a ominous sign among Kurin culture, [PAWN_pronoun] grew up as a lonely child, shunned by everyone from children to adults.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>-6</Social>
+			<Medicine>6</Medicine>
+			<Intellectual>6</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_05</defName>
+		<title>Kurin Trouble Maker</title>
+		<titleShort>Trouble Maker</titleShort>
+		<description>[PAWN_nameDef] was envied by some children, but was also an absolute headache for teachers. Everyone was terrified because of [PAWN_nameDef]'s villainy, including skipping cleaning duty, not listening to teachers, or tracking in mud.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Melee>2</Melee>
+			<Social>2</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_06</defName>
+		<title>Kurin Slum Orphan</title>
+		<titleShort>Orphan</titleShort>
+		<description>[PAWN_nameDef] spent childhood wandering through alleyways, eating moldy bread. There was a facility to help orphans, but after the Republic of Kurin devoted all of its resources into building migration ships, [PAWN_pronoun] did not receive proper welfare benefits and lived in a cardboard box house built in an alley.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Medicine>-2</Medicine>
+			<Cooking>2</Cooking>
+			<Construction>2</Construction>
+			<Plants>2</Plants>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Trader</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_07</defName>
+		<title>Kurin Ball Catcher</title>
+		<titleShort>Ball Catcher</titleShort>
+		<description>[PAWN_nameDef] really loved baseball, so [PAWN_pronoun] went to human nations and watched every baseball game [PAWN_pronoun] could afford. As [PAWN_pronoun] watched every game, she frequently got caught on the camera, and was eventually picked up by the team to became a ball catcher.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Melee>2</Melee>
+			<Social>2</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_08</defName>
+		<title>Kurin Zookeeper</title>
+		<titleShort>Zookeeper</titleShort>
+		<description>[PAWN_nameDef] grew up in a poor family because [PAWN_pronoun] had many siblings. So [PAWN_pronoun] became a self-supporting student, working a part-time job at the zoo as to pay for [PAWN_pronoun] tuition fees. Despite the job, [PAWN_pronoun] didn't neglect studying.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Animals>4</Animals>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_09</defName>
+		<title>Kurin Lazy child</title>
+		<titleShort>Lazy</titleShort>
+		<description>[PAWN_nameDef] got really tired of everything, so [PAWN_pronoun] just sat in a room and played games day and night. [PAWN_pronoun] didn't care about friends either. As [PAWN_pronoun] didn't wash often, [PAWN_pronoun] room smelled bad too. [PAWN_nameDef]'s parents were very worried about their child.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Artistic>1</Artistic>
+			<Medicine>1</Medicine>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<forcedTraits>
+			<Industriousness>-1</Industriousness>
+		</forcedTraits>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_10</defName>
+		<title>Kurin Ordinary Child</title>
+		<titleShort>Ordinary</titleShort>
+		<description>Born in an average middle class family, [PAWN_nameDef] grew up fine, warmly loved by their parents. Like other children, [PAWN_pronoun] enjoyed having fun and eating sweet cakes. Their grades were neither really good or bad, but [PAWN_pronoun] was a generous child who took care of their friends.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Cooking>2</Cooking>
+			<Medicine>2</Medicine>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_11</defName>
+		<title>Kurin Pro Gamer</title>
+		<titleShort>Pro Gamer</titleShort>
+		<description>[PAWN_nameDef]'s gaming skills were unmatched by anyone. [PAWN_pronoun] always kept top ten ranking, and [PAWN_pronoun] even won the championship in several competitions. But whenever internet connection went bad, [PAWN_pronoun] became really sad and refused to do anything.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Cooking>2</Cooking>
+			<Construction>2</Construction>
+			<Plants>-2</Plants>
+			<Mining>-2</Mining>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Vigilante</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_12</defName>
+		<title>Kurin Country Kid</title>
+		<titleShort>Country Kid</titleShort>
+		<description>[PAWN_nameDef] spent childhood with nature: picking mushrooms from the mountains, chasing cats in the fields, or fishing at the river. Sometimes [PAWN_pronoun] got little sunburns, but she grew healthy regardless.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Animals>2</Animals>
+			<Construction>2</Construction>
+			<Plants>4</Plants>
+			<Mining>2</Mining>
+			<Intellectual>-4</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Trader</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_13</defName>
+		<title>Kurin City Kid</title>
+		<titleShort>City Kid</titleShort>
+		<description>[PAWN_nameDef] grew up in the downtown of the Kurin metropolis with plenty of things to do: movies, arcades, and so on. But most of all, [PAWN_nameDef]'s favorite thing to do was traveling with her family.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Medicine>4</Medicine>
+			<Plants>-2</Plants>
+			<Mining>-2</Mining>
+			<Artistic>2</Artistic>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Vigilante</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_14</defName>
+		<title>Kurin Young Cartoonist</title>
+		<titleShort>Cartoonist</titleShort>
+		<description>[PAWN_nameDef] loved drawing and had talent. When [PAWN_pronoun] started drawing, [PAWN_pronoun] concentrated so much that [PAWN_pronoun] didn't notice others at all. Even during their school days, she was often scolded by her teacher, but her passion couldn't be stopped.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Artistic>4</Artistic>
+			<Crafting>2</Crafting>
+			<Intellectual>-2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_15</defName>
+		<title>Kurin Single-tail syndrome</title>
+		<titleShort>Single-tail</titleShort>
+		<description>[PAWN_nameDef] was born with one tail unlike others. Life was not impaired at all, but slow growth made [PAWN_nameDef] look younger than her peers. When she was young, she was teased a lot, but as she grew older, she became more popular with cuter looks than other Kurins.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Melee>2</Melee>
+			<Social>2</Social>
+			<Medicine>2</Medicine>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<forcedTraits>
+			<SingleTailFox>0</SingleTailFox>
+		</forcedTraits>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Single</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_16</defName>
+		<title>Kurin Timid Child</title>
+		<titleShort>Timid</titleShort>
+		<description>[PAWN_nameDef] was a very scared child. Everywhere was full of scary things: the shadows of the night, the small sounds that you hear when you sleep. [PAWN_pronoun] often got surprised by honking geese. [PAWN_pronoun] was always too scared to fight back.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>-6</Social>
+			<Crafting>4</Crafting>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_17</defName>
+		<title>Kurin Affectionate Child</title>
+		<titleShort>Affectionate</titleShort>
+		<description>[PAWN_nameDef] is a friendly child. [PAWN_pronoun] had always listened to their friends and sincerely comforted their friends when they had bad days.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Melee>-2</Melee>
+			<Social>4</Social>
+			<Animals>2</Animals>
+		</skillGains>
+		<forcedTraits>
+			<Kind>0</Kind>
+		</forcedTraits>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Vigilante</li>
+			<li>Kurin_Affectionate</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_18</defName>
+		<title>Kurin Poor Child</title>
+		<titleShort>Poor Child</titleShort>
+		<description>[PAWN_nameDef] had a poor childhood. Both parents returned home late at night, and [PAWN_pronoun] grew up a little earlier than others as [PAWN_pronoun] left was alone in the daytime. [PAWN_pronoun]'s dream was to make a lot of money and studied hard to make her dreams come true.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>-2</Social>
+			<Cooking>4</Cooking>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_19</defName>
+		<title>Kurin Cafe Child</title>
+		<titleShort>Cafe Child</titleShort>
+		<description>[PAWN_nameDef] helped her parents cafe after school. [PAWN_pronoun] took orders and did cleaning. Some regular customers often gave some tips. With that, [PAWN_pronoun] bought ice cream or saved money.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>4</Social>
+			<Cooking>2</Cooking>
+			<Plants>2</Plants>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_20</defName>
+		<title>Kurin Tofu House Daughter</title>
+		<titleShort>Tofu House Daughter</titleShort>
+		<description>The family of [PAWN_nameDef] has made tofu in the traditional way for over 100 years at their family store. [PAWN_pronoun] grew up learning their mother's teaching that one should make their tofu with all their heart, regardless of flavor preferences.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Cooking>4</Cooking>
+			<Plants>2</Plants>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_21</defName>
+		<title>Kurin Red-light District Runner</title>
+		<titleShort>Runner</titleShort>
+		<description>It is illegal in the Republic of Kurin to hire young children to work in red-light districts. However, [PAWN_nameDef] touted other Kurins in the red-light districts or running errands at convenience stores, and gained a lot of money as a child. Since [PAWN_pronoun] was a clever, cunning child, and she was able to easily avoid crackdowns.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>6</Social>
+			<Medicine>2</Medicine>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Trader</li>
+			<li>Kurin_Vigilante</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_22</defName>
+		<title>Kurin Young Crafter</title>
+		<titleShort>Crafter</titleShort>
+		<description>[PAWN_nameDef] has better dexterity than others. [PAWN_pronoun] loved to make cute handicrafts and share them with friends, and their trinkets were always popular among friends.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Crafting>6</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_23</defName>
+		<title>Kurin Young Gardener</title>
+		<titleShort>Gardener</titleShort>
+		<description>[PAWN_nameDef] loved everything about plants. Whenever [PAWN_pronoun] had spare time, [PAWN_pronoun] went to the farm and looked after crops, or [PAWN_pronoun] went to the nearest botanical garden.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Animals>2</Animals>
+			<Plants>6</Plants>
+			<Social>-2</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Vigilante</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_24</defName>
+		<title>Kurin Young Chef</title>
+		<titleShort>Chef</titleShort>
+		<description>[PAWN_nameDef] had fun baking bread and cookies or decorating cakes. [PAWN_pronoun] always got praised in cooking class, and soon after [PAWN_pronoun] discovered a talent in other dishes. From simple meal to lavish cuisine, [PAWN_pronoun] could make all sorts of dishes.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Cooking>8</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_25</defName>
+		<title>Kurin Animal Lover</title>
+		<titleShort>Animal Lover</titleShort>
+		<description>[PAWN_nameDef] really loved animals. [PAWN_pronoun] would like to raise as many as animals [PAWN_pronoun] can, but due to realistic problems, [PAWN_pronoun] had no choice but to raise a robot pet. However, [PAWN_pronoun] liked the warmth of real living animals than robots, and often went to the zoo.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Animals>4</Animals>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_26</defName>
+		<title>Smart Student</title>
+		<titleShort>Student</titleShort>
+		<description>[PAWN_nameDef]'s grades were better than other students. Exam scores have always been high, and relationships with other friends have been good. However, [PAWN_nameDef]'s body became weak as [PAWN_pronoun] spent a long time sitting at their desk, and it became common for them to sit quietly in the corner in PE classes.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Melee>-2</Melee>
+			<Social>4</Social>
+			<Construction>-2</Construction>
+			<Mining>-2</Mining>
+			<Intellectual>6</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Vigilante</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_27</defName>
+		<title>Kurin Versatile Child</title>
+		<titleShort>Versatile</titleShort>
+		<description>[PAWN_nameDef] was talented in various fields such as studying, cooking, crating, and sports, but it rather made [PAWN_pronoun] difficult to focus on one field. [PAWN_pronoun] wandered for a while to find her career.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Melee>2</Melee>
+			<Cooking>2</Cooking>
+			<Crafting>2</Crafting>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Vigilante</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_28</defName>
+		<title>Bookworm</title>
+		<titleShort>Bookworm</titleShort>
+		<description>The small sound of turning the page, smell of old paper... [PAWN_nameDef] loved reading books with their reading lights on and their room was full of books. [PAWN_nameDef] often spent all day reading books in an old library.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>-4</Social>
+			<Animals>2</Animals>
+			<Medicine>2</Medicine>
+			<Plants>2</Plants>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_29</defName>
+		<title>First Kurin</title>
+		<titleShort>First Kurin</titleShort>
+		<description>[PAWN_nameDef] is one of the first Kurin pioneers. When their ship made it onto the new planet, [PAWN_pronoun] was unable to wake up for hundreds of years due to a fault in the cryptosleep casket. Only recently did Kurin master the cryptosleep technology and [PAWN_pronoun] finally woke up.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Cooking>3</Cooking>
+			<Crafting>3</Crafting>
+		</skillGains>
+		<forcedTraits>
+			<Beauty>2</Beauty>
+		</forcedTraits>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_30</defName>
+		<title>Kurin Foreign Student</title>
+		<titleShort>Foreign Student</titleShort>
+		<description>[PAWN_nameDef] was a foreign student in the human nations, and has been away from parents since [PAWN_pronoun] was a child. Fortunately, the school [PAWN_pronoun] attended was a place with good children and teachers, and [PAWN_pronoun] was able to grow up as an outgoing, warm-hearted fox.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>3</Social>
+			<Cooking>2</Cooking>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+			<li>Kurin_Trader</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_31</defName>
+		<title>Kurin Young Musician</title>
+		<titleShort>Musician</titleShort>
+		<description>[PAWN_nameDef] was a young fox who loved music and loved to sing with friends. [PAWN_pronoun] became more and more entertained by music as [PAWN_pronoun] composed own songs and music, and even got good responses from others. But their parents were not particularly happy about that.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Artistic>6</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_32</defName>
+		<title>Kurin Child Actor</title>
+		<titleShort>Actor</titleShort>
+		<description>[PAWN_nameDef] was renowned for excellent acting skills and rich emotional expression despite a young age. [PAWN_pronoun] wanted to appear in many movies and dramas, and [PAWN_pronoun] was able to learn various skills while acting in various genres.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>4</Social>
+			<Artistic>4</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_33</defName>
+		<title>Kurin Outgoing Student</title>
+		<titleShort>Student</titleShort>
+		<description>[PAWN_nameDef] has always been popular among friends for cute looks and bright, cheerful personality. Later on, [PAWN_pronoun] became a celebrity, but since [PAWN_pronoun] couldn't play or live freely with friends as before, [PAWN_pronoun] felt lonely after all. Not long after, [PAWN_pronoun] decided to retire and return to normal life.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Social>6</Social>
+			<Cooking>4</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Trader</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_34</defName>
+		<title>Kurin Martial Art Trainee</title>
+		<titleShort>Trainee</titleShort>
+		<description>[PAWN_nameDef] was a wimp, weaker than peers. [PAWN_pronoun] began to practice several sports and martial arts to overcome this. [PAWN_pronoun] worked hard and has become strong enough to win regional competitions.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Melee>6</Melee>
+			<Construction>2</Construction>
+			<Mining>2</Mining>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_35</defName>
+		<title>Kurin Scout</title>
+		<titleShort>Scout</titleShort>
+		<description>The young [PAWN_nameDef] had a great yearning for the children's scouts. [PAWN_nameDef]'s parents bought uniforms for their child despite their poverty, and [PAWN_pronoun] was able to join the Scouts and spent happy days learning various skills such as camping, botany and survival.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Medicine>2</Medicine>
+			<Construction>2</Construction>
+			<Plants>2</Plants>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="Kurin_BaseBackstory">
+		<defName>Kurin_BackstoryChild_36</defName>
+		<title>Kurin Athlete</title>
+		<titleShort>Athlete</titleShort>
+		<description>Unlike most Kurins, [PAWN_nameDef] loved to move, and joined the school's athletic club to do various sports. PE class was a solo stage of [PAWN_nameDef], and [PAWN_pronoun] was considerate enough to help the ones who were bullied. But unfortunately, [PAWN_nameDef]'s grades were not really good.</description>
+		<slot>Childhood</slot>
+		<skillGains>
+			<Melee>6</Melee>
+			<Social>2</Social>
+			<Mining>2</Mining>
+			<Intellectual>-4</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Army</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+</Defs>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="Kurin_UnderwearBase">
+		<defName>Kurin_Underwear</defName>
+		<label>kurin underwear</label>
+		<description>Plain underwear, the same color as the material.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Underwear/WhiteUnderwear_Female_south</texPath>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<apparel>
+			<wornGraphicPaths>
+				<li>KurinMeowEdition/Item_Apperal/Underwear/WhiteUnderwear</li>
+			</wornGraphicPaths>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<tags>
+				<li>Kurin_Colonist</li>
+			</tags>
+		</apparel>
+		<comps Inherit="False">
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+	<ThingDef ParentName="Kurin_UnderwearBase">
+		<defName>Kurin_Underwear_Black</defName>
+		<label>kurin underwear (black)</label>
+		<description>Plain underwear, black color style.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Underwear/BlackUnderwear_Female_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPaths>
+				<li>KurinMeowEdition/Item_Apperal/Underwear/BlackUnderwear</li>
+			</wornGraphicPaths>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="Kurin_UnderwearBase">
+		<defName>Kurin_Underwear_Red</defName>
+		<label>kurin underwear (red)</label>
+		<description>Plain underwear, red color style.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Underwear/RedUnderwear_Female_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPaths>
+				<li>KurinMeowEdition/Item_Apperal/Underwear/RedUnderwear</li>
+			</wornGraphicPaths>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="Kurin_UnderwearBase">
+		<defName>Kurin_Underwear_Slim</defName>
+		<label>kurin underwear (slim)</label>
+		<description>Light and thin underwear. All the more to highlight Kurin's charm.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Underwear/SlimUnderwear_Female_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPaths>
+				<li>KurinMeowEdition/Item_Apperal/Underwear/SlimUnderwear</li>
+			</wornGraphicPaths>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="Kurin_UnderwearBase">
+		<defName>Kurin_Underwear_Stripe</defName>
+		<label>kurin underwear (stripe)</label>
+		<description>Cute striped underwear. They've been dyed white.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Underwear/StripedUnderwear_Female_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPaths>
+				<li>KurinMeowEdition/Item_Apperal/Underwear/StripedUnderwear</li>
+			</wornGraphicPaths>
+		</apparel>
+	</ThingDef>
+</Defs>

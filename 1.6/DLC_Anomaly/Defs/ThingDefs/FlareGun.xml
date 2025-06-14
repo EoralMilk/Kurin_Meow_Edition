@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BaseWeapon">
+		<defName>Kurin_Range_FlareGun</defName>
+		<label>disruptor flare gun</label>
+		<description>A flare gun that fires small disruptor flares.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Item_FlareGun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.5</uiIconScale>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<techLevel>Industrial</techLevel>
+		<smeltable>true</smeltable>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<Steel>30</Steel>
+			<Bioferrite>60</Bioferrite>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>1.5</Mass>
+			<AccuracyTouch>0.50</AccuracyTouch>
+			<AccuracyShort>0.50</AccuracyShort>
+			<AccuracyMedium>0.30</AccuracyMedium>
+			<AccuracyLong>0.15</AccuracyLong>
+			<RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags Inherit="False">
+			<li>Kurin_FlareGun</li>
+		</weaponTags>
+		<tradeTags>
+			<!--  <li>WeaponRanged</li> --> <!-- Removed as we don't want horaxian weapons to appear in normal trader inventories -->
+			<li>HoraxWeapon</li>
+		</tradeTags>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>WeaponsRanged</li>
+		</thingCategories>
+		<burnableByRecipe>true</burnableByRecipe>
+		<recipeMaker>
+			<researchPrerequisite>DisruptorFlares</researchPrerequisite>
+			<recipeUsers>
+				<li>BioferriteShaper</li>
+			</recipeUsers>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+			<displayPriority>33</displayPriority>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Kurin_Bullet_DisruptorFlare</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>25.9</range>
+				<!-- <forcedMissRadius>1.2</forcedMissRadius> -->
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Shot_IncendiaryLauncher</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>8</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Kurin_Bullet_DisruptorFlare</defName>
+		<label>disruptor flare</label>
+		<graphicData>
+			<texPath>Things/Projectile/DisruptorFlare</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>0.65</drawSize>
+		</graphicData>
+		<thingClass>Projectile_SpawnsThing</thingClass>
+		<projectile>
+			<speed>30</speed>
+			<arcHeightFactor>2.5</arcHeightFactor>
+			<spinRate>3</spinRate>
+			<explosionRadius>4.9</explosionRadius> <!-- Must be kept in sync with radius of
+			CompProperties_DisruptorFlare -->
+			<landedEffecter>DisruptorFlareLanded</landedEffecter>
+			<spawnsThingDef>Kurin_SmallDisruptorFlare</spawnsThingDef>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef>
+		<defName>Kurin_SmallDisruptorFlare</defName>
+		<label>disruptor flare</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Projectile/DisruptorFlare</texPath>
+			<shaderType>Transparent</shaderType>
+			<drawSize>0.65</drawSize>
+			<onGroundRandomRotateAngle>360</onGroundRandomRotateAngle>
+		</graphicData>
+		<selectable>false</selectable>
+		<tickerType>Normal</tickerType>
+		<thingClass>ThingWithComps</thingClass>
+		<useHitPoints>false</useHitPoints>
+		<rotatable>false</rotatable>
+		<comps>
+			<li Class="CompProperties_DisruptorFlare">
+				<radius>4.9</radius>
+				<effecterDef>DisruptorFlareAttached</effecterDef>
+				<destroyWarningEffecterDef>DisruptorDestroyWarning</destroyWarningEffecterDef>
+			</li>
+			<li Class="CompProperties_DestroyAfterDelay">
+				<delayTicks>3000</delayTicks>
+				<displayCountdownOnLabel>true</displayCountdownOnLabel>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(255,117,108,0)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+</Defs>

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+    
+  <Kurin_BackstoryChild_Unknown.title>迷之小狐</Kurin_BackstoryChild_Unknown.title>
+  <Kurin_BackstoryChild_Unknown.titleShort>未知</Kurin_BackstoryChild_Unknown.titleShort>
+  <Kurin_BackstoryChild_Unknown.description>[PAWN_nameDef]的童年是个迷。</Kurin_BackstoryChild_Unknown.description>
+
+  <Kurin_BackstoryAdult_Unknown.title>迷之狐</Kurin_BackstoryAdult_Unknown.title>
+  <Kurin_BackstoryAdult_Unknown.titleShort>未知</Kurin_BackstoryAdult_Unknown.titleShort>
+  <Kurin_BackstoryAdult_Unknown.description>[PAWN_nameDef]的经历是个迷。</Kurin_BackstoryAdult_Unknown.description>
+
   <Kurin_BackstoryChild_01.title>魅狐孤儿</Kurin_BackstoryChild_01.title>
   <Kurin_BackstoryChild_01.titleShort>孤儿</Kurin_BackstoryChild_01.titleShort>
   <Kurin_BackstoryChild_01.description>[PAWN_nameDef]的父母在[PAWN_pronoun]小时候就被人类杀害了。[PAWN_pronoun]在那之后患上了创伤后应激障碍，并经历了多年的心理治疗。现在[PAWN_nameDef]基本痊愈，然而有时[PAWN_pronoun]依然会回想起噩梦般的那一天。</Kurin_BackstoryChild_01.description>
@@ -389,5 +397,21 @@
   <Kurin_BackstoryAdult_61.title>魅狐战争狂</Kurin_BackstoryAdult_61.title>
   <Kurin_BackstoryAdult_61.titleShort>战争狂</Kurin_BackstoryAdult_61.titleShort>
   <Kurin_BackstoryAdult_61.description>[PAWN_nameDef]很快便证明了自己在战斗中的残暴，并赢得了多场胜利.</Kurin_BackstoryAdult_61.description>
+  
+  <Kurin_BackstoryAdult_DevDiv01.title>魅狐开发部员</Kurin_BackstoryAdult_DevDiv01.title>
+  <Kurin_BackstoryAdult_DevDiv01.titleShort>开发部员</Kurin_BackstoryAdult_DevDiv01.titleShort>
+  <Kurin_BackstoryAdult_DevDiv01.description>[PAWN_nameDef]隶属于某个魅狐组织的技术局，该局的开发部经常派遣它的成员们在世界各地寻找各种各样的失落科技收为己用，在执行上一个长期任务的时候[PAWN_nameDef]来到了这里。</Kurin_BackstoryAdult_DevDiv01.description>
+  
+  <Kurin_BackstoryAdult_DevDiv02.title>魅狐摸鱼部员</Kurin_BackstoryAdult_DevDiv02.title>
+  <Kurin_BackstoryAdult_DevDiv02.titleShort>摸鱼部员</Kurin_BackstoryAdult_DevDiv02.titleShort>
+  <Kurin_BackstoryAdult_DevDiv02.description>作为开发部之耻，[PAWN_nameDef]毫不在意其他部员的恶评，毕竟玩乐对于她来说比起那些只烧钱看不到成果的项目来说更加真实，但是在某次玩忽职守被部长发现以后[PAWN_nameDef]被立刻清理出了所在的部门。</Kurin_BackstoryAdult_DevDiv02.description>
+  
+  <Kurin_BackstoryAdult_DevDiv03.title>魅狐外勤开发部员</Kurin_BackstoryAdult_DevDiv03.title>
+  <Kurin_BackstoryAdult_DevDiv03.titleShort>外勤开发部员</Kurin_BackstoryAdult_DevDiv03.titleShort>
+  <Kurin_BackstoryAdult_DevDiv03.description>和那些蹲实验室的书虫们不一样，[PAWN_nameDef]因为成绩问题只能做长期外勤部员，同一届进入开发部的外勤部员如今已经不剩下几个了，在这并不安全的工作中，[PAWN_nameDef]学会了很多实验室里永远接触不到的战斗技巧。</Kurin_BackstoryAdult_DevDiv03.description>
+
+  <Kurin_BackstoryAdult_Adventurer.title>魅狐探险家</Kurin_BackstoryAdult_Adventurer.title>
+  <Kurin_BackstoryAdult_Adventurer.titleShort>探险家</Kurin_BackstoryAdult_Adventurer.titleShort>
+  <Kurin_BackstoryAdult_Adventurer.description>[PAWN_nameDef]是一名来自奥拉瑞亚的探险家，现在她在寻找传说中的宝藏...</Kurin_BackstoryAdult_Adventurer.description>
 
 </LanguageData>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<PawnKindDef ParentName="BaseKurinCombatant" Name="Kurin_MercenaryBase" Abstract="True">
+		<defaultFactionType>KurinFaction_Republic</defaultFactionType>
+		<initialWillRange>30</initialWillRange>
+		<initialResistanceRange>30</initialResistanceRange>
+		<biocodeWeaponChance>1</biocodeWeaponChance>
+		<techHediffsRequired>
+			<li>DeathAcidifier</li>
+		</techHediffsRequired>
+		<disallowedTraits>
+			<li>BodyPurist</li>
+		</disallowedTraits>
+		<immuneToTraps>true</immuneToTraps>
+		<factionHostileOnKill>true</factionHostileOnKill>
+	</PawnKindDef>
+
+
+	<PawnKindDef ParentName="Kurin_MercenaryBase">
+		<defName>Kurin_Mercenary_Airborne</defName>
+		<label>Kurin airborne troops</label>
+		<combatPower>125</combatPower>
+		<apparelMoney>2500</apparelMoney>
+		<weaponMoney>2000</weaponMoney>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Soldier</li>
+					<li>Kurin_Army</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Kurin_Underwear</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Underwear</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Stocking</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Socks</tag>
+						<chance>0.8</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</specificApparelRequirements>
+
+
+		<weaponTags Inherit="False">
+			<li>Kurin_ChainGun</li>
+		</weaponTags>
+		<apparelRequired Inherit="false">
+			<li>Kurin_CombatSuit</li>
+			<li>Kurin_AttackBoot</li>
+			<li>Kurin_BulletproofVest</li>
+			<li>Kurin_Goggles</li>
+			<li>Kurin_CombatHelmet</li>
+		</apparelRequired>
+		<apparelTags>
+			<li>Kurin_Military</li>
+		</apparelTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>9~11</range>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<range>6~9</range>
+			</li>
+		</skills>
+		<disallowedTraitsWithDegree>
+			<SpeedOffset>-1</SpeedOffset>
+		</disallowedTraitsWithDegree>
+	</PawnKindDef>
+
+
+	<PawnKindDef ParentName="Kurin_MercenaryBase">
+		<defName>Kurin_Mercenary_HECU</defName>
+		<label>Kurin H.E.C.U.</label>
+		<combatPower>500</combatPower>
+		<weaponMoney>4000</weaponMoney>
+		<apparelMoney>5500</apparelMoney>
+
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Sergeant</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+
+		<weaponTags Inherit="False">
+			<li>Kurin_Range_Spacer</li>
+		</weaponTags>
+		<apparelRequired Inherit="false">
+			<li>Kurin_PowerArmorLiner</li>
+			<li>Kurin_PowerArmorHECS</li>
+			<li>Kurin_HECSHelmet</li>
+		</apparelRequired>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>13~18</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>12~15</range>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<range>8~10</range>
+			</li>
+		</skills>
+		<combatEnhancingDrugsChance>1</combatEnhancingDrugsChance>
+		<inventoryOptions>
+			<skipChance>0</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>1</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+		<forcedTraits>
+			<Nerves>2</Nerves>
+			<SpeedOffset>2</SpeedOffset>
+		</forcedTraits>
+	</PawnKindDef>
+
+</Defs>

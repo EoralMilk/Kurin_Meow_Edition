@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef ParentName="KurinPowerArmored" Name="KurinPowerArmored_ReconPrestige" Abstract="True">
+		<apparelTags>
+			<li>Kurin_ReconArmorPrestige</li>
+		</apparelTags>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Shell</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_ReconArmorPrestige</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<apparelLayer>Overhead</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_ReconArmorPrestige</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</specificApparelRequirements>
+		<apparelMoney>2850~3850</apparelMoney>
+	</PawnKindDef>
+
+</Defs>

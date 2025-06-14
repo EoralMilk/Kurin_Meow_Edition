@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<KurinBaby.label>嬰兒</KurinBaby.label>
+	<KurinBaby.adjective>嬰兒</KurinBaby.adjective>
+
+	<KurinChild.label>兒童</KurinChild.label>
+	<KurinChild.adjective>兒童</KurinChild.adjective>
+
+	<KurinTeenager.label>少年</KurinTeenager.label>
+	<KurinTeenager.adjective>少年</KurinTeenager.adjective>
+
+	<KurinAdult.label>成年</KurinAdult.label>
+	<!-- <KurinAdult.adjective>成年</KurinAdult.adjective> -->
+
+</LanguageData>

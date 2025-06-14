@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Kurin_BaseShield" ParentName="BaseMeleeWeapon_Blunt_Quality" Abstract="True">
+		<techLevel>Industrial</techLevel>
+		<thingClass>VFECore.Apparel_Shield</thingClass>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>LeftHand</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<layers>
+				<li>VFEC_OuterShell</li>
+			</layers>
+		</apparel>
+		<thingCategories Inherit="False">
+			<li>VFEC_Shields</li>
+		</thingCategories>
+		<recipeMaker>
+			<researchPrerequisite>FlakArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<equippedAngleOffset>0</equippedAngleOffset>
+	</ThingDef>
+
+	<ThingDef ParentName="Kurin_BaseShield">
+		<defName>Kurin_Riotshield</defName>
+		<label>kurin marine riot shield</label>
+		<description>An advanced high-strength alloy shield that provides protection while locking the enemy's position, and its built-in flash lights can also be used in melee combat.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Shield/Riotshield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<costList>
+			<Plasteel>75</Plasteel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.9</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.2</ArmorRating_Heat>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>5</Mass>
+		</statBases>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+			<MeleeHitChance>-2</MeleeHitChance>
+			<MeleeDodgeChance>-5</MeleeDodgeChance>
+			<MoveSpeed>-0.2</MoveSpeed>
+			<CarryingCapacity>-5</CarryingCapacity>
+			<StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">-0.8</StaggerDurationFactor>
+		</equippedStatOffsets>
+		<comps>
+			<li Class="VFECore.CompProperties_Shield">
+				<shieldTags>
+					<li>KurinShield_Advanced</li>
+				</shieldTags>
+				<useDeflectMetalEffect>true</useDeflectMetalEffect>
+				<coveredBodyPartGroups>
+					<li>Neck</li>
+					<li>Torso</li>
+					<li>Arms</li>
+					<li>Hands</li>
+					<li>FullHead</li>
+					<li>Legs</li>
+					<li>Shoulders</li>
+					<li>Feet</li>
+				</coveredBodyPartGroups>
+				<offHandGraphicData>
+					<texPath>KurinMeowEdition/Item_Shield/Riotshield</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>Transparent</shaderType>
+					<drawSize>1.6</drawSize>
+				</offHandGraphicData>
+				<offHandHoldOffset>
+					<northDefault>
+						<offset>(0, -0.2, 0.2)</offset>
+						<behind>true</behind>
+					</northDefault>
+					<east>
+						<offset>(-0.1, 0, 0.2)</offset>
+						<behind>true</behind>
+					</east>
+					<south>
+						<offset>(-0.1, -0.045, 0.2)</offset>
+					</south>
+					<west>
+						<offset>(0.1, 0, 0.2)</offset>
+					</west>
+				</offHandHoldOffset>
+			</li>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>flashlight</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<extraMeleeDamages>
+					<li>
+						<def>Stun</def>
+						<amount>20</amount>
+					</li>
+				</extraMeleeDamages>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>centre</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="Kurin_BaseShield">
+		<defName>Kurin_Blockershield</defName>
+		<label>kurin blocker shield</label>
+		<description>This small shield made of bulletproof transparent material is fairly common in all Kurin civilian security agencies, due to the fact that the transparent composite material used on the shield is not very wear-resistant, and will become no longer transparent after a period of use - although this does not actually prevent normal use, many Kurin just don't like this and will quickly discard the old shield.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Shield/Blocker</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<Steel>25</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<!-- <recipeMaker>
+			<researchPrerequisite>TableMachining</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker> -->
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.3</Flammability>
+			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>1.5</Mass>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeDodgeChance>-2</MeleeDodgeChance>
+			<MoveSpeed>-0.13</MoveSpeed>
+			<CarryingCapacity>-5</CarryingCapacity>
+			<StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">-0.2</StaggerDurationFactor>
+		</equippedStatOffsets>
+		<comps>
+			<li Class="VFECore.CompProperties_Shield">
+				<shieldTags>
+					<li>KurinShield</li>
+				</shieldTags>
+				<useDeflectMetalEffect>true</useDeflectMetalEffect>
+				<coveredBodyPartGroups>
+					<li>Neck</li>
+					<li>Torso</li>
+					<li>Arms</li>
+					<li>Hands</li>
+					<li>FullHead</li>
+					<li>Legs</li>
+					<li>Shoulders</li>
+					<li>Feet</li>
+				</coveredBodyPartGroups>
+				<offHandGraphicData>
+					<texPath>KurinMeowEdition/Item_Shield/Blocker</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>Transparent</shaderType>
+					<drawSize>1.6</drawSize>
+				</offHandGraphicData>
+				<offHandHoldOffset>
+					<northDefault>
+						<offset>(0, -0.2, 0.2)</offset>
+						<behind>true</behind>
+					</northDefault>
+					<east>
+						<offset>(-0.1, 0, 0.2)</offset>
+						<behind>true</behind>
+					</east>
+					<south>
+						<offset>(-0.1, -0.045, 0.2)</offset>
+					</south>
+					<west>
+						<offset>(0.1, 0, 0.2)</offset>
+					</west>
+				</offHandHoldOffset>
+			</li>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>centre</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+
+</Defs>

@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef ParentName="KurinMeleeAdvanced">
+		<defName>Kurin_Ninja</defName>
+		<label>Kurin ninjia</label>
+		<combatPower>100</combatPower>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>7~13</range>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<range>7~13</range>
+			</li>
+		</skills>
+		<disallowedTraitsWithDegree>
+			<ShootingAccuracy>-1</ShootingAccuracy>
+			<SpeedOffset>-1</SpeedOffset>
+		</disallowedTraitsWithDegree>
+		<forcedTraits>
+			<Nimble>0</Nimble>
+		</forcedTraits>
+		<apparelMoney>1200~1550</apparelMoney>
+		<weaponTags Inherit="False">
+			<li>Kurin_Ninja</li>
+		</weaponTags>
+		<apparelTags Inherit="False">
+			<li>Kurin_Ninja</li>
+		</apparelTags>
+		<apparelRequired Inherit="false">
+			<li>Kurin_NightWalker</li>
+			<li>Kurin_HeadBand</li>
+			<li>Kurin_NightMask</li>
+			<li>Kurin_StockingArmor</li>
+		</apparelRequired>
+		<specificApparelRequirements Inherit="False">
+		</specificApparelRequirements>
+		<weaponMoney>950~1150</weaponMoney>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="KurinMelee">
+		<defName>Kurin_Savage</defName>
+		<label>Kurin savage</label>
+		<combatPower>50</combatPower>
+		<weaponMoney>300~700</weaponMoney>
+		<apparelMoney>350~650</apparelMoney>
+		<skills>
+			<li>
+				<skill>Melee</skill>
+				<range>3~9</range>
+			</li>
+		</skills>
+	</PawnKindDef>
+	<PawnKindDef ParentName="KurinMelee">
+		<defName>Kurin_Blocker</defName>
+		<label>Kurin blocker</label>
+		<combatPower>85</combatPower>
+		<weaponMoney>400~550</weaponMoney>
+		<apparelMoney>350~650</apparelMoney>
+		<skills>
+			<li>
+				<skill>Melee</skill>
+				<range>6~9</range>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<range>7~13</range>
+			</li>
+		</skills>
+		<weaponTags Inherit="False">
+			<li>MedievalMeleeDecent</li>
+		</weaponTags>
+	</PawnKindDef>
+	<PawnKindDef ParentName="KurinMeleeAdvanced">
+		<defName>Kurin_Slasher</defName>
+		<label>Kurin slasher</label>
+		<combatPower>75</combatPower>
+		<apparelMoney>1150~1750</apparelMoney>
+		<weaponMoney>650~1500</weaponMoney>
+		<canBeSapper>true</canBeSapper>
+		<skills>
+			<li>
+				<skill>Melee</skill>
+				<range>8~12</range>
+			</li>
+		</skills>
+		<disallowedTraitsWithDegree>
+			<SpeedOffset>-1</SpeedOffset>
+		</disallowedTraitsWithDegree>
+	</PawnKindDef>
+	<PawnKindDef ParentName="KurinMeleeAdvanced">
+		<defName>Kurin_Executioner</defName>
+		<label>Kurin executioner</label>
+		<combatPower>115</combatPower>
+		<apparelMoney>1550~2350</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_ShieldBelt</li>
+		</apparelRequired>
+		<skills>
+			<li>
+				<skill>Melee</skill>
+				<range>12~18</range>
+			</li>
+		</skills>
+		<forcedTraits>
+			<Brawler>0</Brawler>
+		</forcedTraits>
+		<weaponMoney>950~1850</weaponMoney>
+		<disallowedTraitsWithDegree>
+			<SpeedOffset>-1</SpeedOffset>
+		</disallowedTraitsWithDegree>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="KurinShooter">
+		<defName>Kurin_Trooper</defName>
+		<label>Kurin trooper</label>
+		<combatPower>80</combatPower>
+		<apparelMoney>1050~1750</apparelMoney>
+		<canBeSapper>true</canBeSapper>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Soldier</li>
+					<li>Kurin_Army</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<specificApparelRequirements Inherit="false">
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Kurin_Underwear</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Underwear</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Stocking</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Socks</tag>
+						<chance>0.8</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Shoes</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Military</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</specificApparelRequirements>
+		<weaponTags Inherit="False">
+			<li>ShortShots</li>
+		</weaponTags>
+		<apparelRequired Inherit="false">
+			<li>Kurin_CombatSuit</li>
+			<li>Kurin_Goggles</li>
+		</apparelRequired>
+		<weaponMoney>450~1200</weaponMoney>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>7~11</range>
+			</li>
+		</skills>
+		<disallowedTraitsWithDegree>
+			<SpeedOffset>-1</SpeedOffset>
+		</disallowedTraitsWithDegree>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="KurinShooter">
+		<defName>Kurin_Fallschirmjager</defName>
+		<label>Kurin fallschirmjager</label>
+		<combatPower>120</combatPower>
+		<apparelMoney>1950~2550</apparelMoney>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Soldier</li>
+					<li>Kurin_Sergeant</li>
+					<li>Kurin_Army</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags Inherit="False">
+			<li>AssaultRifle</li>
+			<li>Kurin_ChainGun</li>
+			<li>Kurin_ChargePistol</li>
+		</weaponTags>
+		<specificApparelRequirements Inherit="false">
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Kurin_Underwear</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Underwear</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Stocking</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Socks</tag>
+						<chance>0.8</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Shoes</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Military</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</specificApparelRequirements>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<apparelRequired Inherit="false">
+			<li>Kurin_CombatSuit</li>
+			<li>Kurin_CombatHelmet</li>
+		</apparelRequired>
+		<weaponMoney>750~1500</weaponMoney>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>10~16</range>
+			</li>
+		</skills>
+		<disallowedTraitsWithDegree>
+			<ShootingAccuracy>-1</ShootingAccuracy>
+			<SpeedOffset>-1</SpeedOffset>
+		</disallowedTraitsWithDegree>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="KurinShooter">
+		<defName>Kurin_Initiate</defName>
+		<label>Kurin initiate</label>
+		<combatPower>40</combatPower>
+		<apparelMoney>550~750</apparelMoney>
+		<weaponTags Inherit="False">
+			<li>SimpleGun</li>
+		</weaponTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>2~6</range>
+			</li>
+		</skills>
+		<apparelTags Inherit="False">
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Military</li>
+		</apparelTags>
+		<specificApparelRequirements Inherit="False">
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Citizen</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Kurin_Stocking</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Socks</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Shoes</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Military</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+	<PawnKindDef ParentName="KurinShooter">
+		<defName>Kurin_Recruit</defName>
+		<label>Kurin recruit</label>
+		<combatPower>55</combatPower>
+		<apparelMoney>550~1250</apparelMoney>
+		<canBeSapper>true</canBeSapper>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>5~9</range>
+			</li>
+		</skills>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="KurinShooter">
+		<defName>Kurin_Veteran</defName>
+		<label>Kurin veteran</label>
+		<combatPower>150</combatPower>
+		<apparelMoney>2550~3250</apparelMoney>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Sergeant</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelRequired>
+			<li>Kurin_BulletproofVest</li>
+			<li>Kurin_CombatHelmet</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<!-- <li>AssaultRifle</li> -->
+			<li>GunHeavy</li>
+			<li>Kurin_ChainGun</li>
+			<li>Kurin_TwinRocket</li>
+			<li>Kurin_Range_Spacer</li>
+			<li>Flamethrower</li>
+			<!-- <li>Kurin_FlareGun</li> -->
+		</weaponTags>
+		<weaponMoney>2050~3500</weaponMoney>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>10~16</range>
+			</li>
+		</skills>
+		<disallowedTraitsWithDegree>
+			<ShootingAccuracy>-1</ShootingAccuracy>
+		</disallowedTraitsWithDegree>
+	</PawnKindDef>
+
+
+	<PawnKindDef ParentName="KurinPowerArmored_Recon">
+		<defName>Kurin_ArmorKnight</defName>
+		<label>Kurin armor knight</label>
+		<combatPower>200</combatPower>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Sergeant</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags Inherit="False">
+			<li>Kurin_Melee_Sattle_Stuff</li>
+			<li>GunHeavy</li>
+			<li>Kurin_ChainGun</li>
+			<li>Kurin_Range_Spacer</li>
+		</weaponTags>
+		<weaponMoney>2200~3500</weaponMoney>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>10~16</range>
+			</li>
+		</skills>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="KurinPowerArmored_Recon">
+		<defName>Kurin_Terminator</defName>
+		<label>Kurin Terminator</label>
+		<combatPower>400</combatPower>
+		<itemQuality>Excellent</itemQuality>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Sergeant</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags Inherit="False">
+			<li>Kurin_GatheringLance</li>
+		</weaponTags>
+		<weaponMoney>5000~7500</weaponMoney>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<apparelMoney>6550~7350</apparelMoney>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>16~19</range>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<range>6~8</range>
+			</li>
+		</skills>
+		<forcedTraits>
+			<Nerves>2</Nerves>
+			<SpeedOffset>2</SpeedOffset>
+			<ShootingAccuracy>-1</ShootingAccuracy>
+			<Tough>0</Tough>
+			<PsychicSensitivity>-2</PsychicSensitivity>
+		</forcedTraits>
+		<combatEnhancingDrugsChance>0.5</combatEnhancingDrugsChance>
+		<inventoryOptions>
+			<skipChance>0</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>MedicineIndustrial</thingDef>
+					<countRange>3</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+
+
+	<PawnKindDef ParentName="KurinPowerArmored_Recon">
+		<defName>Kurin_CombatOfficer</defName>
+		<label>Kurin combat officer</label>
+		<combatPower>500</combatPower>
+		<itemQuality>Excellent</itemQuality>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Sergeant</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags Inherit="False">
+			<li>Kurin_Range_Spacer</li>
+			<li>Kurin_FlareGun</li>
+			<li>Kurin_FlareGunReinforcements</li>
+		</weaponTags>
+		<weaponMoney>3000~7500</weaponMoney>
+		<apparelMoney>7000</apparelMoney>
+		<abilities>
+			<li>CallReinforcements</li>
+		</abilities>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>12~16</range>
+			</li>
+		</skills>
+		<forcedTraits>
+			<Nerves>2</Nerves>
+			<Tough>0</Tough>
+		</forcedTraits>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="KurinShooter">
+		<defName>Kurin_Scout</defName>
+		<label>Kurin scout</label>
+		<combatPower>50</combatPower>
+		<disallowedTraitsWithDegree>
+			<Nerves>-1</Nerves>
+			<SpeedOffset>-1</SpeedOffset>
+		</disallowedTraitsWithDegree>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="KurinShooter">
+		<defName>Kurin_Pathfinder</defName>
+		<label>Kurin pathfinder</label>
+		<combatPower>120</combatPower>
+		<apparelMoney>1550~2350</apparelMoney>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Soldier</li>
+					<li>Kurin_Sergeant</li>
+					<li>Kurin_Army</li>
+					<li>Kurin_Sniper</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelRequired Inherit="false">
+			<li>Kurin_CombatSuit</li>
+			<li>Kurin_Goggles</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>Kurin_DMR</li>
+		</weaponTags>
+		<weaponMoney>1000~1500</weaponMoney>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>10~16</range>
+			</li>
+		</skills>
+		<forcedTraits>
+			<Nerves>2</Nerves>
+			<SpeedOffset>2</SpeedOffset>
+		</forcedTraits>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="KurinShooter">
+		<defName>Kurin_Sniper_H</defName>
+		<label>Kurin sniper</label>
+		<combatPower>80</combatPower>
+		<apparelMoney>1350~1850</apparelMoney>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Soldier</li>
+					<li>Kurin_Sergeant</li>
+					<li>Kurin_Army</li>
+					<li>Kurin_Sniper</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags Inherit="False">
+			<li>SniperRifle</li>
+			<li>Kurin_DMR</li>
+		</weaponTags>
+		<weaponMoney>750~1500</weaponMoney>
+		<disallowedTraitsWithDegree>
+			<ShootingAccuracy>-1</ShootingAccuracy>
+		</disallowedTraitsWithDegree>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>8~14</range>
+			</li>
+		</skills>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="KurinShooter">
+		<defName>Kurin_Marksman</defName>
+		<label>Kurin marksman</label>
+		<combatPower>120</combatPower>
+		<apparelMoney>1550~2350</apparelMoney>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Sniper</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<weaponTags Inherit="False">
+			<li>SniperRifle</li>
+			<li>Kurin_DMR</li>
+		</weaponTags>
+		<weaponMoney>1000~1500</weaponMoney>
+		<apparelRequired>
+			<li>Kurin_Goggles</li>
+		</apparelRequired>
+		<disallowedTraitsWithDegree>
+		</disallowedTraitsWithDegree>
+		<forcedTraits>
+			<ShootingAccuracy>1</ShootingAccuracy>
+		</forcedTraits>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>16~19</range>
+			</li>
+		</skills>
+	</PawnKindDef>
+
+
+	<PawnKindDef ParentName="KurinRepublicShooter">
+		<defName>Kurin_Soldier</defName>
+		<label>Kurin soldier</label>
+		<combatPower>80</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<weaponTags Inherit="False">
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Army</li>
+					<li>Kurin_Soldier</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="KurinRepublicShooter">
+		<defName>Kurin_Sergeant</defName>
+		<label>Kurin sergeant</label>
+		<combatPower>150</combatPower>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Sergeant</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelRequired>
+			<li>Kurin_BulletproofVest</li>
+		</apparelRequired>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<weaponTags Inherit="False">
+			<li>Kurin_ChainGun</li>
+			<li>Kurin_TwinRocket</li>
+			<!-- <li>Kurin_FlareGun</li> -->
+		</weaponTags>
+		<weaponMoney>1050~5500</weaponMoney>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>10~16</range>
+			</li>
+		</skills>
+		<disallowedTraitsWithDegree>
+			<ShootingAccuracy>-1</ShootingAccuracy>
+		</disallowedTraitsWithDegree>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="KurinRepublicShooter">
+		<defName>Kurin_Ranger</defName>
+		<label>Kurin ranger</label>
+		<combatPower>95</combatPower>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Army</li>
+					<li>Kurin_Soldier</li>
+					<li>Kurin_Sergeant</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelRequired>
+			<li>Kurin_BulletproofVest</li>
+		</apparelRequired>
+		<weaponTags Inherit="False">
+			<li>IndustrialGunAdvanced</li>
+			<li>Kurin_ChainGun</li>
+		</weaponTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>8~12</range>
+			</li>
+		</skills>
+		<disallowedTraitsWithDegree>
+			<Nerves>-2</Nerves>
+		</disallowedTraitsWithDegree>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="KurinRepublicShooter" Name="Kurin_Marine">
+		<defName>Kurin_Marine</defName>
+		<label>Kurin marine</label>
+		<combatPower>155</combatPower>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Soldier</li>
+					<li>Kurin_Sergeant</li>
+					<li>Kurin_Army</li>
+					<li>Kurin_Sniper</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelRequired Inherit="False">
+			<li>Kurin_MarineSuit</li>
+			<li>Kurin_MarineGear</li>
+			<li>Kurin_MarineHelmet</li>
+		</apparelRequired>
+		<specificApparelRequirements Inherit="False">
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Kurin_Underwear</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Underwear</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Stocking</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Socks</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Shoes</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Marine</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</specificApparelRequirements>
+		<weaponTags Inherit="False">
+			<li>Kurin_ChainGun</li>
+			<li>Kurin_TwinRocket</li>
+			<li>Kurin_Range_Spacer</li>
+			<li>GunHeavy</li>
+			<li>Flamethrower</li>
+		</weaponTags>
+		<weaponMoney>2250~7000</weaponMoney>
+		<apparelTags Inherit="False">
+			<li>Kurin_Marine</li>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<apparelMoney>2700~3250</apparelMoney>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>12~18</range>
+			</li>
+		</skills>
+		<forcedTraits>
+			<Nerves>2</Nerves>
+		</forcedTraits>
+	</PawnKindDef>
+
+
+	<PawnKindDef ParentName="Kurin_Marine">
+		<defName>Kurin_MarineBreacher</defName>
+		<label>Kurin marine breacher</label>
+		<combatPower>165</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<weaponTags Inherit="False">
+			<li>Kurin_Marine_Sword</li>
+			<li>RangedHeavy</li>
+			<li>Flamethrower</li>
+		</weaponTags>
+		<weaponMoney>2250~5000</weaponMoney>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+		</apparelTags>
+		<skills>
+			<li>
+				<skill>Melee</skill>
+				<range>12~18</range>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<range>12~18</range>
+			</li>
+		</skills>
+		<forcedTraits>
+			<Nerves>2</Nerves>
+		</forcedTraits>
+		<disallowedTraitsWithDegree Inherit="False">
+		</disallowedTraitsWithDegree>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="KurinRepublicShooter">
+		<defName>Kurin_Sniper</defName>
+		<label>Kurin sniper</label>
+		<combatPower>110</combatPower>
+		<apparelRequired>
+			<li>Kurin_BulletproofVest</li>
+			<li>Kurin_Goggles</li>
+		</apparelRequired>
+		<backstoryFiltersOverride Inherit="False">
+			<li>
+				<categoriesChildhood>
+					<li>Kurin_Army</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Kurin_Sniper</li>
+				</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<disallowedTraitsWithDegree>
+			<ShootingAccuracy>-1</ShootingAccuracy>
+		</disallowedTraitsWithDegree>
+		<weaponTags Inherit="False">
+			<li>SniperRifle</li>
+			<li>Kurin_DMR</li>
+		</weaponTags>
+		<weaponMoney>750~1500</weaponMoney>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>8~14</range>
+			</li>
+		</skills>
+	</PawnKindDef>
+</Defs>

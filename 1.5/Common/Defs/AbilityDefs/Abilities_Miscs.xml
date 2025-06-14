@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AbilityDef>
+		<defName>CallReinforcements</defName>
+		<label>call reinforcements</label>
+		<description>Launch a reinforcements airdrop flare.</description>
+		<iconPath>KurinMeowEdition/Item_Weapon/Item_FlareGun2</iconPath>
+		<aiCanUse>true</aiCanUse>
+		<ai_IsIncendiary>true</ai_IsIncendiary>
+		<warmupStartSound>Interact_Rifle</warmupStartSound>
+		<showOnCharacterCard>true</showOnCharacterCard>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<cooldownTicksRange>1800000</cooldownTicksRange>
+		<displayOrder>1</displayOrder>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<requireLineOfSight>true</requireLineOfSight>
+			<range>25.9</range>
+			<warmupTime>1</warmupTime>
+			<soundCast>Shot_IncendiaryLauncher</soundCast>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_AbilityLaunchProjectile">
+				<projectileDef>Kurin_Bullet_ReinforcementsFlare</projectileDef>
+			</li>
+		</comps>
+	</AbilityDef>
+  
+
+</Defs>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <SingleTailFox.degreeDatas.single_tail.label>獨尾</SingleTailFox.degreeDatas.single_tail.label>
+  <SingleTailFox.degreeDatas.single_tail.description>不同於其他魅狐，[PAWN_nameDef]生來就隻有一條尾巴。[PAWN_pronoun]的生活沒有受到太大的影響，但緩慢的成長讓[PAWN_nameDef]看起來比同齡人更幼小。小時候，[PAWN_nameDef]經常被人取笑，但隨著年齡增長，[PAWN_pronoun]變得比同族的姐妹更可愛，更受歡迎。</SingleTailFox.degreeDatas.single_tail.description>
+  <MeowEarLover.degreeDatas.meow_ear_lover.label>喜歡貓耳</MeowEarLover.degreeDatas.meow_ear_lover.label>
+  <MeowEarLover.degreeDatas.meow_ear_lover.description>[PAWN_nameDef]很喜歡類似貓耳一樣的毛絨三角耳，也很喜歡毛茸茸的大尾巴。</MeowEarLover.degreeDatas.meow_ear_lover.description>
+
+</LanguageData>

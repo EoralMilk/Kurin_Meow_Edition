@@ -15,6 +15,13 @@
 	<Kurin_Savage.labelFemale>魅狐恶棍</Kurin_Savage.labelFemale>
 	<Kurin_Savage.labelFemalePlural>魅狐恶棍</Kurin_Savage.labelFemalePlural>
 
+	<Kurin_Blocker.label>魅狐拦截者</Kurin_Blocker.label>
+	<Kurin_Blocker.labelPlural>魅狐拦截者</Kurin_Blocker.labelPlural>
+	<Kurin_Blocker.labelMale>魅狐拦截者</Kurin_Blocker.labelMale>
+	<Kurin_Blocker.labelMalePlural>魅狐拦截者</Kurin_Blocker.labelMalePlural>
+	<Kurin_Blocker.labelFemale>魅狐拦截者</Kurin_Blocker.labelFemale>
+	<Kurin_Blocker.labelFemalePlural>魅狐拦截者</Kurin_Blocker.labelFemalePlural>
+
 	<Kurin_Slasher.label>魅狐刀斧手</Kurin_Slasher.label>
 	<Kurin_Slasher.labelPlural>魅狐刀斧手</Kurin_Slasher.labelPlural>
 	<Kurin_Slasher.labelMale>魅狐刀斧手</Kurin_Slasher.labelMale>
@@ -84,7 +91,7 @@
 	<Kurin_Marksman.labelMalePlural>魅狐神射手</Kurin_Marksman.labelMalePlural>
 	<Kurin_Marksman.labelFemale>魅狐神射手</Kurin_Marksman.labelFemale>
 	<Kurin_Marksman.labelFemalePlural>魅狐神射手</Kurin_Marksman.labelFemalePlural>
- 
+
 	<Kurin_Veteran.label>魅狐老兵</Kurin_Veteran.label>
 	<Kurin_Veteran.labelPlural>魅狐老兵</Kurin_Veteran.labelPlural>
 	<Kurin_Veteran.labelMale>魅狐老兵</Kurin_Veteran.labelMale>
@@ -92,13 +99,27 @@
 	<Kurin_Veteran.labelFemale>魅狐老兵</Kurin_Veteran.labelFemale>
 	<Kurin_Veteran.labelFemalePlural>魅狐老兵</Kurin_Veteran.labelFemalePlural>
 
+	<Kurin_ArmorKnight.label>魅狐装甲骑士</Kurin_ArmorKnight.label>
+	<Kurin_ArmorKnight.labelPlural>魅狐装甲骑士</Kurin_ArmorKnight.labelPlural>
+	<Kurin_ArmorKnight.labelMale>魅狐装甲骑士</Kurin_ArmorKnight.labelMale>
+	<Kurin_ArmorKnight.labelMalePlural>魅狐装甲骑士</Kurin_ArmorKnight.labelMalePlural>
+	<Kurin_ArmorKnight.labelFemale>魅狐装甲骑士</Kurin_ArmorKnight.labelFemale>
+	<Kurin_ArmorKnight.labelFemalePlural>魅狐装甲骑士</Kurin_ArmorKnight.labelFemalePlural>
+
 	<Kurin_Terminator.label>魅狐终结者</Kurin_Terminator.label>
 	<Kurin_Terminator.labelPlural>魅狐终结者</Kurin_Terminator.labelPlural>
 	<Kurin_Terminator.labelMale>魅狐终结者</Kurin_Terminator.labelMale>
 	<Kurin_Terminator.labelMalePlural>魅狐终结者</Kurin_Terminator.labelMalePlural>
 	<Kurin_Terminator.labelFemale>魅狐终结者</Kurin_Terminator.labelFemale>
 	<Kurin_Terminator.labelFemalePlural>魅狐终结者</Kurin_Terminator.labelFemalePlural>
-	
+
+	<Kurin_CombatOfficer.label>魅狐战斗军官</Kurin_CombatOfficer.label>
+	<Kurin_CombatOfficer.labelPlural>魅狐战斗军官</Kurin_CombatOfficer.labelPlural>
+	<Kurin_CombatOfficer.labelMale>魅狐战斗军官</Kurin_CombatOfficer.labelMale>
+	<Kurin_CombatOfficer.labelMalePlural>魅狐战斗军官</Kurin_CombatOfficer.labelMalePlural>
+	<Kurin_CombatOfficer.labelFemale>魅狐战斗军官</Kurin_CombatOfficer.labelFemale>
+	<Kurin_CombatOfficer.labelFemalePlural>魅狐战斗军官</Kurin_CombatOfficer.labelFemalePlural>
+
 	<Kurin_Warlord.label>战争之狐</Kurin_Warlord.label>
 	<Kurin_Warlord.labelPlural>战争之狐</Kurin_Warlord.labelPlural>
 	<Kurin_Warlord.labelMale>战争之狐</Kurin_Warlord.labelMale>
@@ -106,4 +127,17 @@
 	<Kurin_Warlord.labelFemale>战争之狐</Kurin_Warlord.labelFemale>
 	<Kurin_Warlord.labelFemalePlural>战争之狐</Kurin_Warlord.labelFemalePlural>
 
+	<Kurin_DevDivisionStaff.label>魅狐开发部员</Kurin_DevDivisionStaff.label>
+	<Kurin_DevDivisionStaff.labelPlural>魅狐开发部员</Kurin_DevDivisionStaff.labelPlural>
+	<Kurin_DevDivisionStaff.labelMale>魅狐开发部员</Kurin_DevDivisionStaff.labelMale>
+	<Kurin_DevDivisionStaff.labelMalePlural>魅狐开发部员</Kurin_DevDivisionStaff.labelMalePlural>
+	<Kurin_DevDivisionStaff.labelFemale>魅狐开发部员</Kurin_DevDivisionStaff.labelFemale>
+	<Kurin_DevDivisionStaff.labelFemalePlural>魅狐开发部员</Kurin_DevDivisionStaff.labelFemalePlural>
+
+	<Kurin_BlackHand.label>魅狐黑手部队</Kurin_BlackHand.label>
+	<Kurin_BlackHand.labelPlural>魅狐黑手部队</Kurin_BlackHand.labelPlural>
+	<Kurin_BlackHand.labelMale>魅狐黑手部队</Kurin_BlackHand.labelMale>
+	<Kurin_BlackHand.labelMalePlural>魅狐黑手部队</Kurin_BlackHand.labelMalePlural>
+	<Kurin_BlackHand.labelFemale>魅狐黑手部队</Kurin_BlackHand.labelFemale>
+	<Kurin_BlackHand.labelFemalePlural>魅狐黑手部队</Kurin_BlackHand.labelFemalePlural>
 </LanguageData>

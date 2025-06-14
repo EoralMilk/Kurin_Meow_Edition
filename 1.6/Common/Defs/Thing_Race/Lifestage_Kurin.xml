@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<LifeStageDef ParentName="HumanlikeAdolescent">
+		<defName>KurinBaby</defName>
+		<label>baby</label>
+		<bodySizeFactor>0.2</bodySizeFactor>
+		<bodyWidth>0.95</bodyWidth>
+		<bodyDrawOffset>(0, 0, -0.03)</bodyDrawOffset>
+		<voxPitch>1.6</voxPitch>
+		<headSizeFactor>0.45</headSizeFactor>
+		<eyeSizeFactor>0.63</eyeSizeFactor>
+		<foodMaxFactor>0.625</foodMaxFactor> <!-- bodySizeFactor * foodMaxFactor = maxFood = 0.125 -->
+		<hungerRateFactor>0.125</hungerRateFactor> <!-- consumes 2x maxFood per day -->
+		<healthScaleFactor>0.2</healthScaleFactor>
+		<marketValueFactor>0.5</marketValueFactor>
+		<meleeDamageFactor>0.5</meleeDamageFactor>
+		<developmentalStage>Baby</developmentalStage>
+		<fallAsleepMaxThresholdOverride>.60</fallAsleepMaxThresholdOverride>
+		<naturalWakeThresholdOverride>1.0</naturalWakeThresholdOverride>
+		<alwaysDowned>true</alwaysDowned>
+		<claimable>true</claimable>
+		<involuntarySleepIsNegativeEvent>false</involuntarySleepIsNegativeEvent> <!-- Babies just fall
+		asleep randomly and they're cool with it. -->
+		<thinkTreeMainOverride MayRequire="Ludeon.RimWorld.Biotech">HumanlikeBaby</thinkTreeMainOverride>
+		<thinkTreeConstantOverride MayRequire="Ludeon.RimWorld.Biotech">HumanlikeBabyConstant</thinkTreeConstantOverride>
+		<canDoRandomMentalBreaks>false</canDoRandomMentalBreaks> <!-- Babies have crying/giggling fits
+		instead of mental breaks. -->
+		<canSleepWhileHeld>true</canSleepWhileHeld>
+		<canVoluntarilySleep>false</canVoluntarilySleep> <!-- Babies fall asleep randomly when they're
+		tired. -->
+		<canSleepWhenStarving>false</canSleepWhenStarving>
+		<canInitiateSocialInteraction>false</canInitiateSocialInteraction>
+		<customMoodTipString>Mood represents how happy or stressed someone is. Babies with low mood are
+			more likely to cry, while babies with a high mood are more likely to giggle.</customMoodTipString>
+		<silhouetteGraphicData>
+			<texPath>Things/Pawn/Humanlike/Silhouettes/Silhouette_HumanBaby</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</silhouetteGraphicData>
+		<statFactors>
+			<MoveSpeed>0.2</MoveSpeed>
+		</statFactors>
+		<statOffsets>
+			<ComfyTemperatureMin>-46</ComfyTemperatureMin><!--should map to -30C-->
+			<ComfyTemperatureMax>4</ComfyTemperatureMax><!--should map to 30C-->
+		</statOffsets>
+		<involuntarySleepMTBDaysFromRest>
+			<points>
+				<li>(.00, 0)</li>
+				<li>(.01, .01)</li>
+				<li>(.15, .166)</li>
+				<li>(.30, 1)</li>
+				<li>(.59, 10)</li>
+				<li>(.60, Infinity)</li>
+			</points>
+		</involuntarySleepMTBDaysFromRest>
+	</LifeStageDef>
+
+	<LifeStageDef Name="LifeStageKurinChild" ParentName="LifeStageHumanlikeChild">
+		<defName>KurinChild</defName>
+		<label>child</label>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeChild</workerClass>
+		<bodySizeFactor>0.7</bodySizeFactor>
+		<bodyWidth>1.125</bodyWidth>
+		<bodyDrawOffset>(0, 0, -0.1)</bodyDrawOffset>
+		<voxPitch>1.2</voxPitch>
+		<!-- <headSizeFactor>0.67</headSizeFactor> -->
+		<headSizeFactor>0.75</headSizeFactor>
+		<eyeSizeFactor>0.75</eyeSizeFactor>
+		<healthScaleFactor>0.75</healthScaleFactor>
+		<foodMaxFactor>1</foodMaxFactor> <!-- bodySizeFactor * foodMaxFactor = maxFood = 0.8 -->
+		<hungerRateFactor>0.8</hungerRateFactor>
+		<marketValueFactor>0.9</marketValueFactor>
+		<meleeDamageFactor>0.7</meleeDamageFactor>
+		<developmentalStage>Child</developmentalStage>
+		<equipmentDrawDistanceFactor>0.55</equipmentDrawDistanceFactor>
+		<sittingOffset>0.3</sittingOffset>
+		<statFactors>
+			<MoveSpeed>0.8</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+
+	<LifeStageDef ParentName="HumanlikeAdolescent">
+		<defName>KurinTeenager</defName>
+		<label>teenager</label>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
+		<adjective>teenage</adjective>
+		<reproductive>true</reproductive>
+		<!-- <headSizeFactor>2.89</headSizeFactor> -->
+		<bodySizeFactor>0.95</bodySizeFactor>
+		<healthScaleFactor>1</healthScaleFactor>
+		<foodMaxFactor>1</foodMaxFactor> <!-- bodySizeFactor * foodMaxFactor = maxFood = 1.0 -->
+		<meleeDamageFactor>0.9</meleeDamageFactor>
+		<sittingOffset>0.18</sittingOffset>
+		<silhouetteGraphicData>
+			<texPath>Things/Pawn/Humanlike/Silhouettes/Silhouette_HumanChild</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</silhouetteGraphicData>
+		<statFactors>
+			<MoveSpeed>0.98</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+
+
+	<LifeStageDef>
+		<defName>KurinAdult</defName>
+		<label>adult</label>
+		<workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
+		<visible>false</visible>
+		<reproductive>true</reproductive>
+		<sittingOffset>0.18</sittingOffset>
+		<headSizeFactor>1</headSizeFactor>
+		<silhouetteGraphicData>
+			<texPath>Things/Pawn/Humanlike/Silhouettes/Silhouette_HumanAdult</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</silhouetteGraphicData>
+	</LifeStageDef>
+</Defs>

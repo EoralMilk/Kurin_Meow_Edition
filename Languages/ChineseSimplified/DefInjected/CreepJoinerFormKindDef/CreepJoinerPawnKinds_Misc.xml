@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <Kurin_CreepJoiner_BioDataBase.label>魅狐活体数据库</Kurin_CreepJoiner_BioDataBase.label>
+  <Kurin_CreepJoiner_BioDataBase.labelPlural>魅狐活体数据库</Kurin_CreepJoiner_BioDataBase.labelPlural>
+  <Kurin_CreepJoiner_BioDataBase.labelMale>魅狐活体数据库</Kurin_CreepJoiner_BioDataBase.labelMale>
+  <Kurin_CreepJoiner_BioDataBase.labelMalePlural>魅狐活体数据库</Kurin_CreepJoiner_BioDataBase.labelMalePlural>
+  <Kurin_CreepJoiner_BioDataBase.labelFemale>魅狐活体数据库</Kurin_CreepJoiner_BioDataBase.labelFemale>
+  <Kurin_CreepJoiner_BioDataBase.labelFemalePlural>魅狐活体数据库</Kurin_CreepJoiner_BioDataBase.labelFemalePlural>
+  <Kurin_CreepJoiner_BioDataBase.letterLabel>一只可爱的魅狐摇晃着毛茸茸的尾巴大摇大摆的溜达进了你的殖民地。</Kurin_CreepJoiner_BioDataBase.letterLabel>
+  <Kurin_CreepJoiner_BioDataBase.letterPrompt>一只可爱的魅狐摇晃着毛茸茸的尾巴大摇大摆的溜达进了你的殖民地。她看起来对附近的一切事物都充满了孩童般的好奇，在殖民者招呼她时她也回应着招手以示友好。
+简单交流后你得知她是来自近地轨道上某种设施的，直到最近几天因为一些愚蠢的原因才迫降到这附近，远远地看到了这里的人烟于是决定前来这里打探一下是否能找到一份工作来换个住处。不知道是否因为她此前的人生都居住在轨道设施，未曾真正的见过大地与河流，她似乎对什么都极具好奇心。
+{PAWN_nameDef}或许是个好帮手，但是直觉告诉你越是可爱的狐狸越容易有些糟糕的“小秘密”。</Kurin_CreepJoiner_BioDataBase.letterPrompt>
+
+</LanguageData>

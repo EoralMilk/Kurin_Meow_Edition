@@ -17,4 +17,7 @@
   <ReclaimingTheFallen.label>逝者救赎</ReclaimingTheFallen.label>
   <ReclaimingTheFallen.description>捕捉生命最后的余烬,将逝者的灵魂从深渊的边缘拽回,重新赋予他们生命。</ReclaimingTheFallen.description>
 
+  <CallReinforcements.label>呼叫空降支援</CallReinforcements.label>
+  <CallReinforcements.description>向目标位置发射一枚信号弹，呼叫轨道上的增援部队立即执行空投。</CallReinforcements.description>
+
 </LanguageData>

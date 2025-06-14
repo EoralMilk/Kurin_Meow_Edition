@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="Kurin_PowerArmorReconBase">
+		<defName>Kurin_PowerArmorReconPrestige</defName>
+		<label>kurin prestige recon armor</label>
+		<description>A lightweight powered protective suit, with defense specifications not as robust as traditional power armor. However, by omitting the armor thickness and coverage, and adding some neural-linked power assist systems, this power suit has far superior mobility compared to any power armor. The thrusters on the back also allow the wearer to perform long-range jumps to fulfill various tactical needs.
+Unlike regular scout armor, this model features some decorative elements to highlight the wearer's identity. These decorations not only enhance the aesthetics, but also utilize imported psionic materials from the Radiant World, which can enhance the user's psychic sensitivity. Its performance is also greatly improved due to the high degree of customization. This power suit is only issued to the personal guards of high-ranking officials, or certain nations that employ Kurins as infiltration units - the numbers are extremely scarce.
+Indoor use of the thruster system is strictly prohibited, as no one wants an elite unit to suffer non-combat attrition due to such foolish actions.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Spacer/PrestigeReconArmor</texPath>
+		</graphicData>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kurin_PowerArmorPrestige</li>
+				<li>Kurin_ReconArmorPrestige</li>
+			</tags>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Spacer/PrestigeReconArmor</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<displayPriority>29005</displayPriority>
+		</recipeMaker>
+		<costList>
+			<Apparel_ArmorReconPrestige>1</Apparel_ArmorReconPrestige>
+			<Plasteel>55</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Gold>2</Gold>
+		</costList>
+		<equippedStatOffsets>
+			<MoveSpeed>0.3</MoveSpeed>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<PsychicSensitivity>0.12</PsychicSensitivity>
+			<PsychicEntropyRecoveryRate>0.08</PsychicEntropyRecoveryRate>
+			<MeleeHitChance>6</MeleeHitChance>
+			<MeleeDodgeChance>6</MeleeDodgeChance>
+		</equippedStatOffsets>
+	</ThingDef>
+
+
+	<ThingDef ParentName="KurinReconHelmetBase">
+		<defName>Kurin_ReconHelmetPrestige</defName>
+		<label>kurin prestige recon helmet</label>
+		<description>Rather than being a power armor companion helmet, this is more of a ballistic helmet that has been extensively retrofitted with high-tech components. This equipment, heavily modified by the Kurins using technology from unknown sources, integrates a full battlefield panoramic display, in addition to the standard smart firearms synchronization. It can also detect factors like air pressure, temperature, enemy threat levels, and information on known equipment.
+This helmet utilizes a large number of modular components, including protective ear armor and listening devices, and is typically issued to elite troops carrying out special missions. Only a few Kurins are able to personally own a set of this equipment. While the Kurins have made efforts to incorporate some psionic lining, its impact on psychic sensitivity is not high, and they do not seem to have plans for further modifications.</description>
+		<costList>
+			<Apparel_ArmorHelmetReconPrestige>1</Apparel_ArmorHelmetReconPrestige>
+			<Plasteel>35</Plasteel>
+			<Steel>35</Steel>
+			<ComponentSpacer>2</ComponentSpacer>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Spacer/PrestigeReconHelmet</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Spacer/PrestigeReconHelmet</wornGraphicPath>
+			<tags>
+				<li>Kurin_PowerArmorPrestige</li>
+				<li>Kurin_ReconArmorPrestige</li>
+				<li>HideKurinEar</li>
+			</tags>
+		</apparel>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+		</statBases>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<PsychicSensitivity>0.08</PsychicSensitivity>
+			<PsychicEntropyRecoveryRate>0.05</PsychicEntropyRecoveryRate>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<MeleeHitChance>3</MeleeHitChance>
+			<PainShockThreshold>0.15</PainShockThreshold>
+			<MeleeDodgeChance>5</MeleeDodgeChance>
+		</equippedStatOffsets>
+	</ThingDef>
+
+</Defs>

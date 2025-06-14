@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ThingDef ParentName="KurinCombatApparelNoColorBase">
+		<defName>Kurin_PowerArmorLiner</defName>
+		<label>kurin power armor liner</label>
+		<description>The universal neural interface on this lining allows the wearer to better control various power suits. While thin, it is not very breathable, and it has an easy-to-operate temperature regulation system to ensure the user remains in a comfortable temperature state at all times.
+This lining appears to expose a portion of the skin, but the exposed areas are actually covered in a durable transparent material similar to the rest of the lining. Due to some peculiar technology, this material has an almost 100% light transmittance rate. In this sealed state, it can actively adjust the pressure inside the suit based on the external air pressure. If the lining is damaged, the layered material will melt and fill in the gap, but users in a pressurized environment should quickly apply a repair patch to avoid accidents.
+Although not in compliance with the safety regulations of most Kurin organizations, there are instances where this lining is used in combination with the deep space helmet to conduct extravehicular activities. Some armed groups have even used this lining as the base for modified stealth gear.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Spacer/Liner</texPath>
+		</graphicData>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>30</Plasteel>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>ReconArmor</researchPrerequisite>
+			<researchPrerequisites Inherit="false">
+				<li>KurinComplexApparel</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<tradeTags>
+			<li>KurinApparel_Combat</li>
+		</tradeTags>
+		<techLevel>Spacer</techLevel>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Arms</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Hands</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Kurin_Underwear</li>
+				<li>Kurin_Stocking</li>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>Kurin_PowerArmorLiner</li>
+				<li>PrestigeCombatGear</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Spacer/Liner</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<Mass>0.65</Mass>
+			<Flammability>0.2</Flammability>
+			<WorkToMake>28000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<EquipDelay>2.0</EquipDelay>
+			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.35</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.3</MoveSpeed>
+			<Flammability>-0.3</Flammability>
+			<FoodPoisonChance>-0.3</FoodPoisonChance>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+		</equippedStatOffsets>
+	</ThingDef>
+
+
+	<ThingDef ParentName="KurinCombatApparelNoColorBase" Name="KurinPowerArmorBase" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>ReconArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Spacer/ReconArmor</texPath>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<generateCommonality>2</generateCommonality>
+		<tradeTags>
+			<li>HiTechArmor</li>
+			<li>KurinApparel_Combat</li>
+		</tradeTags>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>6</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.92</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.46</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>35</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
+			<EquipDelay>7</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>Kurin_Apparel_Spacer</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Spacer/ReconArmor</wornGraphicPath>
+			<layers>
+				<li>Kurin_NotCompWithArmor</li>
+				<li>Kurin_Shoes</li>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<soundWear>Wear_PowerArmor</soundWear>
+			<soundRemove>Remove_PowerArmor</soundRemove>
+			<tags>
+				<li>Kurin_PowerArmor</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="CompProperties_Biocodable" />
+		</comps>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<equippedStatOffsets>
+			<StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">-0.5</StaggerDurationFactor>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<ThingDef ParentName="KurinPowerArmorBase" Name="Kurin_PowerArmorReconBase" Abstract="True">
+		<equippedStatOffsets>
+			<Flammability>-0.3</Flammability>
+		</equippedStatOffsets>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>6</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.46</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+			<Insulation_Cold>65</Insulation_Cold>
+			<Insulation_Heat>35</Insulation_Heat>
+			<EquipDelay>7</EquipDelay>
+			<JumpRange>20.9</JumpRange>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>4</maxCharges>
+				<ammoDef>ComponentIndustrial</ammoDef>
+				<ammoCountToRefill>2</ammoCountToRefill>
+				<!-- <ammoCountPerCharge>0.5</ammoCountPerCharge> -->
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>jump</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<verbClass>Verb_Jump</verbClass>
+				<label>jump</label>
+				<commandIcon>KurinMeowEdition/UI/Verb_FoxJump</commandIcon>
+				<violent>false</violent>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<warmupTime>0.5</warmupTime>
+				<warmupEffecter>JumpWarmupEffect</warmupEffecter>
+				<flightEffecterDef>JumpFlightEffect</flightEffecterDef>
+				<range>20.9</range>
+				<requireLineOfSight>true</requireLineOfSight>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+					<canTargetPawns>false</canTargetPawns>
+					<canTargetBuildings>false</canTargetBuildings>
+				</targetParams>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<ThingDef ParentName="Kurin_PowerArmorReconBase">
+		<defName>Kurin_PowerArmorRecon</defName>
+		<label>kurin recon armor</label>
+		<description>A lightweight power armor suit with lower protective specifications compared to traditional power armor. However, by sacrificing armor thickness and coverage and adding neural interface power assist systems, this power suit has far superior mobility than any power armor. The thruster pack on its back also allows the wearer to perform long-range jumps to fulfill various tactical needs.
+The actual cost of this power suit has exceeded that of some mass-produced power armors, and it is issued to specialized assassination or infiltration teams within the Kurin armed forces.
+The use of the thruster pack is strictly prohibited indoors, as no one likes a fox with a shattered cervical spine.</description>
+		<apparel>
+			<tags>
+				<li>Kurin_PowerArmor</li>
+				<li>Kurin_ReconArmor</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<displayPriority>29000</displayPriority>
+		</recipeMaker>
+		<costList>
+			<Apparel_ArmorRecon>1</Apparel_ArmorRecon>
+			<Plasteel>20</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<equippedStatOffsets>
+			<MoveSpeed>0.2</MoveSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+
+
+	<ThingDef ParentName="KurinPowerArmorBase" Name="Kurin_PowerArmorHECSBase" Abstract="True">
+		<equippedStatOffsets>
+			<Flammability>-0.5</Flammability>
+			<StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">-1</StaggerDurationFactor>
+		</equippedStatOffsets>
+		<statBases>
+			<WorkToMake>30000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>10</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.5</ArmorRating_Heat>
+			<Insulation_Cold>150</Insulation_Cold>
+			<Insulation_Heat>200</Insulation_Heat>
+			<EquipDelay>10</EquipDelay>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="Kurin_PowerArmorHECSBase">
+		<defName>Kurin_PowerArmorHECS</defName>
+		<label>Kurin Hostile Environment Combat Suit</label>
+		<description>Developed by Yamada Interstellar Corporation and produced by the Yao Tai Aerospace Technology Bureau of the Kunlun Commune, this is the standard heavy-duty powered armor suit designed for use by Kurins. The thick aerospace-grade polymer-steel alloy armor completely isolates the wearer from the external environment, shielding them from both ballistic and energy weapons without sustaining catastrophic damage. When used in conjunction with the neural interface lining of the Kurin's powered suit, it can maximize the bandwidth of neural impulse transmission and unlock the full power output, allowing this super-heavy powered armor to perform incredibly agile maneuvers.
+This advanced combat armor is widely stockpiled by Interstellar Free Folk and merchant mercenaries of various races, undoubtedly becoming a formidable ace in the hole on many battlefields.
+Both Yamada and Yao Tai have denied claims that this powered armor is an experimental prototype for a more powerful version for human use, but there are persistent rumors that secret testing facilities have been discovered.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Spacer/HECS</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>Kurin_PowerArmor</li>
+				<li>Kurin_HECSArmor</li>
+			</tags>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Spacer/HostileEnvironmentCombatSuit</wornGraphicPath>
+		</apparel>
+		<recipeMaker>
+			<displayPriority>29100</displayPriority>
+			<researchPrerequisite>PoweredArmor</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Apparel_PowerArmor>1</Apparel_PowerArmor>
+			<Plasteel>75</Plasteel>
+			<Uranium>30</Uranium>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<equippedStatOffsets>
+			<MeleeHitChance>3</MeleeHitChance>
+			<MeleeDodgeChance>3</MeleeDodgeChance>
+			<MentalBreakThreshold>-0.08</MentalBreakThreshold>
+			<PainShockThreshold>0.15</PainShockThreshold>
+		</equippedStatOffsets>
+	</ThingDef>
+
+
+	<ThingDef ParentName="KurinCombatApparelNoColorBase">
+		<defName>Kurin_SpaceSuit</defName>
+		<label>kurin deep space suit</label>
+		<description>A high-tech protective suit for use in space or deep sea environments, relying on a special charging mechanism to regulate internal temperature and pressure. This design allows the suit to instantly harden the impacted areas using a charging mechanism, ensuring it does not sustain serious damage even under great impact. The internal life support system can also collect sweat and other bodily fluids to complete an internal circulation, maintaining the user's life. Kurin users will tuck their tails inside the internal space of the suit - although this is not very comfortable.
+This model utilizes Ultra tech, with installed metallic muscle fibers and special servos to automatically perform some simple tasks. The suit's battery can also run in standby mode for up to 10 years...This may sound cool, but if you see a Kurin skeleton wrapped in this thing, laboring away in some abandoned starship, you might not think so.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Spacer/SpaceConstructionSuit</texPath>
+		</graphicData>
+		<costList>
+			<Steel>30</Steel>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Plasteel>65</Plasteel>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>ShipBasics</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisites Inherit="false">
+				<li>KurinComplexApparel</li>
+			</researchPrerequisites>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<techLevel>Spacer</techLevel>
+		<thingCategories Inherit="false">
+			<li>Kurin_Apparel_Spacer</li>
+		</thingCategories>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Kurin_NotCompWithArmor</li>
+				<li>Kurin_Shoes</li>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>Kurin_Spacer</li>
+				<li>Kurin_SpaceSuit</li>
+				<li>HideKurinTail</li>
+				<li>Royal</li>
+				<li>RoyalTier5</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Spacer/SpaceConstructionSuit</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<Mass>7</Mass>
+			<Flammability>0.3</Flammability>
+			<WorkToMake>17500</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<EquipDelay>6.0</EquipDelay>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Cold>150</Insulation_Cold>
+			<Insulation_Heat>50</Insulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<ConstructionSpeedFactor>0.15</ConstructionSpeedFactor>
+			<ResearchSpeed>0.1</ResearchSpeed>
+			<Flammability>-0.3</Flammability>
+			<FixBrokenDownBuildingSuccessChance>0.15</FixBrokenDownBuildingSuccessChance>
+		</equippedStatOffsets>
+		<comps>
+		</comps>
+	</ThingDef>
+
+
+</Defs>

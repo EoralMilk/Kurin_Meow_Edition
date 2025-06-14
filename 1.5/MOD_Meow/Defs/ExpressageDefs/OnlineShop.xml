@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Meow.CommsShopDef>
+		<defName>Kurin_Reinforcements</defName>
+		<label>Kurin Reinforcements</label>
+		<commTag>Kurin Reinforcements</commTag>
+		<referencedFaction>KurinFaction_Republic</referencedFaction>
+		<texPath>KurinMeowEdition/UI/KurinIcon</texPath>
+		<color>(1,1,1)</color>
+		<valuefactor>1.6</valuefactor>
+		<goods>
+			<li>
+				<thingDef>Kurin_Range_DMR</thingDef>
+			</li>
+			<li>
+				<thingDef>Kurin_Range_ChainGun</thingDef>
+			</li>
+			<li>
+				<thingDef>Kurin_Range_TwinRocket</thingDef>
+			</li>
+			<li>
+				<thingDef>Kurin_Range_ChargePistol</thingDef>
+			</li>
+			<li>
+				<thingDef>Kurin_Range_ChargeRifle</thingDef>
+			</li>
+			<li>
+				<thingDef>Kurin_Range_FlareGunReinforcements</thingDef>
+				<specificpricefactor>2</specificpricefactor>
+			</li>
+
+			<!-- <li>
+				<thingDef>Kurin_Turret_ChargeLance</thingDef>
+				<specificpricefactor>1.5</specificpricefactor>
+				<maxCountPerDrop>1</maxCountPerDrop>
+			</li> -->
+			<li>
+				<thingDef>KurinHECUDropPod</thingDef>
+				<fixedprice>1500</fixedprice>
+				<setToFaction>KurinFaction_Republic</setToFaction>
+				<forceSetFaction>true</forceSetFaction>
+				<maxCountPerDrop>1</maxCountPerDrop>
+			</li>
+			<li>
+				<thingDef>KurinReinforcementsDropBeacon</thingDef>
+				<fixedprice>2000</fixedprice>
+				<setToFaction>KurinFaction_Republic</setToFaction>
+				<forceSetFaction>true</forceSetFaction>
+				<maxCountPerDrop>1</maxCountPerDrop>
+			</li>
+		</goods>
+	</Meow.CommsShopDef>
+
+</Defs>

@@ -5,10 +5,28 @@
   <packageId>EoralMilk.KurinMeowEdition</packageId>
   <supportedVersions>
     <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
-  <description>Using har and FaceAddonFramework's Kurin remaster, the original Kurin content is restored as much as possible.
+  <description>
+    Kurin Meow Edition: A classic Kurin race remastered mod.
+    Kurin喵喵版:一个经典魅狐种族的重制版。
 
-使用har和FaceAddonFramework的Kurin重置版，会尽量保证还原原版Kurin的内容。</description>
+    Please set the setting "Randomize Starting Pawns on Reroll" of HAR framework as false
+    请将HAR框架的 "Randomize Starting Pawns on Reroll" 设置改为关闭状态
+
+    Using har and FaceAddonFramework's Kurin remaster, the original Kurin content is restored as
+    much as possible.
+    使用HAR和FaceAddonFramework框架的Kurin重置版，原始的Kurin mod内容被尽可能地恢复。
+
+    Compatibility:
+    Vanilla Expanded Framework: The "kurin marine riot shield" will be added if you have VEF.
+    Save Our Ship2: we add the space suit for kurin.
+    Multiplayer: Totally support
+    兼容性：
+    Vanilla Expanded Framework: 如果你装了VEF，将会添加“魅狐防暴盾牌”。
+    Save Our Ship2：我们为狐狸制作了宇航服等装备。
+    Multiplayer: 完全支持
+  </description>
   <modDependencies>
     <li>
       <packageId>erdelf.HumanoidAlienRaces</packageId>
@@ -22,6 +40,7 @@
     </li>
   </modDependencies>
   <loadAfter>
+    <li>EoralMilk.MeowFramework</li>
     <li>erdelf.HumanoidAlienRaces</li>
     <li>EoralMilk.FaceAddonFramework</li>
     <!-- <li>ABC.abcBody</li> -->

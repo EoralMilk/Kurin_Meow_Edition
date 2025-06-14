@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Kurin_Dust</defName>
+		<label>dust</label>
+		<description>Fragile dust</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Bullet_AshMaker</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(91,75,65)</color>
+		</graphicData>
+		<useHitPoints>true</useHitPoints>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<generateAllowChance>0</generateAllowChance>
+		<destroyOnDrop>true</destroyOnDrop>
+		<statBases>
+			<DeteriorationRate>100000</DeteriorationRate>
+			<MaxHitPoints>1</MaxHitPoints>
+			<MarketValue>0.01</MarketValue>
+			<Mass>0.01</Mass>
+			<StuffPower_Armor_Sharp>0</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>0</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+			<BluntDamageMultiplier>0</BluntDamageMultiplier>
+			<SharpDamageMultiplier>0</SharpDamageMultiplier>
+		</statBases>
+		<!-- <thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories> -->
+		<tradeability>None</tradeability>
+		<stackLimit>500</stackLimit>
+		<smallVolume>true</smallVolume>
+		<deepCommonality>0</deepCommonality>
+		<deepCountPerPortion>0</deepCountPerPortion>
+		<deepLumpSizeRange>0</deepLumpSizeRange>
+		<burnableByRecipe>false</burnableByRecipe>
+		<smeltable>false</smeltable>
+		<stuffProps>
+			<!-- <categories>
+				<li>Stony</li>
+			</categories> -->
+			<commonality>0</commonality>
+			<color>(91,75,65)</color>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<statOffsets>
+				<Beauty>-5</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>0.02</MaxHitPoints>
+				<WorkToMake>1</WorkToMake>
+				<WorkToBuild>1</WorkToBuild>
+				<Beauty>-5</Beauty>
+				<Flammability>0</Flammability>
+				<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<allowedArchonexusCount>0</allowedArchonexusCount>
+	</ThingDef>
+
+</Defs>

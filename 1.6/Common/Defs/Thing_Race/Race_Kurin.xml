@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<AlienRace.RaceSettings>
+		<defName>Kurin_Settings</defName>
+		<pawnKindSettings>
+			<alienslavekinds>
+				<li>
+					<kindDefs>
+						<li>Kurin_Slave</li>
+					</kindDefs>
+					<chance>30.0</chance>
+				</li>
+			</alienslavekinds>
+			<alienrefugeekinds>
+				<li>
+					<kindDefs>
+						<li>Kurin_Citizen</li>
+					</kindDefs>
+					<chance>30.0</chance>
+				</li>
+			</alienrefugeekinds>
+			<alienwandererkinds>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>Kurin_Citizen</li>
+							</kindDefs>
+							<chance>30.0</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>KurinFaction_Player</li>
+					</factionDefs>
+				</li>
+			</alienwandererkinds>
+		</pawnKindSettings>
+	</AlienRace.RaceSettings>
+
+	<!-- <HeadTypeDef Name="KurinHeadtypeBase" Abstract="True">
+		<hairMeshSize>(1.5, 1.5)</hairMeshSize>
+		<beardMeshSize>(1.5, 1.5)</beardMeshSize>
+		<randomChosen>false</randomChosen>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="KurinHeadtypeBase">
+		<defName>KurinHeadA</defName>
+		<graphicPath>KurinMeowEdition/Bodies/Heads/Average_Normal</graphicPath>
+	</HeadTypeDef> -->
+
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="MeowKurin">
+		<defName>MeowKurin</defName>
+		<label>Kurin</label>
+		<description>An all-female race of humans spliced with fox genes. Originally, they were Glitterworld designermates from the planet Aolara, but an internal war forced them to leave their homeworld. Now they are spread among the rim.</description>
+		<alienRace>
+			<graphicPaths>
+				<head>
+					<path>KurinMeowEdition/Bodies/Heads/Average_Normal</path>
+					<headtypeGraphics>
+						<Male_AverageNormal>KurinMeowEdition/Bodies/Heads/Average_Normal</Male_AverageNormal>
+						<Male_AveragePointy>KurinMeowEdition/Bodies/Heads/Average_Normal</Male_AveragePointy>
+						<Male_AverageWide>KurinMeowEdition/Bodies/Heads/Average_Normal</Male_AverageWide>
+						<Male_NarrowNormal>KurinMeowEdition/Bodies/Heads/Average_Normal</Male_NarrowNormal>
+						<Male_NarrowPointy>KurinMeowEdition/Bodies/Heads/Average_Normal</Male_NarrowPointy>
+						<Male_NarrowWide>KurinMeowEdition/Bodies/Heads/Average_Normal</Male_NarrowWide>
+						<Female_AverageNormal>KurinMeowEdition/Bodies/Heads/Average_Normal</Female_AverageNormal>
+						<Female_AveragePointy>KurinMeowEdition/Bodies/Heads/Average_Normal</Female_AveragePointy>
+						<Female_AverageWide>KurinMeowEdition/Bodies/Heads/Average_Normal</Female_AverageWide>
+						<Female_NarrowNormal>KurinMeowEdition/Bodies/Heads/Average_Normal</Female_NarrowNormal>
+						<Female_NarrowPointy>KurinMeowEdition/Bodies/Heads/Average_Normal</Female_NarrowPointy>
+						<Female_NarrowWide>KurinMeowEdition/Bodies/Heads/Average_Normal</Female_NarrowWide>
+
+						<Ghoul_Normal MayRequire="Ludeon.RimWorld.Anomaly">KurinMeowEdition/Bodies/Heads/Average_Normal</Ghoul_Normal>
+						<Ghoul_Heavy MayRequire="Ludeon.RimWorld.Anomaly">KurinMeowEdition/Bodies/Heads/Average_Normal</Ghoul_Heavy>
+						<Ghoul_Narrow MayRequire="Ludeon.RimWorld.Anomaly">KurinMeowEdition/Bodies/Heads/Average_Normal</Ghoul_Narrow>
+						<CultEscapee MayRequire="Ludeon.RimWorld.Anomaly">KurinMeowEdition/Bodies/Heads/Average_Normal</CultEscapee>
+						<TimelessOne MayRequire="Ludeon.RimWorld.Anomaly">KurinMeowEdition/Bodies/Heads/Average_Normal</TimelessOne>
+						<DarkScholar_Female MayRequire="Ludeon.RimWorld.Anomaly">KurinMeowEdition/Bodies/Heads/Average_Normal</DarkScholar_Female>
+						<DarkScholar_Male MayRequire="Ludeon.RimWorld.Anomaly">KurinMeowEdition/Bodies/Heads/Average_Normal</DarkScholar_Male>
+						<Leathery_Female MayRequire="Ludeon.RimWorld.Anomaly">KurinMeowEdition/Bodies/Heads/Average_Normal</Leathery_Female>
+						<Leathery_Male MayRequire="Ludeon.RimWorld.Anomaly">KurinMeowEdition/Bodies/Heads/Average_Normal</Leathery_Male>
+
+					</headtypeGraphics>
+				</head>
+				<body>
+					<path>KurinMeowEdition/Bodies/Default/Naked_Female</path>
+					<extendedGraphics>
+						<BodyType For="Female">
+							<path>KurinMeowEdition/Bodies/Default/Naked_Female</path>
+							<extendedGraphics>
+								<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">KurinMeowEdition/Bodies/Default/Naked_Female</Hediff>
+							</extendedGraphics>
+						</BodyType>
+						<BodyType For="Child">
+							<path>KurinMeowEdition/Bodies/Default/Naked_Child</path>
+							<extendedGraphics>
+								<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">KurinMeowEdition/Bodies/Default/Naked_Child</Hediff>
+							</extendedGraphics>
+						</BodyType>
+						<BodyType For="Baby">
+							<path>KurinMeowEdition/Bodies/Default/Naked_Child</path>
+							<extendedGraphics>
+								<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">KurinMeowEdition/Bodies/Default/Naked_Child</Hediff>
+							</extendedGraphics>
+						</BodyType>
+					</extendedGraphics>
+				</body>
+				<skeleton>KurinMeowEdition/Bodies/Dessicated/body</skeleton>
+				<skull>KurinMeowEdition/Bodies/Dessicated/head</skull>
+				<apparel>
+					<individualPaths>
+						<li>
+							<key>Apparel_Pants</key>
+							<value>KurinMeowEdition/Item_Apperal/Socks/WhiteGarterbeltStockings</value>
+						</li>
+						<li>
+							<key>Apparel_BasicShirt</key>
+							<value>KurinMeowEdition/Item_Apperal/Common/TShirt</value>
+						</li>
+						<li>
+							<key>Apparel_CollarShirt</key>
+							<value>KurinMeowEdition/Item_Apperal/Common/Shirt</value>
+						</li>
+						<li>
+							<key>Apparel_Duster</key>
+							<value>KurinMeowEdition/Item_Apperal/Shell/Duster</value>
+						</li>
+						<li>
+							<key>Apparel_Parka</key>
+							<value>KurinMeowEdition/Item_Apperal/Shell/Cardigan</value>
+						</li>
+						<li>
+							<key>Apparel_PlateArmor</key>
+							<value>KurinMeowEdition/Item_Apperal/Combat/KnightArmor</value>
+						</li>
+					</individualPaths>
+				</apparel>
+			</graphicPaths>
+			<generalSettings>
+				<immuneToXenophobia>true</immuneToXenophobia>
+				<maleGenderProbability>-1</maleGenderProbability>
+				<immuneToAge>true</immuneToAge>
+				<humanRecipeImport>true</humanRecipeImport>
+				<canLayDown>true</canLayDown>
+				<maxDamageForSocialfight>5</maxDamageForSocialfight>
+				<forcedRaceTraitEntries>
+					<li>
+						<defName>Bisexual</defName>
+						<chance>50</chance>
+					</li>
+				</forcedRaceTraitEntries>
+				<disallowedTraits>
+					<li>
+						<defName>AnnoyingVoice</defName>
+					</li>
+					<li>
+						<defName>CreepyBreathing</defName>
+					</li>
+					<li>
+						<defName Degree="-1">Beauty</defName>
+					</li>
+					<li>
+						<defName Degree="-2">Beauty</defName>
+					</li>
+				</disallowedTraits>
+				<alienPartGenerator>
+					<borderScale>3.3</borderScale>
+					<atlasScale>4</atlasScale>
+					<headTypes Inherit="False">
+						<li>Female_AverageNormal</li>
+						<li>Male_AverageNormal</li>
+						<li MayRequire="Ludeon.RimWorld.Anomaly">Ghoul_Normal</li>
+					</headTypes>
+					<bodyTypes Inherit="False">
+						<li>Female</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+					</bodyTypes>
+					<customDrawSize>(1, 1)</customDrawSize>
+					<!-- <customHeadDrawSize>(0.82, 0.82)</customHeadDrawSize> -->
+					<!-- <customHeadDrawSize>(0, 0)</customHeadDrawSize> -->
+					<customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
+					<!-- <customPortraitHeadDrawSize>(0.82, 0.82)</customPortraitHeadDrawSize> -->
+					<!-- <customPortraitHeadDrawSize>(0, 0)</customPortraitHeadDrawSize> -->
+					<headOffset>(0.0, 0.0)</headOffset>
+					<headOffsetDirectional>
+						<south>
+							<offset>(0,0)</offset>
+							<bodyTypes>
+								<Female>(0.0, 0.02)</Female>
+								<Child>(0.0, 0.028)</Child>
+							</bodyTypes>
+						</south>
+						<north>
+							<offset>(0,0)</offset>
+							<bodyTypes>
+								<Female>(0.0, 0.02)</Female>
+								<Child>(0.0, 0.02)</Child>
+							</bodyTypes>
+						</north>
+						<east>
+							<offset>(-0.06,0)</offset>
+							<bodyTypes>
+								<Female>(0.0,0.014)</Female>
+								<Child>(0.066, 0.014)</Child>
+								<Baby>(0.1, 0.02)</Baby>
+							</bodyTypes>
+						</east>
+						<west>
+							<offset>(0.06,0)</offset>
+							<bodyTypes>
+								<Female>(0.0,0.014)</Female>
+								<Child>(-0.066, 0.014)</Child>
+								<Baby>(-0.1, 0.02)</Baby>
+							</bodyTypes>
+						</west>
+					</headOffsetDirectional>
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="AlienRace.ColorGenerator_SkinColorMelanin">
+								<minMelanin>0</minMelanin>
+								<maxMelanin>0</maxMelanin>
+							</first>
+						</li>
+						<li>
+							<name>hair</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>4</weight>
+										<only>RGBA(33,33,33,255)</only>
+									</li>
+									<li>
+										<weight>4</weight>
+										<only>RGBA(255,230,102,255)</only>
+									</li>
+									<li>
+										<weight>4</weight>
+										<only>RGBA(112,71,41,255)</only>
+									</li>
+									<li>
+										<weight>3</weight>
+										<only>RGBA(255,145,185,255)</only>
+									</li>
+									<li>
+										<weight>3</weight>
+										<only>RGBA(250,255,250,255)</only>
+									</li>
+									<li>
+										<weight>3</weight>
+										<only>RGBA(33,31,48,255)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(255,128,89,255)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(237,230,196,255)</only>
+									</li>
+									<li>
+										<weight>2</weight>
+										<only>RGBA(245,245,219,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(94,158,161,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(176,230,156,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(150,0,23,255)</only>
+									</li>
+									<li>
+										<weight>1</weight>
+										<only>RGBA(255,115,153,255)</only>
+									</li>
+								</options>
+							</first>
+							<second Class="AlienRace.ColorGenerator_SkinColorMelanin">
+								<minMelanin>0</minMelanin>
+								<maxMelanin>0</maxMelanin>
+							</second>
+						</li>
+					</colorChannels>
+					<bodyAddons>
+						<!-- Tail 1 right-->
+						<li>
+							<path>KurinMeowEdition/Tail/Texture1</path>
+							<extendedGraphics>
+								<Backstory For="Kurin_BackstoryChild_15">dummy</Backstory>
+								<Age For="KurinBaby">
+									<path>KurinMeowEdition/TailChild/TextureC1</path>
+								</Age>
+								<Age For="KurinChild">
+									<path>KurinMeowEdition/TailChild/TextureC1</path>
+								</Age>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+									<bodyPart>Kurin_Tail</bodyPart>
+									<bodyPartLabel>Right tail</bodyPartLabel>
+									<drawWithoutPart>false</drawWithoutPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Warcasket</li>
+										<li>HideKurinTail</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+							<inFrontOfBody>false</inFrontOfBody>
+							<colorChannel>hair</colorChannel>
+							<drawSize>1</drawSize>
+							<defaultOffset>Center</defaultOffset>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<south>
+									<layerOffset>-0.2</layerOffset>
+								</south>
+								<north>
+									<layerOffset>-0.2</layerOffset>
+								</north>
+								<east>
+									<layerOffset>-0.2</layerOffset>
+								</east>
+							</offsets>
+						</li>
+
+						<!-- Tail 2 left-->
+						<li>
+							<path>KurinMeowEdition/Tail/Texture2</path>
+							<extendedGraphics>
+								<Backstory For="Kurin_BackstoryChild_15">dummy</Backstory>
+								<Age For="KurinBaby">
+									<path>KurinMeowEdition/TailChild/TextureC2</path>
+								</Age>
+								<Age For="KurinChild">
+									<path>KurinMeowEdition/TailChild/TextureC2</path>
+								</Age>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+									<bodyPart>Kurin_Tail</bodyPart>
+									<bodyPartLabel>Left tail</bodyPartLabel>
+									<drawWithoutPart>false</drawWithoutPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Warcasket</li>
+										<li>HideKurinTail</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+							<inFrontOfBody>false</inFrontOfBody>
+							<colorChannel>hair</colorChannel>
+							<drawSize>1</drawSize>
+							<defaultOffset>Center</defaultOffset>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<south>
+									<layerOffset>-0.23</layerOffset>
+								</south>
+								<north>
+									<layerOffset>-0.23</layerOffset>
+								</north>
+								<east>
+									<layerOffset>-0.23</layerOffset>
+								</east>
+							</offsets>
+						</li>
+
+						<!-- Tail 3 middle-->
+						<li>
+							<path>KurinMeowEdition/Tail/Texture3</path>
+							<extendedGraphics>
+								<Backstory For="Kurin_BackstoryChild_15">
+									<path>KurinMeowEdition/Tail/OneTail</path>
+									<extendedGraphics>
+										<Age For="KurinBaby">
+											<path>KurinMeowEdition/TailChild/OneTailC</path>
+										</Age>
+										<Age For="KurinChild">
+											<path>KurinMeowEdition/TailChild/OneTailC</path>
+										</Age>
+									</extendedGraphics>
+								</Backstory>
+								<Age For="KurinBaby">
+									<path>KurinMeowEdition/TailChild/TextureC3</path>
+								</Age>
+								<Age For="KurinChild">
+									<path>KurinMeowEdition/TailChild/TextureC3</path>
+								</Age>
+							</extendedGraphics>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+									<bodyPart>Kurin_Tail</bodyPart>
+									<bodyPartLabel>Middle tail</bodyPartLabel>
+									<drawWithoutPart>false</drawWithoutPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Warcasket</li>
+										<li>HideKurinTail</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+							<inFrontOfBody>false</inFrontOfBody>
+							<colorChannel>hair</colorChannel>
+							<drawSize>1</drawSize>
+							<defaultOffset>Center</defaultOffset>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<shaderType>CutoutComplex</shaderType>
+							<offsets>
+								<south>
+									<layerOffset>-0.18</layerOffset>
+								</south>
+								<north>
+									<layerOffset>-0.18</layerOffset>
+								</north>
+								<east>
+									<layerOffset>-0.25</layerOffset>
+								</east>
+							</offsets>
+						</li>
+
+						<!-- left ear -->
+						<li>
+							<path>KurinMeowEdition/Ear/Left/FoxEarLA</path>
+							<extendedGraphics>
+								<Age For="KurinBaby">
+									<path>KurinMeowEdition/EarChild/Left/FoxEarLA</path>
+								</Age>
+								<Age For="KurinChild">
+									<path>KurinMeowEdition/EarChild/Left/FoxEarLA</path>
+								</Age>
+							</extendedGraphics>
+							<drawSize>1</drawSize>
+							<defaultOffset>Center</defaultOffset>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<shaderType>CutoutComplex</shaderType>
+							<colorChannel>hair</colorChannel>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+									<bodyPart>Kurin_Ear</bodyPart>
+									<bodyPartLabel>left ear</bodyPartLabel>
+									<drawWithoutPart>false</drawWithoutPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Warcasket</li>
+										<li>HideKurinEar</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+							<offsets>
+								<south>
+									<layerOffset>-0.5</layerOffset>
+								</south>
+								<north>
+									<layerOffset>0.2</layerOffset>
+								</north>
+								<east>
+									<layerOffset>-0.5</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.5</layerOffset>
+								</west>
+							</offsets>
+						</li>
+
+						<!-- right ear -->
+						<li>
+							<path>KurinMeowEdition/Ear/Right/FoxEarRA</path>
+							<extendedGraphics>
+								<Age For="KurinBaby">
+									<path>KurinMeowEdition/EarChild/Right/FoxEarRA</path>
+								</Age>
+								<Age For="KurinChild">
+									<path>KurinMeowEdition/EarChild/Right/FoxEarRA</path>
+								</Age>
+							</extendedGraphics>
+							<drawSize>1</drawSize>
+							<defaultOffset>Center</defaultOffset>
+							<alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+							<shaderType>CutoutComplex</shaderType>
+							<colorChannel>hair</colorChannel>
+							<conditions>
+								<RotStage>Fresh,Rotting</RotStage>
+								<BodyPart>
+									<bodyPart>Kurin_Ear</bodyPart>
+									<bodyPartLabel>right ear</bodyPartLabel>
+									<drawWithoutPart>false</drawWithoutPart>
+								</BodyPart>
+								<Apparel>
+									<hiddenUnderApparelTag>
+										<li>Warcasket</li>
+										<li>HideKurinEar</li>
+									</hiddenUnderApparelTag>
+								</Apparel>
+							</conditions>
+							<offsets>
+								<south>
+									<layerOffset>-0.5</layerOffset>
+								</south>
+								<north>
+									<layerOffset>0.2</layerOffset>
+								</north>
+								<east>
+									<layerOffset>-0.5</layerOffset>
+								</east>
+								<west>
+									<layerOffset>-0.5</layerOffset>
+								</west>
+							</offsets>
+						</li>
+
+					</bodyAddons>
+				</alienPartGenerator>
+
+				<growthAges MayRequire="Ludeon.RimWorld.Biotech" Inherit="False">
+					<li>4</li>
+					<li>7</li>
+					<li>10</li>
+					<li>13</li>
+				</growthAges>
+			</generalSettings>
+
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTagsOverride>
+							<li>Kurin</li>
+							<li>RK_Style</li>
+							<li>HairShort</li>
+							<li>HairLong</li>
+						</styleTagsOverride>
+						<bannedTags>
+							<li>Punk</li>
+							<li>Tribal</li>
+							<li>Minimal</li>
+						</bannedTags>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTagsOverride>
+							<!-- <li>TattooKurin</li> -->
+							<li>NoTattoo</li>
+						</styleTagsOverride>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
+			<relationSettings>
+
+			</relationSettings>
+			<raceRestriction>
+				<apparelList>
+					<li>Kurin_WorkJumpsuit</li>
+					<li>Kurin_NavySuit</li>
+					<li>Kurin_BulletproofVest</li>
+					<li>Kurin_CombatSuit</li>
+					<li>Kurin_MarineGear</li>
+					<li>Kurin_MarineSuit</li>
+					<li>Kurin_NightWalker</li>
+					<li>Kurin_BikiniArmor</li>
+					<li>Kurin_KnightArmor</li>
+					<li>Kurin_PowerArmorLiner</li>
+					<li>Kurin_PowerArmorRecon</li>
+					<li>Kurin_PowerArmorHECS</li>
+
+					<li>Kurin_TShirt</li>
+					<li>Kurin_Shirt</li>
+					<li>Kurin_HotPants</li>
+					<li>Kurin_OnePieceDress</li>
+					<li>Kurin_CuteDress</li>
+					<li>Kurin_Knit</li>
+					<li>Kurin_KnitBareShoulder</li>
+					<li>Kurin_KnitWinter</li>
+					<li>Kurin_Pajamas</li>
+					<li>Kurin_CasualWear</li>
+					<li>Kurin_Hoodie</li>	
+
+					<li>Kurin_ChildTShirt</li>
+					<li>Kurin_ChildHoodie</li>
+					<li>Kurin_ChildScarf</li>
+
+					<li>Kurin_TechnicianDress</li>
+					<li>Kurin_DevelopmentDivision</li>
+					<li>Kurin_BusinessShirt</li>
+					<li>Kurin_GothicDress</li>
+					<li>Kurin_TraditionalDress</li>
+					<li>Kurin_TraditionalFancyDress</li>
+					<li>Kurin_TraditionalLuxuryDress</li>
+					<li>Kurin_SeductiveBlackDress</li>
+					<li>Kurin_SeductiveWhiteDress</li>
+					<li>Kurin_NunDress</li>
+
+					<li>Kurin_DevelopmentDivisionCoat</li>
+					<li>Kurin_BusinessCoat</li>
+					<li>Kurin_Cardigan</li>
+					<li>Kurin_Duster</li>
+					<li>Kurin_WinterPadding</li>
+					<li>Kurin_TraditionalCoat</li>
+
+					<li>Kurin_Underwear</li>
+					<li>Kurin_Underwear_Black</li>
+					<li>Kurin_Underwear_Red</li>
+					<li>Kurin_Underwear_Slim</li>
+					<li>Kurin_Underwear_Stripe</li>
+
+					<li>Kurin_StockingsBrown</li>
+					<li>Kurin_StockingsWhite</li>
+					<li>Kurin_StockingsStriped</li>
+					<li>Kurin_StockingsGarterbelt</li>
+					<li>Kurin_StockingsGarterbeltWhite</li>
+					<li>Kurin_PantyhoseWhite</li>
+					<li>Kurin_PantyhoseBlack</li>
+					<li>Kurin_StockingArmor</li>
+					<li>Kurin_WorkStocking</li>
+
+					<li>Kurin_SimpleShoes</li>
+					<li>Kurin_Sneaker</li>
+					<li>Kurin_LeatherShoe</li>
+					<li>Kurin_AttackBoot</li>
+
+					<li>Kurin_ChildShoe</li>
+					<li>Kurin_ChildRainBoots</li>
+
+					<li>Kurin_Knapsack</li>
+					
+					<li>Kurin_SpaceSuit</li>
+				</apparelList>
+				<blackGeneList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Body_Fat</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Body_Hulk</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Body_Thin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Ears_Pig</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Ears_Human</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Ears_Floppy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Ears_Cat</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Ears_Pointed</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Nose_Human</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Nose_Pig</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Jaw_Baseline</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Jaw_Heavy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Head_Gaunt</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Hands_Pig</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Hair_BaldOnly</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Beard_Always</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">ElongatedFingers</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Headbone_MiniHorns</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Headbone_CenterHorn</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">VoicePig</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">VoiceRoar</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Skin_LightGray</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Skin_SlateGray</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Skin_Blue</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Skin_Purple</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Skin_PaleRed</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Skin_DeepRed</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Skin_PaleYellow</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Skin_DeepYellow</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Skin_Orange</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Skin_Green</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Furskin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Eyes_Red</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Eyes_Gray</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Tail_Furry</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Tail_Smooth</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">FacialRidges</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Beauty_VeryUgly</li>
+				</blackGeneList>
+				<blackEndoCategories>
+					<li MayRequire="Ludeon.RimWorld.Biotech">BodyType</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Ears</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Nose</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Voice</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Headbone</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Head</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Jaw</li>
+				</blackEndoCategories>
+				<blackXenotypeList>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Dirtmole</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Genie</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Hussar</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Sanguophage</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Neanderthal</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Pigskin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Impid</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Waster</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Yttakin</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Highmate</li>
+				</blackXenotypeList>
+				<whiteXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+					<li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>
+				</whiteXenotypeList>
+				<onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
+			</raceRestriction>
+
+			<thoughtSettings>
+				<cannotReceiveThoughts>
+				</cannotReceiveThoughts>
+			</thoughtSettings>
+		</alienRace>
+		<statBases>
+			<MarketValue>2000</MarketValue>
+			<RoyalFavorValue>7</RoyalFavorValue>
+			<CarryingCapacity>75</CarryingCapacity>
+			<GlobalLearningFactor>1.0</GlobalLearningFactor>
+			<Flammability>0.7</Flammability>
+			<PainShockThreshold>0.82</PainShockThreshold>
+			<MentalBreakThreshold>0.22</MentalBreakThreshold>
+			<ComfyTemperatureMin>3</ComfyTemperatureMin>
+			<ComfyTemperatureMax>29</ComfyTemperatureMax>
+			<Mass>55</Mass>
+			<MoveSpeed>4.7</MoveSpeed>
+			<ImmunityGainSpeed>1</ImmunityGainSpeed>
+			<ToxicResistance>0</ToxicResistance>
+			<EatingSpeed>1.15</EatingSpeed>
+			<MeatAmount>120</MeatAmount>
+			<LeatherAmount>75</LeatherAmount>
+			<MeleeDodgeChance>1</MeleeDodgeChance>
+			<AimingDelayFactor>1</AimingDelayFactor>
+			<MeleeHitChance>1</MeleeHitChance>
+			<NegotiationAbility>1.05</NegotiationAbility>
+			<SellPriceFactor>1.05</SellPriceFactor>
+			<SocialImpact>1.1</SocialImpact>
+			<PawnBeauty>1.0</PawnBeauty>
+
+			<ButcheryMechanoidEfficiency>1.1</ButcheryMechanoidEfficiency>
+			<ButcheryMechanoidSpeed>1.1</ButcheryMechanoidSpeed>
+			<ButcheryFleshEfficiency>1.05</ButcheryFleshEfficiency>
+			<ButcheryFleshSpeed>0.90</ButcheryFleshSpeed>
+			<FoodPoisonChance>0.8</FoodPoisonChance>
+			<CookSpeed>1.1</CookSpeed>
+			<SmeltingSpeed>1</SmeltingSpeed>
+			<ResearchSpeed>0.9</ResearchSpeed>
+			<MiningSpeed>1</MiningSpeed>
+			<MiningYield>1</MiningYield>
+			<PlantWorkSpeed>1</PlantWorkSpeed>
+			<HuntingStealth>0.6</HuntingStealth>
+			<ConstructionSpeed>1</ConstructionSpeed>
+			<FilthRate>0.5</FilthRate>
+			<MaxNutrition>1.4</MaxNutrition>
+			<RestRateMultiplier>1</RestRateMultiplier>
+
+			<LearningRateFactor MayRequire="Ludeon.RimWorld.Biotech">1.5</LearningRateFactor>
+			<!-- <StaggerDurationFactor>0</StaggerDurationFactor> -->
+
+		</statBases>
+		<tools>
+			<li>
+				<label>teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.6</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.8</chanceFactor>
+			</li>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.6</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>16</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.6</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>16</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>tail</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.4</cooldownTime>
+				<linkedBodyPartsGroup>Tails</linkedBodyPartsGroup>
+				<chanceFactor>0.8</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+		<race>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<lifeExpectancy>120</lifeExpectancy>
+			<bloodDef>Filth_Blood</bloodDef>
+			<bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+			<leatherDef>Leather_Human</leatherDef>
+			<nameCategory>HumanStandard</nameCategory>
+			<body>MeowKurin_Body</body>
+			<renderTree>Humanlike</renderTree>
+			<baseBodySize>1</baseBodySize>
+			<baseHealthScale>1</baseHealthScale>
+			<foodType>OmnivoreHuman</foodType>
+			<gestationPeriodDays>18</gestationPeriodDays>
+			<manhunterOnDamageChance>0.60</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.04</manhunterOnTameFailChance>
+			<soundCallIntervalRange>2000~5000</soundCallIntervalRange>
+			<canBecomeShambler>true</canBecomeShambler>
+			<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
+			<anomalyKnowledge>1</anomalyKnowledge>
+			<nameGenerator>NamerPerson_Kurin</nameGenerator>
+			<nameGeneratorFemale>NamerPerson_Kurin</nameGeneratorFemale>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0.02)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>KurinBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>KurinChild</def>
+					<minAge>1</minAge>
+				</li>
+				<li>
+					<def>KurinTeenager</def>
+					<minAge>13</minAge>
+				</li>
+				<li>
+					<def>KurinAdult</def>
+					<minAge>15</minAge>
+				</li>
+			</lifeStageAges>
+			<lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+				<Firefighter>7</Firefighter>
+				<Patient>0</Patient>
+				<Doctor>10</Doctor>
+				<PatientBedRest>0</PatientBedRest>
+				<Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+				<BasicWorker>7</BasicWorker>
+				<Warden>10</Warden>
+				<Handling>7</Handling>
+				<Cooking>7</Cooking>
+				<Hunting>7</Hunting>
+				<Construction>10</Construction>
+				<Growing>7</Growing>
+				<Mining>7</Mining>
+				<PlantCutting>7</PlantCutting>
+				<Smithing>13</Smithing>
+				<Tailoring>7</Tailoring>
+				<Art>10</Art>
+				<Crafting>7</Crafting>
+				<Hauling>1</Hauling>
+				<Cleaning>1</Cleaning>
+				<Research>7</Research>
+			</lifeStageWorkSettings>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>  <!-- Exclude 12.5-13
+					years to avoid spawning pawns who are very close to becoming adults -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li><!-- End exclude -->
+					<li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+					<li>(14,0)</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+					<li>(16,60)</li>
+					<li>(23,100)</li>
+					<li>(32,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+				<li>Human</li>
+			</hediffGiverSets>
+		</race>
+		<recipes>
+			<li>Kurin_InstallFakeTail</li>
+			<li>Kurin_InstallBionicEar</li>
+			<li>Kurin_InstallBionicTail</li>
+
+			<li>ExciseCarcinoma</li>
+			<li>AdministerMechSerumHealer</li>
+			<li>RemoveBodyPart</li>
+			<li>Euthanize</li>
+			<li>Anesthetize</li>
+			<li>CureScaria</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Vasectomy</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">ReverseVasectomy</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">TubalLigation</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">ExtractOvum</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">ExtractHemogenPack</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">BloodTransfusion</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">ImplantXenogerm</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">ImplantIUD</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">RemoveIUD</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">TerminatePregnancy</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SurgicalInspection</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">BlissLobotomy</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">GhoulInfusion</li>
+		</recipes>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>HumanMeat</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+		<comps>
+			<li Class="Meow.CompProperties_PawnRenderAdjusterEpona">
+				<!-- <eastOffset>(0.3,0,0.7)</eastOffset>
+				<westOffset>(-0.3,0,0.7)</westOffset>
+				<southOffset>(0,0,0.7)</southOffset>
+				<northOffset>(0,0,0.7)</northOffset> -->
+				<scale>1.0</scale>
+				<headScale>0.92</headScale>
+				<headOffsetScale>0.92</headOffsetScale>
+				<offsetOnlyStand>true</offsetOnlyStand>
+			</li>
+			<li Class="FaceAddon.CompProperties_FaceAddonComps">
+				<faceTypeDefs>
+					<li>Kurin_FaceType1</li>
+					<li>Kurin_FaceType2</li>
+					<li>Kurin_FaceType3</li>
+					<li>Kurin_FaceType4</li>
+					<li>Kurin_FaceTypeB1</li>
+					<li>Kurin_FaceTypeB2</li>
+					<li>Kurin_FaceTypeB3</li>
+					<li>Kurin_FaceTypeB4</li>
+				</faceTypeDefs>
+				<!-- <additionalfaceTypeDefs>
+					<li>Kurin_EarType1</li>
+					<li>Kurin_EarType2</li>
+					<li>Kurin_EarType3</li>
+					<li>Kurin_EarType4</li>
+				</additionalfaceTypeDefs> -->
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_HoldingPlatformTarget">
+				<baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
+				<getsColdContainmentBonus>true</getsColdContainmentBonus>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_Studiable">
+				<frequencyTicks>120000</frequencyTicks>
+				<minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+				<requiresImprisonment>true</requiresImprisonment>
+			</li>
+		</comps>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

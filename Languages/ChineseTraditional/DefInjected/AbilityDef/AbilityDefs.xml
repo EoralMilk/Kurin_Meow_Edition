@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <Kurin_Ability_FlameGrenade.label>投射燃燒彈</Kurin_Ability_FlameGrenade.label>
+  <Kurin_Ability_FlameGrenade.description>投射一枚燃燒彈</Kurin_Ability_FlameGrenade.description>
+
+  <Kurin_Ability_EMPGrenade.label>投射EMP榴彈</Kurin_Ability_EMPGrenade.label>
+  <Kurin_Ability_EMPGrenade.description>投射一枚EMP榴彈</Kurin_Ability_EMPGrenade.description>
+
+  <PetrifyToDust.label>化石為塵</PetrifyToDust.label>
+  <PetrifyToDust.description>將岩石化作塵土</PetrifyToDust.description>
+  <PetrifyToDust.comps.CompAbilityEffect_Transmute.failedMessage>必須瞄准岩石、岩石塊、岩石建築或岩石物品。</PetrifyToDust.comps.CompAbilityEffect_Transmute.failedMessage>
+
+  <AwakenLifeless.label>喚起僵屍</AwakenLifeless.label>
+  <AwakenLifeless.description>將小范圍內的屍體喚醒為蹣跚怪為你作戰。</AwakenLifeless.description>
+
+  <ReclaimingTheFallen.label>逝者救贖</ReclaimingTheFallen.label>
+  <ReclaimingTheFallen.description>捕捉生命最後的余燼,將逝者的靈魂從深淵的邊緣拽回,重新賦予他們生命。</ReclaimingTheFallen.description>
+
+  <CallReinforcements.label>呼叫空降支援</CallReinforcements.label>
+  <CallReinforcements.description>向目標位置發射一枚信號彈，呼叫軌道上的增援部隊立即執行空投。</CallReinforcements.description>
+
+</LanguageData>

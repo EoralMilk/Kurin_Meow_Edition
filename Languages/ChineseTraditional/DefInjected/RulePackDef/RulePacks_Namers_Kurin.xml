@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <NamerPerson_Kurin.rulePack.rulesStrings>
+		<li>r_name(p=4)->[KLastName] '[KNickname]' [KFirstName]</li>
+		<li>r_name(p=4)->[KLastName] [KFirstName]</li>
+  </NamerPerson_Kurin.rulePack.rulesStrings>
+
+
+  <NamerPerson_KurinWeapon.rulePack.rulesStrings>
+    <li>r_weapon_name(p=1)->'[KNickname]'</li>
+    <li>r_weapon_name(p=4)->[KLastName]</li>
+  </NamerPerson_KurinWeapon.rulePack.rulesStrings>
+</LanguageData>

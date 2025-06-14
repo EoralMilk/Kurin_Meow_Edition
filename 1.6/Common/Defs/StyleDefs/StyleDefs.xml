@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<ThingStyleDef Name="StyleRotateWeapons" Abstract="True">
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="StyleRotateWeapons">
+		<defName>Style_Kurin2AR</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Item_Kurin2AR</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="StyleRotateWeapons">
+		<defName>Style_Kurin2AR_B</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Item_Kurin2AR_B</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="StyleRotateWeapons">
+		<defName>Style_Kurico</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Item_Kurico</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="StyleRotateWeapons">
+		<defName>Style_KurinSMG</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Item_KurinSMG</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="StyleRotateWeapons">
+		<defName>Style_KurinRevolver</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Item_KurinRevolver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="StyleRotateWeapons">
+		<defName>Style_Kurin5Pistol</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Item_Kurin5pistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="StyleRotateWeapons">
+		<defName>Style_KurinOldRifle</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Item_KurinOldtypeRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="StyleRotateWeapons">
+		<defName>Style_KurinAutoShotgun</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Item_AutoShotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="StyleRotateWeapons">
+		<defName>Style_KurinMarksman</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Item_Marksman</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="StyleRotateWeapons">
+		<defName>Style_SniperRifle</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Item_SniperRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+</Defs>

@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="BaseMakeableGun">
+		<defName>Kurin_Weapon_Kunai</defName>
+		<label>kurin kunai</label>
+		<description>A traditional throwing knife. Suitable for throwing and cutting. A favorite of
+			Kurin infiltrators who favor it for its ability to pass through shield belts.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Kunai</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.1</uiIconScale>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<Mass>0.4</Mass>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.6</AccuracyShort>
+			<AccuracyMedium>0.4</AccuracyMedium>
+			<AccuracyLong>0.2</AccuracyLong>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>Kurin_Ninja</li>
+			<li>Kurin_Kunai</li>
+		</weaponTags>
+		<costList>
+			<Steel>50</Steel>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Kurin_Bullet_Kunai</defaultProjectile>
+				<warmupTime>0.3</warmupTime>
+				<range>17.9</range>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Stab</li>
+					<li>Cut</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.1</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>Kurin_Bullet_Kunai</defName>
+		<label>kurin kunai</label>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Kunai_Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>Cut</damageDef>
+			<damageAmountBase>9</damageAmountBase>
+			<stoppingPower>0.65</stoppingPower>
+			<speed>48</speed>
+			<arcHeightFactor>0.4</arcHeightFactor>
+			<shadowSize>0.15</shadowSize>
+			<alwaysFreeIntercept>true</alwaysFreeIntercept>
+		</projectile>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BaseMakeableGun">
+		<defName>Kurin_Weapon_CrossDart</defName>
+		<label>kurin shuriken</label>
+		<description>Some small cross dart, can easily throw a long distance. It is a favorite of
+			the kurin Ninja because it can penetrate the shield provided by the belt.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/CrossDart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.1</uiIconScale>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<statBases>
+			<WorkToMake>9000</WorkToMake>
+			<Mass>0.5</Mass>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.55</AccuracyShort>
+			<AccuracyMedium>0.3</AccuracyMedium>
+			<AccuracyLong>0.15</AccuracyLong>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>Kurin_Ninja</li>
+		</weaponTags>
+		<costList>
+			<Steel>50</Steel>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Kurin_Bullet_CrossDart</defaultProjectile>
+				<warmupTime>0.3</warmupTime>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+				<range>20.9</range>
+			</li>
+		</verbs>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>Kurin_Bullet_CrossDart</defName>
+		<label>kurin shuriken</label>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/CrossDart_Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>Cut</damageDef>
+			<damageAmountBase>6</damageAmountBase>
+			<stoppingPower>0.5</stoppingPower>
+			<speed>43</speed>
+			<arcHeightFactor>0.4</arcHeightFactor>
+			<shadowSize>0.12</shadowSize>
+			<alwaysFreeIntercept>true</alwaysFreeIntercept>
+		</projectile>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BaseWeapon">
+		<defName>Kurin_Range_FlareGunReinforcements</defName>
+		<label>reinforcements flare gun</label>
+		<description>A flare gun that fires a reinforcements flares.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Item_FlareGun2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.5</uiIconScale>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>5000</MarketValue>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>1.5</Mass>
+			<AccuracyTouch>0.50</AccuracyTouch>
+			<AccuracyShort>0.50</AccuracyShort>
+			<AccuracyMedium>0.30</AccuracyMedium>
+			<AccuracyLong>0.15</AccuracyLong>
+			<RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+		</statBases>
+		<relicChance>0</relicChance>
+		<weaponTags Inherit="False">
+			<li>Kurin_FlareGunReinforcements</li>
+		</weaponTags>
+		<tradeTags>
+			<li>ExoticMisc</li>
+			<li>WeaponRanged</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>SingleUseWeapon</li>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>WeaponsRanged</li>
+		</thingCategories>
+		<burnableByRecipe>true</burnableByRecipe>
+		<verbs>
+			<li>
+				<!-- <verbClass>Verb_Shoot</verbClass> -->
+				<verbClass>Verb_ShootOneUse</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Kurin_Bullet_ReinforcementsFlare</defaultProjectile>
+				<warmupTime>0.5</warmupTime>
+				<range>25.9</range>
+				<!-- <forcedMissRadius>1.2</forcedMissRadius> -->
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Shot_IncendiaryLauncher</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>8</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Kurin_Bullet_ReinforcementsFlare</defName>
+		<label>disruptor flare</label>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Bullet_Flare</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<!-- <drawSize>0.65</drawSize> -->
+		</graphicData>
+		<thingClass>Projectile_SpawnsThing</thingClass>
+		<projectile>
+			<speed>30</speed>
+			<arcHeightFactor>2.5</arcHeightFactor>
+			<spinRate>3</spinRate>
+			<explosionRadius>4.9</explosionRadius>
+			<spawnsThingDef>Kurin_ReinforcementsFlare</spawnsThingDef>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase" Name="Kurin_ReinforcementsFlare">
+		<defName>Kurin_ReinforcementsFlare</defName>
+    	<thingClass>Building</thingClass>
+		<label>flare</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>KurinMeowEdition/Item_Weapon/Bullet_Flare</texPath>
+			<shaderType>Transparent</shaderType>
+			<!-- <drawSize>0.65</drawSize> -->
+			<onGroundRandomRotateAngle>360</onGroundRandomRotateAngle>
+		</graphicData>
+		<selectable>false</selectable>
+		<size>(1,1)</size>
+    	<rotatable>false</rotatable>
+		<tickerType>Normal</tickerType>
+		<useHitPoints>false</useHitPoints>
+		<pathCost>0</pathCost>
+		<fillPercent>0</fillPercent>
+		<drawerType>MapMeshOnly</drawerType>
+		<building>
+			<combatPower>400</combatPower>
+		</building>
+		<comps>
+			<li Class="CompProperties_DisruptorFlare">
+				<radius>0</radius>
+				<effecterDef>RFlareAttached</effecterDef>
+				<destroyWarningEffecterDef>RFlareAttached</destroyWarningEffecterDef>
+			</li>
+			<li Class="CompProperties_DestroyAfterDelay">
+				<delayTicks>300</delayTicks>
+				<displayCountdownOnLabel>true</displayCountdownOnLabel>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(150,255,180,0)</glowColor>
+			</li>
+			<li Class="CompProperties_PawnSpawnOnWakeup">
+				<points>600</points>
+				<dropInPods>True</dropInPods>
+				<pawnSpawnRadius>6</pawnSpawnRadius>
+				<spawnEffecter>MechDropBeaconActivated</spawnEffecter>
+				<activatedMessageKey>KurinReinforcementsDrop</activatedMessageKey>
+				<spawnablePawnKinds>
+					<li>Kurin_Mercenary_Airborne</li>
+				</spawnablePawnKinds>
+				<lordJob>LordJob_AssaultColony</lordJob>
+				<shouldJoinParentLord>True</shouldJoinParentLord>
+				<!-- <destroyAfterSpawn>True</destroyAfterSpawn> -->
+			</li>
+		</comps>
+	</ThingDef>
+
+	<EffecterDef>
+		<defName>RFlareAttached</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>  <!-- CAREFUL
+				REORDERING ME! Index of this effect must match what's in CompDisruptorFlare -->
+				<fleckDef>RFlareGlow</fleckDef>
+				<chancePerTick>.2</chancePerTick>
+				<chancePeriodTicks>20</chancePeriodTicks>
+				<spawnLocType>OnSource</spawnLocType>
+				<positionOffset>(0, 0, 0.1)</positionOffset>
+				<rotation>0</rotation>
+			</li>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+				<fleckDef>Smoke</fleckDef>
+				<chancePerTick>0.01</chancePerTick>
+				<scale>0.6~1.1</scale>
+				<spawnLocType>OnSource</spawnLocType>
+				<absoluteAngle>true</absoluteAngle>
+				<angle>10~20</angle>
+				<speed>0.2~0.35</speed>
+				<fleckUsesAngleForVelocity>True</fleckUsesAngleForVelocity>
+			</li>
+		</children>
+	</EffecterDef>
+
+
+	<FleckDef ParentName="FleckBase">
+		<defName>RFlareGlow</defName>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>.2</fadeInTime>
+		<solidTime>1</solidTime>
+		<fadeOutTime>.2</fadeOutTime>
+		<graphicData>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<texPath>KurinMeowEdition/Item_Weapon/Mote_EmpSmoke</texPath>
+			<shaderType>MoteGlowPulse</shaderType>
+			<color>(.1, 1, .2, 0.1)</color>
+			<drawSize>10</drawSize>
+			<shaderParameters>
+				<_Interval>0.05</_Interval>
+			</shaderParameters>
+		</graphicData>
+	</FleckDef>
+
+</Defs>

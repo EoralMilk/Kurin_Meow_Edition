@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	
+	<Kurin_Citizen.label>魅狐公民</Kurin_Citizen.label>
+	<Kurin_Citizen.labelPlural>魅狐公民</Kurin_Citizen.labelPlural>
+	<Kurin_Citizen.labelMale>魅狐公民</Kurin_Citizen.labelMale>
+	<Kurin_Citizen.labelMalePlural>魅狐公民</Kurin_Citizen.labelMalePlural>
+	<Kurin_Citizen.labelFemale>魅狐公民</Kurin_Citizen.labelFemale>
+	<Kurin_Citizen.labelFemalePlural>魅狐公民</Kurin_Citizen.labelFemalePlural>
+		
+	<Kurin_Maid.label>魅狐女僕</Kurin_Maid.label>
+	<Kurin_Maid.labelPlural>魅狐女僕</Kurin_Maid.labelPlural>
+	<Kurin_Maid.labelMale>魅狐女僕</Kurin_Maid.labelMale>
+	<Kurin_Maid.labelMalePlural>魅狐女僕</Kurin_Maid.labelMalePlural>
+	<Kurin_Maid.labelFemale>魅狐女僕</Kurin_Maid.labelFemale>
+	<Kurin_Maid.labelFemalePlural>魅狐女僕</Kurin_Maid.labelFemalePlural>
+
+	<Kurin_Vigilante.label>魅狐義警</Kurin_Vigilante.label>
+	<Kurin_Vigilante.labelPlural>魅狐義警</Kurin_Vigilante.labelPlural>
+	<Kurin_Vigilante.labelMale>魅狐義警</Kurin_Vigilante.labelMale>
+	<Kurin_Vigilante.labelMalePlural>魅狐義警</Kurin_Vigilante.labelMalePlural>
+	<Kurin_Vigilante.labelFemale>魅狐義警</Kurin_Vigilante.labelFemale>
+	<Kurin_Vigilante.labelFemalePlural>魅狐義警</Kurin_Vigilante.labelFemalePlural>
+
+	<Kurin_Trader.label>魅狐商人</Kurin_Trader.label>
+	<Kurin_Trader.labelPlural>魅狐商人</Kurin_Trader.labelPlural>
+	<Kurin_Trader.labelMale>魅狐商人</Kurin_Trader.labelMale>
+	<Kurin_Trader.labelMalePlural>魅狐商人</Kurin_Trader.labelMalePlural>
+	<Kurin_Trader.labelFemale>魅狐商人</Kurin_Trader.labelFemale>
+	<Kurin_Trader.labelFemalePlural>魅狐商人</Kurin_Trader.labelFemalePlural>
+
+	<Kurin_Soldier.label>魅狐士兵</Kurin_Soldier.label>
+	<Kurin_Soldier.labelPlural>魅狐士兵</Kurin_Soldier.labelPlural>
+	<Kurin_Soldier.labelMale>魅狐士兵</Kurin_Soldier.labelMale>
+	<Kurin_Soldier.labelMalePlural>魅狐士兵</Kurin_Soldier.labelMalePlural>
+	<Kurin_Soldier.labelFemale>魅狐士兵</Kurin_Soldier.labelFemale>
+	<Kurin_Soldier.labelFemalePlural>魅狐士兵</Kurin_Soldier.labelFemalePlural>
+	
+	<Kurin_Sergeant.label>魅狐中士</Kurin_Sergeant.label>
+	<Kurin_Sergeant.labelPlural>魅狐中士</Kurin_Sergeant.labelPlural>
+	<Kurin_Sergeant.labelMale>魅狐中士</Kurin_Sergeant.labelMale>
+	<Kurin_Sergeant.labelMalePlural>魅狐中士</Kurin_Sergeant.labelMalePlural>
+	<Kurin_Sergeant.labelFemale>魅狐中士</Kurin_Sergeant.labelFemale>
+	<Kurin_Sergeant.labelFemalePlural>魅狐中士</Kurin_Sergeant.labelFemalePlural>
+ 
+	<Kurin_Sniper.label>魅狐狙擊手</Kurin_Sniper.label>
+	<Kurin_Sniper.labelPlural>魅狐狙擊手</Kurin_Sniper.labelPlural>
+	<Kurin_Sniper.labelMale>魅狐狙擊手</Kurin_Sniper.labelMale>
+	<Kurin_Sniper.labelMalePlural>魅狐狙擊手</Kurin_Sniper.labelMalePlural>
+	<Kurin_Sniper.labelFemale>魅狐狙擊手</Kurin_Sniper.labelFemale>
+	<Kurin_Sniper.labelFemalePlural>魅狐狙擊手</Kurin_Sniper.labelFemalePlural>
+
+	<Kurin_Ranger.label>魅狐游騎兵</Kurin_Ranger.label>
+	<Kurin_Ranger.labelPlural>魅狐游騎兵</Kurin_Ranger.labelPlural>
+	<Kurin_Ranger.labelMale>魅狐游騎兵</Kurin_Ranger.labelMale>
+	<Kurin_Ranger.labelMalePlural>魅狐游騎兵</Kurin_Ranger.labelMalePlural>
+	<Kurin_Ranger.labelFemale>魅狐游騎兵</Kurin_Ranger.labelFemale>
+	<Kurin_Ranger.labelFemalePlural>魅狐游騎兵</Kurin_Ranger.labelFemalePlural>
+
+	<Kurin_Marine.label>魅狐陸戰隊</Kurin_Marine.label>
+	<Kurin_Marine.labelPlural>魅狐陸戰隊</Kurin_Marine.labelPlural>
+	<Kurin_Marine.labelMale>魅狐陸戰隊</Kurin_Marine.labelMale>
+	<Kurin_Marine.labelMalePlural>魅狐陸戰隊</Kurin_Marine.labelMalePlural>
+	<Kurin_Marine.labelFemale>魅狐陸戰隊</Kurin_Marine.labelFemale>
+	<Kurin_Marine.labelFemalePlural>魅狐陸戰隊</Kurin_Marine.labelFemalePlural>
+	
+	<Kurin_MarineBreacher.label>魅狐陸戰隊破門手</Kurin_MarineBreacher.label>
+	<Kurin_MarineBreacher.labelPlural>魅狐陸戰隊破門手</Kurin_MarineBreacher.labelPlural>
+	<Kurin_MarineBreacher.labelMale>魅狐陸戰隊破門手</Kurin_MarineBreacher.labelMale>
+	<Kurin_MarineBreacher.labelMalePlural>魅狐陸戰隊破門手</Kurin_MarineBreacher.labelMalePlural>
+	<Kurin_MarineBreacher.labelFemale>魅狐陸戰隊破門手</Kurin_MarineBreacher.labelFemale>
+	<Kurin_MarineBreacher.labelFemalePlural>魅狐陸戰隊破門手</Kurin_MarineBreacher.labelFemalePlural>
+
+
+
+	<Kurin_President.label>共和國總統</Kurin_President.label>
+	<Kurin_President.labelPlural>共和國總統</Kurin_President.labelPlural>
+	<Kurin_President.labelMale>共和國總統</Kurin_President.labelMale>
+	<Kurin_President.labelMalePlural>共和國總統</Kurin_President.labelMalePlural>
+	<Kurin_President.labelFemale>共和國總統</Kurin_President.labelFemale>
+	<Kurin_President.labelFemalePlural>共和國總統</Kurin_President.labelFemalePlural>
+
+</LanguageData>

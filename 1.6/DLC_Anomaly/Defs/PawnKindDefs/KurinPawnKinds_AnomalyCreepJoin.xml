@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<CreepJoinerFormKindDef Abstract="True" ParentName="BaseKurinKind" Name="Kurin_BaseCreepJoiner">
+		<canBeScattered>false</canBeScattered>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<combatPower>55</combatPower>
+		<humanPregnancyChance>0</humanPregnancyChance>
+		<invNutrition>10</invNutrition>
+		<studiableAsPrisoner>true</studiableAsPrisoner>
+		<acceptArrestChanceFactor>0.8</acceptArrestChanceFactor>
+		<basePrisonBreakMtbDays>30</basePrisonBreakMtbDays>
+		<showInDebugSpawner>false</showInDebugSpawner>
+		<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+		<fixedGender>Female</fixedGender>
+		<initialWillRange>10</initialWillRange>
+		<initialResistanceRange>0~0</initialResistanceRange>
+		<isFighter>false</isFighter>
+		<fixedChildBackstories>
+			<li>Kurin_BackstoryChild_Unknown</li>
+		</fixedChildBackstories>
+		<fixedAdultBackstories>
+			<li>Kurin_BackstoryAdult_Unknown</li>
+		</fixedAdultBackstories>
+		<styleItemTags>
+			<li>
+				<tag>Kurin</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+		<skinColorOverride>RGBA(1.0,1.0,1.0,1.0)</skinColorOverride>
+	</CreepJoinerFormKindDef>
+
+	<CreepJoinerFormKindDef ParentName="Kurin_BaseCreepJoiner">
+		<defName>Kurin_CreepJoiner_BioDataBase</defName>
+		<label>kurin biointelligent data base</label>
+		<weight>20</weight>
+		<letterLabel>A cute Kurin girl sways her fluffy tail as she strolls into your colony.</letterLabel>
+		<letterPrompt>A cute Kurin girl sways her fluffy tail as she strolls into your colony. She seems filled with childlike curiosity about everything around her, waving back cheerfully when the colonists greet her.
+After a brief exchange, you learn that she is from some kind of orbital facility nearby, only landing here recently due to some foolish reason. Seeing the signs of human habitation from afar, she decided to come and see if she could find a job to secure a new place to stay. Perhaps because she has lived on orbital stations her whole life and never truly seen the land and rivers, she appears fascinated by everything.
+{PAWN_nameDef} could be a helpful hand, but your instinct tells you that the cuter the fox, the more likely there are some unpleasant "little secrets" lurking beneath the surface.</letterPrompt>
+		<minGenerationAge>13</minGenerationAge>
+		<maxGenerationAge>18</maxGenerationAge>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<!-- <abilities>
+			<li>ReclaimingTheFallen</li>
+		</abilities> -->
+		<techHediffsRequired MayRequire="Ludeon.RimWorld.Biotech">
+			<li>Mechlink</li>
+		</techHediffsRequired>
+		<requiredWorkTags>
+			<li>Artistic</li>
+			<li>Crafting</li>
+		</requiredWorkTags>
+		<skills>
+			<li>
+				<skill>Crafting</skill>
+				<range>9~13</range>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<range>9~13</range>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<range>9~13</range>
+			</li>
+		</skills>
+		<disallowedTraits>
+			<li>BodyPurist</li>
+		</disallowedTraits>
+		<disallowedTraitsWithDegree>
+			<PsychicSensitivity>-1</PsychicSensitivity>
+			<PsychicSensitivity>-2</PsychicSensitivity>
+		</disallowedTraitsWithDegree>
+		<apparelTags>
+			<li>Kurin_Citizen</li>
+			<li>Kurin_Scarf</li>
+		</apparelTags>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Kurin_Underwear</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Underwear</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Stocking</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Socks</tag>
+						<chance>0.5</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Citizen</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Shoes</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Citizen</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</specificApparelRequirements>
+		<apparelMoney>850~1110</apparelMoney>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+	</CreepJoinerFormKindDef>
+  
+
+</Defs>

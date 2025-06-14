@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<Kurin_TailoringBenchElectric.label>魅狐電力裁縫台</Kurin_TailoringBenchElectric.label>
+	<Kurin_TailoringBenchElectric.description>帶有縫紉機的工作台，用於快速裁剪衣服。在沒電的情況下以50%的正常速度工作。</Kurin_TailoringBenchElectric.description>
+
+	<Kurin_Turret_ChargeLance.label>標槍炮塔</Kurin_Turret_ChargeLance.label>
+	<Kurin_Turret_ChargeLance.description>這個小型炮塔配備了電荷標槍。奧拉亞人利用拆解機械族獲得的電荷標槍零件制造了這種炮塔,借助自己收復的科技反擊機械族的入侵。</Kurin_Turret_ChargeLance.description>
+	<Kurin_Turret_ChargeLance.comps.CompRefuelable.fuelGizmoLabel>彈藥量</Kurin_Turret_ChargeLance.comps.CompRefuelable.fuelGizmoLabel>
+	<Kurin_Turret_ChargeLance.comps.CompRefuelable.fuelLabel>裝填彈藥前剩余射擊次數</Kurin_Turret_ChargeLance.comps.CompRefuelable.fuelLabel>
+	<Kurin_Turret_ChargeLance.comps.CompRefuelable.outOfFuelMessage>需要裝填彈藥</Kurin_Turret_ChargeLance.comps.CompRefuelable.outOfFuelMessage>
+  
+	<Kurin_Turret_ChargeLanceSentry.label>標槍哨戒炮塔</Kurin_Turret_ChargeLanceSentry.label>
+	<Kurin_Turret_ChargeLanceSentry.description>搭載了機械族的不穩定能量電池的升級版電荷標槍炮塔，可以自行供能供彈。同時還能將一部分富余電力輸出給其它用電器。多被用於野戰和缺少能源供應的哨所。</Kurin_Turret_ChargeLanceSentry.description>
+
+	<KurinHECUDropPod.label>HECU空投倉</KurinHECUDropPod.label>
+	<KurinHECUDropPod.description>HECU空投倉</KurinHECUDropPod.description>
+
+	<KurinReinforcementsDropBeacon.label>魅狐支援信標</KurinReinforcementsDropBeacon.label>
+	<KurinReinforcementsDropBeacon.description>魅狐支援信標</KurinReinforcementsDropBeacon.description>
+
+	<Kurin_Turret_ChargeLanceCannon.label>標槍自動炮塔</Kurin_Turret_ChargeLanceCannon.label>
+	<Kurin_Turret_ChargeLanceCannon.description>這個炮塔配備了電荷標槍自動炮。奧拉亞人利用拆解機械族獲得的電荷標槍零件制造了這種炮塔,借助自己收復的科技反擊機械族的入侵。</Kurin_Turret_ChargeLanceCannon.description>
+	<Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelGizmoLabel>彈藥量</Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelGizmoLabel>
+	<Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelLabel>裝填彈藥前剩余射擊次數</Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelLabel>
+	<Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.outOfFuelMessage>需要裝填彈藥</Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.outOfFuelMessage>
+  
+</LanguageData>

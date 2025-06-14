@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<ThingDef Name="KurinPowerArmorHelmetBase" ParentName="KurinCombatApparelNoColorBase"
+		Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Spacer/ReconHelmet</texPath>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<recipeMaker>
+			<!-- <researchPrerequisite>KurinComplexApparel</researchPrerequisite> -->
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<tradeTags>
+			<li>HiTechArmor</li>
+			<li>KurinApparel_Combat</li>
+		</tradeTags>
+		<statBases>
+			<Mass>1</Mass>
+			<EquipDelay>2</EquipDelay>
+			<Flammability>0.2</Flammability>
+			<WorkToMake>2500</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<StuffEffectMultiplierArmor>1.0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+			<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Spacer/ReconHelmet</wornGraphicPath>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Kurin_PowerArmor</li>
+				<li>PrestigeCombatGear</li>
+			</tags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+	</ThingDef>
+
+
+	<ThingDef Name="KurinReconHelmetBase" ParentName="KurinPowerArmorHelmetBase"
+		Abstract="True">
+		<recipeMaker>
+			<!-- <researchPrerequisites Inherit="false">
+				<li>ReconArmor</li>
+			</researchPrerequisites> -->
+			<researchPrerequisite>ReconArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<Mass>1</Mass>
+			<EquipDelay>2</EquipDelay>
+			<Flammability>0.2</Flammability>
+			<WorkToMake>2500</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<StuffEffectMultiplierArmor>1.0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+			<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<Flammability>-0.2</Flammability>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+			<ShootingAccuracyPawn>8.0</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Spacer/ReconHelmet</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+
+	<ThingDef ParentName="KurinReconHelmetBase">
+		<defName>Kurin_ReconHelmet</defName>
+		<label>kurin recon helmet</label>
+		<description>Rather than being a power armor companion helmet, this is more of a ballistic helmet that has been extensively retrofitted with high-tech components. This equipment, heavily modified by the Kurins using technology from unknown sources, integrates a full-spectrum scanning system and can synchronize with the camera sights of smart firearms, displaying the target in the user's visor.
+This type of helmet relies on a large number of modular components, which while more cumbersome, offers a higher degree of customization compared to the ones used by Imperial Scouts or the law enforcement agencies of the Radiant World.</description>
+		<costList>
+			<Apparel_ArmorHelmetRecon>1</Apparel_ArmorHelmetRecon>
+			<Plasteel>25</Plasteel>
+			<Steel>25</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Spacer/ReconHelmet</wornGraphicPath>
+			<tags>
+				<li>Kurin_ReconArmor</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+
+	<ThingDef Name="KurinHECSHelmetBase" ParentName="KurinPowerArmorHelmetBase"
+		Abstract="True">
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Spacer/HECSHelmet</texPath>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>PoweredArmor</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<Mass>2</Mass>
+			<EquipDelay>3</EquipDelay>
+			<Flammability>0.2</Flammability>
+			<WorkToMake>12000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<ArmorRating_Sharp>1.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.0</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.8</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<Flammability>-0.3</Flammability>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+			<PainShockThreshold>0.15</PainShockThreshold>
+			<MentalBreakThreshold>-0.08</MentalBreakThreshold>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Spacer/HECSHelmet</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="KurinHECSHelmetBase">
+		<defName>Kurin_HECSHelmet</defName>
+		<label>Kurin Hostile Environment Combat helmet</label>
+		<description>The helmet companion to the heavy-duty powered armor developed by Yamada Interstellar Corporation and produced by the Yao Tai Aerospace Technology Bureau of the Kunlun Commune, specifically for use by Kurins. The thick aerospace-grade polymer-steel alloy armor completely isolates the wearer from the external environment, shielding them from both ballistic and energy weapons without sustaining catastrophic damage. It is equipped with an integrated battlefield information monitoring system and assisted targeting system. Beyond synchronizing with smart firearms, it can also share various information through a shared port to all units wearing this helmet.
+This helmet is widely equipped by Interstellar Free Folk and merchant mercenaries composed of Kurins and other races. Undoubtedly, when paired with the super-heavy powered armor, this helmet becomes a formidable ace in the hole on various battlefields.</description>
+		<costList>
+			<Apparel_PowerArmorHelmet>1</Apparel_PowerArmorHelmet>
+			<Plasteel>50</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Spacer/HECSHelmet</wornGraphicPath>
+			<tags>
+				<li>Kurin_HECSArmor</li>
+				<li>HideKurinEar</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="KurinCombatApparelNoColorBase">
+		<defName>Kurin_SpaceHelmet</defName>
+		<label>kurin deep space helmet</label>
+		<description>A high-tech protective helmet for use in space or deep sea environments, relying on a special charging mechanism to regulate internal temperature and pressure. This helmet has heat radiation tracking and thermal imaging functions, both integrated into the protective faceplate's optical sensors. When not in use, the sensors need to be manually raised. Kurins jokingly refer to this bulky helmet as the "goldfish bowl", with the expansive starscape and the hopeful eyes of aerospace pioneers etched onto its somewhat hazy faceplate.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Spacer/SpaceHelmet</texPath>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<costList>
+			<Steel>30</Steel>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>30</Plasteel>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>ShipBasics</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisites Inherit="false">
+				<li>KurinComplexApparel</li>
+			</researchPrerequisites>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<possessionCount>1</possessionCount>
+		<generateCommonality>2</generateCommonality>
+		<techLevel>Spacer</techLevel>
+		<thingCategories Inherit="false">
+			<li>Kurin_Apparel_Spacer</li>
+		</thingCategories>
+		<statBases>
+			<Mass>2.5</Mass>
+			<Flammability>0.2</Flammability>
+			<WorkToMake>16000</WorkToMake>
+			<EquipDelay>2.5</EquipDelay>
+			<MaxHitPoints>300</MaxHitPoints>
+			<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.75</ArmorRating_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicResistance>0.5</ToxicResistance>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<renderSkipFlags>
+				<li>Hair</li>
+			</renderSkipFlags>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Spacer/SpaceHelmet</wornGraphicPath>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<forceEyesVisibleForRotations>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			</forceEyesVisibleForRotations>
+			<tags>
+				<li>Kurin_Spacer</li>
+				<li>Kurin_SpaceSuit</li>
+				<li>HideKurinEar</li>
+				<li>PrestigeCombatGear</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<comps>
+		</comps>
+	</ThingDef>
+
+</Defs>

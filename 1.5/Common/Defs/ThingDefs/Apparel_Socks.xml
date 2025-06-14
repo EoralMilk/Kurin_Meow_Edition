@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="Kurin_SocksBase" Name="KurinStockings">
+		<defName>Kurin_StockingsBrown</defName>
+		<label>kurin brown stockings</label>
+		<description>Brown stockings, comfortable and warm.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Socks/BrownStockings</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Socks/BrownStockings</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="KurinStockings">
+		<defName>Kurin_StockingsWhite</defName>
+		<label>kurin white stockings</label>
+		<description>White stockings, comfortable and warm.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Socks/WhiteStockings</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Socks/WhiteStockings</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="KurinStockings">
+		<defName>Kurin_StockingsStriped</defName>
+		<label>kurin striped stockings</label>
+		<description>Striped stockings, looks so cute.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Socks/StripedStockings</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Socks/StripedStockings</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="Kurin_SocksBase" Name="KurinGarterbeltStockings">
+		<defName>Kurin_StockingsGarterbelt</defName>
+		<label>kurin garterbelt stockings (black)</label>
+		<description>A charming garter stockings. Further enhancing Kurin's charm.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Socks/GarterbeltStockings</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Socks/GarterbeltStockings</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="KurinGarterbeltStockings">
+		<defName>Kurin_StockingsGarterbeltWhite</defName>
+		<label>kurin garterbelt stockings (white)</label>
+		<description>A charming garter stockings. Further enhancing Kurin's charm.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Socks/WhiteGarterbeltStockings</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Socks/WhiteGarterbeltStockings</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+
+	<ThingDef ParentName="Kurin_SocksBase" Name="KurinPantyhose">
+		<defName>Kurin_PantyhoseWhite</defName>
+		<label>kurin pantyhose (white)</label>
+		<description>Pantyhose that wraps the whole leg. Cozy and warm.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Socks/WhitePantyhose</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>40</costStuffCount>
+		<statBases>
+			<Mass>0.2</Mass>
+			<EquipDelay>0.7</EquipDelay>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2000</WorkToMake>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Socks/WhitePantyhose</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="KurinPantyhose">
+		<defName>Kurin_PantyhoseBlack</defName>
+		<label>kurin pantyhose (black)</label>
+		<description>Pantyhose that wraps the whole leg. Cozy and warm.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Socks/Pantyhose</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Socks/Pantyhose</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+
+	<ThingDef ParentName="Kurin_SocksBase">
+		<defName>Kurin_StockingArmor</defName>
+		<label>kurin stocking armor</label>
+		<description>They look just like stockings, but they're cut and bulletproof.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Socks/StockingArmor</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costList>
+			<Steel>15</Steel>
+		</costList>
+		<costStuffCount>55</costStuffCount>
+		<statBases>
+			<Mass>0.8</Mass>
+			<EquipDelay>1.2</EquipDelay>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Socks/StockingArmor</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="Kurin_SocksBase">
+		<defName>Kurin_WorkStocking</defName>
+		<label>kurin working socks</label>
+		<description>Wool socks that provide some protection over the knee, dyed to resist oil and dust, and fitted with extra knee pads.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Socks/WorkStocking</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costStuffCount>45</costStuffCount>
+		<statBases>
+			<Mass>0.7</Mass>
+			<EquipDelay>1.2</EquipDelay>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>3500</WorkToMake>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.15</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Socks/WorkStocking</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<Flammability>-0.1</Flammability>
+		</equippedStatOffsets>
+	</ThingDef>
+
+</Defs>

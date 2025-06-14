@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<TraderKindDef Name="KurinTraderBase" Abstract="True">
+		<stockGenerators>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>RK_ExoticValuable</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>KurinApparel</tag>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+
+	<TraderKindDef ParentName="KurinTraderBase">
+		<defName>Caravan_Kurin_BulkGoods</defName>
+		<label>bulk goods trader</label>
+		<commonality>2</commonality>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>
+					<min>2000</min>
+					<max>5000</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentIndustrial</thingDef>
+				<countRange>
+					<min>30</min>
+					<max>40</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentSpacer</thingDef>
+				<countRange>
+					<min>-10</min>
+					<max>2</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Jade</thingDef>
+				<countRange>
+					<min>50</min>
+					<max>100</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Steel</thingDef>
+				<countRange>
+					<min>250</min>
+					<max>400</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Cloth</thingDef>
+				<countRange>
+					<min>250</min>
+					<max>400</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>RawAgave</thingDef>
+				<countRange>
+					<min>700</min>
+					<max>1750</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Chemfuel</thingDef>
+				<countRange>
+					<min>250</min>
+					<max>400</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>FoodRaw</categoryDef>
+				<excludedCategories>
+					<li>EggsFertilized</li>
+				</excludedCategories>
+				<thingDefCountRange>
+					<min>3</min>
+					<max>3</max>
+				</thingDefCountRange>
+				<totalPriceRange>
+					<min>150</min>
+					<max>600</max>
+				</totalPriceRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>BuildingsFurniture</categoryDef>
+				<thingDefCountRange>
+					<min>3</min>
+					<max>3</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>1</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Animals">
+				<maxWildness>0.70</maxWildness>
+				<tradeTagsSell>
+					<li>AnimalFarm</li>
+					<li>AnimalPet</li>
+				</tradeTagsSell>
+				<tradeTagsBuy>
+					<li>AnimalExotic</li>
+				</tradeTagsBuy>
+				<kindCountRange>
+					<min>1</min>
+					<max>1</max>
+				</kindCountRange>
+				<countRange>
+					<min>2</min>
+					<max>4</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>Drugs</categoryDef>
+			</li>
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+			<li Class="StockGenerator_MultiDef">
+				<thingDefs>
+					<li>Kibble</li>
+					<li>Pemmican</li>
+					<li>RawRice</li>
+				</thingDefs>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Art</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>MusicalInstrument</tag>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+	<TraderKindDef ParentName="KurinTraderBase">
+		<defName>Caravan_Kurin_DressMerchant</defName>
+		<label>dress merchant</label>
+		<commonality>1</commonality>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>
+					<min>2200</min>
+					<max>3500</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>Clothes</tradeTag>
+				<countRange>10~20</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Cloth</thingDef>
+				<countRange>
+					<min>250</min>
+					<max>400</max>
+				</countRange>
+			</li>	
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DevilstrandCloth</thingDef>
+				<countRange>
+					<min>75</min>
+					<max>150</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>KurinApparel</tradeTag>
+				<thingDefCountRange>
+					<min>5</min>
+					<max>8</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>2</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>Textiles</categoryDef>
+			</li>
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+		</stockGenerators>
+	</TraderKindDef>
+
+	<TraderKindDef ParentName="KurinTraderBase">
+		<defName>Caravan_Kurin_CombatSupplier</defName>
+		<label>combat supplier</label>
+		<commonality>1</commonality>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>
+					<min>2300</min>
+					<max>2900</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_MarketValue">
+				<tradeTag>WeaponRanged</tradeTag>
+				<countRange>4~8</countRange>
+			</li>
+			<li Class="StockGenerator_Category">
+				<categoryDef>WeaponsMelee</categoryDef>
+				<thingDefCountRange>
+					<min>3</min>
+					<max>8</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>3</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>KurinApparel_Combat</tradeTag>
+				<thingDefCountRange>
+					<min>5</min>
+					<max>8</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>1</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>MedicineIndustrial</thingDef>
+				<countRange>
+					<min>10</min>
+					<max>20</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>MortarShell</tradeTag>
+				<thingDefCountRange>
+					<min>-1</min>
+					<max>2</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>10</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Animals">
+				<tradeTagsSell>
+					<li>AnimalFighter</li>
+				</tradeTagsSell>
+				<tradeTagsBuy>
+					<li>AnimalUncommon</li>
+					<li>AnimalExotic</li>
+				</tradeTagsBuy>
+				<kindCountRange>
+					<min>1</min>
+					<max>2</max>
+				</kindCountRange>
+				<countRange>
+					<min>1</min>
+					<max>3</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Gold</thingDef>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+	<TraderKindDef ParentName="KurinTraderBase">
+		<defName>Caravan_Kurin_ExoticCollector</defName>
+		<label>exotic collector</label>
+		<commonality>1</commonality>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>
+					<min>2900</min>
+					<max>3300</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentIndustrial</thingDef>
+				<countRange>
+					<min>6</min>
+					<max>10</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>TechHediff</tradeTag>
+				<thingDefCountRange>
+					<min>3</min>
+					<max>3</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>1</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>Artifact</tradeTag>
+				<thingDefCountRange>
+					<min>2</min>
+					<max>2</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>1</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>PsychicApparel</tradeTag>
+				<thingDefCountRange>2~3</thingDefCountRange>
+				<countRange>1~3</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>HiTechArmor</tradeTag>
+				<thingDefCountRange>0~2</thingDefCountRange>
+				<countRange>1~2</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>PsychicWeapon</tradeTag>
+				<thingDefCountRange>1~2</thingDefCountRange>
+				<countRange>1~2</countRange>
+			</li>
+			<!-- Genepack -->
+			<li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
+				<thingDef>Genepack</thingDef>
+				<countRange>1~2</countRange>
+			</li>
+
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>Gold</thingDef>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Art</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>MusicalInstrument</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>PsylinkNeuroformer</tag>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+	<TraderKindDef ParentName="KurinTraderBase">
+		<defName>Visitor_Kurin_RareGoods</defName>
+		<label>rarity collector</label>
+		<commonality>1</commonality>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>
+					<min>1800</min>
+					<max>2000</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>DevilstrandCloth</thingDef>
+				<countRange>
+					<min>100</min>
+					<max>200</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Gold</thingDef>
+				<countRange>
+					<min>20</min>
+					<max>55</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>TechHediff</tradeTag>
+				<thingDefCountRange>
+					<min>3</min>
+					<max>3</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>1</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Art</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>KurinApparel</tag>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+	<TraderKindDef ParentName="KurinTraderBase">
+		<defName>Visitor_Kurin_Vendor</defName>
+		<label>vendor</label>
+		<commonality>1</commonality>
+		<stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>
+					<min>400</min>
+					<max>1600</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Cloth</thingDef>
+				<countRange>
+					<min>300</min>
+					<max>400</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>ComponentIndustrial</thingDef>
+				<countRange>
+					<min>4</min>
+					<max>10</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>KurinApparel</tradeTag>
+				<thingDefCountRange>
+					<min>2</min>
+					<max>4</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min>
+					<max>1</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_BuyExpensiveSimple" />
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>Art</tag>
+			</li>
+			<li Class="StockGenerator_BuyTradeTag">
+				<tag>KurinApparel</tag>
+			</li>
+		</stockGenerators>
+	</TraderKindDef>
+
+</Defs>
