@@ -60,6 +60,9 @@
 				<li>KFirst->Names/KFirst</li>
 				<li>KLast->Names/KLast</li>
 				<li>KNick->Names/KNick</li>
+				<li>KrFirst->Names/KrFirst</li>
+				<li>KrLast->Names/KrLast</li>
+				<li>KrMiddle->Names/KrMiddle</li>
 			</rulesFiles>
 			<rulesStrings>
 				<!--Firstnames-->
@@ -68,9 +71,30 @@
 				<li>KNickname->[KNick]</li>
 				<!--Lastnames-->
 				<li>KLastName->[KLast]</li>
+
+				<li>KrFirstName->[KrFirst]</li>
+				<li>KrMiddleName->[KrLast]</li>
+				<li>KrLastName->[KrMiddle]</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
 
 
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Cattail</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Commander-in-Chief</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LeaderTitleMaker_DaePhon</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Senior-General</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
 </Defs>

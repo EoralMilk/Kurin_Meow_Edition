@@ -2,13 +2,13 @@
 <Defs>
 
 
-	<ThingStyleDef Name="StyleRotateWeapons" Abstract="True">
+	<ThingStyleDef Name="KurinStyleRotateWeapons" Abstract="True">
 		<graphicData>
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
 		</graphicData>
 	</ThingStyleDef>
 
-	<ThingStyleDef ParentName="StyleRotateWeapons">
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
 		<defName>Style_Kurin2AR</defName>
 		<graphicData>
 			<texPath>KurinMeowEdition/Item_Weapon/Item_Kurin2AR</texPath>
@@ -16,7 +16,7 @@
 		</graphicData>
 	</ThingStyleDef>
 
-	<ThingStyleDef ParentName="StyleRotateWeapons">
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
 		<defName>Style_Kurin2AR_B</defName>
 		<graphicData>
 			<texPath>KurinMeowEdition/Item_Weapon/Item_Kurin2AR_B</texPath>
@@ -24,7 +24,7 @@
 		</graphicData>
 	</ThingStyleDef>
 
-	<ThingStyleDef ParentName="StyleRotateWeapons">
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
 		<defName>Style_Kurico</defName>
 		<graphicData>
 			<texPath>KurinMeowEdition/Item_Weapon/Item_Kurico</texPath>
@@ -32,7 +32,7 @@
 		</graphicData>
 	</ThingStyleDef>
 
-	<ThingStyleDef ParentName="StyleRotateWeapons">
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
 		<defName>Style_KurinSMG</defName>
 		<graphicData>
 			<texPath>KurinMeowEdition/Item_Weapon/Item_KurinSMG</texPath>
@@ -40,7 +40,7 @@
 		</graphicData>
 	</ThingStyleDef>
 
-	<ThingStyleDef ParentName="StyleRotateWeapons">
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
 		<defName>Style_KurinRevolver</defName>
 		<graphicData>
 			<texPath>KurinMeowEdition/Item_Weapon/Item_KurinRevolver</texPath>
@@ -48,7 +48,7 @@
 		</graphicData>
 	</ThingStyleDef>
 
-	<ThingStyleDef ParentName="StyleRotateWeapons">
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
 		<defName>Style_Kurin5Pistol</defName>
 		<graphicData>
 			<texPath>KurinMeowEdition/Item_Weapon/Item_Kurin5pistol</texPath>
@@ -56,7 +56,7 @@
 		</graphicData>
 	</ThingStyleDef>
 
-	<ThingStyleDef ParentName="StyleRotateWeapons">
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
 		<defName>Style_KurinOldRifle</defName>
 		<graphicData>
 			<texPath>KurinMeowEdition/Item_Weapon/Item_KurinOldtypeRifle</texPath>
@@ -64,7 +64,7 @@
 		</graphicData>
 	</ThingStyleDef>
 
-	<ThingStyleDef ParentName="StyleRotateWeapons">
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
 		<defName>Style_KurinAutoShotgun</defName>
 		<graphicData>
 			<texPath>KurinMeowEdition/Item_Weapon/Item_AutoShotgun</texPath>
@@ -72,7 +72,7 @@
 		</graphicData>
 	</ThingStyleDef>
 
-	<ThingStyleDef ParentName="StyleRotateWeapons">
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
 		<defName>Style_KurinMarksman</defName>
 		<graphicData>
 			<texPath>KurinMeowEdition/Item_Weapon/Item_Marksman</texPath>
@@ -80,11 +80,175 @@
 		</graphicData>
 	</ThingStyleDef>
 
-	<ThingStyleDef ParentName="StyleRotateWeapons">
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
 		<defName>Style_SniperRifle</defName>
 		<graphicData>
 			<texPath>KurinMeowEdition/Item_Weapon/Item_SniperRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
+		<defName>Style_DaePung1</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Texture_DaePung1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
+		<defName>Style_DaePung2</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Texture_DaePung2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
+		<defName>Style_MachinePistol2</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/MachinePistol2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
+		<defName>Style_Bison</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Texture_Bison</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
+		<defName>Style_Baek75</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Texture_Baek75</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
+		<defName>Style_Dae12</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Texture_Dae12</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
+		<defName>Style_KurinSR3</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Texture_Sniper_Rifle3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
+		<defName>Style_KurinMarineSword2</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/MarineSword2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<uiIconPath>KurinMeowEdition/Item_Weapon/Marine_Sword2_icon</uiIconPath>
+	</ThingStyleDef>
+
+	<ThingStyleDef Name="KurinClothNoColorStyle" Abstract="True">
+		<graphicData>
+			<drawSize>(1.65, 1.65)</drawSize>
+			<maskPath>dummy256</maskPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<useWornGraphicMask>true</useWornGraphicMask>
+	</ThingStyleDef>
+
+	<ThingStyleDef Name="KurinHatNoColorStyle" Abstract="True">
+		<graphicData>
+			<drawOffset>(0,0,-0.1)</drawOffset>
+			<drawSize>(1.5, 1.5)</drawSize>
+			<maskPath>dummy256</maskPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<useWornGraphicMask>true</useWornGraphicMask>
+	</ThingStyleDef>
+
+
+	<ThingStyleDef ParentName="KurinClothNoColorStyle">
+		<defName>Style_KurinArmorVest2</defName>
+		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/ArmorVest2</wornGraphicPath>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Styled/ArmorVest2_Female_south</texPath>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinHatNoColorStyle">
+		<defName>Style_KurinArmyCap2</defName>
+		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/ArmyCap</wornGraphicPath>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Styled/ArmyCap_south</texPath>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinHatNoColorStyle">
+		<defName>Style_KurinCombatHelmet2</defName>
+		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/CombatHelmet2</wornGraphicPath>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Styled/CombatHelmet2_south</texPath>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinClothNoColorStyle">
+		<defName>Style_KurinBusinesslCoat2</defName>
+		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/BusinesslCoat2</wornGraphicPath>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Styled/BusinesslCoat2_Female_south</texPath>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinClothNoColorStyle">
+		<defName>Style_KurinBusinessShirt2</defName>
+		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/BusinessShirt2</wornGraphicPath>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Styled/BusinessShirt2_Female_south</texPath>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinClothNoColorStyle">
+		<defName>Style_KurinMilitaryUniform2</defName>
+		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/MilitaryUniform2</wornGraphicPath>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Styled/MilitaryUniform2_Female_south</texPath>
+		</graphicData>
+	</ThingStyleDef>
+	
+	<ThingStyleDef ParentName="KurinClothNoColorStyle">
+		<defName>Style_KurinMarineSuit2</defName>
+		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/MarineUniform2</wornGraphicPath>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Styled/MarineUniform2_Female_south</texPath>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinClothNoColorStyle">
+		<defName>Style_KurinMarineGear2</defName>
+		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/MarineGear2</wornGraphicPath>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Styled/MarineGear2_Female_south</texPath>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinClothNoColorStyle">
+		<defName>Style_KurinNavySuit2</defName>
+		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/NavySuit2</wornGraphicPath>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Styled/NavySuit2_Female_south</texPath>
 		</graphicData>
 	</ThingStyleDef>
 </Defs>

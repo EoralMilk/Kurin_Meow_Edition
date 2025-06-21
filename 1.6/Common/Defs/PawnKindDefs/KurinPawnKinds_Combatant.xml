@@ -161,13 +161,22 @@
 					</li>
 				</alternateTagChoices>
 			</li>
+			<li>
+				<bodyPartGroup>UpperHead</bodyPartGroup>
+				<apparelLayer>Overhead</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Military</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
 		</specificApparelRequirements>
 		<weaponTags Inherit="False">
 			<li>ShortShots</li>
 		</weaponTags>
 		<apparelRequired Inherit="false">
 			<li>Kurin_CombatSuit</li>
-			<li>Kurin_Goggles</li>
 		</apparelRequired>
 		<weaponMoney>450~1200</weaponMoney>
 		<skills>
@@ -346,6 +355,7 @@
 			<li>Kurin_TwinRocket</li>
 			<li>Kurin_Range_Spacer</li>
 			<li>Flamethrower</li>
+			<li>Kurin_ChargeLance</li>
 			<!-- <li>Kurin_FlareGun</li> -->
 		</weaponTags>
 		<weaponMoney>2050~3500</weaponMoney>
@@ -381,6 +391,8 @@
 		<weaponTags Inherit="False">
 			<li>Kurin_Melee_Sattle_Stuff</li>
 			<li>GunHeavy</li>
+			<li>Kurin_ChargeLance</li>
+			<li>MechanoidGunMedium</li>
 			<li>Kurin_ChainGun</li>
 			<li>Kurin_Range_Spacer</li>
 		</weaponTags>
@@ -467,6 +479,8 @@
 		</backstoryFiltersOverride>
 		<weaponTags Inherit="False">
 			<li>Kurin_Range_Spacer</li>
+			<li>Kurin_ChargeLance</li>
+			<li>MechanoidGunMedium</li>
 			<li>Kurin_FlareGun</li>
 			<li>Kurin_FlareGunReinforcements</li>
 		</weaponTags>
@@ -503,7 +517,7 @@
 	<PawnKindDef ParentName="KurinShooter">
 		<defName>Kurin_Pathfinder</defName>
 		<label>Kurin pathfinder</label>
-		<combatPower>120</combatPower>
+		<combatPower>110</combatPower>
 		<apparelMoney>1550~2350</apparelMoney>
 		<backstoryFiltersOverride Inherit="False">
 			<li>
@@ -575,7 +589,7 @@
 	<PawnKindDef ParentName="KurinShooter">
 		<defName>Kurin_Marksman</defName>
 		<label>Kurin marksman</label>
-		<combatPower>120</combatPower>
+		<combatPower>110</combatPower>
 		<apparelMoney>1550~2350</apparelMoney>
 		<backstoryFiltersOverride Inherit="False">
 			<li>
@@ -590,8 +604,9 @@
 		<weaponTags Inherit="False">
 			<li>SniperRifle</li>
 			<li>Kurin_DMR</li>
+			<li>Kurin_ChargeLance</li>
 		</weaponTags>
-		<weaponMoney>1000~1500</weaponMoney>
+		<weaponMoney>1000~3500</weaponMoney>
 		<apparelRequired>
 			<li>Kurin_Goggles</li>
 		</apparelRequired>
@@ -774,11 +789,13 @@
 				<range>12~18</range>
 			</li>
 		</skills>
-		<forcedTraits>
-			<Nerves>2</Nerves>
-		</forcedTraits>
+		<disallowedTraitsWithDegree>
+			<Nerves>-1</Nerves>
+			<SpeedOffset>-1</SpeedOffset>
+			<Nerves>-2</Nerves>
+			<SpeedOffset>-2</SpeedOffset>
+		</disallowedTraitsWithDegree>
 	</PawnKindDef>
-
 
 	<PawnKindDef ParentName="Kurin_Marine">
 		<defName>Kurin_MarineBreacher</defName>
@@ -807,8 +824,28 @@
 		<forcedTraits>
 			<Nerves>2</Nerves>
 		</forcedTraits>
-		<disallowedTraitsWithDegree Inherit="False">
-		</disallowedTraitsWithDegree>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Kurin_Marine">
+		<defName>Kurin_MarineLancer</defName>
+		<label>Kurin marine lancer</label>
+		<combatPower>165</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<weaponTags Inherit="False">
+			<li>MechanoidGunMedium</li>
+			<li>Kurin_ChargeLance</li>
+		</weaponTags>
+		<weaponMoney>9999~9999</weaponMoney>
+		<skills>
+			<li>
+				<skill>Melee</skill>
+				<range>8~10</range>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<range>15~18</range>
+			</li>
+		</skills>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="KurinRepublicShooter">

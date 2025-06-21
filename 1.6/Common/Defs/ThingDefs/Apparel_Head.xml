@@ -385,7 +385,7 @@
 				</dataWest>
 			</drawData>
 			<tags>
-				<li>Kurin_Military</li>
+				<li>Kurin_Goggles</li>
 				<!-- <li>Kurin_Vigilante</li> -->
 				<li>PrestigeCombatGear</li>
 			</tags>
@@ -393,6 +393,68 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="KurinCombatApparelNoColorBase">
+		<defName>Kurin_ArmyCap</defName>
+		<label>kurin army cap</label>
+		<description>A lightweight military cap made of bulletproof fabric offers a certain level of protection without being overly hot. It is the preferred choice for training in summer. </description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Head/ArmyCap_Icon</texPath>
+			<!-- <drawSize>0.82</drawSize> -->
+		</graphicData>
+		<costList>
+			<DevilstrandCloth>10</DevilstrandCloth>
+		</costList>
+		<costStuffCount>45</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<recipeMaker>
+			<researchPrerequisite></researchPrerequisite>
+			<researchPrerequisites Inherit="false">
+				<li>FlakArmor</li>
+				<li>KurinComplexApparel</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<Mass>1.5</Mass>
+			<Flammability>0.2</Flammability>
+			<WorkToMake>8000</WorkToMake>
+			<EquipDelay>1.5</EquipDelay>
+			<MaxHitPoints>120</MaxHitPoints>
+			<StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
+			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.08</MentalBreakThreshold>
+			<NegotiationAbility>0.1</NegotiationAbility>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Head/ArmyCap1</wornGraphicPath>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Kurin_Military</li>
+				<li>Kurin_Army</li>
+				<li>PrestigeCombatGear</li>
+			</tags>
 		</apparel>
 	</ThingDef>
 
@@ -560,6 +622,9 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
+			<tags>
+				<li>Kurin_Ninja</li>
+			</tags>
 		</apparel>
 	</ThingDef>
 

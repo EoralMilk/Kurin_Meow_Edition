@@ -50,4 +50,93 @@
 	</StyleCategoryDef>
 
 
+	<StyleCategoryDef>
+		<defName>KurinDaePhonStyleCategory</defName>
+		<label>Kurin DaePhon</label>
+		<iconPath>KurinMeowEdition/Faction/Icon_Kurin2</iconPath>
+		<soundOngoingRitual>RitualSustainer_Techist</soundOngoingRitual>
+		<ritualVisualEffectDef>Techist</ritualVisualEffectDef>
+		<thingDefStyles>
+			<li>
+				<thingDef>Gun_AssaultRifle</thingDef>
+				<styleDef>Style_DaePung1</styleDef>
+			</li>
+			<li>
+				<thingDef>Gun_ChainShotgun</thingDef>
+				<styleDef>Style_Dae12</styleDef>
+			</li>
+			<li>
+				<thingDef>Gun_HeavySMG</thingDef>
+				<styleDef>Style_Bison</styleDef>
+			</li>
+			<li>
+				<thingDef>Gun_Revolver</thingDef>
+				<styleDef>Style_KurinRevolver</styleDef>
+			</li>
+			<li>
+				<thingDef>Gun_BoltActionRifle</thingDef>
+				<styleDef>Style_KurinOldRifle</styleDef>
+			</li>
+			<li>
+				<thingDef>Gun_Autopistol</thingDef>
+				<styleDef>Style_Baek75</styleDef>
+			</li>
+			<li>
+				<thingDef>Gun_SniperRifle</thingDef>
+				<styleDef>Style_KurinSR3</styleDef>
+			</li>
+			<li>
+				<thingDef>Gun_MachinePistol</thingDef>
+				<styleDef>Style_MachinePistol2</styleDef>
+			</li>
+			<li>
+				<thingDef>Kurin_Range_DMR</thingDef>
+				<styleDef>Style_DaePung2</styleDef>
+			</li>
+			<li>
+				<thingDef>Kurin_Melee_MarineSword</thingDef>
+				<styleDef>Style_KurinMarineSword2</styleDef>
+			</li>
+
+
+			<li>
+				<thingDef>Kurin_BulletproofVest</thingDef>
+				<styleDef>Style_KurinArmorVest2</styleDef>
+			</li>
+			<li>
+				<thingDef>Kurin_ArmyCap</thingDef>
+				<styleDef>Style_KurinArmyCap2</styleDef>
+			</li>
+			<li>
+				<thingDef>Kurin_CombatHelmet</thingDef>
+				<styleDef>Style_KurinCombatHelmet2</styleDef>
+			</li>
+			<li>
+				<thingDef>Kurin_BusinessCoat</thingDef>
+				<styleDef>Style_KurinBusinesslCoat2</styleDef>
+			</li>
+			<li>
+				<thingDef>Kurin_BusinessShirt</thingDef>
+				<styleDef>Style_KurinBusinessShirt2</styleDef>
+			</li>
+			<li>
+				<thingDef>Kurin_CombatSuit</thingDef>
+				<styleDef>Style_KurinMilitaryUniform2</styleDef>
+			</li>
+			<li>
+				<thingDef>Kurin_MarineGear</thingDef>
+				<styleDef>Style_KurinMarineGear2</styleDef>
+			</li>
+			<li>
+				<thingDef>Kurin_MarineSuit</thingDef>
+				<styleDef>Style_KurinMarineSuit2</styleDef>
+			</li>
+			<li>
+				<thingDef>Kurin_NavySuit</thingDef>
+				<styleDef>Style_KurinNavySuit2</styleDef>
+			</li>
+
+		</thingDefStyles>
+	</StyleCategoryDef>
+
 </Defs>

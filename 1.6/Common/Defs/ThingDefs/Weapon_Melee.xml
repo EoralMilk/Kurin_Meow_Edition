@@ -61,7 +61,7 @@
 		<description>A high-intensity fighting knife, modeled after the human military dagger, in order to reduce the reflection of the overall use of matte technology.</description>
 		<graphicData>
 			<texPath>KurinMeowEdition/Item_Weapon/Marine_Sword</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.1</drawSize>
 		</graphicData>

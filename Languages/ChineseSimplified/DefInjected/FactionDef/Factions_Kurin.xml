@@ -1,21 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <KurinFaction_Player.label>自由的魅狐</KurinFaction_Player.label>
-  <KurinFaction_Player.description>重获自由的魅狐们。</KurinFaction_Player.description>
+  <KurinFaction_Player.label>魅狐自由民</KurinFaction_Player.label>
+  <KurinFaction_Player.fixedName>魅狐自由民</KurinFaction_Player.fixedName>
+  <KurinFaction_Player.description>在魅狐势力长达几十年混战或者人类的追捕下逃亡出来的魅狐个体们组成的小型组织，这一支被魅狐共和国所资助以及保障独立。</KurinFaction_Player.description>
   <KurinFaction_Player.pawnSingular>魅狐</KurinFaction_Player.pawnSingular>
   <KurinFaction_Player.pawnsPlural>魅狐</KurinFaction_Player.pawnsPlural>
 
   <KurinFaction_Republic.label>魅狐共和国</KurinFaction_Republic.label>
-  <KurinFaction_Republic.description>这是几十年前崩溃的魅狐势力。虽然发生了很多事情，但现在他们已经有足够的力量来保护自己的人民了。</KurinFaction_Republic.description>
+  <KurinFaction_Republic.fixedName>魅狐共和国</KurinFaction_Republic.fixedName>
+  <KurinFaction_Republic.description>这是几十年前崩溃的魅狐势力。在与其他军政府的交手中幸存下来并快速发展，现在他们已经有足够的力量来保护自己的人民了。</KurinFaction_Republic.description>
   <KurinFaction_Republic.pawnSingular>魅狐</KurinFaction_Republic.pawnSingular>
   <KurinFaction_Republic.pawnsPlural>魅狐</KurinFaction_Republic.pawnsPlural>
   <KurinFaction_Republic.leaderTitle>总统</KurinFaction_Republic.leaderTitle>
   
-  <KurinFaction_BattleFox.label>战争之狐</KurinFaction_BattleFox.label>
-  <KurinFaction_BattleFox.description>一群认为战斗是保护自己人民唯一途径的魅狐。</KurinFaction_BattleFox.description>
+  <KurinFaction_BattleFox.label>蒲草之狐</KurinFaction_BattleFox.label>
+  <KurinFaction_BattleFox.fixedName>蒲草之狐</KurinFaction_BattleFox.fixedName>
+  <KurinFaction_BattleFox.description>在最早的魅狐共同联合体分裂后诞生的诸多军政府政权之一，是一个内部经常爆发权力更替的不稳定势力；这个势力如今更重视经济发展。</KurinFaction_BattleFox.description>
   <KurinFaction_BattleFox.pawnSingular>魅狐</KurinFaction_BattleFox.pawnSingular>
   <KurinFaction_BattleFox.pawnsPlural>魅狐</KurinFaction_BattleFox.pawnsPlural>
-  <KurinFaction_BattleFox.leaderTitle>战争之狐</KurinFaction_BattleFox.leaderTitle>
+  <KurinFaction_BattleFox.leaderTitle>大统领</KurinFaction_BattleFox.leaderTitle>
+  
+  <KurinFaction_DaePhon.label>玳丰联盟</KurinFaction_DaePhon.label>
+  <KurinFaction_DaePhon.fixedName>玳丰联盟</KurinFaction_DaePhon.fixedName>
+  <KurinFaction_DaePhon.description>在最早的魅狐共同联合体分裂后诞生的诸多军政府政权之一，是一个以高压统治来确保统一的松散团体同盟；这个势力如今更重视军事发展。</KurinFaction_DaePhon.description>
+  <KurinFaction_DaePhon.pawnSingular>魅狐</KurinFaction_DaePhon.pawnSingular>
+  <KurinFaction_DaePhon.pawnsPlural>魅狐</KurinFaction_DaePhon.pawnsPlural>
+  <KurinFaction_DaePhon.leaderTitle>大将军</KurinFaction_DaePhon.leaderTitle>
 
 </LanguageData>

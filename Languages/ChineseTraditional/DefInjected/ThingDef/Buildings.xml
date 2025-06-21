@@ -19,7 +19,7 @@
 	<KurinReinforcementsDropBeacon.label>魅狐支援信標</KurinReinforcementsDropBeacon.label>
 	<KurinReinforcementsDropBeacon.description>魅狐支援信標</KurinReinforcementsDropBeacon.description>
 
-	<Kurin_Turret_ChargeLanceCannon.label>標槍自動炮塔</Kurin_Turret_ChargeLanceCannon.label>
+	<Kurin_Turret_ChargeLanceCannon.label>重型標槍炮塔</Kurin_Turret_ChargeLanceCannon.label>
 	<Kurin_Turret_ChargeLanceCannon.description>這個炮塔配備了電荷標槍自動炮。奧拉亞人利用拆解機械族獲得的電荷標槍零件制造了這種炮塔,借助自己收復的科技反擊機械族的入侵。</Kurin_Turret_ChargeLanceCannon.description>
 	<Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelGizmoLabel>彈藥量</Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelGizmoLabel>
 	<Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelLabel>裝填彈藥前剩余射擊次數</Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelLabel>

@@ -202,16 +202,16 @@
 						<east>
 							<offset>(-0.06,0)</offset>
 							<bodyTypes>
-								<Female>(0.0,0.014)</Female>
-								<Child>(0.066, 0.014)</Child>
+								<Female>(0.0,0.02)</Female>
+								<Child>(0.066, 0.02)</Child>
 								<Baby>(0.1, 0.02)</Baby>
 							</bodyTypes>
 						</east>
 						<west>
 							<offset>(0.06,0)</offset>
 							<bodyTypes>
-								<Female>(0.0,0.014)</Female>
-								<Child>(-0.066, 0.014)</Child>
+								<Female>(0.0,0.02)</Female>
+								<Child>(-0.066, 0.02)</Child>
 								<Baby>(-0.1, 0.02)</Baby>
 							</bodyTypes>
 						</west>
@@ -973,11 +973,7 @@
 			</mergeCompatibilityTags>
 		</ingredient>
 		<comps>
-			<li Class="Meow.CompProperties_PawnRenderAdjusterEpona">
-				<!-- <eastOffset>(0.3,0,0.7)</eastOffset>
-				<westOffset>(-0.3,0,0.7)</westOffset>
-				<southOffset>(0,0,0.7)</southOffset>
-				<northOffset>(0,0,0.7)</northOffset> -->
+			<li Class="Meow.CompProperties_PawnRenderAdjuster">
 				<scale>1.0</scale>
 				<headScale>0.92</headScale>
 				<headOffsetScale>0.92</headOffsetScale>

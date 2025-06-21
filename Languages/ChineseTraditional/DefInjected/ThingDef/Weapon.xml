@@ -109,12 +109,12 @@
 	<Kurin_Bullet_NecroRocket.label>死靈火箭彈</Kurin_Bullet_NecroRocket.label>
 
 
-	<Kurin_TurretGun_ChargeLance.label>定點電荷標槍</Kurin_TurretGun_ChargeLance.label>
-	<Kurin_TurretGun_ChargeLance.description>一門裝載在炮塔上的固定式電荷標槍。</Kurin_TurretGun_ChargeLance.description>
+	<Kurin_TurretGun_ChargeLance.label>定點電荷自動炮</Kurin_TurretGun_ChargeLance.label>
+	<Kurin_TurretGun_ChargeLance.description>一門裝載在炮塔上的固定式電荷自動炮。</Kurin_TurretGun_ChargeLance.description>
 	<Kurin_TurretGun_ChargeLance.verbs.Verb_Shoot.label>定點電荷標槍</Kurin_TurretGun_ChargeLance.verbs.Verb_Shoot.label>
 
-	<Kurin_TurretGun_ChargeCannon.label>定點電荷自動炮</Kurin_TurretGun_ChargeCannon.label>
-	<Kurin_TurretGun_ChargeCannon.description>一門裝載在炮塔上的固定式電荷自動炮。</Kurin_TurretGun_ChargeCannon.description>
+	<Kurin_TurretGun_ChargeCannon.label>定點電荷炮</Kurin_TurretGun_ChargeCannon.label>
+	<Kurin_TurretGun_ChargeCannon.description>一門裝載在炮塔上的固定式電荷炮。</Kurin_TurretGun_ChargeCannon.description>
 	<Kurin_TurretGun_ChargeCannon.verbs.Verb_Shoot.label>定點電荷自動炮</Kurin_TurretGun_ChargeCannon.verbs.Verb_Shoot.label>
 	<Bullet_KurinChargeLance.label>電荷標槍</Bullet_KurinChargeLance.label>
 

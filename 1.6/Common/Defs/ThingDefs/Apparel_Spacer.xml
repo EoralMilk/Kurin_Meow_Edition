@@ -119,6 +119,7 @@ Although not in compliance with the safety regulations of most Kurin organizatio
 			<Insulation_Cold>35</Insulation_Cold>
 			<Insulation_Heat>15</Insulation_Heat>
 			<EquipDelay>7</EquipDelay>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.75</VacuumResistance> 
 		</statBases>
 		<thingCategories>
 			<li>Kurin_Apparel_Spacer</li>
@@ -365,6 +366,7 @@ This model utilizes Ultra tech, with installed metallic muscle fibers and specia
 			<ArmorRating_Heat>0.75</ArmorRating_Heat>
 			<Insulation_Cold>150</Insulation_Cold>
 			<Insulation_Heat>50</Insulation_Heat>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.75</VacuumResistance>
 		</statBases>
 		<equippedStatOffsets>
 			<ConstructionSpeedFactor>0.15</ConstructionSpeedFactor>

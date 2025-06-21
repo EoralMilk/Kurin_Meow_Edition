@@ -11,4 +11,12 @@
     <li>r_weapon_name(p=1)->'[KNickname]'</li>
     <li>r_weapon_name(p=4)->[KLastName]</li>
   </NamerPerson_KurinWeapon.rulePack.rulesStrings>
+
+  <LeaderTitleMaker_Cattail.rulePack.rulesStrings>  
+    <li>r_leaderTitle->大统领</li>
+  </LeaderTitleMaker_Cattail.rulePack.rulesStrings>
+
+  <LeaderTitleMaker_DaePhon.rulePack.rulesStrings>  
+    <li>r_leaderTitle->大将军</li>
+  </LeaderTitleMaker_DaePhon.rulePack.rulesStrings>
 </LanguageData>

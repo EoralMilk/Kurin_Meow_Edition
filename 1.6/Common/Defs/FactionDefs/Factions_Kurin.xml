@@ -47,16 +47,16 @@
 
 	<FactionDef ParentName="FactionBase" Name="KurinFaction" Abstract="True">
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
 		<pawnSingular>kurin</pawnSingular>
 		<pawnsPlural>kurins</pawnsPlural>
 		<listOrderPriority>248</listOrderPriority>
 		<settlementGenerationWeight>0.6</settlementGenerationWeight>
 		<canMakeRandomly>true</canMakeRandomly>
-		<canSiege>false</canSiege>
+		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<factionIconPath>KurinMeowEdition/Faction/Icon</factionIconPath>
-		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<!-- <factionNameMaker>NamerFactionOutlander</factionNameMaker> -->
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Industrial</techLevel>
 		<naturalEnemy>false</naturalEnemy>
@@ -117,6 +117,7 @@
 	<FactionDef ParentName="KurinFaction">
 		<defName>KurinFaction_Republic</defName>
 		<label>Republic Of Kurin</label>
+		<fixedName>Republic Of Kurin</fixedName>
 		<description>These are the forces of the Kurins who crashed decades ago.\nThere have been
 			many incidents, but now they have enough power to protect their own people.</description>
 		<colorSpectrum>
@@ -124,7 +125,11 @@
 		</colorSpectrum>
 		<factionIconPath>KurinMeowEdition/Faction/Icon</factionIconPath>
 		<canSiege>true</canSiege>
+		<fixedLeaderKinds>
+			<li>Kurin_President</li>
+		</fixedLeaderKinds>
 		<techLevel>Industrial</techLevel>
+		<leaderTitle>President</leaderTitle>
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
@@ -195,6 +200,7 @@
 				<options>
 					<Kurin_Marine>10</Kurin_Marine>
 					<Kurin_MarineBreacher>3</Kurin_MarineBreacher>
+					<Kurin_MarineLancer>3</Kurin_MarineLancer>
 					<Kurin_ArmorKnight>2</Kurin_ArmorKnight>
 				</options>
 			</li>
@@ -211,6 +217,7 @@
 				<options>
 					<Kurin_Marine>10</Kurin_Marine>
 					<Kurin_MarineBreacher>2</Kurin_MarineBreacher>
+					<Kurin_MarineLancer>1</Kurin_MarineLancer>
 					<Kurin_President>1</Kurin_President>
 				</options>
 			</li>
@@ -282,22 +289,22 @@
 
 	<FactionDef ParentName="KurinFaction">
 		<defName>KurinFaction_BattleFox</defName>
-		<label>Battle Foxes</label>
-		<description>Kurins who see combat as the only way of protecting their people.</description>
+		<label>Cattail Foxes</label>
+		<fixedName>Cattail Foxes</fixedName>
+		<description>One of the many military governments that emerged after the early disintegration of the Kurin coalition, this force was characterized by frequent power shifts within its ranks and was previously unstable. Now, however, this force places greater emphasis on economic development.</description>
 		<colorSpectrum>
-			<li>(216, 89, 5)</li>
+			<li>(16, 189, 255)</li>
 		</colorSpectrum>
 		<listOrderPriority>249</listOrderPriority>
 		<naturalEnemy>true</naturalEnemy>
 		<permanentEnemy>false</permanentEnemy>
 		<settlementGenerationWeight>0.5</settlementGenerationWeight>
-		<leaderTitle>Warlord</leaderTitle>
-		<factionIconPath>KurinMeowEdition/Faction/Icon</factionIconPath>
+		<leaderTitle>Commander-in-Chief</leaderTitle>
+		<factionIconPath>KurinMeowEdition/Faction/Icon_Kurin2</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<requiredMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
 		</requiredMemes>
 		<pawnGroupMakers>
@@ -459,6 +466,183 @@
 					<Kurin_Veteran>2</Kurin_Veteran>
 					<Kurin_Marksman>2</Kurin_Marksman>
 					<Kurin_Executioner>4</Kurin_Executioner>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<commonality>80</commonality>
+				<options>
+					<Kurin_Vigilante>8</Kurin_Vigilante>
+					<Kurin_Trooper>9</Kurin_Trooper>
+					<Kurin_Recruit>8</Kurin_Recruit>
+					<Kurin_Fallschirmjager>4</Kurin_Fallschirmjager>
+					<Kurin_Veteran>9</Kurin_Veteran>
+					<Kurin_ArmorKnight>3</Kurin_ArmorKnight>
+					<Kurin_Marksman>3</Kurin_Marksman>
+				</options>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<commonality>35</commonality>
+				<options>
+					<Kurin_Vigilante>8</Kurin_Vigilante>
+					<Kurin_Maid>2</Kurin_Maid>
+					<Kurin_Trooper>9</Kurin_Trooper>
+					<Kurin_Recruit>8</Kurin_Recruit>
+					<Kurin_Fallschirmjager>4</Kurin_Fallschirmjager>
+					<Kurin_Veteran>3</Kurin_Veteran>
+					<Kurin_ArmorKnight>5</Kurin_ArmorKnight>
+					<Kurin_Marksman>3</Kurin_Marksman>
+					<Kurin_Terminator>1</Kurin_Terminator>
+				</options>
+			</li>
+		</pawnGroupMakers>
+	</FactionDef>
+	
+	<FactionDef ParentName="KurinFaction">
+		<defName>KurinFaction_DaePhon</defName>
+		<label>DaePhon Union</label>
+		<fixedName>DaePhon Union</fixedName>
+		<description>One of the many military government regimes that emerged after the split of the earliest Kurin coalition was a loose alliance of groups ruled by strict control to maintain unity; this power now places greater emphasis on military development.</description>
+		<colorSpectrum>
+			<li>(216, 89, 5)</li>
+		</colorSpectrum>
+		<listOrderPriority>249</listOrderPriority>
+		<naturalEnemy>true</naturalEnemy>
+		<permanentEnemy>false</permanentEnemy>
+		<settlementGenerationWeight>0.5</settlementGenerationWeight>
+		<leaderTitle>Senior-General</leaderTitle>
+		<factionIconPath>KurinMeowEdition/Faction/Icon_Kurin1</factionIconPath>
+		<techLevel>Industrial</techLevel>
+		<allowedCultures Inherit="false">
+			<li MayRequire="Ludeon.RimWorld.Ideology">DaePhon</li>
+		</allowedCultures>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+		</requiredMemes>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>80</commonality>
+				<options>
+					<Kurin_Scout>1</Kurin_Scout>
+					<Kurin_Recruit>2</Kurin_Recruit>
+					<Kurin_Blocker>1</Kurin_Blocker>
+					<Kurin_Shooter>6</Kurin_Shooter>
+					<Kurin_Sniper_H>1</Kurin_Sniper_H>
+					<Kurin_Veteran>1</Kurin_Veteran>
+					<Kurin_ArmorKnight>1</Kurin_ArmorKnight>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>50</commonality>
+				<options>
+					<Kurin_Warlord>1</Kurin_Warlord>
+					<Kurin_Shooter>3</Kurin_Shooter>
+					<Kurin_Marksman>2</Kurin_Marksman>
+					<Kurin_Veteran>5</Kurin_Veteran>
+					<Kurin_ArmorKnight>3</Kurin_ArmorKnight>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>50</commonality>
+				<options>
+					<Kurin_Warlord>1</Kurin_Warlord>
+					<Kurin_Pathfinder>1</Kurin_Pathfinder>
+					<Kurin_Ninja>0.8</Kurin_Ninja>
+					<Kurin_Shooter>4</Kurin_Shooter>
+					<Kurin_Fallschirmjager>1</Kurin_Fallschirmjager>
+					<Kurin_Executioner>1</Kurin_Executioner>
+					<Kurin_Marksman>1</Kurin_Marksman>
+					<Kurin_Veteran>1</Kurin_Veteran>
+					<Kurin_ArmorKnight>1</Kurin_ArmorKnight>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>70</commonality>
+				<options>
+					<Kurin_Shooter>10</Kurin_Shooter>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>20</commonality>
+				<options>
+					<Kurin_Warlord>1</Kurin_Warlord>
+					<Kurin_Pathfinder>1</Kurin_Pathfinder>
+					<Kurin_Ninja>0.8</Kurin_Ninja>
+					<Kurin_Trooper>8</Kurin_Trooper>
+					<Kurin_Fallschirmjager>1</Kurin_Fallschirmjager>
+					<Kurin_Executioner>5</Kurin_Executioner>
+					<Kurin_Marksman>5</Kurin_Marksman>
+					<Kurin_Veteran>4</Kurin_Veteran>
+					<Kurin_ArmorKnight>3</Kurin_ArmorKnight>
+					<Kurin_Terminator>1</Kurin_Terminator>
+					<Kurin_CombatOfficer>1</Kurin_CombatOfficer>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>10</commonality>
+				<options>
+					<Kurin_Warlord>1</Kurin_Warlord>
+					<Kurin_Trooper>8</Kurin_Trooper>
+					<Kurin_Marksman>4</Kurin_Marksman>
+					<Kurin_Veteran>7</Kurin_Veteran>
+					<Kurin_ArmorKnight>3</Kurin_ArmorKnight>
+					<Kurin_Terminator>1</Kurin_Terminator>
+					<Kurin_CombatOfficer>1</Kurin_CombatOfficer>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>80</commonality>
+				<options>
+					<Kurin_Sergeant>1</Kurin_Sergeant>
+					<Kurin_Sniper>5</Kurin_Sniper>
+					<Kurin_Shooter>5</Kurin_Shooter>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>210</commonality>
+				<options>
+					<Kurin_Marine>10</Kurin_Marine>
+					<Kurin_MarineBreacher>3</Kurin_MarineBreacher>
+					<Kurin_MarineLancer>3</Kurin_MarineLancer>
+					<Kurin_ArmorKnight>2</Kurin_ArmorKnight>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<Kurin_Trader>1</Kurin_Trader>
+					<Kurin_Shooter>7</Kurin_Shooter>
+					<Kurin_Veteran>3</Kurin_Veteran>
+					<Kurin_Warlord>1</Kurin_Warlord>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<Kurin_Trader>1</Kurin_Trader>
+				</traders>
+				<carriers>
+					<Muffalo>6</Muffalo>
+					<Dromedary>5</Dromedary>
+					<Alpaca>2</Alpaca>
+					<Elephant>2</Elephant>
+				</carriers>
+				<guards>
+					<Kurin_Slasher>3</Kurin_Slasher>
+					<Kurin_Shooter>8</Kurin_Shooter>
+					<Kurin_Veteran>2</Kurin_Veteran>
+					<Kurin_Marksman>2</Kurin_Marksman>
 				</guards>
 			</li>
 			<li>

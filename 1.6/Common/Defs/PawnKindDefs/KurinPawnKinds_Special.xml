@@ -185,7 +185,7 @@
 		</apparelTags>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<apparelMoney>2000</apparelMoney>
-		<weaponMoney>10000</weaponMoney>
+    <weaponMoney>9999~9999</weaponMoney>
 		<weaponTags>
 			<li>MechanoidGunMedium</li>
 		</weaponTags>

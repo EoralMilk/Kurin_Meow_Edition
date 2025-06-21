@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<PawnKindDef Name="KurinDaePhonShooter" ParentName="BaseKurinCombatant">
+		<defName>Kurin_Shooter</defName>
+		<label>Kurin shooter</label>
+		<combatPower>75</combatPower>
+		<weaponMoney>550~1000</weaponMoney>
+		<apparelMoney>1050~1350</apparelMoney>
+		<defaultFactionType>KurinFaction_DaePhon</defaultFactionType>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<weaponTags Inherit="False">
+			<li>Kurin_LightRangedIndustrial</li>
+			<li>ShortShots</li>
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>5~10</range>
+			</li>
+		</skills>
+		<apparelTags Inherit="False">
+			<li>Kurin_Military</li>
+		</apparelTags>
+		<apparelRequired Inherit="false">
+			<li>Kurin_CombatSuit</li>
+		</apparelRequired>
+		<specificApparelRequirements Inherit="False">
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>OnSkin</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Military</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Kurin_Stocking</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Socks</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+			<li>
+				<bodyPartGroup>Feet</bodyPartGroup>
+				<apparelLayer>Kurin_Shoes</apparelLayer>
+				<alternateTagChoices>
+					<li>
+						<tag>Kurin_Military</tag>
+						<chance>1</chance>
+					</li>
+				</alternateTagChoices>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+
+</Defs>

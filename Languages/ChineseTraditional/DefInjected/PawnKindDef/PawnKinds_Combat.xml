@@ -140,4 +140,12 @@
 	<Kurin_BlackHand.labelMalePlural>魅狐黑手部隊</Kurin_BlackHand.labelMalePlural>
 	<Kurin_BlackHand.labelFemale>魅狐黑手部隊</Kurin_BlackHand.labelFemale>
 	<Kurin_BlackHand.labelFemalePlural>魅狐黑手部隊</Kurin_BlackHand.labelFemalePlural>
+
+	
+	<Kurin_Shooter.label>魅狐射手</Kurin_Shooter.label>
+	<Kurin_Shooter.labelPlural>魅狐射手</Kurin_Shooter.labelPlural>
+	<Kurin_Shooter.labelMale>魅狐射手</Kurin_Shooter.labelMale>
+	<Kurin_Shooter.labelMalePlural>魅狐射手</Kurin_Shooter.labelMalePlural>
+	<Kurin_Shooter.labelFemale>魅狐射手</Kurin_Shooter.labelFemale>
+	<Kurin_Shooter.labelFemalePlural>魅狐射手</Kurin_Shooter.labelFemalePlural>
 </LanguageData>

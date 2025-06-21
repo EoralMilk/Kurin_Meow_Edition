@@ -222,6 +222,9 @@
 	<Kurin_MarineHelmet.label>魅狐陸戰隊頭盔</Kurin_MarineHelmet.label>
 	<Kurin_MarineHelmet.description>魅狐海軍陸戰隊配備的戰斗頭盔，擁有良好的防護力以及輔助瞄准系統。</Kurin_MarineHelmet.description>
 
+	<Kurin_ArmyCap.label>魅狐軍帽</Kurin_ArmyCap.label>
+	<Kurin_ArmyCap.description>用防彈布制成的輕型軍帽，提供一定的防御性的同時還不至於過於悶熱，夏天作訓時候的首選。</Kurin_ArmyCap.description>
+
 	<!-- 兒童 -->
 	<Kurin_ChildHoodie.label>魅狐兒童連帽衫</Kurin_ChildHoodie.label>
 	<Kurin_ChildHoodie.description>兒童連帽衫，保溫又隔熱。</Kurin_ChildHoodie.description>
