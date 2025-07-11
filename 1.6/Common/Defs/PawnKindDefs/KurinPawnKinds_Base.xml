@@ -328,7 +328,7 @@
 				<apparelLayer>OnSkin</apparelLayer>
 				<alternateTagChoices>
 					<li>
-						<tag>Kurin_CombatSuit</tag>
+						<tag>Kurin_Combat</tag>
 						<chance>1</chance>
 					</li>
 				</alternateTagChoices>

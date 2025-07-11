@@ -17,8 +17,11 @@
 		<li IfModActive="Ludeon.RimWorld.Royalty">1.6/DLC_Royalty</li>
 		<li IfModActive="Ludeon.RimWorld.Anomaly">1.6/DLC_Anomaly</li>
 		<li IfModActive="EoralMilk.MeowFramework">1.6/MOD_Meow</li>
-		<li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">1.6/MOD_VEF</li>
-		<li IfModActive="kentington.saveourship2">1.6/MOD_SOS2</li>
+		<li IfModActive="ABC.abcBody">1.6/MOD_ABCBody</li>
+		<li IfModActive="ABC.abcBody2">1.6/MOD_ABCBody</li>
+
+		<!-- <li IfModActive="OskarPotocki.VanillaFactionsExpanded.Core">1.6/MOD_VEF</li>
+		<li IfModActive="kentington.saveourship2">1.6/MOD_SOS2</li> -->
 
 	</v1.6>
 </loadFolders>

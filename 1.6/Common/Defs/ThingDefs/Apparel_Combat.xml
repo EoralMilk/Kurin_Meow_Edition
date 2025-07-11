@@ -115,6 +115,7 @@ The worlds inhabited by these Kurin sailors are unable to cultivate large amount
 			</layers>
 			<tags>
 				<li>Kurin_Military</li>
+				<li>Kurin_Combat</li>
 				<li>Kurin_Citizen</li>
 				<li>Kurin_Vigilante</li>
 				<li>Royal</li>
@@ -183,6 +184,7 @@ The worlds inhabited by these Kurin sailors are unable to cultivate large amount
 			</layers>
 			<tags>
 				<li>Kurin_Military</li>
+				<li>Kurin_Combat</li>
 				<li>PrestigeCombatGear</li>
 			</tags>
 			<defaultOutfitTags>
@@ -253,7 +255,7 @@ The worlds inhabited by these Kurin sailors are unable to cultivate large amount
 			</layers>
 			<tags>
 				<li>Kurin_Military</li>
-				<li>Kurin_CombatSuit</li>
+				<li>Kurin_Combat</li>
 				<li>PrestigeCombatGear</li>
 			</tags>
 			<defaultOutfitTags>

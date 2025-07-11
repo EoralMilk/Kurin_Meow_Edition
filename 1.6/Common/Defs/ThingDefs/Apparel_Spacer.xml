@@ -80,6 +80,7 @@ Although not in compliance with the safety regulations of most Kurin organizatio
 			<Flammability>-0.3</Flammability>
 			<FoodPoisonChance>-0.3</FoodPoisonChance>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.39</VacuumResistance>
 		</equippedStatOffsets>
 	</ThingDef>
 
@@ -119,7 +120,6 @@ Although not in compliance with the safety regulations of most Kurin organizatio
 			<Insulation_Cold>35</Insulation_Cold>
 			<Insulation_Heat>15</Insulation_Heat>
 			<EquipDelay>7</EquipDelay>
-			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.75</VacuumResistance> 
 		</statBases>
 		<thingCategories>
 			<li>Kurin_Apparel_Spacer</li>
@@ -238,6 +238,7 @@ The use of the thruster pack is strictly prohibited indoors, as no one likes a f
 		</costList>
 		<equippedStatOffsets>
 			<MoveSpeed>0.2</MoveSpeed>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.2</VacuumResistance>
 		</equippedStatOffsets>
 	</ThingDef>
 
@@ -292,6 +293,7 @@ Both Yamada and Yao Tai have denied claims that this powered armor is an experim
 			<MeleeDodgeChance>3</MeleeDodgeChance>
 			<MentalBreakThreshold>-0.08</MentalBreakThreshold>
 			<PainShockThreshold>0.15</PainShockThreshold>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.35</VacuumResistance>
 		</equippedStatOffsets>
 	</ThingDef>
 
@@ -305,20 +307,21 @@ This model utilizes Ultra tech, with installed metallic muscle fibers and specia
 			<texPath>KurinMeowEdition/Item_Apperal/Spacer/SpaceConstructionSuit</texPath>
 		</graphicData>
 		<costList>
-			<Steel>30</Steel>
-			<ComponentSpacer>2</ComponentSpacer>
-			<Plasteel>65</Plasteel>
+			<Steel>65</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Plasteel>35</Plasteel>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>ShipBasics</researchPrerequisite>
+			<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>10</Crafting>
+				<Crafting>6</Crafting>
 			</skillRequirements>
 			<researchPrerequisites Inherit="false">
 				<li>KurinComplexApparel</li>
 			</researchPrerequisites>
 			<recipeUsers Inherit="False">
 				<li>FabricationBench</li>
+				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
 		<techLevel>Spacer</techLevel>
@@ -346,7 +349,7 @@ This model utilizes Ultra tech, with installed metallic muscle fibers and specia
 			<tags>
 				<li>Kurin_Spacer</li>
 				<li>Kurin_SpaceSuit</li>
-				<li>HideKurinTail</li>
+				<!-- <li>HideKurinTail</li> -->
 				<li>Royal</li>
 				<li>RoyalTier5</li>
 			</tags>
@@ -356,21 +359,20 @@ This model utilizes Ultra tech, with installed metallic muscle fibers and specia
 			<wornGraphicPath>KurinMeowEdition/Item_Apperal/Spacer/SpaceConstructionSuit</wornGraphicPath>
 		</apparel>
 		<statBases>
-			<Mass>7</Mass>
+			<Mass>3</Mass>
 			<Flammability>0.3</Flammability>
 			<WorkToMake>17500</WorkToMake>
 			<MaxHitPoints>350</MaxHitPoints>
-			<EquipDelay>6.0</EquipDelay>
+			<EquipDelay>4.0</EquipDelay>
 			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.75</ArmorRating_Heat>
-			<Insulation_Cold>150</Insulation_Cold>
+			<Insulation_Cold>100</Insulation_Cold>
 			<Insulation_Heat>50</Insulation_Heat>
-			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.75</VacuumResistance>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.5</VacuumResistance>
 		</statBases>
 		<equippedStatOffsets>
 			<ConstructionSpeedFactor>0.15</ConstructionSpeedFactor>
-			<ResearchSpeed>0.1</ResearchSpeed>
 			<Flammability>-0.3</Flammability>
 			<FixBrokenDownBuildingSuccessChance>0.15</FixBrokenDownBuildingSuccessChance>
 		</equippedStatOffsets>

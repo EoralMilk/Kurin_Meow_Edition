@@ -162,4 +162,48 @@
 		</equippedStatOffsets>
 	</ThingDef>
 
+	
+	<ThingDef ParentName="Kurin_ShoesBaseNoColor">
+		<defName>Kurin_GothicBoots</defName>
+		<label>kurin Gothic boots</label>
+		<description>Gothic-style boots, both beautiful and sturdy and durable..</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Shoes/GothicBoots</texPath>
+		</graphicData>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<Mass>0.22</Mass>
+			<EquipDelay>0.8</EquipDelay>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.6</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kurin_Noble</li>
+				<li>Kurin_Maid</li>
+				<li>Kurin_Gothic</li>
+				<li>Royal</li>
+				<li>RoyalTier5</li>
+			</tags>
+			<wornGraphicPaths>
+				<li>KurinMeowEdition/Item_Apperal/Shoes/GothicBoots</li>
+			</wornGraphicPaths>
+		</apparel>
+		<equippedStatOffsets>
+			<MoveSpeed>0.05</MoveSpeed>
+			<SocialImpact>0.1</SocialImpact>
+			<NegotiationAbility>0.2</NegotiationAbility>
+		</equippedStatOffsets>
+	</ThingDef>
+
+
 </Defs>

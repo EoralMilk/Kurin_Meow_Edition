@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="MeowKurin"]/alienRace/graphicPaths/apparel/individualPaths</xpath>
+				<value>
+					<li>
+						<key>Apparel_Abc_RPants</key>
+						<value>KurinMeowEdition/Item_Apperal/ABCstyle/KRoyalPants</value>
+					</li>
+					<li>
+						<key>Apparel_Abc_Socks</key>
+						<value>KurinMeowEdition/Item_Apperal/Socks/WhiteStockings</value>
+					</li>
+					<li>
+						<key>Apparel_Abc_Swimsuit</key>
+						<value>KurinMeowEdition/Item_Apperal/ABCstyle/KSwimsuit</value>
+					</li>
+					<li>
+						<key>Apparel_Abc_SkirtMini</key>
+						<value>KurinMeowEdition/Item_Apperal/ABCstyle/KSkirtMini</value>
+					</li>
+					<li>
+						<key>Apparel_Abc_BotomsS</key>
+						<value>KurinMeowEdition/Item_Apperal/ABCstyle/KSkirt</value>
+					</li>
+					<li>
+						<key>Apparel_Abc_SkirtN</key>
+						<value>KurinMeowEdition/Item_Apperal/ABCstyle/KSkirt</value>
+					</li>
+					<li>
+						<key>Apparel_Abc_Shoes</key>
+						<value>KurinMeowEdition/Item_Apperal/Shoes/SimpleShoe</value>
+					</li>
+					<li>
+						<key>Apparel_Abc_Boots</key>
+						<value>KurinMeowEdition/Item_Apperal/Shoes/GothicBoots</value>
+					</li>
+					<li>
+						<key>Apparel_Abc_KidShoes</key>
+						<value>KurinMeowEdition/Item_Apperal/Shoes/ShoeChild</value>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

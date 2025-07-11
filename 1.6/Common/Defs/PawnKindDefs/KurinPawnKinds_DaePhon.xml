@@ -20,18 +20,16 @@
 			</li>
 		</skills>
 		<apparelTags Inherit="False">
+			<li>Kurin_Combat</li>
 			<li>Kurin_Military</li>
 		</apparelTags>
-		<apparelRequired Inherit="false">
-			<li>Kurin_CombatSuit</li>
-		</apparelRequired>
 		<specificApparelRequirements Inherit="False">
 			<li>
 				<bodyPartGroup>Torso</bodyPartGroup>
 				<apparelLayer>OnSkin</apparelLayer>
 				<alternateTagChoices>
 					<li>
-						<tag>Kurin_Military</tag>
+						<tag>Kurin_Combat</tag>
 						<chance>1</chance>
 					</li>
 				</alternateTagChoices>

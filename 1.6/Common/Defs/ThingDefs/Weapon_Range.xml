@@ -633,8 +633,8 @@ This weapon is capable of continuously firing extremely dangerous electro-charge
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Kurin_Bullet_GatheringLance</defaultProjectile>
 				<warmupTime>6.2</warmupTime>
-				<range>33.9</range>
-				<burstShotCount>18</burstShotCount>
+				<range>36.9</range>
+				<burstShotCount>21</burstShotCount>
 				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
 				<soundCast>ChargeLance_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>

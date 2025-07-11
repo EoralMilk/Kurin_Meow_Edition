@@ -135,7 +135,14 @@
 				<thingDef>Kurin_NavySuit</thingDef>
 				<styleDef>Style_KurinNavySuit2</styleDef>
 			</li>
-
+			<li>
+				<thingDef>Kurin_MarineHelmet</thingDef>
+				<styleDef>Style_KurinMarineHelmet2</styleDef>
+			</li>
+			<li>
+				<thingDef>Kurin_WorkJumpsuit</thingDef>
+				<styleDef>Style_KurinWorkJumpsuit2</styleDef>
+			</li>
 		</thingDefStyles>
 	</StyleCategoryDef>
 

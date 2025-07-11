@@ -34,7 +34,7 @@
 			<ArmorRating_Heat>0.5</ArmorRating_Heat>
 			<Insulation_Cold>5</Insulation_Cold>
 			<Insulation_Heat>2</Insulation_Heat>
-			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.25</VacuumResistance>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.75</VacuumResistance>
 		</statBases>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance>
@@ -186,18 +186,19 @@ This helmet is widely equipped by Interstellar Free Folk and merchant mercenarie
 		<costList>
 			<Steel>30</Steel>
 			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>30</Plasteel>
+			<Plasteel>10</Plasteel>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>ShipBasics</researchPrerequisite>
+			<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>10</Crafting>
+				<Crafting>6</Crafting>
 			</skillRequirements>
 			<researchPrerequisites Inherit="false">
 				<li>KurinComplexApparel</li>
 			</researchPrerequisites>
 			<recipeUsers Inherit="False">
 				<li>FabricationBench</li>
+				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
 		<possessionCount>1</possessionCount>
@@ -215,12 +216,13 @@ This helmet is widely equipped by Interstellar Free Folk and merchant mercenarie
 			<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.75</ArmorRating_Heat>
-			<Insulation_Cold>30</Insulation_Cold>
+			<Insulation_Cold>15</Insulation_Cold>
 			<Insulation_Heat>20</Insulation_Heat>
-			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.25</VacuumResistance>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.75</VacuumResistance>
 		</statBases>
 		<equippedStatOffsets>
 			<ToxicResistance>0.5</ToxicResistance>
+			<!-- <ResearchSpeed>0.1</ResearchSpeed> -->
 			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
 		</equippedStatOffsets>
 		<apparel>

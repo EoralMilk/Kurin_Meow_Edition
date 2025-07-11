@@ -112,8 +112,14 @@
 					<individualPaths>
 						<li>
 							<key>Apparel_Pants</key>
-							<value>KurinMeowEdition/Item_Apperal/Socks/WhiteGarterbeltStockings</value>
+							<value>KurinMeowEdition/Item_Apperal/ABCstyle/KPants</value>
 						</li>
+						<li>
+							<key>Apparel_FlakPants</key>
+							<value>KurinMeowEdition/Item_Apperal/ABCstyle/KFlakPants</value>
+						</li>
+						
+
 						<li>
 							<key>Apparel_BasicShirt</key>
 							<value>KurinMeowEdition/Item_Apperal/Common/TShirt</value>
@@ -134,6 +140,8 @@
 							<key>Apparel_PlateArmor</key>
 							<value>KurinMeowEdition/Item_Apperal/Combat/KnightArmor</value>
 						</li>
+
+
 					</individualPaths>
 				</apparel>
 			</graphicPaths>
@@ -975,8 +983,8 @@
 		<comps>
 			<li Class="Meow.CompProperties_PawnRenderAdjuster">
 				<scale>1.0</scale>
-				<headScale>0.92</headScale>
-				<headOffsetScale>0.92</headOffsetScale>
+				<headScale>0.9</headScale>
+				<headOffsetScale>0.95</headOffsetScale>
 				<offsetOnlyStand>true</offsetOnlyStand>
 			</li>
 			<li Class="FaceAddon.CompProperties_FaceAddonComps">

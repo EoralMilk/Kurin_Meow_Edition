@@ -251,4 +251,20 @@
 			<texPath>KurinMeowEdition/Item_Apperal/Styled/NavySuit2_Female_south</texPath>
 		</graphicData>
 	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinHatNoColorStyle">
+		<defName>Style_KurinMarineHelmet2</defName>
+		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/MarineHelmet2</wornGraphicPath>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Styled/MarineHelmet2_south</texPath>
+		</graphicData>
+	</ThingStyleDef>
+	
+	<ThingStyleDef ParentName="KurinClothNoColorStyle">
+		<defName>Style_KurinWorkJumpsuit2</defName>
+		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/WorkJumpsuit2</wornGraphicPath>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Styled/WorkJumpsuit2_Female_south</texPath>
+		</graphicData>
+	</ThingStyleDef>
 </Defs>

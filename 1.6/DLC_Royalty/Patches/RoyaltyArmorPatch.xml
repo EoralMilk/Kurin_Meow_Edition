@@ -57,4 +57,32 @@
 		</match>
 	</Operation> -->
 
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="MeowKurin"]/alienRace/graphicPaths/apparel/individualPaths</xpath>
+				<value>
+					<li>
+						<key>Apparel_Corset</key>
+						<value>KurinMeowEdition/Item_Apperal/ABCstyle/KCorsetRoyal</value>
+					</li>
+					<li>
+						<key>Apparel_VestRoyal</key>
+						<value>KurinMeowEdition/Item_Apperal/ABCstyle/KVestRoyal</value>
+					</li>
+					<li>
+						<key>Apparel_RobeRoyal</key>
+						<value>KurinMeowEdition/Item_Apperal/ABCstyle/KRoyalRobe</value>
+					</li>
+					<li>
+						<key>Apparel_ShirtRuffle</key>
+						<value>KurinMeowEdition/Item_Apperal/ABCstyle/KShirtRuffle</value>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
 </Patch>
