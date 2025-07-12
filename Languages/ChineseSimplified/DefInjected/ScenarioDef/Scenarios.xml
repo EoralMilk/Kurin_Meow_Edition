@@ -14,4 +14,15 @@
 	<Scenario_Alchemist.scenario.summary>很显然用活体保存知识的方式在这个世界的近地轨道并没有消失，不然就没有这段故事了。</Scenario_Alchemist.scenario.summary>
 	<Scenario_Alchemist.scenario.description>相比较于使用依赖电子产品的人工智能来保存一些知识，尤其是不怎么见得了人的那种，百年前的疯子们更喜欢使用活体来完成这些；或许是不走运或者是早就被那些疯子盯上了，当时某个倒霉的魅狐儿童被强行进行了某种启灵仪式并注射了一些技能训练液，在被冻进休眠仓之前还被洗了脑导致根本记不住那些疯子的相貌...这些都无所谓了，重要的事情是因为几百年没有缴纳近地轨道暂居费，当地自称合法政府的玩意儿关停了不少有关的轨道设施，那些怎么都拒绝访问不接受远程操作的干脆就用导弹炸掉——于是那个倒霉孩子就这么醒了，多亏了因为贪污导致的导弹质量不佳，装着她的休眠舱没有直接炸掉，挨过休眠症以后倒霉孩子想都没想就随手抓了点东西搭乘上了没有设定目标地的空投仓，下面不论多辛苦也比在这里丢了命强啊。\n在空投舱启动的时候，她看到那个到处咯吱咯吱响的舱门上写着：“逗你玩儿！”</Scenario_Alchemist.scenario.description>
 
+	
+	<Scenario_FluffyStardust.label>绒星的余暖</Scenario_FluffyStardust.label>
+	<Scenario_FluffyStardust.description>当穿梭机舱门再次被气流撞开时，你滚落在地，尾巴尖沾了滩黏糊糊的机油。
+你摸了摸背包最里层：巧克力还在，只是变得更苦了。
+风从敞开的舱门涌入，擦过你的鼻尖。你忽然想起，实验台上掉的扳手，手柄上的胶带颜色——和曾经那个给你巧克力的小女孩，扎头发的皮筋一模一样。</Scenario_FluffyStardust.description>
+	<Scenario_FluffyStardust.scenario.name>绒星的余暖</Scenario_FluffyStardust.scenario.name>
+	<Scenario_FluffyStardust.scenario.summary>巧克力小狐和她的穿梭机。</Scenario_FluffyStardust.scenario.summary>
+	<Scenario_FluffyStardust.scenario.description>当穿梭机舱门再次被气流撞开时，你滚落在地，尾巴尖沾了滩黏糊糊的机油。
+你摸了摸背包最里层：巧克力还在，只是变得更苦了。
+风从敞开的舱门涌入，擦过你的鼻尖。你忽然想起，实验台上掉的扳手，手柄上的胶带颜色——和曾经那个给你巧克力的小女孩，扎头发的皮筋一模一样。</Scenario_FluffyStardust.scenario.description>
+
 </LanguageData>

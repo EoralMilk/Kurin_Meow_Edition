@@ -16,6 +16,7 @@
 		<li>1.6/Common</li>
 		<li IfModActive="Ludeon.RimWorld.Royalty">1.6/DLC_Royalty</li>
 		<li IfModActive="Ludeon.RimWorld.Anomaly">1.6/DLC_Anomaly</li>
+		<li IfModActive="Ludeon.RimWorld.Odyssey">1.6/DLC_Odyssey</li>
 		<li IfModActive="EoralMilk.MeowFramework">1.6/MOD_Meow</li>
 		<li IfModActive="ABC.abcBody">1.6/MOD_ABCBody</li>
 		<li IfModActive="ABC.abcBody2">1.6/MOD_ABCBody</li>

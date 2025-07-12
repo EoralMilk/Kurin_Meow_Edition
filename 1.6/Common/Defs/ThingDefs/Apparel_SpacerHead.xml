@@ -34,10 +34,10 @@
 			<ArmorRating_Heat>0.5</ArmorRating_Heat>
 			<Insulation_Cold>5</Insulation_Cold>
 			<Insulation_Heat>2</Insulation_Heat>
-			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.75</VacuumResistance>
 		</statBases>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.5</ToxicEnvironmentResistance>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.75</VacuumResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -218,12 +218,12 @@ This helmet is widely equipped by Interstellar Free Folk and merchant mercenarie
 			<ArmorRating_Heat>0.75</ArmorRating_Heat>
 			<Insulation_Cold>15</Insulation_Cold>
 			<Insulation_Heat>20</Insulation_Heat>
-			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.75</VacuumResistance>
 		</statBases>
 		<equippedStatOffsets>
 			<ToxicResistance>0.5</ToxicResistance>
 			<!-- <ResearchSpeed>0.1</ResearchSpeed> -->
 			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.75</VacuumResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

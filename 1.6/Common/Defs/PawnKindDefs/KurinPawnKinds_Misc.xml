@@ -37,6 +37,60 @@
 		<backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
 	</PawnKindDef>
 
+	<PawnKindDef ParentName="BaseKurinKind">
+		<defName>Kurin_FleeChild</defName>
+		<label>chocolate little fox</label>
+		<isFighter>true</isFighter>
+		<minGenerationAge>7</minGenerationAge>
+		<maxGenerationAge>11</maxGenerationAge>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<defaultFactionType>KurinFaction_Player</defaultFactionType>
+		<apparelTags>
+			<li>Kurin_Child</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Kurin_ChildHoodie</li>
+			<!-- <li>Kurin_SummerHat</li> -->
+			<li>Kurin_ChildScarf</li>
+			<li>Kurin_ChildRainBoots</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>1000~1200</apparelMoney>
+		<weaponMoney>1200~2000</weaponMoney>
+		<weaponTags>
+			<li>Autopistol</li>
+		</weaponTags>
+		<requiredWorkTags>
+			<li>Social</li>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+		<skills>
+			<li>
+				<skill>Intellectual</skill>
+				<range>7~10</range>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<range>17~17</range>
+			</li>
+		</skills>
+		<forcedTraits>
+			<Nerves>2</Nerves>
+			<SpeedOffset>2</SpeedOffset>
+		</forcedTraits>
+		<inventoryOptions>
+			<skipChance>0</skipChance>
+			<subOptionsTakeAll>
+				<li>
+					<thingDef>Chocolate</thingDef>
+					<countRange>17</countRange>
+				</li>
+			</subOptionsTakeAll>
+		</inventoryOptions>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+	</PawnKindDef>
+
 
 	<PawnKindDef ParentName="BaseKurinCitizen">
 		<defName>Kurin_Citizen</defName>

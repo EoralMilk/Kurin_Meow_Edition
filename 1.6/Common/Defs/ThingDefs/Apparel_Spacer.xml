@@ -369,12 +369,13 @@ This model utilizes Ultra tech, with installed metallic muscle fibers and specia
 			<ArmorRating_Heat>0.75</ArmorRating_Heat>
 			<Insulation_Cold>100</Insulation_Cold>
 			<Insulation_Heat>50</Insulation_Heat>
-			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.5</VacuumResistance>
 		</statBases>
 		<equippedStatOffsets>
 			<ConstructionSpeedFactor>0.15</ConstructionSpeedFactor>
 			<Flammability>-0.3</Flammability>
 			<FixBrokenDownBuildingSuccessChance>0.15</FixBrokenDownBuildingSuccessChance>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.75</VacuumResistance>
+			
 		</equippedStatOffsets>
 		<comps>
 		</comps>

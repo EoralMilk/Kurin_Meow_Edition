@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ScenarioDef ParentName="ScenarioBase">
+		<defName>Scenario_FluffyStardust</defName>
+		<label>Fluffy Stardust</label>
+		<description>When the shuttle cabin door was buffeted open again by a gust of air, you tumbled to the ground, the tip of your tail smearing against a glob of sticky engine oil.
+You fished into the deepest pocket of your pack: the chocolate was still there, though it had grown bitterer with time.
+Wind rushed in through the open hatch, brushing against the tip of your nose. A sudden memory surfaced—the color of the tape wrapped around the handle of the wrench you’d dropped on the lab bench, long ago. It matched exactly the hue of the hair ribbon the little girl had used to tie her pigtails, the one who’d given you that chocolate.</description>
+		<scenario>
+			<summary>The chocolate little fox and her shuttlecraft.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>KurinFaction_Player</factionDef>
+			</playerFaction>
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+					<def>ConfigurePawnsKindDefs</def>
+					<pawnChoiceCount>1</pawnChoiceCount>
+					<kindCounts>
+						<li>
+							<requiredAtStart>True</requiredAtStart>
+							<kindDef>Kurin_FleeChild</kindDef>
+						</li>
+					</kindCounts>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+				<li Class="ScenPart_PawnFilter_Age">
+					<def>PawnFilter_Age</def>
+					<allowedAgeRange>7~11</allowedAgeRange>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Chemfuel</thingDef>
+					<count>267</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>27</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>17</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>PassengerShuttle</thingDef>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>

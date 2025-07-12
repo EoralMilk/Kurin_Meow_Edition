@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- <MapGeneratorDef ParentName="SpaceMapGenerator">
+    <defName>Asteroid_KurinScenario</defName>
+    <label>asteroid</label>
+    <genSteps>
+      <li>OrbitalRelay_KurinScenario</li>
+    </genSteps>
+    <validScenarioMap>true</validScenarioMap>
+  </MapGeneratorDef>
+  
+  <GenStepDef>
+    <defName>OrbitalRelay_KurinScenario</defName>
+    <order>200</order>
+    <genStep Class="GenStep_OrbitalRelay">
+      <orbitalDebrisDef>Manmade</orbitalDebrisDef>
+      <satelliteRange>3~5</satelliteRange>
+      <scatterRange>2~3</scatterRange>
+      <centerPrefabs>
+        <OrbitalRelayKurinScenario_Center_1 />
+      </centerPrefabs>
+      <satellitePrefabs>
+        <OrbitalRelayKurinScenario_Satellite_1>
+          <minMaxRange>1~2</minMaxRange>
+        </OrbitalRelayKurinScenario_Satellite_1>
+        <OrbitalRelayKurinScenario_Satellite_2>
+          <minMaxRange>1~2</minMaxRange>
+        </OrbitalRelayKurinScenario_Satellite_2>
+        <OrbitalRelayKurinScenario_Satellite_3>
+          <minMaxRange>1~2</minMaxRange>
+        </OrbitalRelayKurinScenario_Satellite_3>
+      </satellitePrefabs>
+    </genStep>
+  </GenStepDef>
+
+
+
+  <PrefabDef>
+    <defName>OrbitalRelayKurinScenario_Center_1</defName>
+    <size>(29,29)</size>
+    <things>
+      <PassengerShuttle>
+        <position>(14, 0, 14)</position>
+      </PassengerShuttle>
+    </things>
+    <terrain>
+      <OrbitalPlatform>
+        <rects>
+          <li>(3,0,25,0)</li>
+          <li>(27,0,28,25)</li>
+          <li>(3,1,24,10)</li>
+          <li>(0,2,2,8)</li>
+          <li>(25,2,26,23)</li>
+          <li>(2,9,2,11)</li>
+          <li>(3,11,11,11)</li>
+          <li>(17,11,24,11)</li>
+          <li>(6,12,10,28)</li>
+          <li>(12,12,16,16)</li>
+          <li>(18,12,24,23)</li>
+          <li>(5,14,5,28)</li>
+          <li>(1,15,4,28)</li>
+          <li>(0,16,0,22)</li>
+          <li>(11,17,11,28)</li>
+          <li>(17,17,17,28)</li>
+          <li>(12,18,16,28)</li>
+          <li>(18,24,21,24)</li>
+          <li>(18,25,20,28)</li>
+          <li>(21,27,24,28)</li>
+        </rects>
+      </OrbitalPlatform>
+      <AncientTile>
+        <rects>
+          <li>(12,11,16,11)</li>
+          <li>(11,12,11,16)</li>
+          <li>(17,12,17,16)</li>
+          <li>(12,17,16,17)</li>
+        </rects>
+      </AncientTile>
+    </terrain>
+  </PrefabDef> -->
+
+</Defs>
