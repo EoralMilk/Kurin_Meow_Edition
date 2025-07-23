@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WeaponCategoryDef>
+    <defName>KurinRanged</defName>
+  </WeaponCategoryDef>
+
+  
+  <WeaponCategoryDef>
+    <defName>Kurin_GatheringLance</defName>
+  </WeaponCategoryDef>
+</Defs>

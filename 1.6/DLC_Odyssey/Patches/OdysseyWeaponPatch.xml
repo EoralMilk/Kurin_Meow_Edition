@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Kurin_GatheringLance"]/comps</xpath>
+				<value>
+					<li Class="CompProperties_UniqueWeapon">
+						<weaponCategories>
+							<li>Kurin_GatheringLance</li>
+							<li>KurinRanged</li>
+						</weaponCategories>
+						<namerLabels>
+							<li>Gathering Lance</li>
+						</namerLabels>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/StyleCategoryDef[defName="KurinDaePhonStyleCategory"]/thingDefStyles</xpath>
+				<value>
+					<li>
+						<thingDef>Kurin_Range_DMR_Unique</thingDef>
+						<styleDef>Style_Kurin_Range_DMR_Unique2</styleDef>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

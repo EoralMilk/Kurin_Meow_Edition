@@ -143,6 +143,18 @@
 				<thingDef>Kurin_WorkJumpsuit</thingDef>
 				<styleDef>Style_KurinWorkJumpsuit2</styleDef>
 			</li>
+			<li>
+				<thingDef>Kurin_DevelopmentDivision</thingDef>
+				<styleDef>Style_KurinDevelopmentDivision2</styleDef>
+			</li>
+			<li>
+				<thingDef>Kurin_DevelopmentDivisionCoat</thingDef>
+				<styleDef>Style_KurinDevelopmentDivisionCoat2</styleDef>
+			</li>
+			<li>
+				<thingDef>Kurin_SpaceSuit</thingDef>
+				<styleDef>Style_KurinSpaceSuit2</styleDef>
+			</li>
 		</thingDefStyles>
 	</StyleCategoryDef>
 

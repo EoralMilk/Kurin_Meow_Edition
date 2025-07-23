@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <Kurin_NomadicShuttle.label>游牧穿梭機</Kurin_NomadicShuttle.label>
+  <Kurin_NomadicShuttle.description>以化合燃料驅動的穿梭機，被設計用於遠途旅行，可抵達近地軌道。游牧穿梭機對比標准型號的燃料效率和載重能力更佳，並且可以以極低油耗短距離起降。</Kurin_NomadicShuttle.description>
+  <Kurin_NomadicShuttle.comps.CompLaunchable.cooldownEndedMessage>{0}已准備好再次發射。</Kurin_NomadicShuttle.comps.CompLaunchable.cooldownEndedMessage>
+  <Kurin_NomadicShuttle.comps.CompRefuelable.fuelGizmoLabel>化合燃料</Kurin_NomadicShuttle.comps.CompRefuelable.fuelGizmoLabel>
+  <Kurin_NomadicShuttle.comps.CompRefuelable.fuelLabel>化合燃料</Kurin_NomadicShuttle.comps.CompRefuelable.fuelLabel>
+
+	<Ship_Kurin_NomadicShuttle.label>游牧穿梭機</Ship_Kurin_NomadicShuttle.label>
+  
+
+</LanguageData>

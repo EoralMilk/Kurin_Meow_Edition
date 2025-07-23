@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="Kurin_Range_DMR">
+		<defName>Kurin_Range_DMR_Unique</defName>
+		<label>unique kurin marksman rifle</label>
+		<description>An kurin marksman rifle with customized parts.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Texture_DMRUnique</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<comps Inherit="False">
+			<li Class="CompProperties_EquippableAbilityReloadable" /> <!-- Props are populated by traits -->
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Biocodable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+			<li Class="CompProperties_UniqueWeapon">
+				<weaponCategories>
+					<li>BulletFiring</li>
+					<li>Gun</li>
+					<li>Sighted</li>
+					<li>BurstFire</li>
+					<li>Scoped</li>
+					<li>Rifle</li>
+					<li>KurinRanged</li>
+				</weaponCategories>
+				<namerLabels>
+					<li>rifle</li>
+					<li>DMR</li>
+					<li>marksman rifle</li>
+				</namerLabels>
+			</li>
+		</comps>
+		<generateAllowChance>0.235</generateAllowChance>
+		<possessionCount>1</possessionCount>
+		<tradeability>Sellable</tradeability>
+		<thingSetMakerTags Inherit="False" >
+			<li>RewardStandardLowFreq</li>
+			<li>UniqueWeapon</li>
+		</thingSetMakerTags>
+		<recipeMaker Inherit="False" IsNull="True" />
+		<thingCategories Inherit="False">
+			<li>WeaponsUnique</li>
+		</thingCategories>
+		<descriptionHyperlinks>
+			<ThingDef>Kurin_Range_DMR</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef>
+
+	<ThingStyleDef ParentName="KurinStyleRotateWeapons">
+		<defName>Style_Kurin_Range_DMR_Unique2</defName>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Texture_DMR2Unique</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingDef ParentName="Kurin_Range_ChainGun">
+		<defName>Kurin_Range_ChainGun_Unique</defName>
+		<label>unique kurin chain gun</label>
+		<description>An kurin chain gun with customized parts.</description>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Weapon/Item_ChainGunUnique</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<comps Inherit="False">
+			<li Class="CompProperties_EquippableAbilityReloadable" /> <!-- Props are populated by traits -->
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Biocodable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+			<li Class="CompProperties_UniqueWeapon">
+				<weaponCategories>
+					<li>BulletFiring</li>
+					<li>Gun</li>
+					<li>Sighted</li>
+					<li>BurstFire</li>
+					<li>Scoped</li>
+					<li>Rifle</li>
+					<li>KurinRanged</li>
+				</weaponCategories>
+				<namerLabels>
+					<li>chain gun</li>
+					<li>chain gun</li>
+					<li>gatling gun</li>
+				</namerLabels>
+			</li>
+		</comps>
+		<generateAllowChance>0.135</generateAllowChance>
+		<possessionCount>1</possessionCount>
+		<tradeability>Sellable</tradeability>
+		<thingSetMakerTags Inherit="False" >
+			<li>RewardStandardLowFreq</li>
+			<li>UniqueWeapon</li>
+		</thingSetMakerTags>
+		<recipeMaker Inherit="False" IsNull="True" />
+		<thingCategories Inherit="False">
+			<li>WeaponsUnique</li>
+		</thingCategories>
+		<descriptionHyperlinks>
+			<ThingDef>Kurin_Range_ChainGun</ThingDef>
+		</descriptionHyperlinks>
+	</ThingDef>
+
+</Defs>

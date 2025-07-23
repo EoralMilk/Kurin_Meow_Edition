@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <Kurin_Range_ChainGun_Unique.label>特化魅狐鏈炮</Kurin_Range_ChainGun_Unique.label>
+  <Kurin_Range_ChainGun_Unique.description>一把配有定制部件的魅狐鏈炮。</Kurin_Range_ChainGun_Unique.description>
+  <Kurin_Range_ChainGun_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>充能</Kurin_Range_ChainGun_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>
+  <Kurin_Range_ChainGun_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>冷卻中</Kurin_Range_ChainGun_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>
+  <Kurin_Range_ChainGun_Unique.comps.CompUniqueWeapon.namerLabels.0>鏈炮</Kurin_Range_ChainGun_Unique.comps.CompUniqueWeapon.namerLabels.0>
+  <Kurin_Range_ChainGun_Unique.comps.CompUniqueWeapon.namerLabels.1>鏈炮</Kurin_Range_ChainGun_Unique.comps.CompUniqueWeapon.namerLabels.1>
+  <Kurin_Range_ChainGun_Unique.comps.CompUniqueWeapon.namerLabels.2>蓋特炮</Kurin_Range_ChainGun_Unique.comps.CompUniqueWeapon.namerLabels.2>
+  <Kurin_Range_ChainGun_Unique.tools.stock.label>槍托</Kurin_Range_ChainGun_Unique.tools.stock.label>
+  <Kurin_Range_ChainGun_Unique.tools.barrel.label>槍管</Kurin_Range_ChainGun_Unique.tools.barrel.label>
+  <Kurin_Range_ChainGun_Unique.verbs.Verb_Shoot.label>特化魅狐鏈炮</Kurin_Range_ChainGun_Unique.verbs.Verb_Shoot.label>
+
+  <Kurin_Range_DMR_Unique.label>特化魅狐射手步槍</Kurin_Range_DMR_Unique.label>
+  <Kurin_Range_DMR_Unique.description>一把配有定制部件的魅狐射手步槍。</Kurin_Range_DMR_Unique.description>
+  <Kurin_Range_DMR_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>充能</Kurin_Range_DMR_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>
+  <Kurin_Range_DMR_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>冷卻中</Kurin_Range_DMR_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>
+  <Kurin_Range_DMR_Unique.comps.CompUniqueWeapon.namerLabels.0>步槍</Kurin_Range_DMR_Unique.comps.CompUniqueWeapon.namerLabels.0>
+  <Kurin_Range_DMR_Unique.comps.CompUniqueWeapon.namerLabels.1>精准步槍</Kurin_Range_DMR_Unique.comps.CompUniqueWeapon.namerLabels.1>
+  <Kurin_Range_DMR_Unique.comps.CompUniqueWeapon.namerLabels.2>射手步槍</Kurin_Range_DMR_Unique.comps.CompUniqueWeapon.namerLabels.2>
+  <Kurin_Range_DMR_Unique.tools.stock.label>槍托</Kurin_Range_DMR_Unique.tools.stock.label>
+  <Kurin_Range_DMR_Unique.tools.barrel.label>槍管</Kurin_Range_DMR_Unique.tools.barrel.label>
+  <Kurin_Range_DMR_Unique.verbs.Verb_Shoot.label>特化魅狐射手步槍</Kurin_Range_DMR_Unique.verbs.Verb_Shoot.label>
+
+  <Kurin_GatheringLance.comps.CompUniqueWeapon.namerLabels.0>加特林標槍</Kurin_GatheringLance.comps.CompUniqueWeapon.namerLabels.0>
+
+</LanguageData>

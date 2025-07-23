@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <Kurin_Ruthless.label>无情</Kurin_Ruthless.label>
+  <Kurin_Ruthless.description>...</Kurin_Ruthless.description>
+  <Kurin_Ruthless.traitAdjectives.0>无情</Kurin_Ruthless.traitAdjectives.0>
+
+  <Kurin_Wrath.label>暴怒</Kurin_Wrath.label>
+  <Kurin_Wrath.description>...</Kurin_Wrath.description>
+  <Kurin_Wrath.traitAdjectives.0>暴怒</Kurin_Wrath.traitAdjectives.0>
+
+  <Kurin_Valour.label>威猛</Kurin_Valour.label>
+  <Kurin_Valour.description>...</Kurin_Valour.description>
+  <Kurin_Valour.traitAdjectives.0>威猛</Kurin_Valour.traitAdjectives.0>
+
+  <Kurin_Elated.label>昂扬</Kurin_Elated.label>
+  <Kurin_Elated.description>...</Kurin_Elated.description>
+  <Kurin_Elated.traitAdjectives.0>昂扬</Kurin_Elated.traitAdjectives.0>
+
+  <Kurin_Voluminous.label>巨著</Kurin_Voluminous.label>
+  <Kurin_Voluminous.description>...</Kurin_Voluminous.description>
+  <Kurin_Voluminous.traitAdjectives.0>巨著</Kurin_Voluminous.traitAdjectives.0>
+
+
+
+  <Kurin_ElectromagneticConfinementStabilizer.label>电磁约束稳定器</Kurin_ElectromagneticConfinementStabilizer.label>
+  <Kurin_ElectromagneticConfinementStabilizer.description>通过环形线圈产生可控电磁场，抵消微型锻造机构喷射金属长钉时的反冲力矩，偏转器动态调整每根长钉的出膛角度，实现弹道校准。</Kurin_ElectromagneticConfinementStabilizer.description>
+  <Kurin_ElectromagneticConfinementStabilizer.traitAdjectives.0>电磁约束</Kurin_ElectromagneticConfinementStabilizer.traitAdjectives.0>
+
+
+  <Kurin_PhaseModulatedForgingChamber.label>相位调制锻造腔</Kurin_PhaseModulatedForgingChamber.label>
+  <Kurin_PhaseModulatedForgingChamber.description>传统微型锻造机构为「单工位顺序锻造」，相位调制腔将锻造过程拆分为3个同步工位——压电陶瓷通过高频振动加速金属熔液凝固，量子振荡器同步3个工位的锻造相位，实现「流水线式」长钉生成。</Kurin_PhaseModulatedForgingChamber.description>
+  <Kurin_PhaseModulatedForgingChamber.traitAdjectives.0>相位调制</Kurin_PhaseModulatedForgingChamber.traitAdjectives.0>
+
+
+  <Kurin_QuantumCoolingMatrix.label>量子冷却矩阵</Kurin_QuantumCoolingMatrix.label>
+  <Kurin_QuantumCoolingMatrix.description>量子点阵列通过「量子隧穿效应」快速吸收等离子体废热，热电芯片将吸收的热能转化为电能，反向输入微型锻造机构的等离子体发生器，形成「废热-电能」循环。</Kurin_QuantumCoolingMatrix.description>
+  <Kurin_QuantumCoolingMatrix.traitAdjectives.0>量子冷却</Kurin_QuantumCoolingMatrix.traitAdjectives.0>
+
+
+  <Kurin_NanoStructuralReinforcer.label>纳米结构强化器</Kurin_NanoStructuralReinforcer.label>
+  <Kurin_NanoStructuralReinforcer.description>金属长钉在枪管内生成时，纳米机器人通过聚焦离子束轰击其表面，剥离部分原子并重新排列，形成「梯度硬度结构」——尖端为高硬度碳化钨，尾端为高韧性钛合金，兼顾穿透力与抗断裂性。</Kurin_NanoStructuralReinforcer.description>
+  <Kurin_NanoStructuralReinforcer.traitAdjectives.0>纳米强化</Kurin_NanoStructuralReinforcer.traitAdjectives.0>
+
+</LanguageData>

@@ -528,12 +528,10 @@
 				<commonality>80</commonality>
 				<options>
 					<Kurin_Scout>1</Kurin_Scout>
-					<Kurin_Recruit>2</Kurin_Recruit>
-					<Kurin_Blocker>1</Kurin_Blocker>
+					<Kurin_Blocker>2</Kurin_Blocker>
 					<Kurin_Shooter>6</Kurin_Shooter>
 					<Kurin_Sniper_H>1</Kurin_Sniper_H>
 					<Kurin_Veteran>1</Kurin_Veteran>
-					<Kurin_ArmorKnight>1</Kurin_ArmorKnight>
 				</options>
 			</li>
 			<li>
@@ -544,59 +542,24 @@
 					<Kurin_Shooter>3</Kurin_Shooter>
 					<Kurin_Marksman>2</Kurin_Marksman>
 					<Kurin_Veteran>5</Kurin_Veteran>
-					<Kurin_ArmorKnight>3</Kurin_ArmorKnight>
 				</options>
 			</li>
 			<li>
 				<kindDef>Combat</kindDef>
-				<commonality>50</commonality>
+				<commonality>30</commonality>
 				<options>
-					<Kurin_Warlord>1</Kurin_Warlord>
 					<Kurin_Pathfinder>1</Kurin_Pathfinder>
-					<Kurin_Ninja>0.8</Kurin_Ninja>
-					<Kurin_Shooter>4</Kurin_Shooter>
-					<Kurin_Fallschirmjager>1</Kurin_Fallschirmjager>
-					<Kurin_Executioner>1</Kurin_Executioner>
-					<Kurin_Marksman>1</Kurin_Marksman>
-					<Kurin_Veteran>1</Kurin_Veteran>
-					<Kurin_ArmorKnight>1</Kurin_ArmorKnight>
-				</options>
-			</li>
-			<li>
-				<kindDef>Combat</kindDef>
-				<commonality>70</commonality>
-				<options>
-					<Kurin_Shooter>10</Kurin_Shooter>
-				</options>
-			</li>
-			<li>
-				<kindDef>Combat</kindDef>
-				<commonality>20</commonality>
-				<options>
-					<Kurin_Warlord>1</Kurin_Warlord>
-					<Kurin_Pathfinder>1</Kurin_Pathfinder>
-					<Kurin_Ninja>0.8</Kurin_Ninja>
-					<Kurin_Trooper>8</Kurin_Trooper>
-					<Kurin_Fallschirmjager>1</Kurin_Fallschirmjager>
-					<Kurin_Executioner>5</Kurin_Executioner>
-					<Kurin_Marksman>5</Kurin_Marksman>
-					<Kurin_Veteran>4</Kurin_Veteran>
-					<Kurin_ArmorKnight>3</Kurin_ArmorKnight>
-					<Kurin_Terminator>1</Kurin_Terminator>
-					<Kurin_CombatOfficer>1</Kurin_CombatOfficer>
+					<Kurin_Shooter>8</Kurin_Shooter>
+					<Kurin_Marksman>2</Kurin_Marksman>
 				</options>
 			</li>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>10</commonality>
 				<options>
-					<Kurin_Warlord>1</Kurin_Warlord>
-					<Kurin_Trooper>8</Kurin_Trooper>
-					<Kurin_Marksman>4</Kurin_Marksman>
-					<Kurin_Veteran>7</Kurin_Veteran>
-					<Kurin_ArmorKnight>3</Kurin_ArmorKnight>
-					<Kurin_Terminator>1</Kurin_Terminator>
-					<Kurin_CombatOfficer>1</Kurin_CombatOfficer>
+					<Kurin_Marine>2</Kurin_Marine>
+					<Kurin_MarineBreacher>2</Kurin_MarineBreacher>
+					<Kurin_MarineLancer>6</Kurin_MarineLancer>
 				</options>
 			</li>
 			<li>
@@ -615,7 +578,6 @@
 					<Kurin_Marine>10</Kurin_Marine>
 					<Kurin_MarineBreacher>3</Kurin_MarineBreacher>
 					<Kurin_MarineLancer>3</Kurin_MarineLancer>
-					<Kurin_ArmorKnight>2</Kurin_ArmorKnight>
 				</options>
 			</li>
 			<li>
@@ -624,13 +586,13 @@
 					<Kurin_Trader>1</Kurin_Trader>
 					<Kurin_Shooter>7</Kurin_Shooter>
 					<Kurin_Veteran>3</Kurin_Veteran>
-					<Kurin_Warlord>1</Kurin_Warlord>
+					<Kurin_Sergeant>1</Kurin_Sergeant>
 				</options>
 			</li>
 			<li>
 				<kindDef>Trader</kindDef>
 				<traders>
-					<Kurin_Trader>1</Kurin_Trader>
+					<Kurin_DevDivisionStaff>1</Kurin_DevDivisionStaff>
 				</traders>
 				<carriers>
 					<Muffalo>6</Muffalo>
@@ -639,10 +601,9 @@
 					<Elephant>2</Elephant>
 				</carriers>
 				<guards>
-					<Kurin_Slasher>3</Kurin_Slasher>
-					<Kurin_Shooter>8</Kurin_Shooter>
-					<Kurin_Veteran>2</Kurin_Veteran>
-					<Kurin_Marksman>2</Kurin_Marksman>
+					<Kurin_DevDivisionStaff>3</Kurin_DevDivisionStaff>
+					<Kurin_Sergeant>1</Kurin_Sergeant>
+					<Kurin_Shooter>7</Kurin_Shooter>
 				</guards>
 			</li>
 			<li>

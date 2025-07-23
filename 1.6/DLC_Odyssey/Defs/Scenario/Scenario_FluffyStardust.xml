@@ -48,7 +48,7 @@ Wind rushed in through the open hatch, brushing against the tip of your nose. A 
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>PassengerShuttle</thingDef>
+					<thingDef>Kurin_NomadicShuttle</thingDef>
 				</li>
 			</parts>
 		</scenario>

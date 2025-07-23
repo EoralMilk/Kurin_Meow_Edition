@@ -180,6 +180,17 @@
 	</ThingStyleDef>
 
 
+	<ThingStyleDef Name="KurinClothNoColorHasIconStyle" Abstract="True">
+		<graphicData>
+			<maskPath>dummy256</maskPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<useWornGraphicMask>true</useWornGraphicMask>
+	</ThingStyleDef>
+
+
 	<ThingStyleDef ParentName="KurinClothNoColorStyle">
 		<defName>Style_KurinArmorVest2</defName>
 		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/ArmorVest2</wornGraphicPath>
@@ -265,6 +276,31 @@
 		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/WorkJumpsuit2</wornGraphicPath>
 		<graphicData>
 			<texPath>KurinMeowEdition/Item_Apperal/Styled/WorkJumpsuit2_Female_south</texPath>
+		</graphicData>
+	</ThingStyleDef>
+
+	
+	<ThingStyleDef ParentName="KurinClothNoColorHasIconStyle">
+		<defName>Style_KurinDevelopmentDivision2</defName>
+		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/DevelopmentDivision2</wornGraphicPath>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Styled/DevelopmentDivision2</texPath>
+		</graphicData>
+	</ThingStyleDef>
+		
+	<ThingStyleDef ParentName="KurinClothNoColorHasIconStyle">
+		<defName>Style_KurinDevelopmentDivisionCoat2</defName>
+		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/DevelopmentDivisionCoat2</wornGraphicPath>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Styled/DevelopmentDivisionCoat2</texPath>
+		</graphicData>
+	</ThingStyleDef>
+
+	<ThingStyleDef ParentName="KurinClothNoColorHasIconStyle">
+		<defName>Style_KurinSpaceSuit2</defName>
+		<wornGraphicPath>KurinMeowEdition/Item_Apperal/Styled/SpaceConstructionSuit2</wornGraphicPath>
+		<graphicData>
+			<texPath>KurinMeowEdition/Item_Apperal/Styled/SpaceConstructionSuit2</texPath>
 		</graphicData>
 	</ThingStyleDef>
 </Defs>

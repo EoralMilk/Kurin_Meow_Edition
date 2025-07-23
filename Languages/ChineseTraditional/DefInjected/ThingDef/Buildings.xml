@@ -9,7 +9,7 @@
 	<Kurin_Turret_ChargeLance.comps.CompRefuelable.fuelGizmoLabel>彈藥量</Kurin_Turret_ChargeLance.comps.CompRefuelable.fuelGizmoLabel>
 	<Kurin_Turret_ChargeLance.comps.CompRefuelable.fuelLabel>裝填彈藥前剩余射擊次數</Kurin_Turret_ChargeLance.comps.CompRefuelable.fuelLabel>
 	<Kurin_Turret_ChargeLance.comps.CompRefuelable.outOfFuelMessage>需要裝填彈藥</Kurin_Turret_ChargeLance.comps.CompRefuelable.outOfFuelMessage>
-  
+	
 	<Kurin_Turret_ChargeLanceSentry.label>標槍哨戒炮塔</Kurin_Turret_ChargeLanceSentry.label>
 	<Kurin_Turret_ChargeLanceSentry.description>搭載了機械族的不穩定能量電池的升級版電荷標槍炮塔，可以自行供能供彈。同時還能將一部分富余電力輸出給其它用電器。多被用於野戰和缺少能源供應的哨所。</Kurin_Turret_ChargeLanceSentry.description>
 
@@ -24,5 +24,5 @@
 	<Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelGizmoLabel>彈藥量</Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelGizmoLabel>
 	<Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelLabel>裝填彈藥前剩余射擊次數</Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.fuelLabel>
 	<Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.outOfFuelMessage>需要裝填彈藥</Kurin_Turret_ChargeLanceCannon.comps.CompRefuelable.outOfFuelMessage>
-  
+
 </LanguageData>

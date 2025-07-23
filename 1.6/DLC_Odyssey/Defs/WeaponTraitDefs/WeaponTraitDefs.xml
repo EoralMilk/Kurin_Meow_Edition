@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <WeaponTraitDef>
+    <defName>Kurin_Ruthless</defName>
+    <label>Ruthless</label>
+    <description>...</description>
+    <commonality>0.1</commonality>
+    <weaponCategory>KurinRanged</weaponCategory>
+    <statOffsets>
+      <RangedWeapon_WarmupMultiplier>0.5</RangedWeapon_WarmupMultiplier>
+      <RangedWeapon_DamageMultiplier>0.68</RangedWeapon_DamageMultiplier>
+      <RangedWeapon_ArmorPenetrationMultiplier>0.34</RangedWeapon_ArmorPenetrationMultiplier>
+      <MarketValue>200</MarketValue>
+    </statOffsets>
+    <traitAdjectives>
+      <li>Ruthless</li>
+    </traitAdjectives>
+  </WeaponTraitDef>
+
+
+  <WeaponTraitDef>
+    <defName>Kurin_Wrath</defName>
+    <label>Wrath</label>
+    <description>...</description>
+    <commonality>0.1</commonality>
+    <weaponCategory>KurinRanged</weaponCategory>
+    <statFactors>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.5</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+    </statFactors>
+    <statOffsets>
+      <RangedWeapon_DamageMultiplier>0.89</RangedWeapon_DamageMultiplier>
+      <RangedWeapon_ArmorPenetrationMultiplier>0.89</RangedWeapon_ArmorPenetrationMultiplier>
+      <MarketValue>200</MarketValue>
+    </statOffsets>
+    <traitAdjectives>
+      <li>Wrath</li>
+    </traitAdjectives>
+  </WeaponTraitDef>
+
+
+  <WeaponTraitDef>
+    <defName>Kurin_Valour</defName>
+    <label>Valour</label>
+    <description>...</description>
+    <commonality>0.1</commonality>
+    <weaponCategory>KurinRanged</weaponCategory>
+    <statOffsets>
+      <RangedWeapon_DamageMultiplier>0.33</RangedWeapon_DamageMultiplier>
+      <MarketValue>200</MarketValue>
+    </statOffsets>
+    <traitAdjectives>
+      <li>Valour</li>
+    </traitAdjectives>
+  </WeaponTraitDef>
+
+
+  <WeaponTraitDef>
+    <defName>Kurin_Elated</defName>
+    <label>Elated</label>
+    <description>...</description>
+    <commonality>0.1</commonality>
+    <weaponCategory>KurinRanged</weaponCategory>
+    <statFactors>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statFactors>
+    <statOffsets>
+      <MarketValue>200</MarketValue>
+    </statOffsets>
+    <traitAdjectives>
+      <li>Elated</li>
+    </traitAdjectives>
+  </WeaponTraitDef> 
+
+  
+  <WeaponTraitDef>
+    <defName>Kurin_Voluminous</defName>
+    <label>Voluminous</label>
+    <description>...</description>
+    <commonality>0.1</commonality>
+    <weaponCategory>KurinRanged</weaponCategory>
+    <extraDamages>
+      <li>
+        <def>EMP</def>
+        <amount>5</amount>
+      </li>
+      <li>
+        <def>Flame</def>
+        <amount>4</amount>
+      </li>
+      <li>
+        <def>AcidBurn</def>
+        <amount>3</amount>
+      </li>
+      <li>
+        <def>Frostbite</def>
+        <amount>2</amount>
+      </li>
+      <li>
+        <def>TornadoScratch</def>
+        <amount>1</amount>
+      </li>
+    </extraDamages>
+    <statOffsets>
+      <MarketValue>200</MarketValue>
+    </statOffsets>
+    <traitAdjectives>
+      <li>Voluminous</li>
+    </traitAdjectives>
+  </WeaponTraitDef>
+
+ 
+  
+  <WeaponTraitDef>
+    <defName>Kurin_ElectromagneticConfinementStabilizer</defName>
+    <label>Electromagnetic Confinement Stabilizer</label>
+    <description>The stabilizer generates controlled electromagnetic fields via the superconducting coils to counteract the recoil torque from the micro-forging mechanism. The deflectors dynamically adjust the exit angle of each metal javelin, calibrating the trajectory in real time.</description>
+    <commonality>0.2</commonality>
+    <weaponCategory>Kurin_GatheringLance</weaponCategory>
+    <statFactors>
+      <AccuracyTouch>1.55</AccuracyTouch>
+      <AccuracyShort>1.55</AccuracyShort>
+      <AccuracyMedium>1.55</AccuracyMedium>
+      <AccuracyLong>1.55</AccuracyLong>
+    </statFactors>
+    <burstShotSpeedMultiplier>1.35</burstShotSpeedMultiplier>
+    <statOffsets>
+      <MarketValue>200</MarketValue>
+    </statOffsets>
+    <traitAdjectives>
+      <li>Electro-Stabilized</li>
+    </traitAdjectives>
+  </WeaponTraitDef>
+
+  
+  <WeaponTraitDef>
+    <defName>Kurin_PhaseModulatedForgingChamber</defName>
+    <label>Phase-Modulated Forging Chamber</label>
+    <description>Traditional single-station forging is replaced by a "pipeline" system. Piezoelectric ceramics accelerate metal melt solidification via high-frequency vibrations, while quantum oscillators synchronize the three chambers to fire in unison, enabling "assembly-line" javelin generation.</description>
+    <commonality>0.2</commonality>
+    <weaponCategory>Kurin_GatheringLance</weaponCategory>
+    <burstShotCountMultiplier>1.35</burstShotCountMultiplier>
+    <burstShotSpeedMultiplier>1.75</burstShotSpeedMultiplier>
+    <statOffsets>
+      <RangedWeapon_WarmupMultiplier>0.15</RangedWeapon_WarmupMultiplier>
+      <RangedWeapon_ArmorPenetrationMultiplier>0.1</RangedWeapon_ArmorPenetrationMultiplier>
+      <MarketValue>200</MarketValue>
+    </statOffsets>
+    <traitAdjectives>
+      <li>Phase-Modulated</li>
+    </traitAdjectives>
+  </WeaponTraitDef> 
+
+  
+  <WeaponTraitDef>
+    <defName>Kurin_QuantumCoolingMatrix</defName>
+    <label>Quantum Cooling Matrix</label>
+    <description>The quantum dot array absorbs plasma waste heat via quantum tunneling, while thermoelectric chips convert this heat into electricity to recharge the micro-forging plasma generator, creating a "waste-heat-to-energy" loop.</description>
+    <commonality>0.2</commonality>
+    <weaponCategory>Kurin_GatheringLance</weaponCategory>
+    <statFactors>
+      <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+    </statFactors>
+    <statOffsets>
+      <MarketValue>200</MarketValue>
+    </statOffsets>
+    <traitAdjectives>
+      <li>Quantum-Refrigerant</li>
+    </traitAdjectives>
+  </WeaponTraitDef> 
+
+
+  
+  <WeaponTraitDef>
+    <defName>Kurin_NanoStructuralReinforcer</defName>
+    <label>Nano-Structural Reinforcer</label>
+    <description>As metal javelins are generated in the barrel, nano-robots bombard their surface with focused ion beams, stripping atoms and reorganizing them to form a "graded hardness structure"—the tip is high-hardness tungsten carbide, while the tail is high-toughness titanium alloy, balancing penetration and fracture resistance.</description>
+    <commonality>0.2</commonality>
+    <weaponCategory>Kurin_GatheringLance</weaponCategory>
+    <statOffsets>
+      <RangedWeapon_DamageMultiplier>0.35</RangedWeapon_DamageMultiplier>
+      <RangedWeapon_ArmorPenetrationMultiplier>0.6</RangedWeapon_ArmorPenetrationMultiplier>
+      <MarketValue>200</MarketValue>
+    </statOffsets>
+    <traitAdjectives>
+      <li>Nano-Reinforced</li>
+    </traitAdjectives>
+  </WeaponTraitDef> 
+</Defs>

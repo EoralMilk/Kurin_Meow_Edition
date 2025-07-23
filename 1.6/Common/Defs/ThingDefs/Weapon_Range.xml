@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="Kurin_Range_DMR">
 		<defName>Kurin_Range_DMR</defName>
 		<label>kurin marksman rifle</label>
 		<description>The Kurins specialize in rifles designed to accurately shoot targets at long distances. Unlike the sniper rifle, although the accuracy and range of the DMR is slightly insufficient, its rate of fire is much higher than the sniper rifle.</description>
@@ -86,7 +86,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="Kurin_Range_ChainGun">
 		<defName>Kurin_Range_ChainGun</defName>
 		<label>kurin chain gun</label>
 		<description>The chain gun was able to quickly dump a lot of fire over an area, but for reasons of portability, recoil, etc., the gun only had three barrels; At the same time, its caliber and charge are far less than that of a real Gatling gun.</description>
@@ -170,7 +170,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="Kurin_Range_TwinRocket">
 		<defName>Kurin_Range_TwinRocket</defName>
 		<label>kurin twin rocket launcher</label>
 		<description>Two-shot high-explosive rocket-grenade launchers, two rockets hit the target after the explosion will leave a dangerous sea of fire; There was some resistance from some of the foxes to this weapon, but in any case, there was really no reason to retire it due to its actual performance.</description>
@@ -290,7 +290,7 @@
 	</DamageDef>
 
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="BaseHumanMakeableGun"  Name="Kurin_Range_ChargePistol">
 		<defName>Kurin_Range_ChargePistol</defName>
 		<label>kurin charge pistol</label>
 		<description>The Kurin charge pistol actually fires a type of energized solid projectile, rather than a true energy weapon. This approach allows them to achieve effects similar to an energy weapon, but with a relatively lower research and manufacturing cost. The Kurin chose to use this to supplement the gap in their arsenal for advanced portable firearms. While it can fire automatically, due to the lack of active cooling components in normal temperatures and space environments, it is rare to see a Kurin emptying the entire magazine by holding down the trigger.</description>
@@ -386,7 +386,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="BaseHumanMakeableGun"  Name="Kurin_Range_ChargeRifle">
 		<defName>Kurin_Range_ChargeRifle</defName>
 		<label>kurin smart charge rifle</label>
 		<description>The Kurin Charge smart rifle is a Charge-based rifle that comes equipped with a full operating system. The integrated system can display various battlefield information via projection and assist with aiming the weapon. It can also perform self-checks on the rifle's condition during regular use.
@@ -571,7 +571,7 @@ In many military organizations, it is strictly prohibited for any Kurin to arbit
 
 
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="BaseHumanMakeableGun"   Name="Kurin_GatheringLance">
 		<defName>Kurin_GatheringLance</defName>
 		<label>Gathering Lance</label>
 		<description>This type of equipment does not appear to have been produced by Kurin nor does it seem to have been purchased from any arms dealers. Based on its style, which is distinct from archotech products, it can be inferred that this is perhaps an advanced relic from the era of large-scale human expeditions into the stars. 
@@ -580,6 +580,7 @@ This weapon is capable of continuously firing extremely dangerous electro-charge
 			<texPath>KurinMeowEdition/Item_Weapon/Item_GatheringLance</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.1</drawSize>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<relicChance>3</relicChance>
 		<soundInteract>Interact_Rifle</soundInteract>
@@ -658,6 +659,7 @@ This weapon is capable of continuously firing extremely dangerous electro-charge
 				</extraMeleeDamages>
 			</li>
 		</tools>
+		<comps/>
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>Kurin_Bullet_GatheringLance</defName>

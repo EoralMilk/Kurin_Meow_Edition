@@ -278,7 +278,7 @@
 			<WorkToBuild>4800</WorkToBuild>
 			<Mass>22</Mass>
 			<Beauty>3</Beauty>
-			<ShootingAccuracyTurret>0.98</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.986</ShootingAccuracyTurret>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>
@@ -291,7 +291,7 @@
 			<li Class="CompProperties_Forbiddable" />
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>150</basePowerConsumption>
+				<basePowerConsumption>220</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable" />
 			<li Class="CompProperties_Breakdownable" />
@@ -301,11 +301,11 @@
 				<outOfFuelMessage>Needs new barrel</outOfFuelMessage>
 				<fuelFilter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Plasteel</li>
 					</thingDefs>
 				</fuelFilter>
 				<fuelCapacity>120</fuelCapacity>
-				<fuelMultiplier>0.65</fuelMultiplier>
+				<fuelMultiplier>2</fuelMultiplier>
 				<initialFuelPercent>1</initialFuelPercent>
 				<autoRefuelPercent>0.5</autoRefuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
@@ -326,8 +326,8 @@
 		<fillPercent>0.65</fillPercent>
 		<hasTooltip>true</hasTooltip>
 		<costList>
-			<Plasteel>60</Plasteel>
-			<Steel>300</Steel>
+			<Plasteel>110</Plasteel>
+			<Steel>135</Steel>
 			<Uranium>20</Uranium>
 			<ComponentIndustrial>4</ComponentIndustrial>
 			<Gun_ChargeLance>1</Gun_ChargeLance>

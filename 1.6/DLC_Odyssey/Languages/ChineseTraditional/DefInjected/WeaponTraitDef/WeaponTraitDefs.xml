@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <Kurin_Ruthless.label>無情</Kurin_Ruthless.label>
+  <Kurin_Ruthless.description>...</Kurin_Ruthless.description>
+  <Kurin_Ruthless.traitAdjectives.0>無情</Kurin_Ruthless.traitAdjectives.0>
+
+  <Kurin_Wrath.label>暴怒</Kurin_Wrath.label>
+  <Kurin_Wrath.description>...</Kurin_Wrath.description>
+  <Kurin_Wrath.traitAdjectives.0>暴怒</Kurin_Wrath.traitAdjectives.0>
+
+  <Kurin_Valour.label>威猛</Kurin_Valour.label>
+  <Kurin_Valour.description>...</Kurin_Valour.description>
+  <Kurin_Valour.traitAdjectives.0>威猛</Kurin_Valour.traitAdjectives.0>
+
+  <Kurin_Elated.label>昂揚</Kurin_Elated.label>
+  <Kurin_Elated.description>...</Kurin_Elated.description>
+  <Kurin_Elated.traitAdjectives.0>昂揚</Kurin_Elated.traitAdjectives.0>
+
+  <Kurin_Voluminous.label>巨著</Kurin_Voluminous.label>
+  <Kurin_Voluminous.description>...</Kurin_Voluminous.description>
+  <Kurin_Voluminous.traitAdjectives.0>巨著</Kurin_Voluminous.traitAdjectives.0>
+
+
+  <Kurin_ElectromagneticConfinementStabilizer.label>電磁約束穩定器</Kurin_ElectromagneticConfinementStabilizer.label>
+  <Kurin_ElectromagneticConfinementStabilizer.description>通過環形線圈產生可控電磁場，抵消微型鍛造機構噴射金屬長釘時的反沖力矩，偏轉器動態調整每根長釘的出膛角度，實現彈道校准。</Kurin_ElectromagneticConfinementStabilizer.description>
+  <Kurin_ElectromagneticConfinementStabilizer.traitAdjectives.0>電磁約束</Kurin_ElectromagneticConfinementStabilizer.traitAdjectives.0>
+
+
+  <Kurin_PhaseModulatedForgingChamber.label>相位調制鍛造腔</Kurin_PhaseModulatedForgingChamber.label>
+  <Kurin_PhaseModulatedForgingChamber.description>傳統微型鍛造機構為「單工位順序鍛造」，相位調制腔將鍛造過程拆分為3個同步工位——壓電陶瓷通過高頻振動加速金屬熔液凝固，量子振蕩器同步3個工位的鍛造相位，實現「流水線式」長釘生成。</Kurin_PhaseModulatedForgingChamber.description>
+  <Kurin_PhaseModulatedForgingChamber.traitAdjectives.0>相位調制</Kurin_PhaseModulatedForgingChamber.traitAdjectives.0>
+
+
+  <Kurin_QuantumCoolingMatrix.label>量子冷卻矩陣</Kurin_QuantumCoolingMatrix.label>
+  <Kurin_QuantumCoolingMatrix.description>量子點陣列通過「量子隧穿效應」快速吸收等離子體廢熱，熱電芯片將吸收的熱能轉化為電能，反向輸入微型鍛造機構的等離子體發生器，形成「廢熱-電能」循環。</Kurin_QuantumCoolingMatrix.description>
+  <Kurin_QuantumCoolingMatrix.traitAdjectives.0>量子冷卻</Kurin_QuantumCoolingMatrix.traitAdjectives.0>
+
+
+  <Kurin_NanoStructuralReinforcer.label>納米結構強化器</Kurin_NanoStructuralReinforcer.label>
+  <Kurin_NanoStructuralReinforcer.description>金屬長釘在槍管內生成時，納米機器人通過聚焦離子束轟擊其表面，剝離部分原子並重新排列，形成「梯度硬度結構」——尖端為高硬度碳化鎢，尾端為高韌性鈦合金，兼顧穿透力與抗斷裂性。</Kurin_NanoStructuralReinforcer.description>
+  <Kurin_NanoStructuralReinforcer.traitAdjectives.0>納米強化</Kurin_NanoStructuralReinforcer.traitAdjectives.0>
+
+</LanguageData>
